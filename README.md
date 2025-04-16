@@ -305,6 +305,15 @@ Logo del Producto:
 | **U2**              |                                                              |
 | Soy estudiante  | 
 
+
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U20191B935**              |                                                              |
+| Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 
+
+
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática
 Los trastornos hormonales se han convertido en una preocupación creciente dentro del sistema de salud pública, afectando a personas de distintas edades y géneros. En Lima, al igual que en muchas otras ciudades, existen grandes desafíos en cuanto al diagnóstico, tratamiento y monitoreo de estos padecimientos. Patologías como la menopausia o el hiperandrogenismo requieren un enfoque médico integral, control constante y ajustes periódicos en la medicación para mantener estable la salud del paciente. En el Perú, estas condiciones presentan una alta prevalencia, pero el sistema de salud enfrenta serias limitaciones: la atención especializada es insuficiente, hay una escasez considerable de endocrinólogos, y muchos pacientes abandonan sus tratamientos o no alcanzan los objetivos terapéuticos establecidos, lo que complica aún más el manejo adecuado de estas enfermedades en Lima.

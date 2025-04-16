@@ -308,7 +308,7 @@ Logo del Producto:
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri">                                                    |
+| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="assets/images/profileJoaquin.png" alt="Jherson Astuyauri">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U20191B935**              |                                                              |
 | Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 

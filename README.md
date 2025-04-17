@@ -313,6 +313,12 @@ Logo del Producto:
 | **U20191B935**              |                                                              |
 | Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 
 
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **BRENDA LUCÍA GAMIO UPIACHIHUA** | <img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202120344**              |                                                              |
+| Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrea de ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente.Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código, y no me detengo hasta entenderlo completamente. Es mi forma de saciar mi curiosidad. | 
 
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática

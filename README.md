@@ -962,6 +962,110 @@ https://miro.com/app/board/uXjVKaoDitI=/
 ### 3.2. User Stories.
 En la siguiente tabla, se presentan las User Stories junto con sus criterios de aceptación correspondientes para nuestro proyecto "HormonalCare". Las User Stories representan las funcionalidades clave que se desean implementar en la aplicación para mejorar la experiencia de los usuarios, tanto pacientes como médicos endocrinólogos. 
 
+<table>
+    <thead>
+        <tr>
+            <th>Epic ID</th>
+            <th>Título</th>
+            <th>Descripción</th>
+            <th>Criterios de Aceptación</th>
+            <th>Relacionado con (Epic ID)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>EP01</td>
+            <td>Onboarding y Gestión de Usuarios</td>
+            <td>
+                Procesos relacionados con el registro, inicio de sesión, selección de roles y configuración inicial de usuarios (pacientes y médicos) en la plataforma.tos y administrar eficientemente las reservas.
+            </td>
+            <td>N/A</td>
+            <td>US03, US04, US05</td>         
+        </tr>
+        <tr>
+            <td>EP02</td>
+            <td>Landing Page e Información General</td>
+            <td>
+                Diseño y funcionalidades de la página de inicio para visitantes, con información clara sobre servicios, planes y contacto.
+            </td>
+            <td>N/A</td>
+            <td>US01</td>
+        </tr>
+        <tr>
+            <td>EP03</td>
+            <td>Gestión de Citas Médicas</td>
+            <td>
+                Funcionalidades para agendar, visualizar y gestionar citas médicas, tanto para pacientes como para médicos.
+            </td>
+            <td>N/A</td>
+            <td>US20, US34, US08, US13, US14</td>
+        </tr> 
+        <tr>
+            <td>EP04</td>
+            <td>Historial Clínico y Diagnósticos</td>
+            <td>
+                Gestión centralizada del historial médico del paciente, incluyendo diagnósticos, tratamientos y exámenes.
+            </td>
+            <td>N/A</td>
+            <td>US16, US17, US30, US39, US40</td>
+        </tr> 
+        <tr>
+            <td>EP05</td>
+            <td>Comunicación Interna</td>
+            <td>
+                Canales de comunicación entre pacientes, médicos y administradores para resolver dudas o gestionar quejas.
+            </td>
+            <td>N/A</td>
+            <td>US27, US36, US18, US22, US26</td>       
+        </tr>   
+        <tr>
+            <td>EP06</td>
+            <td>Gestión de Exámenes Médicos</td>
+            <td>
+                Subida, visualización y revisión de resultados de exámenes médicos por parte de pacientes y médicos.
+            </td>
+            <td>N/A</td>
+            <td>US06, US10, US38</td>
+        </tr>
+        <tr>
+            <td>EP07</td>
+            <td>Notificaciones y Recordatorios</td>
+            <td>
+                Sistema de alertas para citas, medicamentos y mensajes importantes.
+            </td>
+            <td>N/A</td>
+            <td>US09, US15, US37</td>
+        </tr>
+        <tr>
+            <td>EP08</td>
+            <td>Gestión de Médicos y Pacientes (Admin)</td>
+            <td>
+                Funcionalidades administrativas para gestionar usuarios, asignar médicos y revisar seguridad.
+            </td>
+            <td>N/A</td>
+            <td>US19, US21, US23, US24, US31</td>
+        </tr>  
+        <tr>
+            <td>EP09</td>
+            <td>Seguimiento de Tratamiento y Motivación</td>
+            <td>
+                Herramientas para monitorear el cumplimiento del tratamiento y motivar al paciente.
+            </td>
+            <td>N/A</td>
+            <td>US25, US28</td>
+        </tr>
+        <tr>
+            <td>EP10</td>
+            <td>Visualización de Médicos Disponibles</td>
+            <td>
+                Búsqueda y selección de médicos por parte de pacientes, con filtros y detalles de perfiles.
+            </td>
+            <td>N/A</td>
+            <td>US32, US33</td>
+        </tr>
+    </tbody>
+</table>
+
 
 |<p>**Epic / Story** </p><p>**ID**</p>|**Título**|**Descripción**|**Criterios de Aceptación**|**Relacionado con (Story ID/ Epic ID)**|
 | - | - | - | - | - |

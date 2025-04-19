@@ -278,11 +278,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 1.1. Startup Profile
 #### 1.1.1.Descripción de la Startup
 
-NinjaCode es un startup compuesto por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), dedicados a optimizar los seguimientos médicos. Nuestra visión es abordar los desafíos existentes en el sistema de atención médica peruano, especialmente en el seguimiento de enfermedades hormonales.
-En el Perú, el sistema de atención médica para pacientes diagnosticados con enfermedades hormonales enfrenta desafíos significativos. La simplicidad del sistema se ve opacada por su falta de eficiencia, tanto para los médicos como para los pacientes. Esta ineficiencia se agudiza en los centros de salud estatales, donde la demanda supera ampliamente la capacidad de atención. Es en este escenario donde NinjaCode ha intervenido desarrollando soluciones tecnológicas que agilizan los tratamientos y optimizan los recursos disponibles en todas las regiones del Perú.
-Nuestro enfoque se centra en la comunicación, seguridad y gestión eficiente de los datos de nuestros usuarios. La aplicación HormonalCare, desarrollada por NinjaCode, proporciona una experiencia de navegación óptima para el seguimiento médico de enfermedades hormonales en el Perú. Con HormonalCare, buscamos revolucionar la forma en que se realizan los seguimientos médicos, brindando una plataforma tecnológica segura, intuitiva y eficiente que permite a los pacientes y profesionales de la salud gestionar y monitorear enfermedades hormonales de manera efectiva.
+Los Hormonales es una startup conformada por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), con el propósito de mejorar el seguimiento médico de pacientes. Nuestro objetivo es enfrentar los retos del sistema de salud peruano, especialmente en lo relacionado al monitoreo de enfermedades hormonales.
 
-Nuestra misión es simple pero poderosa: transformar la forma en que se realizan los seguimientos médicos, mejorando la calidad de vida de millones de personas en todo el mundo. Aspiramos a liderar la industria de la salud digital, siendo reconocidos por nuestra innovadora aplicación HormonalCare. Nos esforzamos por establecer estándares de excelencia en seguridad de datos, conectividad y experiencia de usuario en el campo del seguimiento médico de enfermedades hormonales.
+Actualmente, el seguimiento de estas enfermedades en el Perú presenta diversas limitaciones, tanto para médicos como para pacientes, debido a la falta de eficiencia en los procesos. Esta situación se agrava en los centros de salud públicos, donde la alta demanda supera la capacidad de atención. Frente a este panorama, NinjaCode propone soluciones tecnológicas que agilizan la atención médica y permiten un uso más eficiente de los recursos en distintas regiones del país.
+
+Nuestra propuesta se basa en mejorar la comunicación, reforzar la seguridad y gestionar de manera efectiva la información médica de los usuarios. Con nuestra aplicación HormonalCare, desarrollada por NinjaCode, ofrecemos una plataforma digital segura, intuitiva y centrada en el usuario, diseñada específicamente para facilitar el seguimiento de enfermedades hormonales.
+
+Tenemos una misión clara: transformar la experiencia del seguimiento médico y contribuir al bienestar de millones de personas. Aspiramos a posicionarnos como referentes en salud digital a través de la innovación, garantizando altos estándares en protección de datos, conectividad y experiencia de usuario para mejorar la atención médica en el Perú y más allá.
 
 Logo del Startup:
 
@@ -302,21 +304,19 @@ Logo del Producto:
 | **U202218451**              |                                                              |
 | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
 
-
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="assets/images/profileJoaquin.png" alt="Jherson Astuyauri">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U20191B935**              |                                                              |
+| Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **** | <img src="assets/images/perfilsandero.png" alt="Sandro Quispesivana" width="1000" height="170">                                                    |
+| **BRENDA LUCÍA GAMIO UPIACHIHUA** | <img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U**              |                                                              |
-| Buenas, | 
-
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **A** | <img src="assets/images/perfilLuis.jpg" width="700" height="150" alt="Luis Chinchihualpa">                                                 |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U2**              |                                                              |
-| Soy estudiante  | 
+| **U202120344**              |                                                              |
+| Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrea de ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente.Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código, y no me detengo hasta entenderlo completamente. Es mi forma de saciar mi curiosidad. | 
 
 
 ### 1.2. Solution Profile

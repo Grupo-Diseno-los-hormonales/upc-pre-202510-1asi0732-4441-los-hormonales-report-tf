@@ -76,7 +76,7 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 ### [STUDENT OUTCOME](#student-outcome-1)
 
-### [Capítulo I: Introducción](#capítulo-i-introducción)
+### [Capítulo I: Introducción](#capítulo-i-introducción-1)
 
 [1.1.	Startup Profile](#11-startup-profile)
 
@@ -100,7 +100,7 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 [1.3.	Segmentos objetivo](#13segmentos-objetivo)
 
-### [Capítulo II: Requirements Elicitation & Analysis](#)
+### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-2)
 
 [2.1. Competidores](#21-competidores)
 

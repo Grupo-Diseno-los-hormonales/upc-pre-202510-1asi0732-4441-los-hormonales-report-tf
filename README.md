@@ -149,94 +149,114 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 [3.4. Product Backlog](#34-------product-backlog)
 
-### [Capítulo IV: Product Design](#)
+### [Capítulo IV: Product Design](#capítulo-iv-product-design)
 
-[4.1.      Style Guidelines](#)
+[4.1.      Style Guidelines](#41-style-guidelines)
 
-[4.1.1.   General Style Guidelines](#)
+[4.1.1.   General Style Guidelines](#411-general-style-guidelines)
 
-[4.1.2.	Web Style Guidelines](#)
+[4.1.2.	Web Style Guidelines](#412-web-style-guidelines)
 
-[4.2.      Information Architecture](#)
+[4.1.3.	Mobile Style Guidelines](#412-mobile-style-guidelines)
 
-[4.2.1.   Organization Systems](#)
+[4.1.3.1.	iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
 
-[4.2.2.   Labeling Systems](#)
+[4.1.3.2.	Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
 
-[4.2.3.   SEO Tags and Meta Tags](#)
+[4.2.      Information Architecture](#42-information-architecture)
 
-[4.2.4.   Searching Systems](#)
+[4.2.1.   Organization Systems](#421-organization-systems)
 
-[4.2.5.   Navigation Systems](#)
+[4.2.2.   Labeling Systems](#422-labeling-systems)
 
-[4.3.      Landing Page UI Design](#)
+[4.2.3.   SEO Tags and Meta Tags](#423-seo-tags-and-mega-tags)
 
-[4.3.1.   Landing Page Wireframe](#)
+[4.2.4.   Searching Systems](#424-searching-systems)
 
-[4.3.2.   Landing Page Mock-up.V1.0](#)
+[4.2.5.   Navigation Systems](#425-navigation-systems)
 
-[4.4.      Web Applications UX/UI Design](#)
+[4.3.      Landing Page UI Design](#43-landing-page-ui-design)
 
-[4.4.1.   Web Applications Wireframes](#)
+[4.3.1.   Landing Page Wireframe](#431-landing-page-wireframe)
 
-[4.4.2.   Web Applications Wireflow Diagrams](#)
+[4.3.2.   Landing Page Mock-up.](#432-landing-page-mockup)
 
-[4.4.3.   Web Applications Mock-ups](#)
+[4.4.     Mobile Applications UX/UI Design](#44-mobile-applications-ux/ui-design)
 
-[4.4.4.   Web Applications User Flow Diagrams](#)
+[4.4.1.   Mobile Applications Wireframes](#441-mobile-applications-wireframes)
 
-[4.5.      Web Applications Prototyping](#)
+[4.4.2.   Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
 
-[4.6.      Domain-Driven Software Architecture](#)
+[4.4.3.   Mobile Applications Mock-ups](#443-mobile-applications-mockups)
 
-[4.6.1.   Software Architecture Context Diagram](#)
+[4.4.4.   Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
 
-[4.6.2.   Software Architecture Container Diagrams](#)
+[4.5.      Mobile Applications Prototyping](#45-mobile-applications-prototyping)
 
-[4.6.3.   Software Architecture Components Diagrams](#)
+[4.5.1.   Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
 
-[4.7.      Software Object-Oriented Design](#)
+[4.5.2.   iOS Mobile Applications Prototyping](#451-ios-mobile-applications-prototyping)
 
-[4.7.1.   Class Diagrams](#)
+[4.6.      Web Applications UX/UI Design](#46-web-applications-ux/ui-design)
 
-[4.7.2.   Class Dictionary](#)
+[4.6.1.   Web Applications Wireframes](#461-web-applications-wireframes)
 
-[4.8.      Database Design](#)
+[4.6.2.   Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
 
-[4.8.1.   Database Diagram](#)
+[4.6.3.   Web Applications Mock-ups](#463-web-applications-mockups)
+
+[4.6.4.   Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
+
+[4.7.     Web Applications Prototyping](#47-web-applications-prototyping)
+
+[4.8.     Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
+
+[4.8.1.   Software Architecture Context Diagram](#481-software-architecture-context-diagram)
+
+[4.8.2.   Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
+
+[4.8.3.   Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
+
+[4.9.     Software Object-Oriented Design](#49-software-object-oriented-design)
+
+[4.9.1.   Class Diagrams](#491-class-diagrams)
+
+[4.9.2.   Class Dictionary](#492-class-dictionary)
+
+[4.10.    Database Design](#410-database-design)
+
+[4.10.1.  Relational/Non-Relational Database Diagram.](#4101-relational/non-relational-database-diagram)
 
 
-### [Capítulo V: Product Implementation, Validation & Deployment](#)
+### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-backend-product-implementation-validation--deployment)
 
-[5.1.      Software Configuration Management](#)
+[5.1.      Software Configuration Management](#51-software-configuration-management)
 
-[5.1.1.   Software Development Environment Configuration](#)
+[5.1.1.   Software Development Environment Configuration](#511-software-development-environment-configuration)
 
-[5.1.2.   Source Code Management](#)
+[5.1.2.   Source Code Management](#512-source-code-management)
 
-[5.1.3.   Source Code Style Guide & Conventions](#)
+[5.1.3.   Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
 
-[5.1.4.   Software Deployment Configuration](#)
+[5.1.4.   Software Deployment Configuration](#514-software-deployment-configuration)
 
-[5.2.	Landing Page, Services & Applications Implementation](#)
+[5.2.     Product Implementation & Deployment](#52-product-implementation--deployment)
 
-[5.2.1.   Sprint 1](#)
+[5.2.1.   Sprint Backlogs.](#521-sprint-backlogs)
 
-[5.2.1.1. Sprint Planning 1](#)
+[5.2.2.   Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
 
-[5.2.1.2. Sprint Backlog 1](#)
+[5.2.3.   Implemented Frontend-Web Application Evidence](#523-implemented-frontendweb-application-evidence)
 
-[5.2.1.3.	Development Evidence for Sprint Review](#)
+[5.2.4.   Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
 
-[5.2.1.4.	Testing Suite Evidence for Sprint Review](#)
+[5.2.5.   Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-and/or-serverless-backend-evidence)
 
-[5.2.1.5.	Execution Evidence for Sprint Review](#)
+[5.2.6.   RESTful API documentation](#526-restful-api-documentation)
 
-[5.2.1.6.	Services Documentation Evidence for Sprint Review](#)
+[5.2.7.   Team Collaboration Insights](#527-team-collaboration-insights)
 
-[5.2.1.7.	Software Deployment Evidence for Sprint Review](#)
-
-[5.2.1.8.	Team Collaboration Insights during Sprint](#)
+[5.3. Video About-the-Product.](#53-video-about-the-product.)
 
 [Conclusiones y recomendaciones](#)
 

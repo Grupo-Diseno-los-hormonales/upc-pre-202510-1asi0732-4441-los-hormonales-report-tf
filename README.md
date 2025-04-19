@@ -42,15 +42,6 @@
 | Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
 |:-----:|:--------:|:--------:|:--------:|
 | TB1     | 00/00/2025 | Los Hormonales |  |
-| TP1     |  | NinjaCode |  |
-| TP1 v1.0.1     | // |  |  |
-| TP1 v1.0.2    | // |  |  |
-| TB2     | // |  |  |
-| TB2 v1.0.1    | /06/ |  | |
-| TB2 v1.0.2    | / |  |  |
-| TF   | // |  |  |
-
-
 
 
 ## Project Report Collaboration Insights

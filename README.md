@@ -5,13 +5,13 @@
 <h1 align="center">Universidad Peruana de Ciencias Aplicadas</h1>
 
 <h2 align="center">Ingeniería de Software</h2>
-<h3 align="center">Ciclo 202501</h3>
+<h3 align="center">Ciclo 202510</h3>
 
 <hr>
 
 <h1 align="center">Diseño de Experimentos de Ingeniería de Software</h1>
 
-<h2 align="center">TF REPORT</h2>
+<h2 align="center">TB1 REPORT</h2>
 
 <p align="center"><strong>Código:</strong> 1ASI0732 </p>
 <p align="center"><strong>Sección:</strong> 4441 </p>

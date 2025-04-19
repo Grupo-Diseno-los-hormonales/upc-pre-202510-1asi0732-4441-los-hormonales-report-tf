@@ -273,6 +273,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |c2.|<p>**Astuyauri Calderon, Jherson David**	</p><p>TB1: </p><p>**Carranza Tesen, Joaquin Enrique**	</p><p>TB1: </p><p>**Estrada Cajamune, Abraham Andres**</p><p>TB1: </p> <p>**Gamio Upiachihua, Brenda Lucía**</p><p>TB1: </p><p>**Soto Quispe, Diego Ulises :**</p><p>TB1:  </p>|<br>TB1:   </br>|
 
 
+## Capítulo I: Introducción
+
 ### 1.1. Startup Profile
 #### 1.1.1.Descripción de la Startup
 
@@ -315,6 +317,7 @@ Logo del Producto:
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U2**              |                                                              |
 | Soy estudiante  | 
+
 
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática

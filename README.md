@@ -100,7 +100,7 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 [1.3.	Segmentos objetivo](#13segmentos-objetivo)
 
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-2)
+### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
 
 [2.1. Competidores](#21-competidores)
 
@@ -130,15 +130,15 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 [2.4.      Ubiquitous Language](#24------ubiquitous-language)
 
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
 
-[3.1. To-Be Scenario Mapping](#31------to-be-scenario-mapping)
+[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
 
-[3.2. User Stories](#32-------user-stories)
+[3.2. User Stories](#32-user-stories)
 
-[3.3. Impact Mapping](#33-------impact-mapping)
+[3.3. Impact Mapping](#33-impact-mapping)
 
-[3.4. Product Backlog](#34-------product-backlog)
+[3.4. Product Backlog](#34-product-backlog)
 
 ### [Capítulo IV: Product Design](#capítulo-iv-product-design)
 

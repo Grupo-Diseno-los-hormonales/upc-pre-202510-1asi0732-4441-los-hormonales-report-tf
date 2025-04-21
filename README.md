@@ -759,7 +759,7 @@ Este mapa refleja cómo un médico endocrinólogo adopta la aplicación Hormonal
 A continuación se presentan los Empathy Maps correspondientes a los dos segmentos clave de usuarios identificados en HormonalCare: pacientes con enfermedades hormonales y médicos endocrinólogos. Estos mapas permiten comprender con mayor profundidad las percepciones, emociones, motivaciones, frustraciones y comportamientos de cada grupo, con el objetivo de diseñar soluciones más empáticas y centradas en el usuario.  
 
 **Segmento objetivo: Pacientes con enfermedades hormonales**  
-Este Empathy Map representa a personas que buscan una forma clara, segura y eficiente de gestionar su tratamiento hormonal. Refleja su frustración por no encontrar una aplicación especializada que les permita seguir su progreso médico de manera organizada. Además, expresa su necesidad de tener contacto directo con su médico, entender mejor sus análisis y contar con una herramienta accesible que les brinde confianza y autonomía durante el proceso de tratamiento.
+Este Empathy Map representa a personas que buscan una forma clara, segura y eficiente de gestionar su tratamiento hormonal. Refleja su frustración por no encontrar una aplicación especializada que les permita seguir su progreso médico de manera organizada. Además, expresa su necesidad de tener contacto directo con su médico, entender mejor sus análisis y contar con una herramienta accesible que les brinde confianza y autonomía durante el proceso del tratamiento.
 
 
 ![alt text](<assets/images/mapping 1.png>)
@@ -780,7 +780,6 @@ El As-is Scenario Mapping para Pacientes con Enfermedades Hormonales muestra el 
 
 **Segmento Médicos Endocrinólogos**  
 El As-is Scenario Mapping para Médicos Endocrinólogos identifica los retos en la gestión del tratamiento hormonal de sus pacientes. El mapa abarca desde la programación de citas y análisis de resultados, hasta el seguimiento clínico, la comunicación paciente-doctor y la evaluación de adherencia al tratamiento. Se evidencian frustraciones relacionadas con la carga de trabajo, la falta de acceso oportuno a la información clínica y las limitaciones en la comunicación fuera de consulta. Estas dificultades revelan oportunidades para digitalizar el seguimiento, mejorar la trazabilidad del tratamiento, y fortalecer la interacción con el paciente desde una sola plataforma integral.
-
 
 ![alt text](<assets/images/as is 2.png>)
 

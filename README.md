@@ -564,8 +564,6 @@ En esta sección se comparan las principales plataformas del sector para identif
 | **Oportunidades** | Integración con wearables, expansión en idiomas y regiones. | Integración con apps móviles, licitaciones con entidades estatales. | Ampliación en otros países de LATAM, nuevas funciones con IA. | Expansión a más especialidades hormonales, integración con laboratorios y seguros de salud. |
 | **Amenazas** | Nuevas apps gratuitas o más especializadas. | Competencia de plataformas cloud más flexibles. | Aparición de nuevas soluciones más económicas. | Plataformas generalistas que incorporen funciones similares sin enfocarse en salud hormonal. |
 
-
-
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
 A continuación, se presenta la matriz FODA y C.A.M.E. desarrollada para HormonalCare. Este análisis permite identificar cómo aprovechar nuestras fortalezas y oportunidades, al tiempo que definimos estrategias para mitigar debilidades y amenazas en relación con la competencia.

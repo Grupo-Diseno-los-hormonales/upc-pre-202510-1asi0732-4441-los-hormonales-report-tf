@@ -531,39 +531,292 @@ HormonalCare podría posicionarse frente a otras aplicaciones del rubro médico 
 - **LOLIMSA**: Plataforma de software clínico-hospitalario dirigida a instituciones médicas. Gestiona historias clínicas, citas, farmacia, laboratorio, emergencias y áreas administrativas. Su enfoque integral permite optimizar la atención médica y la operatividad de clínicas y hospitales mediante tecnología especializada.
 - **iClinic**: Plataforma digital en la nube diseñada para profesionales de salud. Permite gestionar historia clínica electrónica, consultas, prescripciones, resultados de laboratorio y evolución del paciente. Es útil para el seguimiento de enfermedades hormonales y mejora la eficiencia en consultorios y clínicas privadas.
 
+
 ## 2.1.1 Análisis competitivo
 
-En esta sección se comparan las principales plataformas del sector para identificar cómo **HormonalCare** se diferencia y destaca frente a sus competidores directos e indirectos.
+En esta sección se comparan las principales plataformas del sector para identificar cómo HormonalCare se diferencia y destaca frente a sus competidores directos e indirectos.
 
-| <div align="center">**Competitive Analysis Landscape**</div> |   |
-|:-----------------------------------------------------------:|---|
+| **Competitive Analysis Landscape** |                                                                                                                                                                                                                                   |
+|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **¿Por qué llevar a cabo este análisis?** | Identificar cómo HORMONALCARE se posiciona frente a sus competidores en términos de servicios ofrecidos, ventajas competitivas y estrategias de mercado para mejorar nuestra propuesta de valor y captar más clientes. |
 
-| **Competidor** | **MyTherapy** | **LOLIMSA** | **iClinic** | **HormonalCare** |
-|----------------|---------------|-------------|-------------|------------------|
-| **Logo** | ![MyTherapy](assets/images/mytherapy.png) | ![LOLIMSA](assets/images/lolimsa.png) | ![iClinic](assets/images/iclinic.png) | ![HormonalCare](assets/images/hormonal.png) |
-| **Perfil** | Aplicación gratuita para el seguimiento del tratamiento médico. Ofrece recordatorios de medicación, citas y registro de síntomas, con generación de reportes. | Plataforma de software clínico-hospitalario para instituciones de salud. Gestiona áreas clínicas, administrativas y de soporte de forma integral. | Plataforma médica en la nube para clínicas y consultorios. Permite gestionar historia clínica, prescripciones, citas y seguimiento de salud. | Plataforma especializada en salud hormonal. Facilita el monitoreo de niveles hormonales, alertas personalizadas y comunicación directa con especialistas. |
-| **Ventajas competitivas**<br>¿Qué valor ofrece a los clientes? | Mejora la adherencia al tratamiento, organización personal de la salud y comunicación con médicos. | Optimiza la gestión institucional, mejora procesos clínicos y administrativos con módulos configurables. | Aumenta la productividad del consultorio, facilita la organización de pacientes y el seguimiento continuo. | Ofrece atención personalizada en endocrinología, interfaz fácil, seguimiento visual y conexión directa con profesionales de salud hormonal. |
-| **Perfil de Marketing**<br>**Mercado objetivo** | Pacientes en tratamientos crónicos, mayores, personas polimedicadas. | Clínicas, hospitales y centros médicos de tamaño mediano y grande. | Clínicas, hospitales y centros médicos de tamaño mediano y grande. | Pacientes con condiciones hormonales (SOP, hipotiroidismo, menopausia), adolescentes, mujeres en edad fértil y endocrinólogos. |
-| **Estrategias de marketing** | App Store, blog de salud, recomendaciones médicas y SEO en salud digital. | Marketing institucional, presencia en eventos de salud, venta directa a instituciones. | Publicidad digital, testimonios clínicos, marketing de contenido. | Redes sociales, campañas de salud hormonal, colaboraciones con profesionales, educación y comunidad digital especializada. |
-| **Producto & Servicios** | Recordatorios, control de síntomas, informes de salud descargables. | Gestión completa de historias clínicas, citas, farmacia, laboratorio, facturación, RRHH y más. | Agenda online, prescripciones electrónicas, historia clínica digital, CRM para pacientes. | Panel hormonal interactivo, mensajería médico-paciente, seguimiento personalizado y visualización de evolución hormonal. |
-| **Precios & Costos** | Gratuito, sin anuncios. | Modelo personalizado según el tamaño de la institución y módulos contratados. | Desde R$179 (~$35 USD) por usuario mensual. | $10.00 USD al mes, con plan básico gratuito y premium completo. |
-| **Canales de distribución (Web y/o Móvil)** | Web + apps móviles (iOS y Android). | Plataforma web, instalación local o en la nube. | Web y apps, 100% online. | Web y apps móviles con diseño adaptable y compatibilidad total. |
-| **Fortalezas** | Interfaz amigable, uso gratuito, sin anuncios, generación de reportes. | Solución robusta, modular, experiencia en el sector hospitalario. | Plataforma estable, uso extendido en Brasil, ideal para consultorios. | Especialización total en salud hormonal, diseño centrado en paciente, funciones de seguimiento únicas. |
-| **Debilidades** | Limitada para instituciones de salud, no reemplaza apps clínicas completas. | Alto costo para instituciones pequeñas, requiere implementación técnica. | Puede no ser asequible para pequeños emprendimientos médicos. | Requiere compromiso del usuario para ingresar datos y seguimiento constante. |
-| **Oportunidades** | Integración con wearables, expansión en idiomas y regiones. | Integración con apps móviles, licitaciones con entidades estatales. | Ampliación en otros países de LATAM, nuevas funciones con IA. | Expansión a más especialidades hormonales, integración con laboratorios y seguros de salud. |
-| **Amenazas** | Nuevas apps gratuitas o más especializadas. | Competencia de plataformas cloud más flexibles. | Aparición de nuevas soluciones más económicas. | Plataformas generalistas que incorporen funciones similares sin enfocarse en salud hormonal. |
+| **Competidor** | | MyTherapy | LOLIMSA | iClinic | HormonalCare |
+|----------------|------------|----------|---------|---------|--------------|
+| **Logo** | | ![MyTherapy](assets/images/mytherapy.png) | ![LOLIMSA](assets/images/lolimsa.png) | ![iClinic](assets/images/iclinic.png) | ![HormonalCare](assets/images/hormonal.png) |
+| **Perfil** | **Overview** | Aplicación gratuita para el seguimiento del tratamiento médico. Ofrece recordatorios de medicación, citas y registro de síntomas, con generación de reportes. | Plataforma de software clínico-hospitalario para instituciones de salud. Gestiona áreas clínicas, administrativas y de soporte de forma integral. | Plataforma médica en la nube para clínicas y consultorios. Permite gestionar historia clínica, prescripciones, citas y seguimiento de salud. | Plataforma especializada en salud hormonal. Facilita el monitoreo de niveles hormonales, alertas personalizadas y comunicación directa con especialistas. |
+| | **Ventaja competitiva ¿Qué valor ofrece a los clientes?** | Mejora la adherencia al tratamiento, organización personal de la salud y comunicación con médicos. | Optimiza la gestión institucional, mejora procesos clínicos y administrativos con módulos configurables. | Aumenta la productividad del consultorio, facilita la organización de pacientes y el seguimiento continuo. | Ofrece atención personalizada en endocrinología, interfaz fácil, seguimiento visual y conexión directa con profesionales de salud hormonal. |
+| **Perfil de Marketing** | **Mercado objetivo** | Pacientes en tratamientos crónicos, mayores, personas polimedicadas. | Clínicas, hospitales y centros médicos de tamaño mediano y grande. | Clínicas, hospitales y centros médicos de tamaño mediano y grande. | Pacientes con condiciones hormonales (SOP, hipotiroidismo, menopausia), adolescentes, mujeres en edad fértil y endocrinólogos. |
+| | **Estrategias de marketing** | App store, blog de salud, recomendaciones médicas y SEO en salud digital. | Marketing institucional, presencia en eventos de salud, venta directa a instituciones. | Publicidad digital, testimonios clínicos, marketing de contenido. | Redes sociales, campañas de salud hormonal, colaboraciones con profesionales, educación y comunidad digital especializada. |
+| **Perfil de producto** | **Productos & Servicios** | Recordatorios, control de síntomas, informes de salud descargables. | Gestión completa de historias clínicas, citas, farmacia, laboratorio, facturación, RRHH y más. | Agenda online, prescripciones electrónicas, historia clínica digital, CRM para pacientes. | Panel hormonal interactivo, mensajería médico-paciente, seguimiento personalizado y visualización de evolución hormonal. |
+| | **Precios & Costos** | Gratuito, sin anuncios. | Modelo personalizado según el tamaño de la institución y módulos contratados. | Desde R$179 (~$35 USD) por usuario mensual. | $10.00 USD al mes, con plan básico gratuito y premium completo. |
+| | **Canales de distribución (Web y/o Móvil)** | Web + apps móviles (iOS y Android). | Plataforma web, instalación local o en la nube. | Web y apps, 100% online. | Web y apps móviles con diseño adaptable y compatibilidad total. |
+| **Análisis SWOT** | **Fortalezas** | Interfaz amigable, uso gratuito, sin anuncios, generación de reportes. | Solución robusta, modular, experiencia en el sector hospitalario. | Plataforma estable, uso extendido en Brasil, ideal para consultorios. | Especialización total en salud hormonal, diseño centrado en paciente, funciones de seguimiento únicas. |
+| | **Debilidades** | Limitada para instituciones de salud, no reemplaza apps clínicas completas. | Alto costo para instituciones pequeñas, requiere implementación técnica. | Puede no ser asequible para pequeños emprendimientos médicos. | Requiere compromiso del usuario para ingresar datos y seguimiento constante. |
+| | **Oportunidades** | Integración con wearables, expansión en idiomas y regiones. | Integración con apps móviles, licitaciones con entidades estatales. | Ampliación en otros países de LATAM, nuevas funciones con IA. | Expansión a más especialidades hormonales, integración con laboratorios y seguros de salud. |
+| | **Amenazas** | Nuevas apps gratuitas o más especializadas. | Competencia de plataformas cloud más flexibles. | Aparición de nuevas soluciones más económicas. | Plataformas generalistas que incorporen funciones similares sin enfocarse en salud hormonal. |
+
+
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
 A continuación, se presenta la matriz FODA y C.A.M.E. desarrollada para HormonalCare. Este análisis permite identificar cómo aprovechar nuestras fortalezas y oportunidades, al tiempo que definimos estrategias para mitigar debilidades y amenazas en relación con la competencia.
 
-| **Factor** | **Descripción** | **Estrategia / Táctica** |
-|------------|------------------|---------------------------|
-| **Fortalezas** | Especialización en salud hormonal, enfoque visual y contacto directo con especialistas. | Potenciar alianzas con endocrinólogos, centros especializados y campañas de visibilidad en redes para captar a quienes buscan soluciones específicas y no generalistas. |
-| **Oportunidades** | Creciente interés por el seguimiento hormonal personalizado. | Resaltar nuestra propuesta diferenciada frente a apps genéricas, destacando funciones especializadas, testimonios de pacientes y lenguaje cercano al perfil de usuario objetivo. |
-| **Debilidades** | Requiere compromiso activo del usuario y tiempo de adaptación. | Mejorar la experiencia inicial del usuario mediante tutoriales simples, guías interactivas y soporte personalizado para facilitar el proceso de adopción desde la primera visita. |
-| **Amenazas** | Presencia de plataformas generalistas con funciones similares. | Anticipar movimientos de la competencia desarrollando mejoras constantes en la interfaz y funciones clínicas, así como reforzando la identidad de marca en salud hormonal. |
+| ***MATRIZ FODA y C.A.M.E*** | **Oportunidades:** Creciente interés por el seguimiento hormonal personalizado | **Amenazas:** Presencia de plataformas generalistas con funciones similares |
+|-----------------------------|----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Fortalezas:** Especialización en salud hormonal, enfoque visual y contacto directo con especialistas. | Potenciar alianzas con endocrinólogos, centros especializados y campañas de visibilidad en redes para captar a quienes buscan soluciones específicas y no generalistas. | Resaltar nuestra propuesta diferenciada frente a apps genéricas, destacando funciones especializadas, testimonios de pacientes y lenguaje cercano al perfil de usuario objetivo. |
+| **Debilidades:** Requiere compromiso activo del usuario y tiempo de adaptación. | Mejorar la experiencia inicial del usuario mediante tutoriales simples, guías interactivas y soporte personalizado para facilitar el proceso de adopción desde la primera visita. | Anticipar movimientos de la competencia desarrollando mejoras constantes en la interfaz y funciones clínicas, así como reforzando la identidad de marca en salud hormonal. |
+
+## 2.2 Entrevistas  
+Esta sección se centra en la recopilación de información mediante entrevistas a pacientes con condiciones hormonales y a profesionales de la salud especializados, con el objetivo de comprender sus necesidades reales y percepciones sobre el uso de soluciones digitales en el manejo de la salud hormonal.  
+
+### 2.2.1 Diseño de entrevistas  
+Incluye la elaboración de preguntas principales y secundarias dirigidas tanto a pacientes como a especialistas endocrinos, considerando aspectos como historial médico, frecuencia de seguimiento, herramientas digitales utilizadas actualmente, hábitos de comunicación médico-paciente y disposición para adoptar plataformas tecnológicas especializadas como HormonalCare.  
+
+**Segmento objetivo #1: Médicos especialistas en endocrinología**  
+
+**Preguntas demográficas:**  
+• ¿Cuál es su nombre?  
+• ¿Cuántos años tiene?  
+• ¿En qué localidad labora?  
+• ¿Cuál es su estado civil?  
+• ¿Cuál es su rango salarial aproximado?  
+• ¿Cuál sería la frase con la que se siente más identificado?  
+• ¿Qué dispositivos tecnológicos usa más como médico?  
+• ¿Qué sistema operativo usa más en su práctica profesional?  
+• ¿Cuál es su navegador web favorito?  
+• ¿Cuáles son las marcas o herramientas tecnológicas que le ayudan en su labor diaria?  
+
+**Preguntas principales:**  
+• ¿Cuál es su especialidad médica y cuántos años lleva ejerciéndola?  
+• ¿Ejerce su práctica médica en el sector privado o público?  
+• ¿Cómo calificaría la satisfacción de los pacientes en los centros de salud tradicionales estatales y cómo cree que una aplicación podría mejorar esta experiencia?  
+• ¿Cuáles considera que son las enfermedades más frecuentes en su área de especialización?  
+• ¿Cuáles son las mayores dificultades que enfrenta al hacer seguimiento a sus pacientes con enfermedades hormonales?  
+• ¿Qué porcentaje de sus pacientes cumple con el tratamiento prescrito y alcanza los objetivos planteados en la evaluación médica?  
+• ¿Con qué frecuencia realiza el seguimiento de sus pacientes y si considera que es indispensable realizarlo de manera presencial o puede ser a distancia a través de tecnologías de comunicación?  
+• ¿Cuán frecuente es para usted modificar el tratamiento de sus pacientes en función de los resultados de seguimiento, como análisis de laboratorio, peso y síntomas variados?  
+• ¿Consideraría que es importante una aplicación para el seguimiento y tratamiento de enfermedades hormonales?  
+• ¿Qué ventajas cree que podría ofrecerle a usted y a sus pacientes la utilización de una aplicación para el seguimiento y tratamiento de enfermedades hormonales?  
+• ¿Cuáles son las condiciones básicas que deberían cumplirse para que pueda darse una atención efectiva a través de una aplicación?  
+• ¿Qué funcionalidades le gustaría que tuviera la aplicación por enfermedad a tratar?, ¿cuáles cree que deberían ser las principales?  
+• ¿Cree que la implementación de esta aplicación podría aumentar su cartera de pacientes y la demanda de sus servicios?  
+
+**Preguntas complementarias:**  
+• En una escala del 1 al 10, ¿hasta qué punto se siente motivado por recompensas, reconocimientos o beneficios materiales?  
+• En una escala del 1 al 10, ¿hasta qué punto el miedo o preocupación por consecuencias influye en sus decisiones?  
+• En una escala del 1 al 10, ¿cuánto le motiva alcanzar metas o superar desafíos?  
+• En una escala del 1 al 10, ¿cuánto se siente motivado por aprender y desarrollarse profesionalmente?  
+• En una escala del 1 al 10, ¿qué tanto lo motiva demostrar fortaleza física, mental o emocional?  
+• En una escala del 1 al 10, ¿cuánto lo motiva interactuar con otros y formar parte de comunidades?  
+
+**Segmento objetivo #2: Pacientes con condiciones hormonales**  
+
+**Preguntas demográficas:**  
+• ¿Cuál es su nombre?  
+• ¿Cuántos años tiene?  
+• ¿En qué localidad vive?  
+• ¿Cuál es su estado civil?  
+• ¿Cuál es su rango salarial aproximado?  
+• ¿Cuál sería la frase con la que se siente más identificado?  
+• ¿Qué dispositivos tecnológicos usa más?  
+• ¿Qué sistema operativo utiliza?  
+• ¿Cuál es su navegador web favorito?  
+• ¿Qué marcas o herramientas tecnológicas le ayudan en su vida diaria?  
+
+**Preguntas principales:**  
+• ¿Qué enfermedad hormonal padece y cuánto tiempo lleva diagnosticado/a?  
+• ¿Cuáles son las principales dificultades que enfrenta en el seguimiento y tratamiento de su enfermedad hormonal?  
+• ¿Con qué frecuencia visita a su médico endocrinólogo para seguimiento y ajustes de tratamiento?  
+• ¿Le resulta complicado cumplir con el tratamiento médico prescrito? ¿Qué factores influyen en su adherencia?  
+• ¿Qué aspectos de su tratamiento o seguimiento le gustaría que fueran más fáciles o convenientes?  
+• ¿Ha tenido experiencias negativas o frustrantes en su atención médica relacionada con su enfermedad hormonal? ¿Qué mejoraría?  
+• ¿Utilizaría una aplicación móvil para llevar registro de su historial médico, resultados hormonales y comunicación con su médico?  
+• ¿Qué características considera más importantes en una app para el seguimiento de enfermedades hormonales?  
+• ¿Cómo preferiría recibir recordatorios o alertas sobre su medicación y citas médicas?  
+• ¿Qué información le gustaría poder compartir con su médico a través de una aplicación?  
+• ¿Se sentiría más seguro/a si pudiera comunicarse con su médico de forma remota mediante una app?  
+• ¿Considera que una aplicación podría mejorar su calidad de vida y control sobre su enfermedad?  
+
+**Preguntas complementarias:**  
+• En una escala del 1 al 10, ¿hasta qué punto se siente motivado por recompensas o beneficios materiales?  
+• En una escala del 1 al 10, ¿cuánto le influye el miedo o preocupación para actuar?  
+• En una escala del 1 al 10, ¿cuánto le motiva alcanzar metas o superar desafíos?  
+• En una escala del 1 al 10, ¿cuánto se siente motivado por aprender o buscar nuevas experiencias?  
+• En una escala del 1 al 10, ¿qué tanto le motiva demostrar fortaleza física, mental o emocional?  
+• En una escala del 1 al 10, ¿cuánto le motiva relacionarse con otros y formar parte de grupos?  
+
+### 2.2.2 Registro de entrevistas  
+
+### 2.2.3 Análisis de entrevistas  
+
+## 2.3 Needfinding  
+En esta sección se presentarán los artefactos generados a partir del proceso de recopilación realizado en los segmentos objetivo de HormonalCare. Este proceso concluye con la creación de los User Personas, la User Task Matrix, los User Journey Maps, el Empathy Mapping y el As-Is Scenario Mapping, los cuales reflejan las necesidades, comportamientos y puntos de mejora identificados en pacientes y médicos especialistas en salud hormonal.  
+
+### 2.3.1. User personas  
+En esta sección del documento, se presentan perfiles ficticios que representan a los grupos de interés identificados y que fueron objeto de entrevistas. La información proporcionada incluye datos demográficos, rasgos de personalidad, motivaciones, metas, frustraciones y comportamientos comunes. Estos elementos se construyen con base en los hallazgos del proceso de investigación y entrevistas realizadas previamente. Se han utilizado herramientas de UXPressia para facilitar la elaboración de estos perfiles.  
+
+**User Persona para Pacientes con desbalances hormonales**  
+La “User Persona” de Valeria Romero representa a mujeres jóvenes diagnosticadas con condiciones hormonales como el síndrome de ovario poliquístico (SOP), que buscan herramientas digitales simples y efectivas para organizar su tratamiento, visualizar su evolución médica y mantener una comunicación cercana con su especialista. Valeria se frustra con la falta de seguimiento continuo y olvida con frecuencia sus controles, por lo que valora soluciones intuitivas y centradas en el paciente.
+
+![alt text](<assets/images/user person 1.png>)
+
+**User Persona para Médicos Endocrinólogos**  
+La “User Persona” del Dr. Luis Caballero representa a médicos endocrinólogos que atienden a pacientes con enfermedades hormonales crónicas como el hipotiroidismo, SOP y menopausia. Estos profesionales requieren soluciones tecnológicas que les permitan optimizar el seguimiento médico, organizar citas, visualizar historial clínico y mejorar la adherencia terapéutica de sus pacientes. El Dr. Caballero se ve limitado por la falta de herramientas digitales específicas para el área hormonal, lo que afecta la continuidad del tratamiento y la eficiencia en su práctica diaria. Valora especialmente las soluciones digitales que faciliten la comunicación médico-paciente y la personalización del monitoreo clínico.
+
+
+![alt text](<assets/images/user person 2.png>)
+
+### 2.3.2. User Task Matrix  
+En el User Task Matrix hemos identificado las tareas clave que realizan nuestros dos segmentos principales de usuarios: pacientes con enfermedades hormonales y médicos especialistas en endocrinología. A continuación, se detalla cada actividad con su frecuencia e importancia estimada según los hallazgos obtenidos en entrevistas.  
+
+**Indicadores de Importancia:**  
+• ALTA  
+• MEDIA  
+• BAJA  
+
+**Indicadores de Frecuencia:**  
+• ALTA  
+• MEDIA  
+• BAJA  
+
+| Segmento Objetivo     | Tarea                                                             | Frecuencia | Importancia |
+|------------------------|-------------------------------------------------------------------|------------|-------------|
+| Pacientes hormonales   | Consultar resultados de análisis hormonales                      | Alta       | Alta        |
+|                        | Recordar y seguir la medicación prescrita                         | Alta       | Alta        |
+|                        | Agendar y asistir a citas médicas de seguimiento                 | Media      | Alta        |
+|                        | Revisar evolución personal (peso, síntomas, menstruación, etc.)  | Alta       | Media       |
+|                        | Comunicarse con su médico                                        | Media      | Alta        |
+|                        | Recibir alertas sobre toma de medicamentos o análisis            | Alta       | Alta        |
+|                        | Entender sus niveles hormonales y qué significan                | Media      | Alta        |
+|                        | Acceder a su historial médico en la aplicación                   | Media      | Alta        |
+|                        | Compartir resultados con su médico desde la app                  | Media      | Alta        |
+|                        | Ver consejos personalizados sobre su condición                  | Alta       | Media       |
+| Médicos endocrinos     | Visualizar historial hormonal de cada paciente                   | Alta       | Alta        |
+|                        | Monitorear evolución entre citas (peso, análisis, síntomas)      | Alta       | Alta        |
+|                        | Enviar indicaciones o ajustes de tratamiento desde la app        | Media      | Alta        |
+|                        | Coordinar nuevas citas con pacientes                             | Media      | Media       |
+|                        | Recibir alertas de valores críticos en análisis                  | Alta       | Alta        |
+|                        | Cargar y revisar reportes de laboratorio                         | Alta       | Alta        |
+|                        | Interactuar con pacientes vía chat o videollamada                | Media      | Alta        |
+|                        | Ver métricas de adherencia al tratamiento                        | Alta       | Alta        |
+|                        | Revisar tendencias hormonales en gráficos                        | Media      | Media       |
+|                        | Acceder a información consolidada por paciente                   | Alta       | Alta        |
+
+A través del User Task Matrix, se ha identificado el nivel de frecuencia e importancia de las tareas clave realizadas por los segmentos principales de usuarios de HormonalCare. Este análisis permite definir prioridades funcionales y diseñar experiencias enfocadas en sus verdaderas necesidades.  
+
+**Pacientes con enfermedades hormonales:**  
+Las tareas más frecuentes entre los pacientes incluyen:  
+• Consultar los resultados de sus análisis hormonales.  
+• Seguir correctamente el tratamiento médico prescrito.  
+• Recibir notificaciones sobre medicamentos, citas o pruebas pendientes.  
+• Registrar y revisar su evolución personal (síntomas, peso, ciclos hormonales, etc.).  
+
+Estas actividades son fundamentales para mantener un control constante de su condición, facilitar la organización personal y promover la continuidad terapéutica.  
+
+Por otro lado, las tareas que presentan mayor nivel de importancia para los pacientes son:  
+• Acceder fácilmente a su historial médico.  
+• Comprender sus niveles hormonales y avances en el tratamiento.  
+• Comunicarse con su especialista desde la aplicación.  
+• Compartir información clínica relevante en tiempo real.  
+
+Estas acciones son altamente valoradas porque brindan seguridad, autonomía y una conexión directa con el profesional de salud, permitiendo un enfoque más integral y personalizado del tratamiento.  
+
+**Médicos endocrinólogos:**  
+Para los especialistas, las tareas más recurrentes son:  
+• Visualizar el historial clínico y hormonal de sus pacientes.  
+• Monitorear su evolución entre consultas.  
+• Revisar reportes de laboratorio y adherencia al tratamiento.  
+• Detectar alertas relacionadas con valores críticos.  
+
+Estas tareas son esenciales para tomar decisiones clínicas oportunas, dar seguimiento continuo sin depender exclusivamente de citas presenciales y mejorar la calidad del diagnóstico.  
+
+Las tareas de mayor importancia para los médicos incluyen:  
+• Acceder a información consolidada y ordenada del paciente.  
+• Enviar ajustes terapéuticos de manera remota.  
+• Identificar tendencias clínicas a través de gráficos e indicadores.  
+• Mantener comunicación fluida y segura con el paciente.  
+
+Estas funciones permiten a los especialistas optimizar su tiempo, reducir riesgos de abandono del tratamiento y brindar una atención más eficiente, proactiva y basada en datos.  
+
+**Diferencias clave:**  
+Mientras los pacientes buscan control, claridad y acompañamiento en su proceso hormonal, los médicos priorizan la visualización rápida de información clínica, el seguimiento estructurado y la toma de decisiones en base a datos. Ambos segmentos, aunque con necesidades distintas, convergen en la necesidad de una solución digital como HormonalCare que les permita mantenerse conectados, organizados y comprometidos con el éxito del tratamiento.
+
+### 2.3.3. User Journey Mapping  
+En esta sección, se presentan los mapas de recorrido del usuario elaborados para los dos segmentos clave de HormonalCare: pacientes con enfermedades hormonales y médicos especialistas en endocrinología. Cada mapa visualiza el camino que recorren estos usuarios al interactuar con la aplicación, identificando momentos clave, emociones, necesidades, dificultades y oportunidades de mejora a lo largo de su experiencia.  
+
+**User Journey Mapping para Pacientes con enfermedades hormonales**  
+Este "User Journey Mapping" representa las etapas que atraviesa un paciente al utilizar HormonalCare, desde el descubrimiento inicial hasta el seguimiento remoto. Se identifican puntos de contacto (como el uso diario de la app), problemas comunes (como olvidos de medicación o acceso limitado a sus análisis), y oportunidades para mejorar la adherencia al tratamiento, la comunicación médico-paciente y la claridad en el manejo de su condición.
+
+![alt text](<assets/images/user journey mapping 1.png>)
+
+**User Journey Mapping para Médicos Endocrinólogos**  
+Este mapa refleja cómo un médico endocrinólogo adopta la aplicación HormonalCare en su flujo de trabajo clínico. Desde la evaluación inicial de la herramienta hasta su integración en consultas y seguimiento remoto, se analizan sus necesidades, dificultades (como la adaptación tecnológica o el acceso a datos clínicos) y oportunidades de mejora (como el monitoreo centralizado, la trazabilidad y la personalización del tratamiento). El objetivo es fortalecer su práctica médica con apoyo digital eficaz.
+
+
+![alt text](<assets/images/user journey mapping 2.png>)
+
+### 2.3.4 Empathy Mapping  
+A continuación se presentan los Empathy Maps correspondientes a los dos segmentos clave de usuarios identificados en HormonalCare: pacientes con enfermedades hormonales y médicos endocrinólogos. Estos mapas permiten comprender con mayor profundidad las percepciones, emociones, motivaciones, frustraciones y comportamientos de cada grupo, con el objetivo de diseñar soluciones más empáticas y centradas en el usuario.  
+
+**Segmento objetivo: Pacientes con enfermedades hormonales**  
+Este Empathy Map representa a personas que buscan una forma clara, segura y eficiente de gestionar su tratamiento hormonal. Refleja su frustración por no encontrar una aplicación especializada que les permita seguir su progreso médico de manera organizada. Además, expresa su necesidad de tener contacto directo con su médico, entender mejor sus análisis y contar con una herramienta accesible que les brinde confianza y autonomía durante el proceso de tratamiento.
+
+
+![alt text](<assets/images/mapping 1.png>)
+
+**Segmento objetivo: Médicos especialistas en endocrinología**  
+Este Empathy Map refleja la perspectiva de los médicos que atienden pacientes con condiciones hormonales y que desean realizar un seguimiento clínico más efectivo. Se evidencian preocupaciones relacionadas con la falta de herramientas integrales, la dificultad para acceder a información relevante durante la consulta y la necesidad de mantener una comunicación continua con sus pacientes. A
+
+
+![alt text](<assets/images/mapping 2.png>)
+
+### 2.3.5. As – is Scenario Mapping  
+El As-is Scenario Mapping nos proporciona un análisis visual de los escenarios actuales que enfrentan nuestros segmentos objetivos, permitiéndonos identificar puntos críticos, emociones, pensamientos y oportunidades de mejora en su experiencia médica relacionada con enfermedades hormonales.  
+
+**Segmento Pacientes con Enfermedades Hormonales**  
+El As-is Scenario Mapping para Pacientes con Enfermedades Hormonales muestra el recorrido típico de un paciente que necesita mantener un control continuo de su tratamiento. Desde la programación de citas, recolección de análisis y comunicación médica, hasta el seguimiento y adherencia al tratamiento, este mapa resalta los principales puntos de dolor: el uso manual de registros, el estrés por la falta de organización y la dificultad para acceder a su información clínica. A su vez, permite identificar oportunidades para optimizar el proceso de atención con soluciones como recordatorios automáticos, seguimiento remoto y acceso digital al historial médico.
+
+![alt text](<assets/images/as is 1.png>)
+
+**Segmento Médicos Endocrinólogos**  
+El As-is Scenario Mapping para Médicos Endocrinólogos identifica los retos en la gestión del tratamiento hormonal de sus pacientes. El mapa abarca desde la programación de citas y análisis de resultados, hasta el seguimiento clínico, la comunicación paciente-doctor y la evaluación de adherencia al tratamiento. Se evidencian frustraciones relacionadas con la carga de trabajo, la falta de acceso oportuno a la información clínica y las limitaciones en la comunicación fuera de consulta. Estas dificultades revelan oportunidades para digitalizar el seguimiento, mejorar la trazabilidad del tratamiento, y fortalecer la interacción con el paciente desde una sola plataforma integral.
+
+
+![alt text](<assets/images/as is 2.png>)
+
+### 2.4 Ubiquitous Language.  
+A continuación, se presenta el glosario de términos clave que conforman el lenguaje común dentro de la aplicación HormonalCare. Este vocabulario estandarizado facilita la comunicación entre los usuarios, ya sean pacientes o profesionales de la salud, y asegura un entendimiento coherente en el desarrollo, diseño y uso de la plataforma.
+
+•	App (Aplicación) – Plataforma digital diseñada para facilitar el monitoreo, seguimiento y gestión de enfermedades hormonales.  
+•	Appointment (Cita médica) – Encuentro programado entre el paciente y el médico especialista para evaluar la evolución clínica y ajustar el tratamiento si es necesario.  
+•	Condition (Condición médica) – Estado de salud que afecta el sistema endocrino y requiere seguimiento especializado.  
+•	Doctor (Especialista) – Profesional médico calificado, como un endocrinólogo, que brinda atención a pacientes con enfermedades hormonales.  
+•	Follow-up (Seguimiento) – Supervisión continua del estado de salud del paciente para medir la efectividad del tratamiento.  
+•	Health professional (Profesional de la salud) – Persona formada para ofrecer atención médica, como médicos, nutricionistas, o enfermeros.  
+•	Hormonal disease (Enfermedad hormonal) – Trastorno médico que altera el funcionamiento del sistema endocrino, como el hipotiroidismo, SOP o diabetes tipo 2.  
+•	Medication (Medicamento) – Sustancia prescrita por el médico para tratar o controlar una condición hormonal.  
+•	Medical record (Registro médico) – Archivo digital que contiene el historial clínico del paciente, incluyendo síntomas, tratamientos, citas y análisis.  
+•	Message (Mensaje) – Medio de comunicación textual entre el paciente y el especialista dentro de la aplicación.  
+•	Notification (Notificación) – Alerta automática enviada al usuario sobre citas, resultados, medicación o mensajes importantes.  
+•	Patient (Paciente) – Usuario de la aplicación que accede a servicios médicos para el manejo de su enfermedad hormonal.  
+•	Pill reminder (Recordatorio de medicamentos) – Funcionalidad que notifica al paciente sobre los horarios para tomar su medicación.  
+•	Profile (Perfil) – Información básica del paciente o especialista, como nombre, edad, género, diagnóstico y rol en la aplicación.  
+•	Symptom (Síntoma) – Manifestación física o emocional que puede indicar un desequilibrio hormonal.  
+•	Treatment plan (Plan de tratamiento) – Conjunto personalizado de indicaciones, recomendaciones y medicación definidas por el médico.  
+•	User (Usuario) – Persona que utiliza la aplicación, ya sea como paciente o como profesional de la salud.  
+•	Adherence (Adherencia) – Nivel de cumplimiento del paciente con su plan de tratamiento según lo indicado por el médico.  
+•	Dashboard (Panel de control) – Vista central donde el usuario puede consultar citas, tratamientos, historial y alertas relevantes.  
+•	Feedback (Comentarios) – Opinión o valoración que los usuarios brindan sobre el servicio, funcionalidades o experiencia en la app.  
+•	Patient portfolio (Cartera de pacientes) – Conjunto de pacientes asignados a un médico, con acceso a su evolución y seguimiento clínico.  
+•	History (Historial) – Registro de todas las acciones del usuario dentro de la app, como citas agendadas, resultados vistos o mensajes enviados.  
+•	Log in (Iniciar sesión) – Proceso de autenticación del usuario para acceder a su cuenta en la aplicación.  
+•	Logout (Cerrar sesión) – Acción de cerrar la sesión del usuario para finalizar el uso de la plataforma de forma segura.  
+•	Medication list (Lista de medicamentos) – Detalle actualizado de los fármacos prescritos al paciente, con dosis, frecuencia y observaciones.  
+•	Monitoring (Monitoreo) – Seguimiento continuo de síntomas, signos vitales y evolución del tratamiento.  
+•	MediNetwork (Red médica) – Grupo de especialistas y profesionales que colaboran a través de la app para ofrecer una atención integral.  
+•	Password (Contraseña) – Clave personal que permite al usuario acceder de manera segura a su cuenta.  
+•	Privacy policy (Política de privacidad) – Documento que establece el uso, tratamiento y protección de los datos personales del usuario.  
+•	Profile picture (Foto de perfil) – Imagen que representa visualmente al usuario dentro de la aplicación.
 
 
 ## Capítulo-III-Requirements-Specification

@@ -531,16 +531,6 @@ HormonalCare podría posicionarse frente a otras aplicaciones del rubro médico 
 - **LOLIMSA**: Plataforma de software clínico-hospitalario dirigida a instituciones médicas. Gestiona historias clínicas, citas, farmacia, laboratorio, emergencias y áreas administrativas. Su enfoque integral permite optimizar la atención médica y la operatividad de clínicas y hospitales mediante tecnología especializada.
 - **iClinic**: Plataforma digital en la nube diseñada para profesionales de salud. Permite gestionar historia clínica electrónica, consultas, prescripciones, resultados de laboratorio y evolución del paciente. Es útil para el seguimiento de enfermedades hormonales y mejora la eficiencia en consultorios y clínicas privadas.
 
----
-
-### 2.1.1 Análisis competitivo
-
-**Competitive Analysis Landscape**  
-**¿Por qué llevar a cabo este análisis?**  
-Identificar cómo HORMONALCARE se posiciona frente a sus competidores en términos de servicios ofrecidos, ventajas competitivas y estrategias de mercado para mejorar nuestra propuesta de valor y captar más clientes.
-## 2.1.1 Análisis competitivo
-
-En esta sección se comparan las principales plataformas del sector para identificar cómo **HormonalCare** se diferencia y destaca frente a sus competidores directos e indirectos.
 ## 2.1.1 Análisis competitivo
 
 En esta sección se comparan las principales plataformas del sector para identificar cómo **HormonalCare** se diferencia y destaca frente a sus competidores directos e indirectos.

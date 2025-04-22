@@ -41,7 +41,7 @@
 
 | Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
 |:-----:|:--------:|:--------:|:--------:|
-| TB1     | 00/00/2025 | Los Hormonales |  |
+| TB1     | 26/04/2025 | Los Hormonales | El equipo realizó la entrega del TB1 lo que incluye los capítulos I, II, III ,IV y V completos.  |
 
 
 ## Project Report Collaboration Insights
@@ -286,7 +286,7 @@ Tenemos una misión clara: transformar la experiencia del seguimiento médico y 
 
 Logo del Startup:
 
-<center><img src="assets/images/LosHormonales.jpg" width = 200></center>
+<center><img src="assets/images/LosHormonales.png" width = 200></center>
 
 Logo del Producto:
 

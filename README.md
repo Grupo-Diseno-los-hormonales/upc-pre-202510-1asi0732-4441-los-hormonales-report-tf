@@ -286,7 +286,7 @@ Tenemos una misión clara: transformar la experiencia del seguimiento médico y 
 
 Logo del Startup:
 
-<center><img src="assets/images/imagen1.jpg" width = 200></center>
+<center><img src="assets/images/LosHormonales.jpg" width = 200></center>
 
 Logo del Producto:
 

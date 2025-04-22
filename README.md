@@ -57,16 +57,9 @@ Adoptamos un enfoque colaborativo y transparente para el desarrollo del informe,
 
 La elaboración del informe se realizó de manera coordinada y eficiente. A través de reuniones periódicas en Discord, asignamos partes específicas del informe a cada integrante, asegurando una distribución equitativa de tareas y responsabilidades. Durante estas sesiones, brindamos orientación y apoyo mutuo para resolver dudas o dificultades surgidas durante la redacción.
 
-Fomentamos un ambiente de retroalimentación constructiva mediante revisiones constantes del progreso, compartiendo sugerencias para mejorar la calidad y coherencia del documento. Estas sesiones fueron clave para identificar oportunidades de mejora y garantizar que el informe reflejara adecuadamente los objetivos y avances del proyecto.
-
 Como evidencia de nuestra colaboración y transparencia, incluimos un gráfico de commits en GitHub que muestra visualmente la participación activa de cada integrante en el desarrollo del informe. Estos commits, disponibles en nuestro repositorio, reflejan nuestro compromiso con el trabajo en equipo y la responsabilidad compartida.
 
 <div  align="center">
-<<<<<<< HEAD
-<img src="assets/images/insightstf.png">
-</div>
-
-=======
 <img src="assets/images/GeneralCommits.png">
 </div>
 

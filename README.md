@@ -2139,20 +2139,11 @@ El médico tiene la opción de registrar la posología detallada (nombre, dosis 
 
 ![alt text](assets/images/wireflows/wireflowmedico2.png)
 
-**User Goal: Como médico deseo buscar a un colega dentro de la aplicación para que pueda asignarle a un paciente y pueda atenderlo.**  
-Desde la barra de búsqueda, el médico podrá ingresar el correo del colega. Al seleccionarlo, podrá visualizar su perfil y asignarle pacientes disponibles.
-
-![alt text](assets/images/wireflows/wireflowmedico3.png)
-
-**User Goal: Como médico deseo cambiar mi plan de suscripción para atender a un número mayor de pacientes en la aplicación.**  
-Desde el perfil, el médico podrá acceder a la opción de configuración de plan, revisar los beneficios de cada uno y realizar el pago para actualizarlo.
-
-![alt text](assets/images/wireflows/wireflowmedico4.png)
 
 **User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.**  
 Al acceder al calendario, el médico podrá seleccionar fechas y horarios específicos, y asignar pacientes disponibles a esos espacios.
 
-![alt text](assets/images/wireflows/wireflowmedico5.png)
+![alt text](assets/images/wireflows/wireflowmedico3.png)
 
 ### **Administrador**
 
@@ -2181,10 +2172,6 @@ Para este objetivo, el administrador accede a la sección de solicitudes, donde 
 
 ![alt text](assets/images/wireflows/wireflowadmin5.png)
 
-
-
-Para visualizar el conjunto completo de wireflows, puede acceder a su diseño en Lucid Chart través del siguiente enlace: [Ver en Lucid Chart](https://lucid.app/lucidchart/0967f75e-34ef-40ff-8351-0f57c9f1d5bb/edit?viewport_loc=-2450%2C-5440%2C7703%2C3775%2C0_0&invitationId=inv_9a095da7-43ac-4c36-8e72-3372526e8412)
-  
   
 #### 4.4.3 Mobile Applications Mock-ups
 #### 4.4.4 Mobile Applications User Flow Diagrams

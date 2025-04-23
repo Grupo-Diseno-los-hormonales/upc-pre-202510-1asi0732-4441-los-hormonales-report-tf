@@ -2100,55 +2100,32 @@ Cada pantalla representa una funcionalidad clave dentro de la aplicación, permi
 ### **Pacientes**
 
 **User Goal: Como paciente deseo registrarme para ingresar a la aplicación.**  
-Para este objetivo, el paciente accede a la página de inicio, selecciona la opción para crear una cuenta y escoge el tipo de usuario como “Paciente”. Luego completa un formulario con su información personal. Al finalizar el registro, es dirigido directamente a su panel principal en la aplicación.
 
 ![alt text](assets/images/wireflows/wireflowpaciente1.png)
 
 **User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.**  
-Para este objetivo, desde su pantalla principal, el paciente hace clic en la sección de médicos disponibles. Ahí puede explorar una lista filtrable de doctores, seleccionar al que prefiera y ver su perfil completo con especialidades, horarios y reputación.
 
 ![alt text](assets/images/wireflows/wireflowpaciente2.png)
 
 **User Goal: Como paciente deseo agendar mi primera cita con el médico escogido para iniciar con mi tratamiento.**  
-Para este objetivo, una vez que el paciente haya ingresado al perfil del médico, puede elegir una fecha y hora dentro de los horarios disponibles. Luego de confirmar, el sistema le solicitará el método de pago y al completarlo, se mostrará la cita ya registrada en su vista principal.
 
 ![alt text](assets/images/wireflows/wireflowpaciente3.png)
 
 **User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.**  
-Para este objetivo, el paciente ingresa su correo electrónico y contraseña en la pantalla de login. Al presionar el botón de ingresar, accede automáticamente a su panel de usuario dentro del sistema.
 
 ![alt text](assets/images/wireflows/wireflowpaciente4.png)
 
-**User Goal: Como paciente deseo acceder a mi cita médica para poder recibir mi tratamiento.**  
-Para este objetivo, el paciente, desde la pantalla principal, puede acceder al botón de su próxima cita. Al hacer clic, se abre automáticamente una ventana de videollamada con su médico tratante.
+**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
 
 ![alt text](assets/images/wireflows/wireflowpaciente5.png)
 
-**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
-Para este objetivo, el paciente selecciona el ícono de calendario en la barra superior. Al hacerlo, se despliega una vista con los días 
-marcados donde tiene citas médicas agendadas.
+**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
 
 ![alt text](assets/images/wireflows/wireflowpaciente6.png)
 
-**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
-Para este objetivo, desde la pantalla principal, al hacer clic en el ícono de campana, el sistema muestra una lista con notificaciones recibidas. Cada una puede desplegar más detalles al hacer clic sobre ella.
+**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
 
 ![alt text](assets/images/wireflows/wireflowpaciente7.png)
-
-**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
-Para este objetivo, el paciente accede a la sección de exámenes. El sistema muestra cuáles están pendientes de envío. Al seleccionar uno, puede adjuntar el archivo y enviarlo directamente al historial médico.
-
-![alt text](assets/images/wireflows/wireflowpaciente8.png)
-
-**User Goal: Como paciente deseo chatear con mi doctor para poder absolver consultas.**  
-Para este objetivo, el paciente puede acceder al chat desde el ícono de mensajes. Se abre una ventana emergente donde puede escribir al médico y recibir respuestas en tiempo real.
-
-![alt text](assets/images/wireflows/wireflowpaciente10.png)
-
-**User Goal: Como usuario deseo editar los datos de mi perfil.**  
-Para este objetivo, el paciente hace clic en su imagen de perfil y accede a una sección editable donde puede actualizar sus datos personales y de contacto.
-
-![alt text](assets/images/wireflows/wireflowpaciente11.png)
 
 
 ### **Médicos**

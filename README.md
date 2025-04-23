@@ -2074,7 +2074,23 @@ Para el diseño del mock-up de la landing page se consideró lo siguiente: se ap
 ![alt text](assets/images/animado5.png)
 
 **4.4. Mobile Applications UI/UX Design**  
-  **4.4.1 Mobile Applications Wireframes**  
+
+**4.4.1 Mobile Applications Wireframes**  
+
+En las siguientes imágenes se presentan los wireframes diseñados para la versión móvil del sistema, contemplando los perfiles de paciente, médico y administrador. Cada pantalla representa los flujos clave de interacción dentro de la app, adaptados a una experiencia ágil y responsiva.
+
+Las interfaces cubren funcionalidades como recordatorios, historial médico, agendamiento de citas, mensajería interna y gestión administrativa. Todo ha sido estructurado con base en principios de usabilidad y jerarquía visual, asegurando claridad y eficiencia en la navegación móvil.
+  
+  ### Wireframes para iOS
+  
+  ![Wireframes iOS](assets/images/Wireframes%20mobile/ioswireframes.png)
+  
+  ### Wireframes para Android
+  
+  ![Wireframes Android](assets/images/Wireframes%20mobile/androidwireframes.png)
+  
+  Para visualizar el conjunto completo de wireframes, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+
   **4.4.2 Mobile Applications Wireframes Diagrams**  
   **4.4.3 Mobile Applications Mock-ups**  
   **4.4.4 Mobile Applications User Flow Diagrams**

@@ -2091,13 +2091,130 @@ Las interfaces cubren funcionalidades como recordatorios, historial médico, age
   
   Para visualizar el conjunto completo de wireframes, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
 
-  **4.4.2 Mobile Applications Wireframes Diagrams**  
-  **4.4.3 Mobile Applications Mock-ups**  
-  **4.4.4 Mobile Applications User Flow Diagrams**
+#### 4.4.2 Mobile Applications Wireframes Diagrams 
 
-**4.5 Mobile Applications Prototyping**  
-  **4.5.1 Android Mobile Applications Prototyping**  
-  **4.5.2 IOS Mobile Applications Prototyping**
+Para la elaboración de los Wireflow Diagrams móviles, se ha estructurado cada flujo de interacción con base en los User Goals y User Personas definidos para HormonalCare.
+Cada pantalla representa una funcionalidad clave dentro de la aplicación, permitiendo visualizar cómo se ejecutan las tareas desde un dispositivo móvil, manteniendo una experiencia clara, intuitiva y centrada en el usuario.
+
+
+### **Pacientes**
+
+**User Goal: Como paciente deseo registrarme para ingresar a la aplicación.**  
+Para este objetivo, el paciente accede a la página de inicio, selecciona la opción para crear una cuenta y escoge el tipo de usuario como “Paciente”. Luego completa un formulario con su información personal. Al finalizar el registro, es dirigido directamente a su panel principal en la aplicación.
+
+![alt text](assets/images/wireflows/wireflowpaciente1.png)
+
+**User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.**  
+Para este objetivo, desde su pantalla principal, el paciente hace clic en la sección de médicos disponibles. Ahí puede explorar una lista filtrable de doctores, seleccionar al que prefiera y ver su perfil completo con especialidades, horarios y reputación.
+
+![alt text](assets/images/wireflows/wireflowpaciente2.png)
+
+**User Goal: Como paciente deseo agendar mi primera cita con el médico escogido para iniciar con mi tratamiento.**  
+Para este objetivo, una vez que el paciente haya ingresado al perfil del médico, puede elegir una fecha y hora dentro de los horarios disponibles. Luego de confirmar, el sistema le solicitará el método de pago y al completarlo, se mostrará la cita ya registrada en su vista principal.
+
+![alt text](assets/images/wireflows/wireflowpaciente3.png)
+
+**User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.**  
+Para este objetivo, el paciente ingresa su correo electrónico y contraseña en la pantalla de login. Al presionar el botón de ingresar, accede automáticamente a su panel de usuario dentro del sistema.
+
+![alt text](assets/images/wireflows/wireflowpaciente4.png)
+
+**User Goal: Como paciente deseo acceder a mi cita médica para poder recibir mi tratamiento.**  
+Para este objetivo, el paciente, desde la pantalla principal, puede acceder al botón de su próxima cita. Al hacer clic, se abre automáticamente una ventana de videollamada con su médico tratante.
+
+![alt text](assets/images/wireflows/wireflowpaciente5.png)
+
+**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
+Para este objetivo, el paciente selecciona el ícono de calendario en la barra superior. Al hacerlo, se despliega una vista con los días 
+marcados donde tiene citas médicas agendadas.
+
+![alt text](assets/images/wireflows/wireflowpaciente6.png)
+
+**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
+Para este objetivo, desde la pantalla principal, al hacer clic en el ícono de campana, el sistema muestra una lista con notificaciones recibidas. Cada una puede desplegar más detalles al hacer clic sobre ella.
+
+![alt text](assets/images/wireflows/wireflowpaciente7.png)
+
+**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
+Para este objetivo, el paciente accede a la sección de exámenes. El sistema muestra cuáles están pendientes de envío. Al seleccionar uno, puede adjuntar el archivo y enviarlo directamente al historial médico.
+
+![alt text](assets/images/wireflows/wireflowpaciente8.png)
+
+**User Goal: Como paciente deseo chatear con mi doctor para poder absolver consultas.**  
+Para este objetivo, el paciente puede acceder al chat desde el ícono de mensajes. Se abre una ventana emergente donde puede escribir al médico y recibir respuestas en tiempo real.
+
+![alt text](assets/images/wireflows/wireflowpaciente10.png)
+
+**User Goal: Como usuario deseo editar los datos de mi perfil.**  
+Para este objetivo, el paciente hace clic en su imagen de perfil y accede a una sección editable donde puede actualizar sus datos personales y de contacto.
+
+![alt text](assets/images/wireflows/wireflowpaciente11.png)
+
+
+### **Médicos**
+**User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan cómo deben llevar su vida cotidiana de ahora en adelante con los medicamentos que se les fue asignado.**  
+A través de la misma vista de diagnóstico, se podrá ingresar información sobre el tratamiento y medicación indicada.
+
+![alt text](assets/images/wireflows/wireflowmedico1.png)
+
+**User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.**  
+El médico tiene la opción de registrar la posología detallada (nombre, dosis y frecuencia) para cada medicamento recetado.
+
+![alt text](assets/images/wireflows/wireflowmedico2.png)
+
+**User Goal: Como médico deseo buscar a un colega dentro de la aplicación para que pueda asignarle a un paciente y pueda atenderlo.**  
+Desde la barra de búsqueda, el médico podrá ingresar el correo del colega. Al seleccionarlo, podrá visualizar su perfil y asignarle pacientes disponibles.
+
+![alt text](assets/images/wireflows/wireflowmedico3.png)
+
+**User Goal: Como médico deseo cambiar mi plan de suscripción para atender a un número mayor de pacientes en la aplicación.**  
+Desde el perfil, el médico podrá acceder a la opción de configuración de plan, revisar los beneficios de cada uno y realizar el pago para actualizarlo.
+
+![alt text](assets/images/wireflows/wireflowmedico4.png)
+
+**User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.**  
+Al acceder al calendario, el médico podrá seleccionar fechas y horarios específicos, y asignar pacientes disponibles a esos espacios.
+
+![alt text](assets/images/wireflows/wireflowmedico5.png)
+
+### **Administrador**
+
+**User Goal: Como administrador deseo recibir y gestionar los mensajes entre médicos y pacientes para mantener una comunicación fluida y ordenada.**  
+Para este objetivo, el administrador accede a la bandeja de mensajes. Desde ahí, puede visualizar los mensajes recibidos, seleccionar uno para ver su contenido completo, y luego responder, reenviar o archivar el mensaje según corresponda.
+
+![alt text](assets/images/wireflows/wireflowadmin1.png)
+
+**User Goal: Como administrador deseo gestionar usuarios conflictivos para mantener un ambiente seguro dentro de la plataforma.**  
+Para este objetivo, el administrador accede a la sección de usuarios reportados, donde puede revisar los detalles de cada queja recibida. Al seleccionar un caso, tiene opciones para responder, reenviar o proceder con la eliminación del usuario desde su perfil. En caso de eliminarlo, se despliega una confirmación final antes de bloquear el acceso de forma permanente.
+
+![alt text](assets/images/wireflows/wireflowadmin2.png)
+
+**User Goal: Como administrador deseo enviar comunicados importantes a médicos y pacientes para informar sobre mantenimientos o novedades de la plataforma.**  
+Para este objetivo, el administrador accede al módulo de envío de comunicados, donde selecciona el grupo de destinatarios (todos, médicos o pacientes), redacta el asunto y el mensaje, y luego envía la notificación global. Esta será vista por los usuarios al iniciar sesión en la aplicación.
+
+![alt text](assets/images/wireflows/wireflowadmin3.png)
+
+**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.**  
+Para este objetivo, el administrador accede al listado de reasignaciones. Desde ahí puede abrir el detalle de un paciente, seleccionar un nuevo médico desde un desplegable y confirmar la reasignación. Una vez realizada, la información se actualiza automáticamente en el perfil del nuevo médico.
+
+![alt text](assets/images/wireflows/wireflowadmin4.png)
+
+**User Goal: Como administrador deseo gestionar solicitudes de soporte técnico para brindar ayuda a los usuarios en caso de inconvenientes.**  
+Para este objetivo, el administrador accede a la sección de solicitudes, donde puede ver el estado de cada caso abierto. Al seleccionar una solicitud, se abre una ventana de chat en la que puede comunicarse directamente con el usuario, y además cambiar el estado del requerimiento a pendiente, en proceso, resuelto o cerrado.
+
+![alt text](assets/images/wireflows/wireflowadmin5.png)
+
+
+
+Para visualizar el conjunto completo de wireflows, puede acceder a su diseño en Lucid Chart través del siguiente enlace: [Ver en Lucid Chart](https://lucid.app/lucidchart/0967f75e-34ef-40ff-8351-0f57c9f1d5bb/edit?viewport_loc=-2450%2C-5440%2C7703%2C3775%2C0_0&invitationId=inv_9a095da7-43ac-4c36-8e72-3372526e8412)
+  
+  
+#### 4.4.3 Mobile Applications Mock-ups
+#### 4.4.4 Mobile Applications User Flow Diagrams
+
+### 4.5 Mobile Applications Prototyping  
+#### 4.5.1 Android Mobile Applications Prototyping  
+#### 4.5.2 IOS Mobile Applications Prototyping
 
 **4.6 Web Application UX/UI Design**  
 En esta sección, se presentan los resultados del diseño de la aplicación web HormonalCare desarrollada en Figma, centrada en la experiencia de usuario para médicos endocrinólogos y pacientes.

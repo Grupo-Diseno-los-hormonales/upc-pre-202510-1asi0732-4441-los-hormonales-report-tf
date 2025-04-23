@@ -1905,14 +1905,59 @@ Cada color fue elegido estratégicamente para construir una interfaz amable, cla
 
 ![alt text](assets/images/iconos.png)
 
-**4.1.3 Mobile Style Guidelines**  
-  **4.1.3.1. IOS Mobile Style Guidelines**  
-  **4.1.3.2. Android Mobile Style Guidelines**
+#### 4.1.3 Mobile Style Guidelines  
+##### 4.1.3.1. IOS Mobile Style Guidelines
+  La versión de **HormonalCare en iOS** ha sido diseñada siguiendo las *Human Interface Guidelines* de Apple, enfocándose en la claridad, profundidad y tactilidad. El diseño se adapta perfectamente a las pantallas de iPhone, manteniendo un equilibrio entre el estilo moderno y la funcionalidad intuitiva.
 
-**4.2 Information Architecture**  
+- **Colores predominantes:**  
+  - Fondo de botones: `#A78AAB`  
+  - Componentes secundarios y contenedores: `#8F7193`
+![alt text](<assets/images/stylemobile/coloresmobile.png>)
+
+- **Tipografía:**  
+  - **Inter Bold 20px** para títulos  
+  - **Inter Regular 15px** para el cuerpo de texto  
+  - Garantiza legibilidad en pantallas pequeñas, manteniendo una estética sobria y empática.
+
+![alt text](<assets/images/stylemobile/tipografiamobile.png>)
+
+- **Componentes clave:**  
+  - **Botones accesibles** con bordes suaves y etiquetas claras  
+  - **Iconografía uniforme y minimalista** (usuario, calendario, historial médico, etc.)  
+  - **Interacciones fluidas y nativas**, con transiciones suaves y retroalimentación táctil
+    
+![alt text](<assets/images/stylemobile/componentesmobile.png>)
+
+
+##### 4.1.3.2. Android Mobile Style Guidelines
+
+En Android, **HormonalCare** se rige por los principios de *Material Design*, priorizando la jerarquía visual, interacción táctil y adaptabilidad en distintos dispositivos y resoluciones.
+
+- **Colores predominantes:**  
+  - Fondo de botones: `#A78AAB`  
+  - Áreas de fondo y tarjetas secundarias: `#8F7193`  
+  - Se conserva la coherencia cromática multiplataforma
+![alt text](<assets/images/stylemobile/coloresmobile.png>)
+
+- **Tipografía:**  
+  - **Inter 20px** para títulos (`headlineSmall`)  
+  - **Inter 15px** para cuerpo (`bodyMedium`)  
+  - Cumple con las normas de accesibilidad y jerarquía de Material Design
+
+![alt text](<assets/images/stylemobile/tipografiamobile.png>)
+
+- **Componentes clave:**  
+  - **Botones Material personalizados**, con ripple effect y texto responsivo  
+  - **Iconografía consistente** compartida con iOS  
+  - **Navegación estructurada**, con scroll vertical y transiciones suaves
+
+![alt text](<assets/images/stylemobile/componentesmobile.png>)
+
+
+### 4.2 Information Architecture  
 En esta sección, el equipo detalla las decisiones y fundamentos que guían la organización del contenido en las experiencias web y móvil de HormonalCare, incluyendo tanto la Landing Page como los módulos de la aplicación para pacientes y médicos. Estas decisiones buscan asegurar que los usuarios puedan acceder fácilmente a funciones clave como citas médicas, historial clínico, recetas, alertas y mensajería. La arquitectura de la información está diseñada para garantizar una navegación fluida, con una estructura clara, jerarquía visual coherente y etiquetas intuitivas que permiten encontrar rápidamente lo que se necesita. Se incluyen estrategias de organización, etiquetado, navegación y búsqueda adaptadas a ambos entornos, asegurando una experiencia consistente y eficiente.
 
-**4.2.1. Organization Systems**  
+#### 4.2.1. Organization Systems
 Para estructurar la arquitectura de la información de HormonalCare, se ha implementado un sistema de organización jerárquico tanto en la experiencia web como móvil, abarcando desde la Landing Page hasta los distintos módulos de la aplicación para pacientes y médicos. Esta organización permite que los usuarios encuentren con facilidad la información médica y las herramientas necesarias para gestionar su salud o brindar atención médica.
 
 **Landing Page**  
@@ -2246,8 +2291,16 @@ Al acceder al calendario, el médico podrá seleccionar fechas y horarios espec�
 
 
 ### 4.5 Mobile Applications Prototyping  
+
+ Para visualizar el prototipo, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+ 
 #### 4.5.1 Android Mobile Applications Prototyping  
+![alt text](assets/images/mobileapplicationprototyping.png)
+
+
 #### 4.5.2 IOS Mobile Applications Prototyping
+![alt text](assets/images/mobileapplicationprototyping.png)
+
 
 **4.6 Web Application UX/UI Design**  
 En esta sección, se presentan los resultados del diseño de la aplicación web HormonalCare desarrollada en Figma, centrada en la experiencia de usuario para médicos endocrinólogos y pacientes.

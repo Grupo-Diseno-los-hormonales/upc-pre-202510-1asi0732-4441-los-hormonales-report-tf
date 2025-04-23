@@ -2148,33 +2148,102 @@ Al acceder al calendario, el médico podrá seleccionar fechas y horarios espec�
 ### **Administrador**
 
 **User Goal: Como administrador deseo recibir y gestionar los mensajes entre médicos y pacientes para mantener una comunicación fluida y ordenada.**  
-Para este objetivo, el administrador accede a la bandeja de mensajes. Desde ahí, puede visualizar los mensajes recibidos, seleccionar uno para ver su contenido completo, y luego responder, reenviar o archivar el mensaje según corresponda.
 
 ![alt text](assets/images/wireflows/wireflowadmin1.png)
 
 **User Goal: Como administrador deseo gestionar usuarios conflictivos para mantener un ambiente seguro dentro de la plataforma.**  
-Para este objetivo, el administrador accede a la sección de usuarios reportados, donde puede revisar los detalles de cada queja recibida. Al seleccionar un caso, tiene opciones para responder, reenviar o proceder con la eliminación del usuario desde su perfil. En caso de eliminarlo, se despliega una confirmación final antes de bloquear el acceso de forma permanente.
 
 ![alt text](assets/images/wireflows/wireflowadmin2.png)
 
 **User Goal: Como administrador deseo enviar comunicados importantes a médicos y pacientes para informar sobre mantenimientos o novedades de la plataforma.**  
-Para este objetivo, el administrador accede al módulo de envío de comunicados, donde selecciona el grupo de destinatarios (todos, médicos o pacientes), redacta el asunto y el mensaje, y luego envía la notificación global. Esta será vista por los usuarios al iniciar sesión en la aplicación.
 
 ![alt text](assets/images/wireflows/wireflowadmin3.png)
 
-**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.**  
-Para este objetivo, el administrador accede al listado de reasignaciones. Desde ahí puede abrir el detalle de un paciente, seleccionar un nuevo médico desde un desplegable y confirmar la reasignación. Una vez realizada, la información se actualiza automáticamente en el perfil del nuevo médico.
+**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.** 
 
 ![alt text](assets/images/wireflows/wireflowadmin4.png)
 
 **User Goal: Como administrador deseo gestionar solicitudes de soporte técnico para brindar ayuda a los usuarios en caso de inconvenientes.**  
-Para este objetivo, el administrador accede a la sección de solicitudes, donde puede ver el estado de cada caso abierto. Al seleccionar una solicitud, se abre una ventana de chat en la que puede comunicarse directamente con el usuario, y además cambiar el estado del requerimiento a pendiente, en proceso, resuelto o cerrado.
 
 ![alt text](assets/images/wireflows/wireflowadmin5.png)
 
   
 #### 4.4.3 Mobile Applications Mock-ups
+
+![alt text](assets/images/userflowmobile/mobilemockup.png)
+
+ Para visualizar el conjunto completo de Mock-Ups, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+ 
+ 
 #### 4.4.4 Mobile Applications User Flow Diagrams
+
+
+### **Pacientes**
+
+**User Goal: Como paciente deseo registrarme para ingresar a la aplicación.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente1.png)
+
+**User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente2.png)
+
+**User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente3.png)
+
+**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente4.png)
+
+**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente5.png)
+
+**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente6.png)
+
+
+### **Médicos**
+**User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan cómo deben llevar su vida cotidiana de ahora en adelante con los medicamentos que se les fue asignado.**  
+A través de la misma vista de diagnóstico, se podrá ingresar información sobre el tratamiento y medicación indicada.
+
+![alt text](assets/images/userflowmobile/userflowmedico1.png)
+
+**User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.**  
+El médico tiene la opción de registrar la posología detallada (nombre, dosis y frecuencia) para cada medicamento recetado.
+
+![alt text](assets/images/userflowmobile/userflowmedico2.png)
+
+
+**User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.**  
+Al acceder al calendario, el médico podrá seleccionar fechas y horarios específicos, y asignar pacientes disponibles a esos espacios.
+
+![alt text](assets/images/userflowmobile/userflowmedico3.png)
+
+### **Administrador**
+
+**User Goal: Como administrador deseo recibir y gestionar los mensajes entre médicos y pacientes para mantener una comunicación fluida y ordenada.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin1.png)
+
+**User Goal: Como administrador deseo gestionar usuarios conflictivos para mantener un ambiente seguro dentro de la plataforma.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin2.png)
+
+**User Goal: Como administrador deseo enviar comunicados importantes a médicos y pacientes para informar sobre mantenimientos o novedades de la plataforma.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin3.png)
+
+**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.** 
+
+![alt text](assets/images/userflowmobile/userflowadmin4.png)
+
+**User Goal: Como administrador deseo gestionar solicitudes de soporte técnico para brindar ayuda a los usuarios en caso de inconvenientes.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin5.png)
+
 
 ### 4.5 Mobile Applications Prototyping  
 #### 4.5.1 Android Mobile Applications Prototyping  

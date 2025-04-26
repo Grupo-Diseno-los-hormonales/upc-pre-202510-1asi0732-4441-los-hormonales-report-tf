@@ -676,7 +676,7 @@ Ambos segmentos coinciden en que una aplicación como **HormonalCare**, que inte
 
 **Entrevista completa:**
 
-Link de las entrevistas completas: 
+Link de las entrevistas completas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQLSn5n6pk1OgjMRcRx96FUBaJAFzmX3j8QLE3KB7wPoHw?e=HY5oJh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Análisis por medio de herramientas estadísticas:**
 
@@ -1825,7 +1825,13 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 
 ### 3.3. Impact Mapping.
 
-<img src="assets/images/impac mapping.png" alt="impac mapping">
+Impact Mapping Para paciente
+
+![alt text](<images/mapping 1.png>)
+
+Impact Mapping para Médico
+
+![alt text](<images/mapping 2.png>)
 
 ### 3.4. Product Backlog.
 Utilizamos la escala de Fibonacci para la estimación de los Story Points 
@@ -3683,3 +3689,7 @@ A continuación, puedes ver el video a través de:
 * Vista de Factores asociados a la no-adherencia al tratamiento farmacológico antihipertensivo en pacientes de un hospital del 		seguro social. (s/f). Org.pe. Recuperado el 01 de abril de 2024, de 								http://cmhnaaa.org.pe/ojs/index.php/rcmhnaaa/article/view/1252/507 
 
 ## ANEXOS
+
+| Nombre del Anexo | Enlace |
+|:-----------------|:-------|
+| Exposición TB1   | [[Ver Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EaDpPSxwGrpCtwN1kgiZEy0BVAzLFN-AEeO3vH6UG2lZgQ?e=gnnZcl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EaDpPSxwGrpCtwN1kgiZEy0BVAzLFN-AEeO3vH6UG2lZgQ?e=6xCKGW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |

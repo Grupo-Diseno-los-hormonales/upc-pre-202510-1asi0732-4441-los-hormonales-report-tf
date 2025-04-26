@@ -627,6 +627,19 @@ Sugiere que la plataforma incluya funcionalidades como recordatorios de medicaci
 Adriana enfatiza que la app debe ser clara, amigable y personalizada para no abrumar a los pacientes, además de integrar aspectos de salud mental y emocional para brindar un acompañamiento integral durante todo el proceso de tratamiento.
 
 
+**Entrevistado N°3: Josue Cordova**  
+**Sexo:** Masculino  
+**Edad:** 33 años  
+**Ubicación:** Lima, Lima, Perú  
+
+![alt text](assets/images/abraham2.png)
+
+**Link de la entrevista:** https://youtu.be/FLm7sMKUpgU
+
+
+**Resumen:** El Dr. Jsoue, endocrinólogo de 33 años residente en Trujillo, trabaja en el sector público y por ratos privador. Utiliza sistemas como MacOs, Windows, el navegador Safari y Chrome y herramientas como Zoom y Medscape. Tiene 5 años de experiencia en su especialidad, tratando principalmente diabetes I  y II, hipotiroidismo. Considera que la atención estatal es baja y opina que una aplicación podría mejorar y facilitar la comunicación, tiempo de espera, el control y la adherencia al tratamiento. Aproximadamente el 50% de sus pacientes cumple con sus tratamientos con seguimiento cada 1 a 2 mesesm y se basa en el control para el tratamiento respectivo del paciente. JOsue valora altamente la seguridad, la privacidad y las funciones prácticas en una app, y cree que el uso de esta tecnología podría incrementar su cartera de pacientes. 
+
+
 #### 2.2.3. Análisis de entrevistas
 
 De acuerdo con la información recopilada de las entrevistas, realizamos el siguiente análisis segmentado:

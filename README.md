@@ -3631,16 +3631,16 @@ En esta sección, presentamos un video detallado sobre HormonalCare, diseñado p
 
 A continuación, puedes ver el video a través de:
 
-**Link video en Youtube:** []() (duración: )
-![About the product](images/abouttheproduct.png)
+**Link video en Youtube:** [https://youtu.be/66uURIoCmIE](https://youtu.be/66uURIoCmIE) (duración: 1:09 )
+![About the product](assets/images/abouttheproduct.png)
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 
-•	Nuestro equipo de NinjaCode ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
+•	Nuestro equipo de Los Hormonales ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
 
 •	A lo largo de este proyecto, hemos enfrentado desafíos significativos, desde la escasez de recursos tecnológicos hasta la competencia en el mercado de la salud digital. Sin embargo, nuestra determinación y compromiso nos han permitido superar obstáculos y seguir adelante.
 
-•	El proyecto de NinjaCode tiene objetivos claros, incluida la optimización de los seguimientos médicos, la reducción de los tiempos de espera y la mejora de la adherencia al tratamiento. Estos objetivos están respaldados por una profunda comprensión de la problemática actual en el sistema de atención médica peruano y una visión innovadora para implementar soluciones tecnológicas efectivas.
+•	El proyecto de Los Hormonales tiene objetivos claros, incluida la optimización de los seguimientos médicos, la reducción de los tiempos de espera y la mejora de la adherencia al tratamiento. Estos objetivos están respaldados por una profunda comprensión de la problemática actual en el sistema de atención médica peruano y una visión innovadora para implementar soluciones tecnológicas efectivas.
 
 •	La aplicación HormonalCare representa un avance significativo en la integración de tecnología digital en el campo de la salud. Desde la gestión eficiente de registros médicos hasta la facilitación de videoconsultas y la comunicación fluida entre pacientes y profesionales de la salud, esta innovación promete revolucionar la forma en que se realiza el seguimiento médico de enfermedades hormonales.
 
@@ -3669,62 +3669,4 @@ A continuación, puedes ver el video a través de:
 
 * Vista de Factores asociados a la no-adherencia al tratamiento farmacológico antihipertensivo en pacientes de un hospital del 		seguro social. (s/f). Org.pe. Recuperado el 01 de abril de 2024, de 								http://cmhnaaa.org.pe/ojs/index.php/rcmhnaaa/article/view/1252/507 
 
-
-
 ## ANEXOS
-
-* Video About-the-Team. 
-
-**Link video en Youtube:** https://youtu.be/DnfOV7qsQBs (duración: 10:19)
-
-
-
-**Link video en Microsoft Stream:** 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EWZOQMv9iqRCtuCOmrtsPQQBsVK6cnPKlrGpj7fWaUTXjw?e=3HHWsv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-(duración: 10:19)
-
-<img src="assets/images/about the team.png" width=400>
-
-[0:00 Presentación]
-
-[0:06 Sesión de trabajo real del equipo]
-
-[05:05 Testimonios]
-
-[05:08 Testimonio de Luis Chinchihualpa]
-
-[06:09 Testimonio de Jherson Astuyauri]
-
-[07:02 Testimonio de Claudio Quispesivana]
-
-[08:04 Testimonio de Estefano Lostaunau]
-
-[08:57 Testimonio de Sebastian Lobato]
-
-[10:07 Despedida]
-
-
-* Video About the product *
-
-**Link video en Youtube:** https://youtu.be/rZrRMwphbxY (duracion: 1:37)
-
-**Link video en Youtube:** https://youtu.be/DnfOV7qsQBs (duración: 10:19)
-
-[0:00 Presentación]
-
-[0:06 Sesión de trabajo real del equipo]
-
-[05:05 Testimonios]
-
-[05:08 Testimonio de Luis Chinchihualpa]
-
-[06:09 Testimonio de Jherson Astuyauri]
-
-[07:02 Testimonio de Claudio Quispesivana]
-
-[08:04 Testimonio de Estefano Lostaunau]
-
-[08:57 Testimonio de Sebastian Lobato]
-
-[10:07 Despedida]

@@ -407,8 +407,6 @@ Estos pacientes buscan soluciones que les ofrezcan atención eficiente, coordina
 Los endocrinólogos en Lima enfrentan desafíos significativos al gestionar el tratamiento de pacientes con trastornos hormonales. La escasez de especialistas y la alta demanda de consultas dificultan su labor diaria, generando sobrecarga de trabajo y reduciendo la capacidad de ofrecer un seguimiento personalizado y continuo.  
 Estos profesionales necesitan soluciones tecnológicas que optimicen su tiempo, faciliten el monitoreo remoto de sus pacientes, mejoren la coordinación entre diferentes especialistas de la salud y les permitan brindar una atención médica más efectiva, ágil y centrada en las necesidades particulares de cada paciente.
 
-
-
 ## Capítulo-II Requirements Elicitation & Analysis 
 
 ### 2.1 Competidores
@@ -535,7 +533,27 @@ Incluye la elaboración de preguntas principales y secundarias dirigidas tanto a
 
 ### 2.2.2 Registro de entrevistas  
 
+**Segmento objetivo \#1: Pacientes con enfermades hormonales**
+
+**Entrevistado N°2: Rodrigo Ismael Vitón**  
+**Sexo:** Masculino  
+**Edad:** 23 años  
+**Ubicación:** Chorrillos, Lima, Perú  
+
+![alt text](assets/images/rodrigo.png)
+
+Link de la entrevista: https://youtu.be/aOPl7IZ2zoM
+
+Resumen: Rodrigo, un joven de 23 años que reside en Chorrillos, Lima, padece hipotiroidismo desde hace un año y medio. Actualmente enfrenta dificultades en el seguimiento de su tratamiento hormonal, principalmente por olvidos en la toma de medicamentos y complicaciones para adquirirlos a tiempo, sumado a la falta de disponibilidad para realizar consultas presenciales frecuentes. A pesar de su ritmo de vida acelerado, muestra gran interés en herramientas tecnológicas que le faciliten el control de su salud, utilizando ya apps como Google Calendar y Medisafe. Rodrigo expresó que valoraría altamente una aplicación como HormonalCare que le permita recibir recordatorios de medicación, tener acceso remoto a resultados médicos, gestionar sus citas de manera virtual y comunicarse directamente con su médico. Considera que una solución digital mejoraría notablemente su adherencia al tratamiento y su calidad de vida. Está fuertemente motivado por alcanzar metas y superar desafíos, y se sentiría más seguro si pudiera realizar el seguimiento de su condición de manera digital, demostrando ser un perfil ideal para el tipo de usuario que HormonalCare busca atender.
+
+
+
+**Segmento objetivo \#2: Médicos Endocrinólogos**
+
+
 ### 2.2.3 Análisis de entrevistas  
+
+
 
 ## 2.3 Needfinding  
 En esta sección se presentarán los artefactos generados a partir del proceso de recopilación realizado en los segmentos objetivo de HormonalCare. Este proceso concluye con la creación de los User Personas, la User Task Matrix, los User Journey Maps, el Empathy Mapping y el As-Is Scenario Mapping, los cuales reflejan las necesidades, comportamientos y puntos de mejora identificados en pacientes y médicos especialistas en salud hormonal.  

@@ -3185,36 +3185,74 @@ A continuación se presentan las evidencias visuales de las diferentes secciones
 
 A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación web implementada:
 
-### 1. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl1.png)
+### 1. Pantalla de log in
+![Pantalla de log in](assets/images/frontendimpl1.png)
 
-### 2. Pantalla de
-![Pantalla de ](assets/images/frontendimpl2.png)
+### 2. Pantalla de selección de rol
+![Pantalla de selección de rol ](assets/images/frontendimpl2.png)
 
-### 3. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl3.png)
+### 3. Pantalla de registro
+![Pantalla de registro](assets/images/frontendimpl3.png)
 
-### 4. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl4.png)
+### 4. Pantalla de encontrar doctor 
+![Pantalla de encontrar doctor ](assets/images/frontendimpl4.png)
 
-### 5. Pantalla de
-![Pantalla de ](assets/images/frontendimpl5.png)
+### 5. Pantalla de doctores disponibles
+![Pantalla de doctores disponibles](assets/images/frontendimpl5.png)
 
-### 6. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl6.png)
+### 6. Pantalla de perfil del doctor
+![Pantalla de perfil del doctor](assets/images/frontendimpl6.png)
 
-### 7. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl7.png)
+### 7. Pantalla de tiempo disponible
+![Pantalla de tiempo disponible ](assets/images/frontendimpl7.png)
 
-### 8. Pantalla de 
-![Pantalla de ](assets/images/frontendimpl8.png)
-
-### 9. Pantalla de
-![Pantalla de](assets/images/frontendimpl9.png)
-
+### 8. Pantalla de pagos
+![Pantalla de pagos](assets/images/frontendimpl8.png)
 
 
 ## 5.2.4 Acuerdo de Servicio - SaaS
+
+El presente Acuerdo de Servicio (el "Acuerdo") establece los términos y condiciones bajo los cuales los usuarios podrán acceder y utilizar la plataforma **HormonalCare** como parte del servicio SaaS (Software as a Service) proporcionado por **Los Hormonales**. Este Acuerdo es aplicable a todos los usuarios que utilicen el servicio, ya sea de manera gratuita o mediante suscripción.
+
+### 1. **Definiciones**
+   - **"Plataforma"**: Se refiere al servicio en línea proporcionado por **Los Hormonales** para la gestión de enfermedades hormonales, disponible a través de la web y la aplicación móvil **HormonalCare**.
+   - **"Usuario"**: Cualquier persona que acceda a la plataforma **HormonalCare** para utilizar los servicios ofrecidos.
+   - **"Servicios"**: Los servicios proporcionados por la plataforma **HormonalCare**, incluyendo acceso a consultas médicas, seguimiento de tratamientos, gestión de citas médicas, entre otros.
+   
+### 2. **Derechos y Obligaciones del Usuario**
+   - El usuario tiene el derecho de utilizar la plataforma **HormonalCare** de acuerdo con las funcionalidades proporcionadas.
+   - El usuario es responsable de proporcionar información precisa y actualizada al registrarse y utilizar el servicio.
+   - El usuario se compromete a utilizar la plataforma únicamente para fines legales y en conformidad con los términos del presente Acuerdo.
+   - El usuario deberá cumplir con las políticas de privacidad y seguridad aplicables, protegiendo su cuenta de acceso.
+
+### 3. **Licencia de Uso**
+   **Los Hormonales** concede al usuario una licencia no exclusiva, intransferible y limitada para acceder y utilizar la plataforma **HormonalCare** durante el período de validez del servicio contratado.
+
+### 4. **Obligaciones de Los Hormonales**
+   - **Los Hormonales** se comprometen a garantizar la disponibilidad y accesibilidad del servicio, sujeto a mantenimiento programado y circunstancias fuera de su control.
+   - **Los Hormonales** garantizan que los datos del usuario serán tratados conforme a su Política de Privacidad y las normativas aplicables en materia de protección de datos.
+
+### 5. **Limitaciones de Responsabilidad**
+   **Los Hormonales** no serán responsables por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o la imposibilidad de uso de la plataforma **HormonalCare**, incluyendo, pero no limitado a, la pérdida de datos o interrupciones en el servicio.
+
+### 6. **Suspensión o Terminación de Servicios**
+   - **Los Hormonales** se reservan el derecho de suspender o terminar el acceso de un usuario a la plataforma **HormonalCare** en caso de violaciones de este Acuerdo, incluyendo el uso inapropiado de la plataforma, o el incumplimiento de las políticas establecidas.
+   - El usuario puede cancelar su cuenta en cualquier momento, sujeto a los términos de cancelación aplicables.
+
+### 7. **Confidencialidad**
+   Ambas partes se comprometen a mantener la confidencialidad de cualquier información confidencial intercambiada durante la duración del Acuerdo, y a no divulgar dicha información sin el consentimiento expreso de la otra parte, excepto cuando lo exija la ley.
+
+### 8. **Modificaciones del Acuerdo**
+   **Los Hormonales** se reservan el derecho de modificar este Acuerdo en cualquier momento. Las modificaciones se publicarán en la sección de "Términos y Condiciones" de la plataforma **HormonalCare**, y el usuario será notificado de las actualizaciones.
+
+### 9. **Cumplimiento Normativo**
+   El uso de la plataforma **HormonalCare** debe cumplir con todas las leyes y regulaciones aplicables, incluidas aquellas relacionadas con la protección de datos personales, propiedad intelectual y otros derechos de propiedad.
+
+### 10. **Resolución de Conflictos**
+   En caso de controversias derivadas del uso de la plataforma **HormonalCare**, ambas partes acuerdan resolver los conflictos mediante un proceso de mediación antes de recurrir a procedimientos legales.
+
+### 11. **Vigencia**
+   Este Acuerdo entrará en vigencia desde el momento en que el usuario acceda por primera vez a la plataforma **HormonalCare** y continuará en vigor hasta que sea terminado por cualquiera de las partes, conforme a las disposiciones del Acuerdo.
 
 ## 5.2.5 Implemented Native-Mobile Application Evidence
 

@@ -3193,30 +3193,68 @@ A continuación se presentan las evidencias visuales de las diferentes secciones
 
 A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación móvil implementada:
 
-### 1. Pantalla de Home
-![Pantalla de Home](assets/images/mobile1.jpg)
+### 1. Pantalla de sign in
+![Pantalla de sign in](assets/images/mobile1.jpg)
 
 ### 2. Pantalla de Selección de Rol
 ![Pantalla de Selección de Rol](assets/images/mobile2.jpg)
 
-### 3. Pantalla de Información de Pacientes
-![Pantalla de Información de Pacientes](assets/images/mobile3.png)
+### 3. Pantalla de los pacientes de hoy
+![Pantalla de los pacientes de hoy](assets/images/mobile3.png)
 
-### 4. Pantalla de Lista de Pacientes Programados
-![Pantalla de Lista de Pacientes Programados](assets/images/mobile4.jpg)
+### 4. Pantalla de añadir una cita médica
+![Pantalla de añadir una cita médica](assets/images/mobile4.jpg)
 
-### 5. Pantalla de Notificaciones de Citas
-![Pantalla de Notificaciones de Citas](assets/images/mobile5.jpg)
+### 5. Pantalla de Calendario
+![Pantalla de Calendario](assets/images/mobile5.jpg)
 
-### 6. Pantalla de Programación de Citas
-![Pantalla de Programación de Citas](assets/images/mobile6.jpg)
+### 6. Pantalla de Diagnostico y tratamiento del paciente
+![Pantalla de Diagnostico y tratamiento del pacienteo](assets/images/mobile6.jpg)
 
-### 7. Pantalla de Gestión de Horario
-![Pantalla de Gestión de Horario](assets/images/mobile7.jpg)
+### 7. Pantalla de perfil de usuario como médico
+![Pantalla de perfil de usuario como médico](assets/images/mobile7.jpg)
 
 
 
 ## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
+## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
+### 1. Authentication - Sign-up Endpoint
+![Endpoint de Sign-up](assets/images/endpoint1.png)
+
+### 2. Authentication - Sign-in Endpoint
+![Endpoint de Sign-in](assets/images/endpoint2.png)
+
+### 3. Roles 
+![Endpoint de Roles](assets/images/endpoint3.png)
+
+### 4. Users 
+![Endpoint de Usuarios](assets/images/endpoint4.png)
+
+### 5. User Profile 
+![Endpoint de Perfil de Usuario](assets/images/endpoint5.png)
+
+### 6. Notification 
+![Endpoint de Notificación](assets/images/endpoint6.png)
+
+### 7. Medical Appointment 
+![Endpoint de Cita Médica](assets/images/endpoint7.png)
+
+### 8. Treatment 
+![Endpoint de Tratamiento](assets/images/endpoint8.png)
+
+### 9. Medical Record
+![Endpoint de Historia Médica](assets/images/endpoint9.png)
+
+### 10. Patient 
+![Endpoint de Paciente](assets/images/endpoint10.png)
+
+### 11. Medication 
+![Endpoint de Medicación](assets/images/endpoint11.png)
+
+### 12. Doctor 
+![Endpoint de Doctor](assets/images/endpoint12.png)
 
 
 ## 5.2.7 RESTful API Documentation

@@ -551,9 +551,58 @@ Resumen: Rodrigo, un joven de 23 años que reside en Chorrillos, Lima, padece hi
 **Segmento objetivo \#2: Médicos Endocrinólogos**
 
 
-### 2.2.3 Análisis de entrevistas  
+#### 2.2.3. Análisis de entrevistas
+
+De acuerdo con la información recopilada de las entrevistas, realizamos el siguiente análisis segmentado:
+
+### Segmento objetivo #1: Pacientes con enfermedades hormonales
+
+**Hallazgos:**
+
+- Los pacientes enfrentan dificultades en el cumplimiento del tratamiento debido al olvido de medicación y falta de seguimiento cercano.
+- Se sienten frustrados por los largos tiempos de espera en citas médicas, la falta de claridad sobre su evolución clínica y la escasa comunicación con su médico.
+- Manifiestan interés en el uso de una app que les permita gestionar su historial, recibir recordatorios automáticos y consultar resultados hormonales de manera fácil y rápida.
+- Consideran que la comunicación directa con su endocrinólogo a través de una app aumentaría su motivación y sensación de acompañamiento médico.
+- Valoran funcionalidades como alertas de medicación, recordatorios de citas, acceso a resultados de laboratorio y gráficas de evolución hormonal.
+
+### Segmento objetivo #2: Médicos especialistas en endocrinología
+
+**Hallazgos:**
+
+- La mayoría de los médicos realiza seguimientos presenciales, pero existe alta disposición para adoptar herramientas digitales de telemonitoreo.
+- Se reportan dificultades para realizar ajustes de tratamiento en tiempo real debido a la falta de datos actualizados de los pacientes.
+- El control ideal debería ser más frecuente, sin depender exclusivamente de visitas presenciales.
+- Valoran altamente una plataforma que permita acceso al historial hormonal, generación automática de reportes y notificaciones sobre alteraciones críticas.
+- Consideran que una aplicación como HormonalCare puede optimizar su tiempo, mejorar la adherencia terapéutica de los pacientes y facilitar la gestión remota de tratamientos.
+- Priorizarían el uso de la plataforma si esta ofrece facilidad de uso, seguridad de datos y funcionalidad específica para el monitoreo hormonal.
+
+### Conclusiones generales
+
+Los hallazgos del **segmento 1** (pacientes hormonales) reflejan una necesidad importante por soluciones que les permitan llevar un control más autónomo, claro y seguro de su enfermedad, manteniendo siempre la comunicación fluida con su médico.
+
+En el **segmento 2** (médicos especialistas), se evidencia una necesidad clara de digitalizar el seguimiento de pacientes, optimizar tiempos, mejorar la adherencia y asegurar un monitoreo más efectivo y continuo.
+
+Ambos segmentos coinciden en que una aplicación como **HormonalCare**, que integre comunicación médica, historial clínico digitalizado, recordatorios inteligentes y análisis de evolución hormonal, mejoraría significativamente la experiencia de seguimiento y tratamiento, tanto para pacientes como para profesionales de la salud.
 
 
+**Entrevista completa:**
+
+Link de las entrevistas completas: 
+
+**Análisis por medio de herramientas estadísticas:**
+
+Segmento Objetivo 1: https://forms.gle/stAdtJ7i9BXNpVWF7
+
+![alt text](<assets/images/segmento 1.png>)
+
+![alt text](<assets/images/segmento 1.1.png>)
+
+
+Segmento objetivo 2: https://forms.gle/8fnMNcT7XupidRfz5
+
+![alt text](<assets/images/segmento 2.png>)
+
+![alt text](assets/images/sgemento2.png)
 
 ## 2.3 Needfinding  
 En esta sección se presentarán los artefactos generados a partir del proceso de recopilación realizado en los segmentos objetivo de HormonalCare. Este proceso concluye con la creación de los User Personas, la User Task Matrix, los User Journey Maps, el Empathy Mapping y el As-Is Scenario Mapping, los cuales reflejan las necesidades, comportamientos y puntos de mejora identificados en pacientes y médicos especialistas en salud hormonal.  

@@ -3120,6 +3120,48 @@ El despliegue del **backend** también está en proceso, y pronto se publicará 
 
 ## 5.2.1 Sprint Backlogs
 
+-Sprint Planning 1
+
+|Sprint #|Sprint 1|
+| - | - |
+|**Sprint Planning Background**||
+|Date|2025-04-10|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Astuyauri Calderon Jherson David|
+|Attendees (to planning meeting)|Astuyauri Calderon, Jherson David (U202218451) / Carranza Tesen, Joaquin Enrique (U20191B935) / Estrada Cajamune, Abraham Andres (U202112164) / Gamio Upiachihua, Brenda Lucía (U202120344) / Soto Quispe, Diego Ulises (U202214477)|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Organizar las secciones asignadas a cada uno para implementar y completar los capitulso correspondientes a la entrega del TB1.|
+|Sprint 1 Velocity|40|
+|Sum of Story Points|39|
+
+Aquí tienes el Sprint Backlog para el Sprint 1 basado en las historias de usuario que mencionaste:
+
+---
+
+##### 5.2.1.2. Sprint Backlog 1
+
+En el primer sprint de nuestra aplicación "HormonalCare", nos centraremos en la implementación de las funcionalidades clave de inicio de sesión, selección de roles, visualización de pacientes y gestión de citas. Este sprint establece las bases para una experiencia de usuario fluida y organizada, permitiendo a médicos y pacientes acceder a sus configuraciones y gestionar citas de manera eficiente.
+# Sprint Backlog 1 - HormonalCare
+
+
+| **User Story** | **Work-Item / Task** | **Descripción** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In Process / To-Review / Done)** |
+|:---------------:|:--------------------:|:---------------:|:----------------------:|:--------------:|:--------------------------------------------------:|
+| EP01/US04 | **T01** Inicio de sesión | Desarrollar la funcionalidad de inicio de sesión para usuarios registrados en "HormonalCare" | 3 | Astuyauri Calderon | Done |
+| EP01/US05 | **T01** Selección de Rol | Implementar la opción para que el usuario elija su rol (paciente o médico) al iniciar sesión | 3 | Carranza Tesen | Done |
+| EP04/US07 | **T01** Visualización detallada de pacientes | Mostrar una vista detallada del estado de los pacientes para los médicos | 3 | Estrada Cajamune | Done |
+| EP03/US08 | **T01** Lista de pacientes programados | Visualizar la lista de pacientes programados para el día para médicos | 3 | Gamio Upiachihua | Done |
+| EP07/US09 | **T01** Notificaciones de citas | Desarrollar la funcionalidad de notificaciones para citas programadas | 2 | Soto Quispe | Done |
+| EP03/US11 | **T01** Programar citas | Crear una opción para que los médicos agenden citas de seguimiento | 3 | Astuyauri Calderon | Done |
+| EP03/US12 | **T01** Gestión de Horarios del Médico | Implementar la vista de horarios del médico, con opción de crear nuevos eventos | 5 | Carranza Tesen | Done |
+| EP04/US16 | **T01** Historia clínica del paciente | Visualizar la historia clínica estructurada del paciente | 3 | Estrada Cajamune | Done |
+| EP04/US17 | **T01** Editar historia clínica | Permitir que los médicos editen la historia clínica del paciente | 3 | Gamio Upiachihua | Done |
+| EP09/US28 | **T01** Tratamiento farmacológico | Visualizar y modificar el tratamiento farmacológico del paciente | 5 | Soto Quispe | Done |
+| EP04/US39 | **T01** Diagnóstico y tratamiento | Añadir diagnóstico y tratamiento para el paciente | 3 | Astuyauri Calderon | Done |
+| US40 | **T01** Visualización del perfil | Permitir a los usuarios (médicos/pacientes) ver su perfil con información relevante | 3 | Carranza Tesen | Done |
+| EP08/US21 | **T01** Enviar comunicados | Implementar una opción para que los administradores envíen comunicados a médicos/pacientes | 3 | Estrada Cajamune | Done |
+
+
 ## 5.2.2 Implemented Landing Page Evidence
 
 ## 5.2.3 Implemented Frontend-Web Application Evidence

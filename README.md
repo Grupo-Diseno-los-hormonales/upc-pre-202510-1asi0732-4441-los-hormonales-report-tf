@@ -39,9 +39,13 @@
 
 ## Registro de versiones del informe
 
-| Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
-|:-----:|:--------:|:--------:|:--------:|
-| TB1     | 26/04/2025 | Los Hormonales | El equipo realizó la entrega del TB1 lo que incluye los capítulos I, II, III ,IV y V completos.  |
+| Versión | Fecha       | Autor         | Descripción de la modificación |
+|:-------:|:-----------:|:-------------:|:-------------------------------:|
+| TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
+| TP1     | --          | --             | --                             |
+| TB2     | --          | --             | --                             |
+| TF1     | --          | --             | --                             |
+
 
 
 ## Project Report Collaboration Insights
@@ -49,9 +53,7 @@
 El URL del repositorio se encuentra en: [https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/](https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/).
 
 
-TB1:
-
-Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
+TB1: Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
 
 Adoptamos un enfoque colaborativo y transparente para el desarrollo del informe, estableciendo un repositorio en la organización de GitHub de nuestro equipo, donde cada miembro contribuyó activamente.
 
@@ -66,192 +68,114 @@ Como evidencia de nuestra colaboración y transparencia, incluimos un gráfico d
 Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que también promovió un sentido de pertenencia y compromiso con el proyecto en todos los miembros del equipo. Estamos comprometidos a mantener este nivel de colaboración y excelencia en futuras entregas del informe.
 
 
-## Contenido
+# Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)  
+- [Student Outcome](#student-outcome)  
+
+## Capítulo I: Introducción
+
+- [1.1. Startup Profile](#11-startup-profile)  
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+- [1.2. Solution Profile](#12-solution-profile)  
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)  
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)  
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+- [2.1. Competidores](#21-competidores)  
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+- [2.2. Entrevistas](#22-entrevistas)  
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
+- [2.3. Needfinding](#23-needfinding)  
+  - [2.3.1. User Personas](#231-user-personas)  
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)  
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)  
+
+## Capítulo III: Requirements Specification
+
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+- [3.2. User Stories](#32-user-stories)  
+- [3.3. Product Backlog](#33-product-backlog)  
+- [3.4. Impact Mapping](#34-impact-mapping)  
+
+## Capítulo IV: Product Design
+
+- [4.1. Style Guidelines](#41-style-guidelines)  
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
+- [4.2. Information Architecture](#42-information-architecture)  
+  - [4.2.1. Organization Systems](#421-organization-systems)  
+  - [4.2.2. Labeling Systems](#422-labeling-systems)  
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+  - [4.2.4. Searching Systems](#424-searching-systems)  
+  - [4.2.5. Navigation Systems](#425-navigation-systems)  
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-ux-ui-design)  
+  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)  
+  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
+  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)  
+  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)  
+  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)  
+- [4.6. Web Applications UX/UI Design](#46-web-applications-ux-ui-design)  
+  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)  
+  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
+  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)  
+  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
+  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)  
+  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)  
+  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)  
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
+  - [4.9.1. Class Diagrams](#491-class-diagrams)  
+  - [4.9.2. Class Dictionary](#492-class-dictionary)  
+- [4.10. Database Design](#410-database-design)  
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)  
+
+## Capítulo V: Product Implementation
+
+- [5.1. Software Configuration Management](#51-software-configuration-management)  
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
+  - [5.1.2. Source Code Management](#512-source-code-management)  
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)  
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
+- [5.2. Product Implementation & Deployment](#52-product-implementation-deployment)  
+  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
+  - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)  
+  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)  
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)  
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)  
+  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)  
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)  
+- [5.3. Video About-the-Product](#53-video-about-the-product)  
 
-### [Registro de versiones del informe](#registro-de-versiones-del-informe)
+## Secciones Finales
 
-### [Contenido](#contenido)
+- [Conclusiones](#conclusiones)  
+- [Bibliografía](#bibliografía)  
+- [Anexos](#anexos)
 
-### [STUDENT OUTCOME](#student-outcome-1)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción-1)
-
-[1.1.	Startup Profile](#11-startup-profile)
-
-[1.1.1.	Descripción de la Startup](#111descripción-de-la-startup)
-
-[1.1.2.	Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-[1.2.	Solution Profile](#12-solution-profile)
-
-[1.2.1.	Antecedentes y problemática](#121--antecedentes-y-problemática)
-
-[1.2.2.	Lean UX Process](#122lean-ux-process)
-
-[1.2.2.1.	Lean UX Problem Statements](#1221lean-ux-problem-statements)
-
-[1.2.2.2.	Lean UX Assumptions](#1222lean-ux-assumptions)
-
-[1.2.2.3.	Lean UX Hypothesis Statements](#1223lean-ux-hypothesis-statements)
-
-[1.2.2.4.	Lean UX Canvas](#1224lean-ux-canvas)
-
-[1.3.	Segmentos objetivo](#13segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
-
-[2.1. Competidores](#21-competidores)
-
-[2.1.1. Análisis competitivo](#211-análisis-competitivo)
-
-[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-
-[2.2. Entrevistas](#22-entrevistas)
-
-[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-
-[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-
-[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-
-[2.3. Needfinding](#23-needfinding)
-
-[2.3.1. User Personas](#231-user-personas)
-
-[2.3.2. User Task Matrix](#232-user-task-matrix)
-
-[2.3.3. User Journey Mapping](#233-user-journey-mapping)
-
-[2.3.4. Empathy Mapping](#234-empathy-mapping)
-
-[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-[2.4.      Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
-[3.2. User Stories](#32-user-stories)
-
-[3.3. Impact Mapping](#33-impact-mapping)
-
-[3.4. Product Backlog](#34-product-backlog)
-
-### [Capítulo IV: Product Design](#capítulo-iv-product-design)
-
-[4.1.      Style Guidelines](#41-style-guidelines)
-
-[4.1.1.   General Style Guidelines](#411-general-style-guidelines)
-
-[4.1.2.	Web Style Guidelines](#412-web-style-guidelines)
-
-[4.1.3.	Mobile Style Guidelines](#412-mobile-style-guidelines)
-
-[4.1.3.1.	iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-
-[4.1.3.2.	Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-
-[4.2.      Information Architecture](#42-information-architecture)
-
-[4.2.1.   Organization Systems](#421-organization-systems)
-
-[4.2.2.   Labeling Systems](#422-labeling-systems)
-
-[4.2.3.   SEO Tags and Meta Tags](#423-seo-tags-and-mega-tags)
-
-[4.2.4.   Searching Systems](#424-searching-systems)
-
-[4.2.5.   Navigation Systems](#425-navigation-systems)
-
-[4.3.      Landing Page UI Design](#43-landing-page-ui-design)
-
-[4.3.1.   Landing Page Wireframe](#431-landing-page-wireframe)
-
-[4.3.2.   Landing Page Mock-up.](#432-landing-page-mockup)
-
-[4.4.     Mobile Applications UX/UI Design](#44-mobile-applications-ux/ui-design)
-
-[4.4.1.   Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-
-[4.4.2.   Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-
-[4.4.3.   Mobile Applications Mock-ups](#443-mobile-applications-mockups)
-
-[4.4.4.   Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-
-[4.5.      Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-
-[4.5.1.   Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-
-[4.5.2.   iOS Mobile Applications Prototyping](#451-ios-mobile-applications-prototyping)
-
-[4.6.      Web Applications UX/UI Design](#46-web-applications-ux/ui-design)
-
-[4.6.1.   Web Applications Wireframes](#461-web-applications-wireframes)
-
-[4.6.2.   Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-
-[4.6.3.   Web Applications Mock-ups](#463-web-applications-mockups)
-
-[4.6.4.   Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-
-[4.7.     Web Applications Prototyping](#47-web-applications-prototyping)
-
-[4.8.     Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-
-[4.8.1.   Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-
-[4.8.2.   Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-
-[4.8.3.   Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-
-[4.9.     Software Object-Oriented Design](#49-software-object-oriented-design)
-
-[4.9.1.   Class Diagrams](#491-class-diagrams)
-
-[4.9.2.   Class Dictionary](#492-class-dictionary)
-
-[4.10.    Database Design](#410-database-design)
-
-[4.10.1.  Relational/Non-Relational Database Diagram.](#4101-relational/non-relational-database-diagram)
-
-
-### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-backend-product-implementation-validation--deployment)
-
-[5.1.      Software Configuration Management](#51-software-configuration-management)
-
-[5.1.1.   Software Development Environment Configuration](#511-software-development-environment-configuration)
-
-[5.1.2.   Source Code Management](#512-source-code-management)
-
-[5.1.3.   Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-
-[5.1.4.   Software Deployment Configuration](#514-software-deployment-configuration)
-
-[5.2.     Product Implementation & Deployment](#52-product-implementation--deployment)
-
-[5.2.1.   Sprint Backlogs.](#521-sprint-backlogs)
-
-[5.2.2.   Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-
-[5.2.3.   Implemented Frontend-Web Application Evidence](#523-implemented-frontendweb-application-evidence)
-
-[5.2.4.   Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-
-[5.2.5.   Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-and/or-serverless-backend-evidence)
-
-[5.2.6.   RESTful API documentation](#526-restful-api-documentation)
-
-[5.2.7.   Team Collaboration Insights](#527-team-collaboration-insights)
-
-[5.3. Video About-the-Product.](#53-video-about-the-product.)
-
-[Conclusiones y recomendaciones](#)
-
-[Bibliografía](#)
-
-[Anexos](#)
 
 
 ## STUDENT OUTCOME 
@@ -274,223 +198,215 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
-#### 1.1.1.Descripción de la Startup
+
+En esta sección describiremos la descripción de nuestra Startup.
+#### 1.1.1. Descripción de la Startup
 
 Los Hormonales es una startup conformada por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), con el propósito de mejorar el seguimiento médico de pacientes. Nuestro objetivo es enfrentar los retos del sistema de salud peruano, especialmente en lo relacionado al monitoreo de enfermedades hormonales.
 
 Actualmente, el seguimiento de estas enfermedades en el Perú presenta diversas limitaciones, tanto para médicos como para pacientes, debido a la falta de eficiencia en los procesos. Esta situación se agrava en los centros de salud públicos, donde la alta demanda supera la capacidad de atención. Frente a este panorama, NinjaCode propone soluciones tecnológicas que agilizan la atención médica y permiten un uso más eficiente de los recursos en distintas regiones del país.
 
-Nuestra propuesta se basa en mejorar la comunicación, reforzar la seguridad y gestionar de manera efectiva la información médica de los usuarios. Con nuestra aplicación HormonalCare, desarrollada por NinjaCode, ofrecemos una plataforma digital segura, intuitiva y centrada en el usuario, diseñada específicamente para facilitar el seguimiento de enfermedades hormonales.
+Nuestra propuesta se basa en mejorar la comunicación, reforzar la seguridad y gestionar de manera efectiva la información médica de los usuarios. Con nuestra aplicación **HormonalCare**, desarrollada por **NinjaCode**, ofrecemos una plataforma digital segura, intuitiva y centrada en el usuario, diseñada específicamente para facilitar el seguimiento de enfermedades hormonales.
 
 Tenemos una misión clara: transformar la experiencia del seguimiento médico y contribuir al bienestar de millones de personas. Aspiramos a posicionarnos como referentes en salud digital a través de la innovación, garantizando altos estándares en protección de datos, conectividad y experiencia de usuario para mejorar la atención médica en el Perú y más allá.
 
-Logo del Startup:
+#### Logos
 
-<center><img src="assets/images/LosHormonales.png" width = 200></center>
+<p align="center">
+  <b>Logo de la Startup:</b><br>
+  <img src="assets/images/LosHormonales.png" alt="Logo Los Hormonales" width="220">
+</p>
 
-Logo del Producto:
+<p align="center">
+  <b>Logo del Producto:</b><br>
+  <img src="assets/images/LogoHormonalCare.png" alt="Logo HormonalCare" width="220">
+</p>
 
-<center><img src="assets/images/LogoHormonalCare.png"></center>
 
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **JHERSON DAVID ASTUYAURI CALDERON** | <img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202218451**              |                                                              |
-| Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
 
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="assets/images/profileJoaquin.png" alt="Jherson Astuyauri">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U20191B935**              |                                                              |
-| Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 
-
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **BRENDA LUCÍA GAMIO UPIACHIHUA** | <img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202120344**              |                                                              |
-| Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrea de ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente.Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código, y no me detengo hasta entenderlo completamente. Es mi forma de saciar mi curiosidad. | 
-
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **Abraham Andres Estrada Cajamune** | <img src="assets/images/profile-abraham.jpg" width=400px heigth=400px alt="Abraham Estrada">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202112164**              |                                                              |
-|  Soy estudiante de Ingeniería de Software de la UPC cursando el septimo ciclo. Me considero una persona comprometida con las actividades que conllevan a realizar, asimismo de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran.| 
-
+| **Integrantes** | **Descripción** |
+|:---------------:|:----------------|
+| <p align="center"><img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri" width="120"><br><b>Jherson David Astuyauri Calderón</b></p> | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
+| <p align="center"><img src="assets/images/profileJoaquin.png" alt="Joaquín Carranza" width="120"><br><b>Joaquín Enrique Carranza Tesén</b></p> | Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. |
+| <p align="center"><img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio" width="120"><br><b>Brenda Lucía Gamio Upiachihua</b></p> | Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrera de Ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente. Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código y no me detengo hasta entenderlo completamente. |
+| <p align="center"><img src="assets/images/profile-abraham.jpg" alt="Abraham Estrada" width="120"><br><b>Abraham Andrés Estrada Cajamune</b></p> | Soy estudiante de Ingeniería de Software de la UPC cursando el séptimo ciclo. Me considero una persona comprometida con las actividades que se deben realizar, así como de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran. |
+| <p align="center"><img src="assets/images/Diego.jpg" alt="Diego Soto" width="120"><br><b>Diego Ulises Soto Quispe</b></p> | Soy estudiante de 7.º ciclo en la carrera de Ingeniería de Software. Me considero una persona responsable, puntual y comprometido con los trabajos asignados. Fuera del ámbito académico, disfruto jugar básquet, salir a pasear, jugar videojuegos y manejar bicicleta. |
 
 ### 1.2. Solution Profile
-   #### 1.2.1.  Antecedentes y problemática
-Los trastornos hormonales se han convertido en una preocupación creciente dentro del sistema de salud pública, afectando a personas de distintas edades y géneros. En Lima, al igual que en muchas otras ciudades, existen grandes desafíos en cuanto al diagnóstico, tratamiento y monitoreo de estos padecimientos. Patologías como la menopausia o el hiperandrogenismo requieren un enfoque médico integral, control constante y ajustes periódicos en la medicación para mantener estable la salud del paciente. En el Perú, estas condiciones presentan una alta prevalencia, pero el sistema de salud enfrenta serias limitaciones: la atención especializada es insuficiente, hay una escasez considerable de endocrinólogos, y muchos pacientes abandonan sus tratamientos o no alcanzan los objetivos terapéuticos establecidos, lo que complica aún más el manejo adecuado de estas enfermedades en Lima.
 
-Investigaciones como las de Farías y Bardales (2021), quienes analizaron la adherencia al tratamiento en pacientes con Diabetes Mellitus tipo 2 en el Hospital Reátegui, y las de Pocohuanca-Ancco, Villacorta y Hurtado-Roca (2021), sobre la falta de cumplimiento en el tratamiento antihipertensivo, revelan una preocupante realidad: los niveles de no-adherencia alcanzan el 40% y 27%, respectivamente. Estas cifras muestran lo difícil que resulta para los endocrinólogos dar un seguimiento adecuado a enfermedades hormonales que, en muchos casos, requieren control de por vida. A esto se suman los prolongados tiempos de espera. Según datos del INEI (2014), en promedio, un paciente debe esperar 17 días para obtener una cita médica. En el MINSA el promedio es de 12 días, en EsSalud es de 19 días, en las Fuerzas Armadas y Policiales 21 días, y en clínicas privadas 8 días. Además, el 49,3% de los encuestados señalaron que la demora en la atención es el principal problema, seguido por el maltrato (34,4%) y la escasez de medicamentos (18,1%).
+**HormonalCare** representa una propuesta tecnológica innovadora enfocada en transformar la gestión de enfermedades hormonales en el sistema de salud peruano. La solución consiste en una **plataforma digital** que facilita a médicos y pacientes la **gestión de registros médicos**, el **monitoreo hormonal constante** y la **comunicación remota en tiempo real**, integrando funcionalidades de **historial clínico digital**, **videoconsultas médicas** y **seguimiento estadístico personalizado**.
 
-Por otro lado, las estadísticas agravan aún más el panorama: solo existen 42 médicos especialistas por cada 100 mil personas en centros del MINSA (Minsa, 2023) y apenas 10 endocrinólogos para cada 500 mil peruanos (Manrique, 2015). Mientras tanto, los índices de obesidad, hipertensión y diabetes mellitus en mayores de 15 años siguen creciendo, alcanzando en 2020 valores del 24,6%, 21,7% y 4,5%, respectivamente (INEI, 2020).
+Esta tecnología permite el **registro detallado de síntomas y exámenes médicos**, habilitando el **ajuste inmediato de tratamientos** y el **monitoreo continuo de la evolución del paciente**. De esta forma, se optimiza el tiempo de respuesta médica, se mejora la adherencia al tratamiento y se reducen los traslados innecesarios a centros de salud.
 
-Ante este escenario, nuestro equipo identificó una oportunidad para desarrollar una aplicación que permita gestionar de forma eficiente los registros clínicos, realizar monitoreos hormonales y mejorar la comunicación entre pacientes y profesionales de salud involucrados. Esta solución tecnológica busca acelerar los procesos de ajuste de tratamiento, reducir tiempos de espera y traslados, y ofrecer una atención más rápida, personalizada y coordinada a quienes padecen trastornos hormonales en Lima. Nos basamos en los resultados positivos del piloto “Teletriaje y Teleurgencias” del CENATE, que logró disminuir los tiempos de espera de 4-5 horas a tan solo 15 minutos, además de implementar historias clínicas digitales que aceleran significativamente la evaluación médica (EsSalud, 2022). Todo esto es posible también gracias al aumento del acceso a Internet en el Perú, donde el 71,1% de la población ya está conectada (OPS, 2023), lo que abre nuevas oportunidades para la transformación digital en salud.
+Así, **HormonalCare** proporciona **atención médica especializada más accesible y eficiente**, promoviendo una **gestión integral de enfermedades hormonales** que favorece tanto a los pacientes como a los médicos endocrinólogos, mejorando la calidad de vida y contribuyendo a la transformación digital en el sector salud.
+#### 1.2.1. Antecedentes y problemática
 
-A continuación, se evidencia la utilización del método de las 5W’s y 2H’s para detallar la problemática:
+Los trastornos hormonales se han convertido en una preocupación creciente dentro del sistema de salud pública, afectando a personas de distintas edades y géneros. En Lima, al igual que en muchas otras ciudades, existen grandes desafíos en cuanto al diagnóstico, tratamiento y monitoreo de estos padecimientos. Patologías como la menopausia o el hiperandrogenismo requieren un enfoque médico integral, control constante y ajustes periódicos en la medicación para mantener la estabilidad de la salud del paciente. En el Perú, estas condiciones presentan una alta prevalencia, pero el sistema de salud enfrenta serias limitaciones: la atención especializada es insuficiente, hay una escasez considerable de endocrinólogos y muchos pacientes abandonan sus tratamientos o no logran alcanzar los objetivos terapéuticos establecidos, complicando aún más el manejo adecuado de estas enfermedades en Lima.
 
-**What:** ¿Cuál es el problema?
+Investigaciones como las de Farías y Bardales (2021), quienes analizaron la adherencia al tratamiento en pacientes con Diabetes Mellitus tipo 2 en el Hospital Reátegui, y las de Pocohuanca-Ancco, Villacorta y Hurtado-Roca (2021), sobre la falta de cumplimiento en el tratamiento antihipertensivo, revelan una preocupante realidad: los niveles de no-adherencia alcanzan el 40% y el 27%, respectivamente. Estas cifras evidencian las dificultades que enfrentan los endocrinólogos para dar un seguimiento adecuado a enfermedades que, en muchos casos, requieren control de por vida.
 
-El problema central radica en la inadecuada gestión de enfermedades hormonales en Lima. Estas afecciones requieren revisiones constantes, modificaciones frecuentes en la medicación y un manejo especializado, pero la falta de endocrinólogos, los largos tiempos de espera y la baja adherencia al tratamiento dificultan un seguimiento apropiado.
+A esto se suman los prolongados tiempos de espera. Según datos del INEI (2014), en promedio, un paciente debe esperar 17 días para obtener una cita médica. El MINSA reporta un promedio de 12 días, EsSalud de 19 días, las Fuerzas Armadas y Policiales de 21 días, y las clínicas privadas de 8 días. Además, el 49,3% de los encuestados señalaron que la demora en la atención es el principal problema, seguido por el maltrato (34,4%) y la escasez de medicamentos (18,1%).
 
-**Why:** ¿Por qué es un problema?
+Por otro lado, las estadísticas agravan aún más el panorama: solo existen 42 médicos especialistas por cada 100 mil personas en centros del MINSA (MINSA, 2023) y apenas 10 endocrinólogos para cada 500 mil peruanos (Manrique, 2015). Mientras tanto, los índices de obesidad, hipertensión y diabetes mellitus en mayores de 15 años continúan creciendo, alcanzando en 2020 valores del 24,6%, 21,7% y 4,5%, respectivamente (INEI, 2020).
 
-Es un problema porque la falta de atención y control adecuado de estas enfermedades puede desencadenar complicaciones graves que deterioran significativamente la calidad de vida del paciente. Los estudios muestran tasas preocupantes de no cumplimiento del tratamiento en casos crónicos como diabetes e hipertensión, lo que aumenta el riesgo de enfermedades cardiovasculares, problemas renales, dislipidemia y resistencia a la insulina.
+Ante este escenario, nuestro equipo identificó una oportunidad para desarrollar una aplicación que permita gestionar de forma eficiente los registros clínicos, realizar monitoreos hormonales y mejorar la comunicación entre pacientes y profesionales de la salud. Esta solución tecnológica busca acelerar los procesos de ajuste de tratamiento, reducir los tiempos de espera y traslados, y ofrecer una atención más rápida, personalizada y coordinada a quienes padecen trastornos hormonales en Lima.
 
-**Who:** ¿Quiénes se ven involucrados en el problema?
+Nos basamos en los resultados positivos del piloto "Teletriaje y Teleurgencias" del CENATE, que logró disminuir los tiempos de espera de 4-5 horas a tan solo 15 minutos, además de implementar historias clínicas digitales que aceleran significativamente la evaluación médica (EsSalud, 2022). Todo esto es posible también gracias al aumento del acceso a Internet en el Perú, donde el 71,1% de la población ya está conectada (OPS, 2023), lo que abre nuevas oportunidades para la transformación digital en salud.
 
-Los principales afectados son los pacientes con trastornos hormonales que no logran acceder fácilmente a atención médica especializada ni reciben un seguimiento continuo. También están involucrados los endocrinólogos y demás personal médico, que trabajan en condiciones limitadas y sin herramientas efectivas para acompañar de cerca a sus pacientes.
 
-**Where:** ¿Dónde se produce el problema?
+A continuación, se presenta el análisis de la problemática utilizando el método de las **5W’s y 2H’s**:
 
-El problema se manifiesta principalmente en la ciudad de Lima, aunque es extrapolable a muchas otras zonas urbanas del país. Las deficiencias son evidentes en establecimientos públicos como los del MINSA y EsSalud, donde los tiempos de espera son largos y los recursos escasos.
+- **What:** ¿Cuál es el problema?  
+  El problema central radica en la inadecuada gestión de enfermedades hormonales en Lima. Estas afecciones requieren revisiones constantes, modificaciones frecuentes en la medicación y un manejo especializado. Sin embargo, la falta de endocrinólogos, los largos tiempos de espera y la baja adherencia al tratamiento dificultan un seguimiento adecuado.
 
-**When:** ¿Cuándo se convierte en un problema?
+- **Why:** ¿Por qué es un problema?  
+  Porque la falta de atención y control adecuado puede desencadenar complicaciones graves que deterioran significativamente la calidad de vida del paciente. Los estudios muestran tasas preocupantes de incumplimiento en enfermedades crónicas como diabetes e hipertensión, aumentando el riesgo de enfermedades cardiovasculares, renales, dislipidemia y resistencia a la insulina.
 
-Se convierte en un problema crítico cuando los pacientes no reciben diagnóstico, tratamiento ni monitoreo en el momento adecuado. Esto puede empezar desde los primeros síntomas y agravarse rápidamente si no hay intervención médica oportuna.
+- **Who:** ¿Quiénes se ven involucrados en el problema?  
+  Los principales afectados son los pacientes con trastornos hormonales, que no logran acceder fácilmente a atención médica especializada ni reciben un seguimiento continuo. También están involucrados los endocrinólogos y demás personal médico, que enfrentan limitaciones en recursos y herramientas de seguimiento.
 
-**How:** ¿Cómo puede ayudar esta aplicación a abordar esta problemática?
+- **Where:** ¿Dónde se produce el problema?  
+  Principalmente en la ciudad de Lima, aunque también se presenta en muchas otras zonas urbanas del país. Las deficiencias son notorias en establecimientos públicos como los del MINSA y EsSalud.
 
-La aplicación propuesta busca enfrentar esta situación de varias maneras:
+- **When:** ¿Cuándo se convierte en un problema?  
+  El problema se vuelve crítico desde la aparición de los primeros síntomas si no se recibe diagnóstico, tratamiento o monitoreo oportuno, lo que puede agravar rápidamente la condición del paciente.
 
-Haciendo más accesibles las consultas con especialistas mediante videoconsultas y una mejor organización de citas.
+- **How:** ¿Cómo puede ayudar esta aplicación a abordar esta problemática?  
+  La aplicación propuesta enfrentaría la situación de varias maneras:
+  - Facilitando consultas virtuales con especialistas y mejor organización de citas.
+  - Permitirá el monitoreo constante de síntomas, niveles hormonales y medicamentos, ayudando al médico a realizar ajustes en tiempo real.
+  - Brindará información educativa personalizada para motivar a los pacientes a seguir su tratamiento.
+  - Mejorará la comunicación entre pacientes y personal médico, haciendo más efectiva la atención y el seguimiento.
 
-Permitirá el monitoreo constante de síntomas, niveles hormonales y medicamentos, ayudando al médico a realizar ajustes en tiempo real.
+- **How much:** ¿Cuál sería el impacto al implementar esta aplicación?  
+  La implementación de esta aplicación tendría un impacto positivo considerable: reduciría los tiempos de espera, facilitaría el acceso a especialistas y mejoraría la adherencia al tratamiento. Esto contribuiría a una atención médica más ágil, continua y centrada en el paciente, mejorando su calidad de vida y reduciendo las complicaciones asociadas a estas enfermedades.
 
-Brindará información educativa personalizada que motive a los pacientes a continuar con sus tratamientos.
 
-Mejorará la comunicación entre los pacientes y el personal médico, haciendo más efectiva la atención y el seguimiento.
+#### 1.2.2. Lean UX Process
 
-**How much:** ¿Cuál sería el impacto al implementar esta aplicación?
+En esta sección se aplica la metodología **Lean UX**, cuyo alcance incluye la **conceptualización del modelo de atención médica digital** que sustentará el desarrollo de HormonalCare. Esta metodología ágil permite centrar los esfuerzos del equipo en el **diseño de una solución centrada en el paciente**, enfocada en mejorar el seguimiento, diagnóstico y tratamiento de enfermedades hormonales.
 
-La implementación de esta aplicación tendría un impacto positivo considerable, al reducir los tiempos de espera, facilitar el acceso a especialistas y mejorar el cumplimiento del tratamiento. Esto contribuirá directamente a una atención más ágil, continua y centrada en el paciente, mejorando su calidad de vida y reduciendo complicaciones asociadas a estas enfermedades.
+El enfoque Lean UX nos permitió alinear los requerimientos detectados con las necesidades reales de pacientes y médicos endocrinólogos, utilizando técnicas de **Design Thinking** y validación temprana de hipótesis. A partir de los hallazgos obtenidos, se orientó el diseño hacia una **experiencia de usuario intuitiva y eficiente**, asegurando que HormonalCare facilite la comunicación remota, el monitoreo hormonal continuo y la optimización de los tiempos de atención médica.
 
+ ##### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.	Lean UX Process.
-   ##### 1.2.2.1.	Lean UX Problem Statements.
-   
-Hormonal Care se ha diseñado con el propósito de abordar los desafíos en la gestión de enfermedades hormonales en Lima, Perú. Nuestros objetivos principales incluyen facilitar el acceso equitativo a servicios especializados de atención médica para pacientes con enfermedades hormonales, mejorar la adherencia al tratamiento y promover el autocuidado entre los pacientes, así como reducir la incidencia de complicaciones relacionadas con enfermedades hormonales y los costos asociados para los pacientes y el sistema de salud en general.
+HormonalCare ha sido diseñado con el propósito de abordar los desafíos en la gestión de enfermedades hormonales en Lima, Perú. Sus objetivos principales incluyen facilitar el acceso equitativo a servicios médicos especializados, mejorar la adherencia al tratamiento, promover el autocuidado entre los pacientes y reducir tanto la incidencia de complicaciones como los costos asociados para los pacientes y el sistema de salud en general.
 
-Sin embargo, observamos que no estamos logrando completamente estos objetivos. Las principales áreas problemáticas incluyen la inequidad en el acceso a servicios especializados, lo que conduce a diagnósticos tardíos y tratamientos inadecuados; la baja adherencia al tratamiento debido a la falta de educación sobre el autocuidado y la escasa supervisión médica; y el incremento de los costos de salud y las complicaciones debido a la falta de seguimiento adecuado y la dificultad para acceder a atención médica especializada.
+Sin embargo, se ha identificado que aún no se alcanzan plenamente estos objetivos. Las principales áreas problemáticas son:
 
-Por lo tanto, buscamos mejorar Hormonal Care de manera que aborde estos desafíos de manera más efectiva. ¿Cómo podemos optimizar Hormonal Care para superar las barreras tecnológicas, económicas y sociales, y así promover una gestión eficiente del registro, seguimiento y tratamiento para pacientes con enfermedades hormonales en Lima, Perú? Nos enfocamos en mejorar el acceso a la atención médica especializada, aumentar la adherencia al tratamiento y reducir las complicaciones y los costos de salud asociados.
+- **Inequidad en el acceso a servicios especializados**, lo que deriva en diagnósticos tardíos y tratamientos inadecuados.
+- **Baja adherencia al tratamiento**, causada por la falta de educación en autocuidado y la limitada supervisión médica.
+- **Incremento de costos y complicaciones médicas**, producto de la falta de seguimiento adecuado y de las barreras en el acceso a atención especializada.
 
-   ##### 1.2.2.2.	Lean UX Assumptions.
+Ante esta situación, el equipo busca optimizar HormonalCare para enfrentar estos desafíos de manera más efectiva. Surge así la siguiente interrogante central:
 
+**¿Cómo podemos mejorar HormonalCare para superar las barreras tecnológicas, económicas y sociales, y promover una gestión eficiente del registro, seguimiento y tratamiento de pacientes con enfermedades hormonales en Lima?**
 
-Features:
+El enfoque estará en mejorar el acceso a la atención médica especializada, aumentar la adherencia al tratamiento y reducir tanto las complicaciones como los costos de salud asociados, siempre con una perspectiva centrada en el usuario y en la optimización continua del servicio.
 
-1. Comunicación y consulta de datos: Plataforma que permite la comunicación bidireccional entre médicos y pacientes, así como el acceso a datos médicos y la carga de información relevante.
-2. Monitoreo en historial clínico: Funcionalidad que permite llevar un registro detallado del historial médico de los pacientes, incluyendo tratamientos previos, resultados de pruebas y mediciones relevantes.
-3. Reuniones médicas virtuales: Posibilidad de realizar consultas médicas en línea mediante videoconferencias, facilitando el seguimiento de tratamientos y la comunicación entre médico y paciente.
-4. Gestión de pacientes: Herramientas que permiten asignar pacientes a médicos específicos, organizar citas y seguimientos, y compartir información de manera segura entre profesionales de la salud.
-5. Análisis estadístico y de datos: Funcionalidad para generar análisis estadísticos detallados sobre el progreso de los pacientes, facilitando la toma de decisiones clínicas basadas en evidencia.
+##### 1.2.2.2. Lean UX Assumptions
 
-Business Outcomes:
+**Features:**
 
-1. Incremento de la eficiencia en la atención médica: Reducción de los tiempos de espera y traslados para pacientes y médicos, optimizando la gestión de recursos y aumentando la productividad de las consultas.
-2. Mejora en la calidad de la atención: Facilitación del seguimiento y tratamiento de enfermedades hormonales, lo que conduce a una atención más efectiva y personalizada para cada paciente.
-3. Aumento de la satisfacción del cliente: Mejora en la experiencia del usuario al ofrecer una plataforma intuitiva y eficaz, lo que se traduce en una mayor satisfacción tanto para médicos como para pacientes.
+1. **Comunicación y consulta de datos:** Plataforma que permite la comunicación bidireccional entre médicos y pacientes, así como el acceso y carga de información médica relevante.
+2. **Monitoreo en historial clínico:** Funcionalidad que permite registrar tratamientos previos, resultados de pruebas y mediciones hormonales de los pacientes.
+3. **Reuniones médicas virtuales:** Realización de consultas médicas en línea mediante videoconferencias, facilitando el seguimiento de tratamientos.
+4. **Gestión de pacientes:** Herramientas para asignar pacientes a médicos, organizar citas, seguimientos y compartir información médica de manera segura.
+5. **Análisis estadístico y de datos:** Generación de análisis estadísticos sobre el progreso de los pacientes, facilitando la toma de decisiones clínicas basadas en evidencia.
 
-Users:
+**Business Outcomes:**
 
-1. Médicos endocrinólogos: Profesionales de la salud especializados en el tratamiento de trastornos hormonales, quienes utilizan la plataforma para monitorear y gestionar el tratamiento de sus pacientes.
-2. Pacientes: Personas que requieren tratamiento médico hormonal, que utilizan la plataforma para acceder a consultas médicas virtuales, cargar información relevante y seguir el progreso de su tratamiento.
+1. **Incremento de la eficiencia en la atención médica:** Reducción de tiempos de espera y traslados, optimizando la gestión de recursos y aumentando la productividad en las consultas.
+2. **Mejora en la calidad de la atención:** Facilitación del seguimiento y tratamiento de enfermedades hormonales, ofreciendo atención más efectiva y personalizada.
+3. **Aumento de la satisfacción del cliente:** Mejora de la experiencia del usuario mediante una plataforma intuitiva y eficaz, beneficiando tanto a médicos como a pacientes.
 
-User Outcomes & Benefits:
+**Users:**
 
-1. Mayor accesibilidad a la atención médica: Posibilidad de recibir atención médica especializada sin necesidad de desplazarse a un centro de salud, lo que facilita el acceso a la atención en áreas remotas o con limitaciones de movilidad.
-2. Seguimiento personalizado del tratamiento: Mejora en el seguimiento y control de enfermedades hormonales, gracias al monitoreo continuo y al acceso a información detallada sobre el historial clínico y el progreso del tratamiento.
-3. Experiencia de usuario mejorada: Simplificación de procesos, reducción de tiempos de espera y mayor comodidad en la comunicación con el médico, lo que mejora la experiencia global del usuario y aumenta su satisfacción con el servicio ofrecido.
+1. **Médicos endocrinólogos:** Profesionales especializados que utilizan la plataforma para gestionar y monitorear el tratamiento de sus pacientes.
+2. **Pacientes:** Personas que requieren tratamiento médico hormonal y utilizan la plataforma para acceder a consultas virtuales, cargar información y seguir su progreso.
 
+**User Outcomes & Benefits:**
 
-Business Assumptions:
-1.	Creemos que nuestros usuarios necesitan agilizar su forma de llevar tratamientos médicos hormonales a través de la telemedicina puesto que esta ha demostrado ser rentable en cuanto a costos de servicios y que ha permitido la disminución de los gastos de traslado y tiempo que tienen los pacientes.
-2.	Podemos resolver estas necesidades con una plataforma que permita la comunicación y consulta de datos en la cual se pueda llevar el monitoreo en un historial clínico y el acceso a una reunión medica sin la necesidad de pactar una cita presencial, lo cual agilizaría el seguimiento y tratamiento de enfermedades hormonales.
-3.	Nuestros clientes iniciales serán médicos especializados en endocrinología quienes desean llevar un mejor control y que el tratamiento de sus pacientes sea lo más estable y eficaz posible. Lo que permitirá una mejora en cuanto a agilización en tiempos de monitoreo tanto para ellos como sus pacientes.
-4.	El valor más importante que un cliente quiere de nuestro servicio es la simplicidad y efectividad, puesto que los pacientes y los médicos necesitan de una comunicación constante y organizada, sin complicaciones durante el manejo de la plataforma, otorgando una mejor experiencia de usuario.
-5.	El cliente también va a obtener diversos beneficios adicionales como la organización que la plataforma da al momento del que el paciente ingrese sus controles de su respectiva enfermedad, el poder asignar pacientes a algún miembro de su red contactos y que la información del historial médico sea compartida de manera inmediata, y el poder subir los resutados de los exámenes de control, que hará el propio paciente en un laboratorio que se le fue asignado por su médico, y que enviará para que el médico pueda analizarlas.
+1. **Mayor accesibilidad a la atención médica:** Posibilidad de recibir atención especializada sin desplazamientos físicos, favoreciendo el acceso en zonas remotas o con limitaciones de movilidad.
+2. **Seguimiento personalizado del tratamiento:** Mejora continua en el control de enfermedades hormonales mediante el monitoreo constante y el acceso al historial clínico actualizado.
+3. **Experiencia de usuario mejorada:** Procesos simplificados, reducción de tiempos de espera y mayor comodidad en la interacción médico-paciente.
 
-6.	Vamos a obtener la mayoría de nuestros clientes mediante los periodos de prueba que ofrece nuestra plataforma en la cual los médicos podrán experimentar con los beneficios antes de comprometerse al pago de una suscripción.
+**Business Assumptions:**
 
-7.	Vamos a obtener ingresos mediante la suscripción que pagarán los médicos especializados en endocrinología quienes desean establecer una mejor relación en el tratamiento de sus pacientes agilizando los tiempos de cada control que se requiera y llevando un historial clínico del paciente que siempre estará a la disposición del médico encargado.
-
-8.	Nuestra competencia principal en el mercado serán aplicaciones de los propios centros de salud que han desarrollado para no depender de una herramienta externa para el tratamiento de enfermedades tales como Teleatiendo, que es la plataforma de Essalud, que gestiona la solicitud, registro y consulta de datos sobre los servicios de telemedicina y monitoreo.
-
-9.	Vamos a tener ventaja frente a nuestra competencia debido a la experiencia intuitiva de navegación que se ofrece tanto a pacientes como a médicos y la disponibilidad de un control detallado de la evoluación de la enfermedad hormonal del paciente. La experiencia de usuario acompañada de una buena gestión del historial médico marca una importante diferencia en cuanto a nuestros competidores.
-
-10.	El mayor riesgo del servicio es la perdida de la escalabilidad si se experimenta un aumento repentino en el número de usuarios que accedan a la plataforma de manera simultánea en un corto periodo de tiempo.
-
-11.	Lo resolveremos realizando una cuidadosa planificación y gestión de la capacidad de nuestros servidores y recursos informáticos, lo que nos permitirá ajustar dinámicamente la capacidad del sistema según la demanda.
-
-12.	Otras suposiciones podrían incluir que los médicos y pacientes estarán dispuestos a adoptar tecnología nueva y confiar en la telemedicina como una alternativa viable y segura para el seguimiento y tratamiento de enfermedades hormonales. O también que no surgirán barreras regulatorias o legales significativas que limiten la operación de nuestro servicio de telemedicina, como restricciones en la teleconsulta o requisitos adicionales de certificación médica para la atención a distancia.
-
-
-User Assumptions:
-
-
-1.	¿Quien es el usuario?
-
-Los médicos endocrinólogos son los principales son nuestros principales usuarios quienes se suscriben a nuestro servicio. Los pacientes también serán usuarios, pero no pagan una suscripción, contarán con su propia interfaz.
-
-2.	¿Dónde encaja nuestro producto en su trabajo o vida?
-
-Según Castillo (2023), en áreas rurales o remotas donde la disponibilidad de servicios médicos especializados es limitada, la telemedicina ofrece la oportunidad de acceder a expertos sin la necesidad de realizar largos desplazamientos. En el sistema tradicional, los pacientes a menudo enfrentan largos tiempos de espera, a veces semanas o meses, para obtener una cita con un médico especialista, como un endocrinólogo. En este contexto, HormonalCare surge como una solución que permite a los médicos agilizar el tratamiento de sus pacientes sin requerir la presencia física, facilitando así la atención médica remota. Esto permite que los pacientes realicen sus rutinas médicas de forma autónoma, con la supervisión del médico correspondiente.
-
-
-3.	¿Qué problemas soluciona nuestro producto?
-
- En primer lugar, facilita el acceso a la atención médica especializada en endocrinología, especialmente en áreas rurales o remotas donde la disponibilidad de servicios médicos especializados es limitada. Además, agiliza el seguimiento y tratamiento de enfermedades hormonales al permitir a los médicos monitorear de manera remota el progreso de sus pacientes sin la necesidad de citas presenciales. Esto optimiza el tiempo de los médicos al proporcionarles una plataforma organizada y eficiente para llevar el historial clínico de sus pacientes, lo que permite una mejor gestión y seguimiento de su tratamiento. Por último, mejora la experiencia del paciente al eliminar la necesidad de largos desplazamientos y tiempos de espera para obtener una consulta con un endocrinólogo, ofreciendo una alternativa conveniente y accesible a la atención médica tradicional.
-
-4.	¿Cuándo y cómo es nuestro producto usado?
-
-Nuestro servicio se utiliza cuando el paciente encuentra el espacio y el tiempo adecuados para concertar una reunión con su médico y llevar a cabo un autodiagnóstico cargando las pruebas de forma organizada en la plataforma. Durante esta sesión, el paciente es monitoreado por el médico a través de una videollamada. Dependiendo de los datos proporcionados por el paciente, HormonalCare genera un análisis estadístico detallado que permite al médico examinar con mayor precisión el comportamiento y los estímulos que experimenta el paciente durante el período de seguimiento autónomo. Estos datos se almacenan en el historial clínico del paciente, al cual solo el médico asignado tiene acceso, así como cualquier colega a quien pueda delegar el seguimiento.
-
-5.	¿Cuáles son las funcionalidades más importantes?
-
-Las estadísticas que respaldan el tratamiento médico y la gestión de datos de los exámenes de laboratorio ordenados por el médico responsable son fundamentales. Además, la capacidad de recuperación y transferencia de datos de manera eficiente es crucial en situaciones donde un médico decide delegar la responsabilidad de un paciente a uno de sus colegas.
-
-6.	¿Cómo debe verse nuestro producto y como debe comportarse?
-
-Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como médicos se sientan cómodos al utilizar todas sus funcionalidades. De esta manera, buscamos asegurar que la experiencia del usuario sea lo más confortable posible durante la navegación por la aplicación.
-
-
-
-
-   ##### 1.2.2.3.	Lean UX Hypothesis Statements. 
-
-1. Creemos que, al desarrollar una aplicación que permita una gestión eficiente y eficaz de los registros médicos, un seguimiento de los niveles hormonales y una comunicación fluida entre los profesionales de la salud involucrados en el tratamiento de pacientes con enfermedades hormonales en Lima, podremos reducir significativamente los tiempos de espera para obtener atención médica especializada. Sabremos que hemos tenido éxito, cuando observemos una disminución sustancial en los tiempos de espera reportados por los usuarios de nuestra aplicación en comparación con los datos previos a su implementación.
-
-2. Creemos que. al digitalizar los registros médicos y facilitar una comunicación inmediata entre los profesionales de la salud, podremos mejorar la eficiencia en el proceso de atención médica de pacientes con enfermedades hormonales en Lima, reduciendo así la carga de trabajo y optimizando los recursos disponibles. Sabremos que hemos tenido éxito, cuando observemos una mejora en la eficiencia del proceso de atención médica para pacientes con enfermedades hormonales, medida a través de la reducción de quejas relacionadas con tiempos de espera y la optimización del flujo de trabajo de los profesionales de la salud.
-
-3. Creemos que, al ofrecer una herramienta tecnológica que facilite el ajuste de tratamientos, reduzca los tiempos de traslado y mejore la coordinación entre profesionales de la salud, lograremos incrementar la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes con enfermedades hormonales en Lima. Sabremos que hemos tenido éxito, cuando observemos un aumento notable en la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes que utilicen nuestra aplicación en comparación con aquellos que no lo hacen.
-
-4. Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada. Sabremos que hemos tenido éxito, cuando observemos una mejora en la percepción de la calidad de vida de los pacientes con enfermedades hormonales, evaluada a través de encuestas de satisfacción y testimonios positivos que reflejen una experiencia de atención médica más satisfactoria y efectiva.
-   
+1. Creemos que los usuarios necesitan agilizar su tratamiento médico hormonal mediante telemedicina, ya que reduce costos de traslado y tiempo.
+2. Podemos resolver esta necesidad mediante una plataforma que permita la comunicación continua, el monitoreo en historial clínico y la realización de reuniones médicas virtuales.
+3. Nuestros clientes iniciales serán médicos endocrinólogos que buscan optimizar el seguimiento de sus pacientes de forma estable y eficaz.
+4. El valor más importante que ofreceremos es la simplicidad y efectividad en la comunicación médico-paciente, asegurando una experiencia de usuario ágil y clara.
+5. El cliente también obtendrá beneficios adicionales como:
+   - Organización del ingreso de controles médicos.
+   - Asignación de pacientes entre colegas de la red médica.
+   - Carga y análisis de resultados de exámenes de control en la plataforma.
+6. Captaremos la mayoría de nuestros clientes mediante periodos de prueba gratuitos, donde los médicos podrán evaluar los beneficios antes de suscribirse.
+7. Los ingresos se generarán a través de las suscripciones pagadas por médicos especializados en endocrinología.
+8. Nuestra competencia principal será plataformas desarrolladas por centros de salud, como Teleatiendo de Essalud.
+9. Nuestra ventaja competitiva radicará en la experiencia de usuario intuitiva y en el control detallado del historial clínico del paciente.
+10. El mayor riesgo identificado es la pérdida de escalabilidad ante un aumento repentino de usuarios simultáneos.
+11. Para mitigar este riesgo, realizaremos una planificación y gestión cuidadosa de la capacidad de servidores, permitiendo ajustes dinámicos según la demanda.
+12. Suponemos que médicos y pacientes estarán dispuestos a adoptar tecnologías de telemedicina como alternativa viable y segura, y que no surgirán barreras regulatorias significativas.
+
+**User Assumptions:**
+
+1. **¿Quién es el usuario?**  
+   Los médicos endocrinólogos son nuestros principales usuarios suscriptores. Los pacientes también serán usuarios, aunque no pagarán suscripción, y contarán con su propia interfaz.
+
+2. **¿Dónde encaja nuestro producto en su trabajo o vida?**  
+   Según Castillo (2023), en áreas rurales o remotas donde la disponibilidad de servicios especializados es limitada, HormonalCare facilita el acceso a médicos especialistas sin necesidad de desplazamientos extensos, optimizando el tratamiento remoto bajo supervisión médica.
+
+3. **¿Qué problemas soluciona nuestro producto?**  
+   HormonalCare facilita el acceso a atención especializada, agiliza el monitoreo remoto de enfermedades hormonales y optimiza la gestión del historial clínico, mejorando también la experiencia del paciente al reducir traslados y tiempos de espera.
+
+4. **¿Cuándo y cómo se usa nuestro producto?**  
+   El servicio se utiliza cuando el paciente agenda una reunión virtual con su médico y carga sus pruebas de manera organizada en la plataforma. Los datos son analizados por el médico y registrados automáticamente en el historial clínico para su seguimiento.
+
+5. **¿Cuáles son las funcionalidades más importantes?**  
+   Las funcionalidades clave son:
+   - Gestión y análisis de datos de exámenes médicos.
+   - Monitoreo de progresos hormonales.
+   - Delegación de pacientes entre médicos, garantizando continuidad en la atención.
+
+6. **¿Cómo debe verse nuestro producto y cómo debe comportarse?**  
+   HormonalCare debe ser simple, intuitivo y eficaz, garantizando que tanto médicos como pacientes puedan utilizar todas sus funcionalidades de manera cómoda, segura y ágil.
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+• Creemos que, al desarrollar una aplicación que permita una gestión eficiente y eficaz de los registros médicos, un seguimiento de los niveles hormonales y una comunicación fluida entre los profesionales de la salud involucrados en el tratamiento de pacientes con enfermedades hormonales en Lima, podremos reducir significativamente los tiempos de espera para obtener atención médica especializada.  
+Sabremos que hemos tenido éxito cuando observemos una disminución sustancial en los tiempos de espera reportados por los usuarios de nuestra aplicación en comparación con los datos previos a su implementación.
+
+• Creemos que, al digitalizar los registros médicos y facilitar una comunicación inmediata entre los profesionales de la salud, podremos mejorar la eficiencia en el proceso de atención médica de pacientes con enfermedades hormonales en Lima, reduciendo así la carga de trabajo y optimizando los recursos disponibles.  
+Sabremos que hemos tenido éxito cuando observemos una mejora en la eficiencia del proceso de atención médica, medida a través de la reducción de quejas relacionadas con tiempos de espera y la optimización del flujo de trabajo de los profesionales de la salud.
+
+• Creemos que, al ofrecer una herramienta tecnológica que facilite el ajuste de tratamientos, reduzca los tiempos de traslado y mejore la coordinación entre profesionales de la salud, lograremos incrementar la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes con enfermedades hormonales en Lima.  
+Sabremos que hemos tenido éxito cuando observemos un aumento notable en la adherencia al tratamiento y en el cumplimiento de los objetivos terapéuticos por parte de los usuarios de nuestra aplicación en comparación con aquellos que no la utilizan.
+
+• Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada.  
+Sabremos que hemos tenido éxito cuando observemos una mejora en la percepción de la calidad de vida de los pacientes, evaluada mediante encuestas de satisfacción y testimonios positivos que reflejen una experiencia médica más satisfactoria y efectiva.
 
    ##### 1.2.2.4.	Lean UX Canvas.
 
-<center><img src="assets/images/leanuxcanva.png"></center>
 
+![alt text](<assets/images/Lean ux canvas.png>)
 
-[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
+Link : https://www.canva.com/design/DAGlv8sP4v4/KgG7eTq9_YaklhN8gP29VA/edit?utm_content=DAGlv8sP4v4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+### 1.3. Segmentos objetivo
 
-### 1.3.	Segmentos objetivo.
+**Pacientes con enfermedades hormonales en Lima**
 
-**Pacientes con enfermedades hormonales en Lima:** 
+Este segmento está compuesto por personas que enfrentan importantes obstáculos en la gestión de sus condiciones médicas. A pesar del creciente índice de enfermedades como la obesidad, hipertensión y diabetes mellitus, los pacientes se ven afectados por la falta de acceso oportuno a endocrinólogos, la escasez de recursos en el sistema de salud y las limitaciones en el seguimiento de sus tratamientos. Muchos experimentan largos tiempos de espera, baja adherencia terapéutica y una atención médica poco personalizada, lo que incrementa el riesgo de complicaciones graves y deteriora su calidad de vida.  
+Estos pacientes buscan soluciones que les ofrezcan atención eficiente, coordinada e inmediata, así como herramientas digitales que les permitan monitorear sus niveles hormonales y síntomas de manera constante.
 
-Este grupo enfrenta numerosos obstáculos en el manejo de sus condiciones médicas. A pesar de la creciente prevalencia de enfermedades como obesidad, hipertensión y diabetes mellitus, se ven afectados por la falta de acceso oportuno a médicos endocrinólogos, la escasez de recursos en el sistema de salud y las dificultades para realizar un seguimiento adecuado. Muchos experimentan largos tiempos de espera, baja adherencia al tratamiento y falta de atención personalizada, lo que puede provocar complicaciones graves y afectar su calidad de vida. Anhelan soluciones que les brinden una atención más eficiente, coordinada e inmediata, así como herramientas para monitorear sus niveles hormonales y síntomas de manera constante.
+**Profesionales de la salud (endocrinólogos)**
 
-**Profesionales de la salud (endocrinólogos):**
+Los endocrinólogos en Lima enfrentan desafíos significativos al gestionar el tratamiento de pacientes con trastornos hormonales. La escasez de especialistas y la alta demanda de consultas dificultan su labor diaria, generando sobrecarga de trabajo y reduciendo la capacidad de ofrecer un seguimiento personalizado y continuo.  
+Estos profesionales necesitan soluciones tecnológicas que optimicen su tiempo, faciliten el monitoreo remoto de sus pacientes, mejoren la coordinación entre diferentes especialistas de la salud y les permitan brindar una atención médica más efectiva, ágil y centrada en las necesidades particulares de cada paciente.
 
-Los médicos endocrinólogos en Lima se enfrentan a desafíos significativos en el manejo de pacientes con enfermedades hormonales. Con una preocupante escasez de especialistas en esta área y una alta demanda, su labor se ve obstaculizada por la sobrecarga de trabajo, la falta de herramientas para un seguimiento eficaz y las dificultades para coordinar ajustes oportunos en los tratamientos. Necesitan soluciones innovadoras que optimicen su tiempo, faciliten el monitoreo remoto de pacientes, mejoren la comunicación con otros profesionales de la salud involucrados y les permitan brindar una atención más personalizada y coordinada.
 
 
 ## Capítulo-II Requirements Elicitation & Analysis 

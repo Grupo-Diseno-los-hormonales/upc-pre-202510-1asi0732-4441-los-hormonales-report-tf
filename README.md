@@ -535,7 +535,7 @@ Incluye la elaboración de preguntas principales y secundarias dirigidas tanto a
 
 **Segmento objetivo \#1: Pacientes con enfermades hormonales**
 
-**Entrevistado N°2: Rodrigo Ismael Vitón**  
+**Entrevistado N°1: Rodrigo Ismael Vitón**  
 **Sexo:** Masculino  
 **Edad:** 23 años  
 **Ubicación:** Chorrillos, Lima, Perú  

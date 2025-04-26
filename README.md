@@ -3191,7 +3191,33 @@ A continuación se presentan las evidencias visuales de las diferentes secciones
 
 ## 5.2.5 Implemented Native-Mobile Application Evidence
 
+A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación móvil implementada:
+
+### 1. Pantalla de Home
+![Pantalla de Home](assets/images/mobile1.png)
+
+### 2. Pantalla de Selección de Rol
+![Pantalla de Selección de Rol](assets/images/mobile2.png)
+
+### 3. Pantalla de Información de Pacientes
+![Pantalla de Información de Pacientes](assets/images/mobile3.png)
+
+### 4. Pantalla de Lista de Pacientes Programados
+![Pantalla de Lista de Pacientes Programados](assets/images/mobile4.png)
+
+### 5. Pantalla de Notificaciones de Citas
+![Pantalla de Notificaciones de Citas](assets/images/mobile5.png)
+
+### 6. Pantalla de Programación de Citas
+![Pantalla de Programación de Citas](assets/images/mobile6.png)
+
+### 7. Pantalla de Gestión de Horario
+![Pantalla de Gestión de Horario](assets/images/mobile7.png)
+
+
+
 ## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
 
 ## 5.2.7 RESTful API Documentation
 

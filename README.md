@@ -316,6 +316,13 @@ Logo del Producto:
 | **U202120344**              |                                                              |
 | Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrea de ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente.Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código, y no me detengo hasta entenderlo completamente. Es mi forma de saciar mi curiosidad. | 
 
+|                             |                                                              |
+|-----------------------------|--------------------------------------------------------------|
+| **Abraham Andres Estrada Cajamune** | <img src="assets/images/profile-Abraham.jpg" alt="Abraham Estrada">                                                    |
+| **INGENIERIA DE SOFTWARE**  |                                                              |
+| **U202112164**              |                                                              |
+|  Soy estudiante de Ingeniería de Software de la UPC cursando el septimo ciclo. Me considero una persona comprometida con las actividades que conllevan a realizar, asimismo de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran.| 
+
 
 ### 1.2. Solution Profile
    #### 1.2.1.  Antecedentes y problemática

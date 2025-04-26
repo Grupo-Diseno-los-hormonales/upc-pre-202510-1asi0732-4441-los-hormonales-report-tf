@@ -113,44 +113,80 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
 
 ## Capítulo IV: Product Design
 
-- [4.1. Style Guidelines](#41-style-guidelines)  
-  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
-  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
-  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
-    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
-    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
-- [4.2. Information Architecture](#42-information-architecture)  
-  - [4.2.1. Organization Systems](#421-organization-systems)  
-  - [4.2.2. Labeling Systems](#422-labeling-systems)  
-  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
-  - [4.2.4. Searching Systems](#424-searching-systems)  
-  - [4.2.5. Navigation Systems](#425-navigation-systems)  
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
-  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
-  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
-- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-ux-ui-design)  
-  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)  
-  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
-  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)  
-  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
-- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
-  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)  
-  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)  
-- [4.6. Web Applications UX/UI Design](#46-web-applications-ux-ui-design)  
-  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)  
-  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
-  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)  
-  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
-- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
-- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
-  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)  
-  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)  
-  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)  
-- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
-  - [4.9.1. Class Diagrams](#491-class-diagrams)  
-  - [4.9.2. Class Dictionary](#492-class-dictionary)  
-- [4.10. Database Design](#410-database-design)  
-  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)  
+- [Contenido](#contenido)
+  - [Capítulo I: Introducción](#capítulo-i-introducción)
+  - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
+  - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+  - [Capítulo V: Product Implementation](#capítulo-v-product-implementation)
+  - [Secciones Finales](#secciones-finales)
+  - [STUDENT OUTCOME](#student-outcome)
+  - [Capítulo I: Introducción](#capítulo-i-introducción-1)
+    - [1.1. Startup Profile](#11-startup-profile)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [Logos](#logos)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2. Lean UX Process](#122-lean-ux-process)
+        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4.	Lean UX Canvas.](#1224lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+  - [Capítulo-II Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
+    - [2.1 Competidores](#21-competidores)
+  - [2.1.1 Análisis competitivo](#211-análisis-competitivo)
+    - [2.1.2 Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+  - [2.2 Entrevistas](#22-entrevistas)
+    - [2.2.1 Diseño de entrevistas](#221-diseño-de-entrevistas)
+    - [2.2.2 Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [Segmento objetivo #1: Pacientes con enfermedades hormonales](#segmento-objetivo-1-pacientes-con-enfermedades-hormonales)
+    - [Segmento objetivo #2: Médicos especialistas en endocrinología](#segmento-objetivo-2-médicos-especialistas-en-endocrinología)
+    - [Conclusiones generales](#conclusiones-generales)
+  - [2.3 Needfinding](#23-needfinding)
+    - [2.3.1. User personas](#231-user-personas)
+    - [2.3.2. User Task Matrix](#232-user-task-matrix)
+    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+    - [2.3.4 Empathy Mapping](#234-empathy-mapping)
+    - [2.3.5. As – is Scenario Mapping](#235-as--is-scenario-mapping)
+    - [2.4 Ubiquitous Language.](#24-ubiquitous-language)
+  - [Capítulo-III-Requirements-Specification](#capítulo-iii-requirements-specification-1)
+    - [3.1. To-Be Scenario Mapping.](#31-to-be-scenario-mapping)
+    - [3.2. User Stories.](#32-user-stories)
+    - [3.3. Impact Mapping.](#33-impact-mapping)
+    - [3.4. Product Backlog.](#34-product-backlog)
+  - [Capítulo IV: Producto Design](#capítulo-iv-producto-design)
+    - [4.1 Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.3 Mobile Style Guidelines](#413-mobile-style-guidelines)
+        - [4.1.3.1. IOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+        - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+    - [4.2 Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+    - [Wireframes para iOS](#wireframes-para-ios)
+    - [Wireframes para Android](#wireframes-para-android)
+      - [4.4.2 Mobile Applications Wireframes Diagrams](#442-mobile-applications-wireframes-diagrams)
+    - [**Pacientes**](#pacientes)
+    - [**Médicos**](#médicos)
+    - [**Administrador**](#administrador)
+      - [4.4.3 Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+      - [4.4.4 Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+    - [**Pacientes**](#pacientes-1)
+    - [**Médicos**](#médicos-1)
+    - [**Administrador**](#administrador-1)
+    - [4.5 Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+      - [4.5.1 Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+      - [4.5.2 IOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+    - [**Pacientes**](#pacientes-2)
+    - [**Médicos**](#médicos-2)
+    - [**Administrador**](#administrador-2)
+    - [**User 2 (Paciente)**](#user-2-paciente)
+    - [**User 3 (Administrador)**](#user-3-administrador)
+  - [**CONCLUSIONES Y RECOMENDACIONES**](#conclusiones-y-recomendaciones)
+  - [BIBLIOGRAFÍA](#bibliografía)
+  - [ANEXOS](#anexos)
 
 ## Capítulo V: Product Implementation
 
@@ -1039,7 +1075,7 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
         </tr> 
         <tr>
             <td>US05</td>
-            <td>ComuSelección de Rol</td>
+            <td>Selección de Rol</td>
             <td>
                <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> poder elegir el rol de paciente o médico <strong>para</strong> utilizar la app según mis necesidades.
             </td>
@@ -1758,18 +1794,20 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
         </tr>
         <tr>
             <td>US40</td>
-            <td>Añadir medicación</td>
+            <td>Visualización de perfil del paciente/médico</td>
             <td>
-               <strong>Como</strong> médico <strong>quiero</strong> poder añadir una receta médica vinculada a la medicación <strong>para</strong> facilitar al paciente la obtención del medicamento.
+               <strong>Como</strong> usuario (paciente o médico), <strong>quiero</strong> poder acceder y visualizar los detalles de mi perfil, incluyendo información básica como nombre, correo electrónico, rol, especialidad (en el caso de médicos) o historial clínico básico (en el caso de pacientes), <strong>para</strong> mantenerme informado sobre mis datos registrados en la plataforma HormonalCare.
             </td>
             <td>
-               <strong>Escenario 1</strong>: Médico quiere añadir una receta médica para su paciente <br>
-               <strong>Given</strong> que un médico endocrinólogo registrado en la aplicación se encuentra en la historia clínica del paciente, <br>
-               <strong>When</strong> haga clic en la pestaña “Añadir tratamiento y medicación” <br>
-               <strong>And</strong> haga clic en el botón “Añadir receta médica” <br>
-               <strong>Then</strong> el sistema abrirá una pestaña que le permitirá subir un archivo con la receta médica firmada por el paciente, <br>
-               <strong>And</strong> le llegará una notifiación al paciente para que pueda descargarla y adquirir el medicamento.
-            </td>
+               <strong>Escenario 1</strong>: Visualización de perfil de paciente <br>
+               <strong>Given</strong> que soy un usuario paciente, <br>
+               <strong>When</strong> ingreso a la sección "Perfil" desde el menú de navegación, <br>
+               <strong>Then</strong> puedo visualizar mi nombre, correo electrónico, edad.
+               <br><br>
+               <strong>Escenario 2</strong>: Visualización de perfil de médico <br>
+               <strong>Given</strong> que soy un usuario médico, <br>
+               <strong>When</strong> ingreso a la sección "Perfil" desde el menú de navegación, <br>
+               <strong>Then</strong> puedo visualizar mi nombre, género, número, cumpleaños, especialidad médica, años de experiencia, certicados, número de escuela, código para nuevos pacientes.
             <td>EP04</td>
         </tr>
     </tbody>
@@ -1781,71 +1819,387 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 <img src="assets/images/impac mapping.png" alt="impac mapping">
 
 ### 3.4. Product Backlog.
-Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3,5…). Además, la Historia de usuario base elegida por el grupo es US016, ya que consideramos que su nivel de complejidad, frecuencia y riesgo son intermedios.
+Utilizamos la escala de Fibonacci para la estimación de los Story Points 
 
-|#Orden|User Story Id|Titulo|Descripción|Story points (1/2/3/5/8)|
-| - | - | - | - | - |
-|01|US01|Visualización del Header.  |Como como visitante deseo observar un header con varias secciones para conocer más sobre el producto.|3|
-|02|US01|Información sobre Planes o Suscripciones.|Como como visitante deseo observar una sección con información de los planes o suscripciones de la app para elegir el que mejor se ajusta a mi situación.|2|
-|03|US01|Visualización del footer en la landing page.|Como visitante, quiero acceder rápidamente a información relevante sobre la aplicación para informarme o revisar información adicional.|1|
-|04|US01|Conocer la misión y visión de la aplicación.|Como visitante deseo conocer más sobre la misión, visión y valores de la empresa detrás de la aplicación.|2|
-|05|US24|Comunicación directa con el equipo de soporte.|Como visitante de la aplicación, deseo poder comunicarme directamente con el equipo de soporte para solucionar problemas técnicos o comentarios sobre la plataforma.|2|
-|06|US16|Visualización de la Historia Clínica del paciente por parte del médico.|Como médico quiero poder visualizar una historia clínica con campos como datos del paciente, motivo de consulta, antecedentes, exámenes médicos, reportes externos y diagnósticos y tratamiento, vinculada al paciente para poder tener un registro del paciente y brindar una mejor atención.|3|
-|07|US17|Ingreso de información y edición de la historia clínica del paciente por parte del médico.|Como médico quiero poder ingresar y editar la información de la historia clínica de mi paciente para poder tener la información actualizada de la historia clínica.|5|
-|08|US28|Ver la medicación del paciente.|Como médico quiero ver la medicación dispuesta a cada paciente para verificar o cambiar la receta médica.|3|
-|09|US39|Diagnóstico y tratamiento.|Como médico quiero poder añadir Diagnósticos y tratamiento a mi paciente para tener un registro detallado de su evolución.|3|
-|10|US29|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|11|US05|Selección de Rol.|Como usuario de "HormonalCare" deseo poder elegir el rol de paciente o médico para utilizar la app según mis necesidades.|2|
-|12|US03|Registro de usuario|Como usuario de "HormonalCare" quiero poder registrarme en la aplicación para guardar mi cuenta en la plataforma.|2|
-|13|US20|Agendar cita con médico endocrinólogo para usuarios totalmente nuevos.|Como paciente quiero poder agendar una cita con un médico endocrinólogo que me parezca adecuado tanto en precio como en calificación para poder recibir el tratamiento de mi enfermedad hormonal de manera remota.|3|
-|14|US11|Agendar una cita con el paciente.|Como médico quiero agendar una cita médica a un paciente que ya se atiende conmigo para continuar con el tratamiento.|3|
-|15|US31|Asignación de Paciente a Otro Médico con Programación de Cita por parte del Médico.|Como médico, cuando estoy visualizando el perfil de otro médico en la plataforma y deseo asignarle un paciente, quiero tener la capacidad de seleccionar al paciente deseado y luego ver los horarios disponibles del médico para programar una cita con el paciente asignado.|5|
-|16|US34|Agendar cita con el médico especialista	|Como paciente nuevo quiero ver y elegir el horario disponible del médico para poder agendar mi cita|3|
-|17|US14|Ver próximas citas.|Como paciente, quiero poder visualizar mis próximas citas médicas programadas, para poder estar preparado y organizado para mis consultas.|3|
-|18|US02|Integración de Google Calendar para visualizar citas médicas y medicamentos.|<p>Como desarrollador,</p><p>Necesito integrar Google Calendar en nuestra aplicación médica</p><p>Para permitir que los usuarios visualicen sus citas médicas programadas y los horarios de medicación.</p>|5|
-|19|US04|Inicio de sesión con cuenta de HormonalCare|Como usuario de "HormonalCare" quiero iniciar sesión con mi cuenta registrada para acceder a mis configuraciones de forma rápida y segura.|1|
-|20|US26|Médico asigna a paciente y programa una cita con un colega.|Como medico quiero poder realizar un traslado de paciente a otro médico para que pueda tener un horario más flexible.|3|
-|21|US08|Ver lista de pacientes del día.|Como médico deseo ver los pacientes del día para tener una cita médica más eficiente.|1|
-|22|US12|Visualización y Gestión de Horario por parte del Médico.|Como médico, quiero poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, para organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.|5|
-|23|US13|Ver calendario paciente.|Como paciente, quiero poder ver mi calendario para revisar mis citas programadas y los medicamentes que debo tomar a qué hora.|3|
-|24|US38|Subir resultados de exámenes médicos de laboratorio por parte del paciente.|Como paciente quiero poder cargar mis resultados de laboratorio para que mi medico los lea y me recete un determinado tratamiento para mi enfermedad hormonal.|1|
-|25|US30|Ver información detallada de los pacientes.|Como medico quiero poder tener de manera organizada los resultados de mis pacientes para que pueda llevar un registro más detallado de su tratamiento.|3|
-|28|US24|Ver los exámenes a evaluar.|Como médico deseo observar los exámenes que tengo que evaluar de cada paciente para personalizar su tratamiento.	|3|
-|29|US06|Integración de Twilio para comunicación por chat entre pacientes y doctores.|<p>Como desarrollador,</p><p>Necesito integrar Twilio en nuestra aplicación médica</p><p>Para permitir la comunicación por chat entre pacientes y doctores.</p>|5|
-|30|US45|Subir mis exámenes.|Como paciente, quiero poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla para que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.	|3|
-|31|US50|Añadir medicación.|Como médico quiero poder añadir una receta médica vinculada a la medicación para facilitar al paciente la obtención del medicamento.|2|
-|32|US09|Integración de Google Meet para citas médicas virtuales	|<p>Como desarrollador,</p><p>Necesito integrar Google Meet en nuestra aplicación médica</p><p>Para permitir citas médicas virtuales entre pacientes y doctores.</p>|5|
-|33|US40|Paciente accede a su perfil de usuario.|Como paciente, quiero poder ver y editar mi perfil médico en la aplicación, para poder acceder a mi información médica de forma segura y cómoda.	|2|
-|34|US35|Filtrar médicos disponibles.|Como paciente nuevo en la aplicación quiero poder visualizar a todos los médicos disponibles y poder filtrarlos por campos como su sexo, subespecialidad, recomendaciones, experiencia y rango de tarifas para tomar elegir al mejor doctor de acuerdo con mis preferencias.|3|
-|35|US33|Buscador de colegas médicos.|Como médico quiero buscar a mis colegas gestionar un seguimiento conjunto de los pacientes.|2|
-|36|US28|Búsqueda y Visualización de Perfiles de Otros Médicos por parte del Médico.|Como médico, quiero poder buscar a otro médico en la plataforma desde la página principal, para visualizar su perfil con sus datos personales y tener la capacidad de enviar mensajes y asignar pacientes según sea necesario.|3|
-|37|US16|Usuario se registra como paciente con código que un médico le proporcionó.|Como paciente quiero poder registrarme con el código que me proporciono mi medico endocrinólogo para que sea él quien lleve mi tratamiento de manera remota.|3|
-|38|US17|Cambiar plan de suscripción de médico desde su perfil de usuario.|Como medico quiero poder cambiar mi plan de suscripción actual para poder atender a una mayor cartera de clientes.|3|
-|39|US07|Integración de Twilio para notificaciones en la aplicación médica.|<p>Como desarrollador,</p><p>Necesito integrar Twilio en nuestra aplicación médica</p><p>Para enviar notificaciones importantes a pacientes y doctores.</p>|5|
-|40|US21|Comunicación directa con el paciente.|Como médico quiero comunicarme de forma directa con el paciente para resolver consultas.|5|
-|41|US22|Notificaciones a médicos de las citas.	|Como médico deseo recibir notificaciones de las citas para prepárame mejor.|3|
-|42|US26|Edición de Perfil por parte del Médico.|Como médico, quiero poder acceder y editar mi perfil en la plataforma para mantener actualizada mi información profesional.|2|
-|43|US29|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|44|US30|Acceso al Chat desde el Perfil de Otro Médico por parte del Médico.|Como médico, cuando estoy visualizando el perfil de otro médico en la plataforma, quiero tener la capacidad de iniciar un chat directo con ese médico para enviarle mensajes de forma rápida y directa.|3|
-|45|US32|Cancelación de Plan de Suscripción desde el Perfil por parte del Médico.	|Como médico, cuando estoy en mi perfil en la plataforma, quiero tener la capacidad de gestionar mi plan de suscripción, para cancelar la suscripción si así lo deseo.|2|
-|46|US36|Selección de médico disponible.|Como paciente nuevo quiero poder ver el perfil del médico elegido con campos como su nombre completo, sus años de experiencia, títulos adjuntos e información profesional como su formación de pregrado, postgrado, número de colegio médico, registro nacional de especialista y la tarifa estándar para informarme sobre las bondades de su servicio.|1|
-|47|US38|Pago de cita.|Como paciente quiero poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin para poder pagar y agendar mi cita.|5|
-|48|US39|Comunicación entre el paciente y el médico especialista.|Como paciente, quiero poder comunicarme con mi doctor a través de un chat para poder hacer preguntas sobre mi enfermedad hormonal y su tratamiento.|5|
-|49|US42|Ver recordatorios de hoy.|Como paciente, quiero poder visualizar todos los recordatorios programados para el día de hoy, para estar al tanto de mis compromisos médicos y de salud.|2|
-|50|US46|Ver notificaciones.|Como paciente, quiero poder recibir notificaciones sobre mensajes enviados por mi médico, para mantenerme informado sobre cualquier comunicación relevante relacionada con mi atención médica.|3|
-|51|US51|Gestión de Medicamentos|Como desarrollador, necesito implementar el endpoint de medicamentos, para permitir que los usuarios gestionen sus registros de medicación.|5|
-|52|US52|Gestión de Inscripciones|Como desarrollador, necesito implementar el endpoint de inscripciones, para permitir que los usuarios gestionen sus inscripciones médicas.|5|
-|53|US53|Gestión de Tipos de Medicamentos|Como desarrollador, necesito implementar el endpoint de tipos de medicamentos, para permitir que los usuarios gestionen los tipos de medicamentos disponibles.|5|
-|54|US54|Gestión de Razones de Consulta|Como desarrollador, necesito implementar el endpoint de razones de consulta, para permitir que los usuarios gestionen las razones de sus consultas médicas.|5|
-|55|US55|Gestión de Tratamientos|Como desarrollador, necesito implementar el endpoint de tratamientos, para permitir que los usuarios gestionen sus tratamientos médicos.|5|
-|56|US56|Gestión de Perfiles|Como desarrollador, necesito implementar el endpoint de perfiles, para permitir que los usuarios gestionen la información de los perfiles de pacientes y doctores.|5|
-|57|US57|Gestión de Calendario|Como desarrollador, necesito implementar el endpoint de calendario, para permitir que los usuarios gestionen sus eventos y citas médicas.|5|
-|58|US58|Gestión de Identidad y Acceso|Como desarrollador, necesito implementar el endpoint de gestión de identidad y acceso, para permitir que los usuarios gestionen sus cuentas y permisos.|5|
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Título</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Fundamentos de Acceso y Gestión de Pacientes</td>
+            <td>En este sprint construiremos la base esencial del sistema. Nos enfocaremos en implementar el acceso de usuarios mediante login seguro, visualizar información de pacientes, gestionar horarios, programar citas médicas y habilitar la visualización y edición inicial de las historias clínicas. También se activarán los primeros comunicados médicos y la gestión de tratamientos.</td>    
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Comunicación y Coordinación Médica</td>
+            <td>Este sprint se centrará en fortalecer la comunicación entre médicos y pacientes. Implementaremos el módulo de mensajería, la asignación eficiente de pacientes a médicos y notificaremos eventos importantes. Esto permitirá una mejor coordinación en los procesos de atención médica y un canal de soporte directo.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Seguimiento de Tratamientos y Evaluaciones</td>
+            <td>Aquí construiremos herramientas de seguimiento de la evolución del paciente. Se implementarán funcionalidades como la carga de resultados de exámenes, el tracker de tratamiento y la gestión detallada de medicamentos. El objetivo es fomentar la adherencia terapéutica y mejorar la autonomía del paciente en su tratamiento.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Optimización y Calidad Total</td>
+            <td>Este sprint estará enfocado en optimizar funcionalidades existentes, agregar módulos de reportes estadísticos y asegurar la calidad general del sistema. Se afinará la experiencia de usuario, se realizarán correcciones finales y se preparará la plataforma para su entrega final y presentación.</td>
+        </tr>  
+    </tbody>
+</table>
 
 
-**Asimismo, se adjunta el enlace del product backlog en la herramienta indicada.**
-<img src="assets/images/product-backlog-new.png" >
-https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
+<table>
+        <thead>
+            <tr>
+                <th>Sprint</th>
+                <th>User Story Id</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Story Points (1/2/3/5)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>EP01/US04</td>
+                <td>Inicio de sesión con cuenta de HormonalCare</td>
+                <td>
+                  <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> iniciar sesión con mi cuenta registrada <strong>para</strong> acceder a mis configuraciones de forma rápida y segura.
+                </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP01/US05</td>
+                <td>Selección de Rol</td>
+                <td>
+                  <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> poder elegir el rol de paciente o médico <strong>para</strong> utilizar la app según mis necesidades.
+                </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP04/US07</td>
+                <td>Visualización detallada de información de pacientes como médico</td>
+                <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> acceder a una vista general del estado de mis pacientes, <strong>para</strong> organizar mis prioridades clínicas y tomar decisiones rápidas.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP03/US08</td>
+                <td>Visualización de lista de pacientes programados para el día como médico</td>
+                <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> ver la lista de pacientes programados <strong>para</strong> el día para organizar eficientemente mis citas médicas.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP07/US09</td>
+                <td>Notificaciones de citas para médicos</td>
+                <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> recibir notificaciones sobre citas programadas <strong>para</strong> prepararme adecuadamente.
+               </td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP03/US11</td>
+                <td>Programar próximas citas con pacientes actuales</td>
+                <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> agendar fácilmente nuevas citas de seguimiento, <strong>para</strong> asegurar continuidad y control del tratamiento.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP03/US12</td>
+               <td>Visualización y Gestión de Horario por parte del Médico</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, <strong>para</strong> organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US16</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> ver la historia clínica completa y ordenada de mis pacientes, <strong>para</strong> brindar un diagnóstico más certero y personalizado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US17</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder ingresar y editar la información de la historia clínica de mi paciente <strong>para</strong> poder tener la información actualizada de la historia clínica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP09/US28</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> visualizar y modificar el tratamiento farmacológico del paciente, <strong>para</strong> ajustar la medicación de acuerdo con su evolución clínica.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US39</td>
+               <td>Diagnóstico y tratamiento</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder añadir Diagnósticos y tratamiento a mi paciente <strong>para</strong> tener un registro detallado de su evolución.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>US40</td>
+               <td>Visualización de perfil del paciente/médico</td>
+               <td>
+                  <strong>Como</strong> usuario (paciente o médico), <strong>quiero</strong> poder acceder y visualizar los detalles de mi perfil, incluyendo información básica como nombre, correo electrónico, rol, especialidad (en el caso de médicos) o historial clínico básico (en el caso de pacientes), <strong>para</strong> mantenerme informado sobre mis datos registrados en la plataforma HormonalCare.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP08/US21</td>
+               <td>Enviar comunicados importantes a médicos y pacientes</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder enviar comunicados globales a todos los médicos o pacientes, <strong>para</strong> informar sobre actualizaciones importantes, mantenimientos o recomendaciones de uso.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US13</td>
+               <td>Ver calendario paciente</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder ver mi calendario <strong>para</strong> revisar mis citas programadas y los medicamentes que debo tomar a qué hora.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US14</td>
+               <td>Ver próximas citas</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> ver mis próximas consultas médicas y también poder regresar a mis recordatorios del día, <strong>para</strong> estar organizada/o en mi tratamiento.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US22</td>
+               <td>Reasignación de Pacientes (Chat Admin-Médico)</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder asignar o cambiar el médico encargado de un paciente, <strong>para</strong> mantener una correcta organización clínica en caso de rotación o necesidad médica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US23</td>
+               <td>Revisar logs de acceso sospechoso</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> revisar registros de accesos sospechosos o múltiples intentos fallidos, <strong>para</strong> prevenir intrusiones o problemas de seguridad.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US24</td>
+               <td>Gestionar soporte técnico vía chat y estado</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> tener una interfaz de chat para comunicarme con los usuarios que solicitan soporte técnico y poder actualizar el estado de sus solicitudes, <strong>para</strong> resolver problemas y mantener a los usuarios informados.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US20</td>
+               <td>Agendar cita con médico endocrinólogo para usuarios nuevos</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder agendar una cita con un médico endocrinólogo adecuado <strong>para</strong> recibir tratamiento de mi enfermedad hormonal de manera remota.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US34</td>
+               <td>Agendar cita con el médico especialista</td>
+               <td>
+                  <strong>Como</strong> paciente nuevo <strong>quiero</strong> ver y elegir el horario disponible del médico <strong>para</strong> poder agendar mi cita.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US36</td>
+               <td>Comunicación entre el paciente y el médico especialista</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder enviarle mensajes a mi médico, <strong>para</strong> resolver dudas sin esperar hasta la siguiente consulta.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP06/US38</td>
+               <td>Subir mis exámenes</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla <strong>para</strong> que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.
+               </td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP05/US18</td>
+               <td>Gestionar quejas y mensajes entre usuarios</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> recibir y redirigir los mensajes de queja o sugerencia entre médicos y pacientes, <strong>para</strong> garantizar una comunicación organizada y justa.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP08/US19</td>
+               <td>Eliminar usuarios conflictivos de la plataforma</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder suspender o eliminar usuarios problemáticos, <strong>para</strong> mantener la seguridad y el buen funcionamiento del sistema.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP09/US25</td>
+               <td>Seguimiento continuo del tratamiento con sistema de racha</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> registrar diariamente mis controles y ver una racha de cumplimiento continuo del tratamiento, <strong>para</strong> monitorear mi progreso y mantenerme motivado a seguir mi rutina médica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP08/US26</td>
+               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder transferir pacientes entre colegas y organizar sus citas de manera eficiente.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP05/US27</td>
+               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> tener una vía de comunicación directa con mis pacientes, <strong>para</strong> resolver dudas rápidas o dar indicaciones de seguimiento.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP06/US06</td>
+               <td>Subir mis exámenes médicos desde la app</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder subir fácilmente mis resultados de laboratorio, <strong>para</strong> que mi médico pueda revisarlos sin tener que ir al consultorio.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP07/US37</td>
+               <td>Ver recordatorios de hoy</td>
+               <td>
+                  <strong>Como</strong> paciente, qui<strong>quiero</strong>ero ver todos los recordatorios del día actual, <strong>para</strong> no olvidar ningún compromiso relacionado a mi salud.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP04/US30</td>
+               <td>Ver el historial médico de un paciente</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> ver el historial médico de mi paciente <strong>para</strong> garantizar un tratamiento óptimo.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP08/US31</td>
+               <td>Asignación de Pacientes (Chat Admin-Médico-Paciente)</td>
+               <td>
+                  <strong>Como</strong> médico, cuando estoy visualizando el perfil de otro médico en la plataforma y deseo asignarle un paciente, <strong>quiero</strong> tener la capacidad de seleccionar al paciente deseado y luego ver los horarios disponibles del médico <strong>para</strong> programar una cita con el paciente asignado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP10/US32</td>
+               <td>Visualizar médicos disponibles</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder visualizar a los médicos disponibles con campos como especialidad, subespecialidad, tarifa, recomendaciones, nombre y foto <strong>para</strong> tratar mi enfermedad hormonal.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP10/US33</td>
+               <td>Selección de médico disponible</td>
+               <td>
+                  <strong>Como</strong> paciente nuevo <strong>quiero</strong> poder ver el perfil del médico elegido con campos como su nombre completo, sus años de experiencia, títulos adjuntos e información profesional como su formación de pregrado, postgrado, número de colegio médico, registro nacional de especialista y la tarifa estándar <strong>para</strong> informarme sobre las bondades de su servicio.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP06/US10</td>
+               <td>Revisar resultados de exámenes cargados por los pacientes</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> acceder a los exámenes médicos subidos por mis pacientes, <strong>para</strong> evaluar su situación clínica y ajustar tratamientos si es necesario.
+               </td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP04/US16</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> ver la historia clínica completa y ordenada de mis pacientes, <strong>para</strong> brindar un diagnóstico más certero y personalizado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>US35</td>
+               <td>Pago de cita</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin <strong>para</strong> poder pagar y agendar mi cita.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP07/US37</td>
+               <td>Ver recordatorios de hoy</td>
+               <td>
+                  <strong>Como</strong> paciente, qui<strong>quiero</strong>ero ver todos los recordatorios del día actual, <strong>para</strong> no olvidar ningún compromiso relacionado a mi salud.
+               </td>
+               <td>3</td>
+            </tr>
+        </tbody>
+</table>
 
 
 ## Capítulo IV: Producto Design

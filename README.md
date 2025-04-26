@@ -546,9 +546,53 @@ Link de la entrevista: https://youtu.be/aOPl7IZ2zoM
 
 Resumen: Rodrigo, un joven de 23 años que reside en Chorrillos, Lima, padece hipotiroidismo desde hace un año y medio. Actualmente enfrenta dificultades en el seguimiento de su tratamiento hormonal, principalmente por olvidos en la toma de medicamentos y complicaciones para adquirirlos a tiempo, sumado a la falta de disponibilidad para realizar consultas presenciales frecuentes. A pesar de su ritmo de vida acelerado, muestra gran interés en herramientas tecnológicas que le faciliten el control de su salud, utilizando ya apps como Google Calendar y Medisafe. Rodrigo expresó que valoraría altamente una aplicación como HormonalCare que le permita recibir recordatorios de medicación, tener acceso remoto a resultados médicos, gestionar sus citas de manera virtual y comunicarse directamente con su médico. Considera que una solución digital mejoraría notablemente su adherencia al tratamiento y su calidad de vida. Está fuertemente motivado por alcanzar metas y superar desafíos, y se sentiría más seguro si pudiera realizar el seguimiento de su condición de manera digital, demostrando ser un perfil ideal para el tipo de usuario que HormonalCare busca atender.
 
+**Entrevistado N°2: Arnhol Alfredo Castrejón Calderon**  
+**Sexo:** Masculino  
+**Edad:** 19 años  
+**Ubicación:** La Victoria, Lima, Perú  
+
+![alt text](assets/images/arnold.png)
+
+Link de la entrevista: https://youtu.be/HNvPSaW__bA
+
+Resumen: 
+El paciente Arnhol Alfredo Castrejón Calderon, diagnosticado con hipotiroidismo, señala que una de las principales dificultades que enfrenta en su tratamiento hormonal es el seguimiento adecuado de sus controles médicos, la organización de sus citas y la adherencia a los horarios de medicación. Asiste a consultas médicas cada tres meses para evaluar su evolución clínica y ajustar su tratamiento.
+
+Además, expresa que le gustaría contar con una comunicación directa y ágil con su médico para resolver dudas o incidentes que puedan surgir entre consultas. Relata una experiencia frustrante relacionada con la larga espera para ser atendido en su centro de salud, lo cual refuerza su interés en herramientas digitales. Por ello, manifiesta su disposición a utilizar una aplicación sencilla y segura que le permita comunicarse directamente con su médico, consultar resultados de análisis, programar citas médicas y recibir recordatorios sobre su medicación a través de notificaciones o mensajes de texto.
+
+En cuanto a su perfil tecnológico, el paciente utiliza principalmente una tablet con sistema operativo Android, emplea software como Spacedesk y aplicaciones de notas, prefiere dispositivos Samsung y navega usualmente a través de Google Chrome. Finalmente, destaca que se siente más motivado por el logro de sus metas personales y profesionales que por el temor a tomar decisiones importantes.
 
 
 **Segmento objetivo \#2: Médicos Endocrinólogos**
+
+**Entrevistado N°1: Rengo Araujo Ingunza**  
+**Sexo:** Masculino  
+**Edad:** 33 años  
+**Ubicación:** Lima, Lima, Perú  
+
+![alt text](assets/images/abraham.png)
+
+**Link de la entrevista:** https://youtu.be/HoqtsqvhqWM?si=ctYNNfHuHzr_M0NW
+
+
+**Resumen:** El Dr. Renzo, endocrinólogo de 33 años residente en Arequipa, trabaja en el sector público. Utiliza sistemas como Windows, el navegador Chrome y herramientas como Google Workspace y Medscape. Tiene 4 años de experiencia en su especialidad, tratando principalmente diabetes, hipotiroidismo y síndrome metabólico. Considera que la atención estatal es regular y opina que una aplicación podría mejorar el seguimiento de pacientes al facilitar la comunicación, el control y la adherencia al tratamiento. Aproximadamente el 60% de sus pacientes cumple con sus tratamientos. Renzo valora altamente la seguridad, la privacidad y las funciones prácticas en una app, y cree que el uso de esta tecnología podría incrementar su cartera de pacientes. Se siente fuertemente motivado por alcanzar metas, su desarrollo profesional y la interacción social.
+
+**Entrevistado N°2: Adriana García Pino**  
+**Sexo:** Femenino  
+**Edad:** 37 años  
+**Ubicación:** San Isidro, Lima, Perú  
+
+![alt text](assets/images/brenda.png)
+
+Link de la entrevista: https://youtu.be/YcFtCghQue8
+
+**Resumen de la entrevista:** La doctora Adriana García Pino resalta que muchos pacientes con enfermedades hormonales, como resistencia a la insulina o síndrome de ovario poliquístico (SOP), enfrentan serias dificultades para llevar un control adecuado debido al desconocimiento o la falta de seguimiento constante. Esto suele generar complicaciones médicas y desmotivación en el tratamiento. 
+
+Adriana considera que una aplicación de acompañamiento sería una solución positiva y necesaria, facilitando el monitoreo del tratamiento y los cambios en el estilo de vida. La app podría empoderar a los pacientes al mostrar su progreso de manera clara y motivadora.
+
+Sugiere que la plataforma incluya funcionalidades como recordatorios de medicación, seguimiento de síntomas, evolución de análisis médicos, promoción de hábitos saludables y educación continua. También propone incorporar un espacio de comunicación directa con el médico y alertas personalizadas. 
+
+Adriana enfatiza que la app debe ser clara, amigable y personalizada para no abrumar a los pacientes, además de integrar aspectos de salud mental y emocional para brindar un acompañamiento integral durante todo el proceso de tratamiento.
 
 
 #### 2.2.3. Análisis de entrevistas

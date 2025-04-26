@@ -3164,13 +3164,60 @@ En el primer sprint de nuestra aplicación "HormonalCare", nos centraremos en la
 
 ## 5.2.2 Implemented Landing Page Evidence
 
+A continuación se presentan las evidencias visuales de las diferentes secciones de la landing page implementada:
+
+### 1. Home
+![Home](assets/images/landing1.png)
+
+### 2. Features
+![Features](assets/images/landing2.png)
+
+### 3. Plans
+![Plans](assets/images/landing3.png)
+
+### 4. Testimonials
+![Testimonials](assets/images/landing4.png)
+
+### 5. Support
+![Support](assets/images/landing5.png)
+
+### 6. About
+![About](assets/images/landing6.png)
+
+
 ## 5.2.3 Implemented Frontend-Web Application Evidence
 
 ## 5.2.4 Acuerdo de Servicio - SaaS
 
 ## 5.2.5 Implemented Native-Mobile Application Evidence
 
+A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación móvil implementada:
+
+### 1. Pantalla de Home
+![Pantalla de Home](assets/images/mobile1.jpg)
+
+### 2. Pantalla de Selección de Rol
+![Pantalla de Selección de Rol](assets/images/mobile2.jpg)
+
+### 3. Pantalla de Información de Pacientes
+![Pantalla de Información de Pacientes](assets/images/mobile3.png)
+
+### 4. Pantalla de Lista de Pacientes Programados
+![Pantalla de Lista de Pacientes Programados](assets/images/mobile4.jpg)
+
+### 5. Pantalla de Notificaciones de Citas
+![Pantalla de Notificaciones de Citas](assets/images/mobile5.jpg)
+
+### 6. Pantalla de Programación de Citas
+![Pantalla de Programación de Citas](assets/images/mobile6.jpg)
+
+### 7. Pantalla de Gestión de Horario
+![Pantalla de Gestión de Horario](assets/images/mobile7.jpg)
+
+
+
 ## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
 
 ## 5.2.7 RESTful API Documentation
 

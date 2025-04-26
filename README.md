@@ -318,7 +318,7 @@ Logo del Producto:
 
 |                             |                                                              |
 |-----------------------------|--------------------------------------------------------------|
-| **Abraham Andres Estrada Cajamune** | <img src="assets/images/profile-Abraham.jpg" alt="Abraham Estrada">                                                    |
+| **Abraham Andres Estrada Cajamune** | <img src="assets/images/profile-abraham.jpg" width=400px heigth=400px alt="Abraham Estrada">                                                    |
 | **INGENIERIA DE SOFTWARE**  |                                                              |
 | **U202112164**              |                                                              |
 |  Soy estudiante de Ingeniería de Software de la UPC cursando el septimo ciclo. Me considero una persona comprometida con las actividades que conllevan a realizar, asimismo de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran.| 

@@ -3194,25 +3194,25 @@ A continuación se presentan las evidencias visuales de las diferentes secciones
 A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación móvil implementada:
 
 ### 1. Pantalla de Home
-![Pantalla de Home](assets/images/mobile1.png)
+![Pantalla de Home](assets/images/mobile1.jpg)
 
 ### 2. Pantalla de Selección de Rol
-![Pantalla de Selección de Rol](assets/images/mobile2.png)
+![Pantalla de Selección de Rol](assets/images/mobile2.jpg)
 
 ### 3. Pantalla de Información de Pacientes
 ![Pantalla de Información de Pacientes](assets/images/mobile3.png)
 
 ### 4. Pantalla de Lista de Pacientes Programados
-![Pantalla de Lista de Pacientes Programados](assets/images/mobile4.png)
+![Pantalla de Lista de Pacientes Programados](assets/images/mobile4.jpg)
 
 ### 5. Pantalla de Notificaciones de Citas
-![Pantalla de Notificaciones de Citas](assets/images/mobile5.png)
+![Pantalla de Notificaciones de Citas](assets/images/mobile5.jpg)
 
 ### 6. Pantalla de Programación de Citas
-![Pantalla de Programación de Citas](assets/images/mobile6.png)
+![Pantalla de Programación de Citas](assets/images/mobile6.jpg)
 
 ### 7. Pantalla de Gestión de Horario
-![Pantalla de Gestión de Horario](assets/images/mobile7.png)
+![Pantalla de Gestión de Horario](assets/images/mobile7.jpg)
 
 
 

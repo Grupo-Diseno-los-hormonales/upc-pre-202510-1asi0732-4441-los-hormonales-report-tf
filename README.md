@@ -3164,6 +3164,27 @@ En el primer sprint de nuestra aplicación "HormonalCare", nos centraremos en la
 
 ## 5.2.2 Implemented Landing Page Evidence
 
+A continuación se presentan las evidencias visuales de las diferentes secciones de la landing page implementada:
+
+### 1. Home
+![Home](assets/images/landing1.png)
+
+### 2. Features
+![Features](assets/images/landing2.png)
+
+### 3. Plans
+![Plans](assets/images/landing3.png)
+
+### 4. Testimonials
+![Testimonials](assets/images/landing4.png)
+
+### 5. Support
+![Support](assets/images/landing5.png)
+
+### 6. About
+![About](assets/images/landing6.png)
+
+
 ## 5.2.3 Implemented Frontend-Web Application Evidence
 
 ## 5.2.4 Acuerdo de Servicio - SaaS

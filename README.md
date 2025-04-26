@@ -3183,6 +3183,37 @@ A continuación se presentan las evidencias visuales de las diferentes secciones
 
 ## 5.2.3 Implemented Frontend-Web Application Evidence
 
+A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación web implementada:
+
+### 1. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl1.png)
+
+### 2. Pantalla de
+![Pantalla de ](assets/images/frontendimpl2.png)
+
+### 3. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl3.png)
+
+### 4. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl4.png)
+
+### 5. Pantalla de
+![Pantalla de ](assets/images/frontendimpl5.png)
+
+### 6. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl6.png)
+
+### 7. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl7.png)
+
+### 8. Pantalla de 
+![Pantalla de ](assets/images/frontendimpl8.png)
+
+### 9. Pantalla de
+![Pantalla de](assets/images/frontendimpl9.png)
+
+
+
 ## 5.2.4 Acuerdo de Servicio - SaaS
 
 ## 5.2.5 Implemented Native-Mobile Application Evidence

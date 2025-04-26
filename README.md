@@ -3280,9 +3280,6 @@ A continuación se presentan las evidencias visuales de las diferentes pantallas
 ![Pantalla de perfil de usuario como médico](assets/images/mobile7.jpg)
 
 
-
-## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
-
 ## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
 
 ### 1. Authentication - Sign-up Endpoint

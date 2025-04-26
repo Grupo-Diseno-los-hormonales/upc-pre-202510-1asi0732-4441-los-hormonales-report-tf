@@ -2946,6 +2946,157 @@ Link: https://lucid.app/lucidchart/ab4175a1-bcf2-46cf-9d63-de24f0831da0/edit?vie
 **Link del Figma:**  
 [https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1)
 
+## 4.8 Domain-Driven Software Architecture
+
+### 4.8.1 Software Architecture Context Diagram
+**Diagrama de contexto:**
+<img src="images/context diagram.png">
+[https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+
+
+### 4.8.2 Software Architecture Container Diagrams
+**Diagrama de contenedores:**
+
+<img src="images/container-diagram.png">
+[https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5](https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5)
+
+
+### 4.8.3 Software Architecture Components Diagrams
+
+**API REST component diagram:**
+
+<img src="images/api-component-diagram-part1.png">
+<img src="images/api-component-diagram-part2.png">
+[https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579](https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579)
+
+**Medical Appointment BC Component Diagram:**
+
+<img src="images/MedicalAppointment component diagram.png">
+[https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+
+**Calendar BC Component Diagram:**
+
+<img src="images/calendar component diagram.png">
+[https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+
+**History Medical BC Component Diagram:**
+
+<img src="images/History medical component diagram.png">
+[https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
+
+**Notification BC Component Diagram:**
+
+<img src="images/notification component diagram.png">
+[https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+
+**Indentity & Access BC Component Diagram:**
+
+<img src="images/indentity-and-access.png">
+[https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
+
+**Profile BC Component Diagram:**
+
+<img src="images/profiles-component.png">
+[https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2](https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2)
+
+**Communication BC Component Diagram:**
+
+<img src="images/communications.png">
+[https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a](https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a)
+
+**Subscription and Payments BC Component Diagram:**
+
+<img src="images/subscription-and-payments.png">
+[https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08](https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08)
+
+## 4.9 Software Object-Oriented Design
+
+### 4.9.1 Class Diagrams
+
+
+#### Identity & Access Class Diagram
+![](images/identityaccess.png)
+#### Profile Class Diagram
+![](images/profile.png)
+#### Communication Class Diagram
+![](images/communication.png)
+#### Subscription and Payments Class Diagram
+![](images/subscription.png)
+#### Medical Appointment Class Diagram
+![](images/mappointment.png)
+#### History Medical Class Diagram
+![](images/hmedical.png)
+#### Calendar Class Diagram
+![](images/calendar.png)
+#### Notification Class Diagram
+![](images/notification.png)
+
+Link: https://lucid.app/lucidchart/d44fb0b9-bf32-40fc-95c1-5925166b7d09/edit?viewport_loc=-6058%2C-4170%2C9111%2C6374%2C0_0&invitationId=inv_1c796232-59df-47e8-aa7a-00e4001bc754
+
+
+
+#### Class Diagram
+![](images/classdiagram.png)
+
+Link: [https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310](https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310)
+
+### 4.9.2 Class Dictionary
+
+
+|Class|Description|
+| :- | :- |
+|Doctor|The Doctor class represents physicians specialized in endocrinology who use the "HormonalCare" application. Doctors can access the platform to manage patient treatment, schedule appointments, review medical records, and communicate with other doctors and patients.|
+|User|The User class represents users of the "HormonalCare" application. This class encapsulates common characteristics and behaviors shared by both patients and doctors within the system.|
+|Patient|This class represents patients within the "HormonalCare" application system. This class inherits from the User class and adds properties and methods specific to managing patient information and interactions.|
+|Request|This class contains requests made by patients within the application. This class stores detailed information about each request, including the requested date and time for the appointment, the reason for the medical appointment, the current status of the request, etc. |
+|Calendar|This class provides functionalities for managing medical appointments and events within the application. This class allows for scheduling, viewing, and managing events related to patient healthcare.|
+|Disease|This class represents different types of diseases, such as flu, diabetes, or hypertension. Each disease has a unique identifier and name. Medical consultations are related to diseases, meaning that when you visit the doctor for a disease, that disease is recorded.|
+|Result|This class handles the results of your medical tests, such as blood tests or X-rays. Each result has a unique number, a date, and the result of the examination. Results are related to your medical consultations. It provides the option to view and add the result.|
+|Laboratory|Here, medical laboratories where your tests are performed are registered. Each laboratory has an identifying number and a name. Test results come from these laboratories.	|
+|Treatment|Represents the treatments you receive for a disease. For example, if you are diagnosed with diabetes, treatment could include diet changes and medication. Each treatment has a unique number and type. Treatments that the doctor deems appropriate can be recorded.|
+|Medication|This includes the medications that are part of your treatment. Each medication has an identifying number, a generic name, and a brand. Medications are associated with the treatments you receive and can be recorded depending on the doctor's needs.|
+|Reminder|The Reminder class manages reminders within the system. It contains a unique identifier and descriptive content specifying the task or event to be remembered. It offers functionalities to set and receive reminder notifications.|
+|Message|This class represents messages sent within the application. Each message has a unique identifier, text content, and a date and time of sending. It allows sending messages between users and maintaining a record of communications.|
+|Chat|Here, conversations between users in the application are organized. It has a unique identifier representing each chat and can contain multiple messages. It provides methods to manage and send real-time messages between participants.|
+|MedicalConsultation|The Medical_Consultation class records medical consultations performed in the application. Each consultation has a unique identifier and an associated date. This class allows displaying relevant information about the consultation and adding additional details about the medical encounter.|
+|Prescription|Here, medical prescriptions generated for patients are managed. It includes information such as the type of prescription, the name, the price, and associated benefits. It allows viewing, recording, and deleting medical prescriptions within the system.|
+|MedicationReminder|The Medication_Reminder class manages reminders related to patient medication. It contains details such as reminder days, daily frequency, and instructions. It offers functionalities to record reminders and send notifications related to medication.|
+|Subscription|The Subscription class manages user subscriptions to plans within the application. It stores details such as the start and end date of the subscription. It provides methods to view, choose, change, and cancel subscription plans.|
+|SubscriptionType|Subscription\_Type defines the different types of subscription plans available in the application. Each type has a unique identifier, a name, a price, and associated benefits. This class facilitates the management and visualization of subscription plans.|
+|Payment|The Payment class records payments made by users within the system. It contains a unique identifier, a price, and a QR code associated with the payment. It allows performing and managing payment transactions in the application.|
+|Card|Here, the information of the credit card used for payments within the system is represented. It includes details such as the cardholder's name, card number, expiration date, and security number. This class facilitates the management of card data to perform transactions.|
+|Yape|The Yape class handles transactions made through the Yape payment service. It contains a unique transaction identifier and an associated transaction code. It provides methods to manage and visualize data related to Yape transactions.|
+|Plin|This class manages transactions made through the Plin payment service. It stores a unique transaction identifier and an associated code. It offers functionalities to handle and query Plin transaction data in the application.|
+
+## 4.10 Database Design
+
+### 4.10.1 Relational/Non-Relational Database Diagram
+
+
+#### Identity & Access Database Diagram
+![](images/Identity&Access_databasediagram.png)
+#### Profile Database Diagram
+![](images/Profile_databasediagram.png)
+#### Communication Database Diagram
+![](images/Communication_databasediagram.png)
+#### Subscription and Payments Database Diagram
+![](images/SubscriptionandPayments_databasediagram.png)
+#### Medical Appointment Database Diagram
+![](images/MedicalAppointment_databasediagram.png)
+#### History Medical Database Diagram
+![](images/HistoryMedical_databasediagram.png)
+#### Calendar Database Diagram
+![](images/Calendar_databasediagram.png)
+#### Notification Database Diagram
+![](images/Notification_databasediagram.png)
+
+
+
+
+#### Database Diagram
+![](images/DatabaseDiagram.png)
+
+Link: [https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs](https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs)
 
 ## Capítulo V: Product Implementation
 

@@ -2950,7 +2950,191 @@ Link: https://lucid.app/lucidchart/ab4175a1-bcf2-46cf-9d63-de24f0831da0/edit?vie
 **Link del Figma:**  
 [https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1)
 
-**Video de exposición:**
+
+## Capítulo V: Product Implementation
+
+# 5.1 Software Configuration Management
+
+## 5.1.1 Software Development Environment Configuration
+
+
+
+**Project Management:**
+
+- **Trello:** Utilizado para la gestión de tareas y proyectos, permitiendo la asignación de actividades, definición de fechas límite y seguimiento del progreso de manera colaborativa.  
+[https://trello.com/signup](https://trello.com/signup)
+
+- **Structurizr:** Herramienta empleada para crear diagramas de arquitectura de software y documentar la arquitectura del sistema, facilitando la gestión técnica del proyecto.  
+[https://structurizr.com/](https://structurizr.com/)
+
+- **Microsoft Stream:** Plataforma utilizada para almacenar, publicar y compartir videos relacionados con el proyecto, centralizando los recursos visuales del equipo.  
+[https://www.microsoft.com/en-us/microsoft-365/microsoft-stream](https://www.microsoft.com/en-us/microsoft-365/microsoft-stream)
+
+- **Google Drive:** Utilizado para almacenamiento y colaboración en documentos, archivos y recursos del proyecto.  
+[https://www.google.com/drive/](https://www.google.com/drive/)
+
+- **GitHub Desktop:** Aplicación utilizada para gestionar el control de versiones del código fuente y facilitar la colaboración en el equipo de desarrollo.  
+[https://desktop.github.com/](https://desktop.github.com/)
+
+- **Google Forms:** Utilizado para recopilar retroalimentación y realizar encuestas de usuarios, recolectando datos relevantes para mejorar el diseño y desarrollo del producto.  
+[https://www.google.com/forms/about/](https://www.google.com/forms/about/)
+
+---
+
+**Requirements Management:**
+
+- **Miro:** Utilizado como herramienta principal para la gestión de requisitos, permitiendo la creación de mapas mentales y diagramas para organizar funcionalidades y objetivos clave.  
+[https://miro.com/signup/](https://miro.com/signup/)
+
+- **Lucidchart:** Complementariamente, utilizado para crear diagramas y documentación visual que apoyaron la organización de requisitos técnicos y de negocio.  
+[https://www.lucidchart.com/users/register](https://www.lucidchart.com/users/register)
+
+---
+
+**Product UX/UI Design:**
+
+- **Figma:** Herramienta principal para el diseño de la interfaz de usuario (UI) y experiencia de usuario (UX), permitiendo la creación de prototipos interactivos, wireframes y diseños visuales.  
+[https://www.figma.com/signup](https://www.figma.com/signup)
+
+- **UXPressia:** Utilizado para la creación de mapas de experiencia de usuario, perfiles de clientes y análisis de la usabilidad, mejorando la orientación al usuario del proyecto.  
+[https://uxpressia.com](https://uxpressia.com)
+
+- **Canva:** Empleado para generar recursos gráficos adicionales como imágenes, infografías y presentaciones, mejorando la comunicación visual del producto.  
+[https://www.canva.com/signup](https://www.canva.com/signup)
+
+---
+
+**Software Development:**
+
+- **IDE (Entorno de Desarrollo Integrado):** Se utilizó exclusivamente **Visual Studio Code** para todo el proceso de programación del proyecto. Visual Studio Code ofreció una plataforma ligera, flexible y extensible para escribir, depurar y administrar el código de manera eficiente.  
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+
+## 5.1.2 Source Code Management
+
+
+**Gestión de Repositorios en GitHub:**
+
+Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de **Los Hormonales** fueron gestionados en una organización de GitHub. A continuación, se detallan los repositorios utilizados para organizar las distintas partes del proyecto:
+
+- **Landing Page:** Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es fundamental para proporcionar a los usuarios una visión general del proyecto y guiarlos a través de las diferentes características y funcionalidades disponibles.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonalcare-landing-page](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonalcare-landing-page)
+
+- **Single Page Application (Frontend Web):** Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto, donde los usuarios interactúan con las funcionalidades clave.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-web-frontend](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-web-frontend)
+
+- **Mobile Frontend:** Este repositorio contiene el código fuente para la aplicación móvil, proporcionando la interfaz de usuario de la app en dispositivos móviles.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos_hormonal_care_mobile_frontend](https://github.com/Grupo-Diseno-los-hormonales/experimentos_hormonal_care_mobile_frontend)
+
+- **Backend:** Este repositorio alberga el código fuente del backend de la aplicación, encargado de la lógica del servidor y la gestión de datos de los usuarios.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-backend](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-backend)
+
+- **Report:** Repositorio que contiene los informes técnicos y documentales del proyecto, recopilando información clave sobre el desarrollo, pruebas y resultados.  
+[https://github.com/Grupo-Diseno-los-hormonales/upc-pre-202510-1asi0732-4441-los-hormonales-report-tb1](https://github.com/Grupo-Diseno-los-hormonales/upc-pre-202510-1asi0732-4441-los-hormonales-report-tb1)
+
+---
+
+**Estructura de Trabajo y Flujo de Gitflow:**
+
+Como equipo, decidimos dividir nuestro trabajo en varios repositorios para gestionar de manera eficiente el código y facilitar la colaboración. Esta estructura nos permitió enfocarnos en tareas específicas sin interferir en el trabajo de los demás, además de mantener un control de versiones claro y organizado.
+
+El flujo de trabajo fue gestionado a través de Gitflow, siguiendo los siguientes pasos:
+
+1. **Creación de la rama `develop`:** Esta rama fue utilizada como base para las versiones finales de cada funcionalidad (feature) que íbamos desarrollando.
+   
+2. **Creación de ramas para cada feature:** A partir de la rama `develop`, creamos ramas individuales para cada feature específico que íbamos desarrollando.
+
+3. **Proceso de desarrollo por feature:**
+   - Identificamos el **bounded context** para cada feature.
+   - Definimos el **feature** y nos movimos a la rama correspondiente.
+   - Realizamos un **merge** para traer los cambios de la rama `develop` a la rama del feature.
+   - Desarrollamos el feature, asegurándonos de que cada cambio estuviera correctamente reflejado en la rama.
+   - Verificamos el funcionamiento del feature, probando su rendimiento y funcionalidad.
+
+4. **Integración final:** Una vez que el feature fue probado y validado, realizamos un **merge** de vuelta a la rama `develop`.
+
+Este proceso se repitió para cada feature, permitiendo un desarrollo ordenado y eficiente de la aplicación web y móvil. Nos aseguramos de que cada nueva funcionalidad se integrara correctamente antes de fusionarla con la rama principal.
+
+
+## 5.1.3 Source Code Style Guide & Conventions
+
+Nuestro equipo adoptó las siguientes convenciones y guías de estilo para garantizar un código fuente coherente, legible y mantenible en los diferentes lenguajes y tecnologías utilizados en nuestra solución:
+
+
+HTML: 
+• Se adoptó la “HTML Style Guide and Coding Conventions” para garantizar un código HTML coherente y legible. 
+• Se utilizó la nomenclatura en inglés para los nombres de las clases y los ID. 
+• Se utilizó etiquetas semánticas adecuadas para mejorar la accesibilidad y la comprensión del código. 
+
+CSS: 
+• Se adoptó la “Google HTML/CSS Style Guide” para garantizar un código CSS coherente y legible. 
+• Se prefirió el uso de abreviaturas y valores numéricos sin unidades cuando sea posible. 
+• Se aplicaron principios de diseño responsivo y accesibilidad en los estilos.
+
+JavaScript y TypeScript: 
+• Se adoptó la “Google TypeScript Style Guide” y el “Angular coding style guide” para garantizar un código JavaScript y TypeScript coherente y legible. 
+• Las declaraciones de variables se realizaron al principio de su ámbito. 
+• Se prefirió el uso de const y let sobre var. 
+• Se utilizó la notación de camelCase para nombrar variables y funciones. 
+
+Gherkin: 
+• Se adoptaron las “Gherkin Conventions for Readable Specifications”. 
+• Se utilizó un lenguaje claro para los escenarios y los pasos. 
+• Se utilizó la nomenclatura en inglés para los nombres de los escenarios y los pasos.
+
+Flutter (Dart):  
+• Se adoptó la “Effective Dart: Style” como guía principal para asegurar un código Dart coherente, legible y mantenible.  
+• Se siguió la convención de usar la notación **camelCase** para nombrar variables, funciones, métodos y parámetros.  
+• Las clases se nombraron utilizando la notación **PascalCase**.  
+• Se prefiere el uso de **const** y **final** para definir constantes e inmutabilidad cuando sea necesario.  
+• Se utilizó **Widget** como primer elemento en los nombres de las clases que definen interfaces de usuario, por ejemplo, `WidgetHomePage`.  
+• Las funciones y métodos se nombraron de manera descriptiva, usando verbos para las acciones, por ejemplo, `buildUserInterface()` o `updateData()`.  
+• Se empleó la técnica de **StatefulWidget** solo cuando fue necesario, y se trató de mantener la mayor parte del código en **StatelessWidget** para optimizar el rendimiento.  
+• Se evitaron los **Widgets** anidados profundamente y se prefirió la reutilización de componentes.  
+• Se utilizaron los paquetes y plugins de Flutter siguiendo las mejores prácticas de la comunidad y la documentación oficial.  
+• Se adoptó el uso de **dartfmt** para formatear automáticamente el código y garantizar una apariencia uniforme.
+
+
+## 5.1.4 Software Deployment Configuration
+
+**Landing Page:**  
+Utilizamos el servicio **GitHub Pages** para desplegar la landing page del proyecto **HormonalCare**. Este servicio nos permitió hospedar nuestra landing page directamente desde nuestro repositorio de GitHub.
+
+**Los pasos que seguimos:**
+
+1. Después de haber integrado los cambios y nuevas versiones de la landing page en el repositorio, y asegurarnos de que las ramas estén actualizadas, ingresamos a la plataforma de GitHub y nos dirigimos a nuestro repositorio del proyecto.
+2. Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
+3. En la sección "Pages", seleccionamos la rama **main** desde la cual se desplegará la landing page.
+4. Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizó el proceso de despliegue de la landing page.
+5. Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada: [https://grupo-diseno-los-hormonales.github.io/experimentos-hormonalcare-landing-page/](https://grupo-diseno-los-hormonales.github.io/experimentos-hormonalcare-landing-page/).
+---
+
+**Frontend Web Applications:**  
+El despliegue del **frontend** también está en proceso, y pronto se publicará para que esté disponible para su interacción con el backend.
+
+**Backend:**  
+El despliegue del **backend** también está en proceso, y pronto se publicará para que esté disponible para su interacción con el frontend.
+
+
+# 5.2 Product Implementation & Deployment
+
+## 5.2.1 Sprint Backlogs
+
+## 5.2.2 Implemented Landing Page Evidence
+
+## 5.2.3 Implemented Frontend-Web Application Evidence
+
+## 5.2.4 Acuerdo de Servicio - SaaS
+
+## 5.2.5 Implemented Native-Mobile Application Evidence
+
+## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
+## 5.2.7 RESTful API Documentation
+
+## 5.2.8 Team Collaboration Insights
+
+# 5.3 Video About-the-Product
 
 
 ## **CONCLUSIONES Y RECOMENDACIONES**

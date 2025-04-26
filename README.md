@@ -42,10 +42,6 @@
 | Versión | Fecha       | Autor         | Descripción de la modificación |
 |:-------:|:-----------:|:-------------:|:-------------------------------:|
 | TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
-| TP1     | --          | --             | --                             |
-| TB2     | --          | --             | --                             |
-| TF1     | --          | --             | --                             |
-
 
 
 ## Project Report Collaboration Insights
@@ -62,7 +58,7 @@ La elaboración del informe se realizó de manera coordinada y eficiente. A trav
 Como evidencia de nuestra colaboración y transparencia, incluimos un gráfico de commits en GitHub que muestra visualmente la participación activa de cada integrante en el desarrollo del informe. Estos commits, disponibles en nuestro repositorio, reflejan nuestro compromiso con el trabajo en equipo y la responsabilidad compartida.
 
 <div  align="center">
-<img src="assets/images/GeneralCommits.png">
+<img src="assets/images/insightsreport.png">
 </div>
 
 Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que también promovió un sentido de pertenencia y compromiso con el proyecto en todos los miembros del equipo. Estamos comprometidos a mantener este nivel de colaboración y excelencia en futuras entregas del informe.

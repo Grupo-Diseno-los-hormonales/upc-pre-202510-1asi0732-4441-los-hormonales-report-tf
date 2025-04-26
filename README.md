@@ -3259,10 +3259,167 @@ A continuación se presentan las evidencias visuales de las diferentes pantallas
 
 ## 5.2.7 RESTful API Documentation
 
+
+#### Bounded Context: **Authentication**
+| Entity      | Endpoint URL                                  | Method |
+|-------------|-----------------------------------------------|--------|
+| Sign-up     | /api/v1/authentication/sign-up                | POST   |
+| Sign-in     | /api/v1/authentication/sign-in                | POST   |
+
+---
+
+#### Bounded Context: **Roles**
+| Entity      | Endpoint URL                                  | Method |
+|-------------|-----------------------------------------------|--------|
+| Get Roles   | /api/v1/roles                                 | GET    |
+
+---
+
+#### Bounded Context: **Users**
+| Entity            | Endpoint URL                                | Method |
+|-------------------|---------------------------------------------|--------|
+| Get All Users     | /api/v1/users                               | GET    |
+| Get User by ID    | /api/v1/users/{userId}                      | GET    |
+
+---
+
+#### Bounded Context: **Profile**
+| Entity                   | Endpoint URL                                      | Method |
+|--------------------------|---------------------------------------------------|--------|
+| Update Phone Number      | /api/v1/profile/profile/{profileId}/phoneNumber   | PUT    |
+| Update Image             | /api/v1/profile/profile/{profileId}/image         | PUT    |
+| Full Profile Update      | /api/v1/profile/profile/{profileId}/full-update   | PUT    |
+| Create Profile           | /api/v1/profile/profile                          | POST   |
+| Get Profile by ID        | /api/v1/profile/profile/{profileId}               | GET    |
+| Get Profile by User ID   | /api/v1/profile/profile/userId/{userId}          | GET    |
+| Check Profile Exists     | /api/v1/profile/profile/userId/exists/{userId}   | GET    |
+
+---
+
+#### Bounded Context: **Notification**
+| Entity                    | Endpoint URL                                      | Method |
+|---------------------------|---------------------------------------------------|--------|
+| Update Notification State  | /api/v1/notification/{notificationId}/state       | PUT    |
+| Create Notification        | /api/v1/notification                              | POST   |
+| Get Notification by ID     | /api/v1/notification/{notificationId}             | GET    |
+| Delete Notification        | /api/v1/notification/{notificationId}             | DELETE |
+| Get Notifications by Recipient ID | /api/v1/notification/notifications/recipient/{recipientId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Appointment**
+| Entity                     | Endpoint URL                                      | Method |
+|----------------------------|---------------------------------------------------|--------|
+| Get Appointment by ID       | /api/v1/medicalAppointment/{medicalAppointmentId} | GET    |
+| Update Appointment          | /api/v1/medicalAppointment/{medicalAppointmentId} | PUT    |
+| Delete Appointment          | /api/v1/medicalAppointment/{medicalAppointmentId} | DELETE |
+| Get All Appointments        | /api/v1/medicalAppointment                        | GET    |
+| Create Appointment          | /api/v1/medicalAppointment                        | POST   |
+| Get Appointments by Doctor ID | /api/v1/medicalAppointment/medicalAppointments/doctor/{doctorId} | GET    |
+
+---
+
+#### Bounded Context: **Treatment**
+| Entity                      | Endpoint URL                                      | Method |
+|-----------------------------|---------------------------------------------------|--------|
+| Get Treatment by ID          | /api/v1/medical-record/treatments/{treatmentId}   | GET    |
+| Update Treatment             | /api/v1/medical-record/treatments/{treatmentId}   | PUT    |
+| Create Treatment             | /api/v1/medical-record/treatments                 | POST   |
+| Get Treatments by Medical Record ID | /api/v1/medical-record/treatments/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Record**
+| Entity                      | Endpoint URL                                      | Method |
+|-----------------------------|---------------------------------------------------|--------|
+| Get Medical Record by ID     | /api/v1/medicalRecords/{medicalRecordId}          | GET    |
+| Create Medical Record       | /api/v1/medicalRecords                            | POST   |
+
+---
+
+#### Bounded Context: **Reason of Consultation**
+| Entity                         | Endpoint URL                                           | Method |
+|--------------------------------|--------------------------------------------------------|--------|
+| Get Reason of Consultation by ID | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | GET    |
+| Update Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | PUT    |
+| Create Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation        | POST   |
+| Get Reasons of Consultation by Medical Record ID | /api/v1/medical-record/reasons-of-consultation/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Patient**
+| Entity                   | Endpoint URL                                            | Method |
+|--------------------------|---------------------------------------------------------|--------|
+| Get Patient by ID         | /api/v1/medical-record/patient/{patientId}              | GET    |
+| Update Patient            | /api/v1/medical-record/patient/{patientId}              | PUT    |
+| Update Patient History    | /api/v1/medical-record/patient/personal-history/{patientId} | PUT    |
+| Update Family History     | /api/v1/medical-record/patient/family-history/{patientId} | PUT    |
+| Link Doctor to Patient    | /api/v1/medical-record/patient/doctor/{patientId}       | PUT    |
+| Create Patient            | /api/v1/medical-record/patient                          | POST   |
+| Get Patient Profile by ID | /api/v1/medical-record/patient/{patientId}/profile-id   | GET    |
+| Get Patient Record by ID  | /api/v1/medical-record/patient/record/{patientRecordId} | GET    |
+| Get Patient Profile       | /api/v1/medical-record/patient/profile/{profileId}      | GET    |
+| Get Patient Doctor        | /api/v1/medical-record/patient/doctor/{doctorId}        | GET    |
+
+---
+
+#### Bounded Context: **Medication**
+| Entity                        | Endpoint URL                                              | Method |
+|-------------------------------|-----------------------------------------------------------|--------|
+| Get Medication by ID           | /api/v1/medical-record/medications/{medicationId}         | GET    |
+| Update Medication              | /api/v1/medical-record/medications/{medicationId}         | PUT    |
+| Get Prescription by ID         | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | GET    |
+| Update Prescription            | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | PUT    |
+| Get Medication Type by ID      | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | GET    |
+| Update Medication Type         | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | PUT    |
+| Get All Medications            | /api/v1/medical-record/medications                       | GET    |
+| Create Medication              | /api/v1/medical-record/medications                       | POST   |
+| Get All Prescriptions          | /api/v1/medical-record/medications/prescriptions         | GET    |
+| Create Prescription            | /api/v1/medical-record/medications/prescriptions         | POST   |
+| Get All Medication Types       | /api/v1/medical-record/medications/medicationTypes       | GET    |
+| Create Medication Type         | /api/v1/medical-record/medications/medicationTypes       | POST   |
+| Get Prescriptions by Medical Record ID | /api/v1/medical-record/medications/prescriptions/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Exam**
+| Entity                      | Endpoint URL                                          | Method |
+|-----------------------------|-------------------------------------------------------|--------|
+| Get Medical Exam by ID       | /api/v1/medical-record/medical-exam/{medicalExamId}   | GET    |
+| Update Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | PUT    |
+| Delete Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | DELETE |
+| Create Medical Exam          | /api/v1/medical-record/medical-exam                   | POST   |
+| Get Medical Exams by Medical Record ID | /api/v1/medical-record/medical-exam/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Doctor**
+| Entity                     | Endpoint URL                                        | Method |
+|----------------------------|-----------------------------------------------------|--------|
+| Get Doctor by ID            | /api/v1/doctor/doctor/{doctorId}                    | GET    |
+| Update Doctor               | /api/v1/doctor/doctor/{doctorId}                    | PUT    |
+| Create Doctor               | /api/v1/doctor/doctor                               | POST   |
+| Get Doctor Profile by ID    | /api/v1/doctor/doctor/{doctorId}/profile-id         | GET    |
+| Get Doctor Record by ID     | /api/v1/doctor/doctor/record/{doctorRecordId}       | GET    |
+| Get Doctor Profile by Profile ID | /api/v1/doctor/doctor/profile/{profileId}         | GET    |
+
+---
+
+
 ## 5.2.8 Team Collaboration Insights
 
-# 5.3 Video About-the-Product
+En la presente entrega, se llevaron a cabo avances significativos en la integración del frontend y backend de la aplicación HormonalCare. Se trabajó de manera colaborativa, asignando tareas específicas a cada miembro del equipo y utilizando herramientas como Discord para coordinar las actividades y el seguimiento del progreso.
 
+![Insights Frontend](assets/images/insightsfront1.png)
+![Insights Frontend](assets/images/insightsfront2.png)
+
+# 5.3 Video About-the-Product
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas acerca del mismo. 
+
+A continuación, puedes ver el video a través de:
+
+**Link video en Youtube:** []() (duración: )
+![About the product](images/abouttheproduct.png)
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 

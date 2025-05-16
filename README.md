@@ -3792,25 +3792,68 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 ## Capítulo VII: DevOps Practices
 
 ### 7.1. Continuous Integration
-
-
-
 #### 7.1.1. Tools and Practices
+En el desarrollo de **HormonalCare**, una aplicación de telemedicina orientada al monitoreo y tratamiento de enfermedades hormonales, implementamos prácticas de *Integración Continua (CI)* con el objetivo de asegurar la calidad del software, reducir errores y garantizar la entrega frecuente de nuevas funcionalidades.
+
+Para lograr esto, utilizamos herramientas de desarrollo y pruebas que permiten verificar automáticamente cada cambio en el código, promoviendo una cultura de calidad y colaboración dentro del equipo. En particular, seguimos enfoques de **Desarrollo Guiado por Pruebas (TDD)** y **Desarrollo Guiado por Comportamiento (BDD)**, asegurando que cada funcionalidad cumpla con los requisitos funcionales y no funcionales establecidos.
+
+A continuación, se describen las herramientas clave que utilizamos:
+
+| Herramienta | Tipo | Descripción | Propósito |
+|-------------|------|-------------|-----------|
+| **JUnit** | TDD | Framework de pruebas unitarias para Java. | Permite probar componentes individuales del backend de HormonalCare. |
+| **Mockito** | TDD | Biblioteca de simulación para crear objetos mock. | Facilita las pruebas aisladas de controladores y servicios simulando dependencias. |
+| **Cucumber** | BDD | Herramienta que utiliza lenguaje Gherkin para describir comportamientos esperados. | Ayuda a validar que el comportamiento de la aplicación sea el esperado por usuarios médicos y pacientes. |
+
 
 
 #### 7.1.2. Build & Test Suite Pipeline Components
+El pipeline de CI implementado para **HormonalCare** automatiza la ejecución de pruebas a nivel de componentes y comportamientos clave del sistema, asegurando que cada funcionalidad validada cumpla con los estándares del equipo de desarrollo. Este pipeline se ejecuta cada vez que se realiza un commit o una fusión de ramas (merge), generando retroalimentación rápida sobre el estado del sistema.
 
+A continuación, se presenta una representación visual del proceso de ejecución de pruebas (usando imágenes de nuestras pruebas previas):
+
+##### Ejemplo de ejecución de pruebas de integración en controladores:
+![Core Integration Test](assets/images/coreintegration/integrationtests5.png)
+
+##### Ejemplo de pruebas de comportamiento BDD con Cucumber:
+![Core Behavior Test](assets/images/corebehavior/feature3.png)
+
+Estas pruebas están integradas en el pipeline de CI y se ejecutan de forma automatizada en cada iteración del desarrollo.
 
 
 ### 7.2. Continuous Delivery
-
-
+El proceso de *Entrega Continua (CD)* en HormonalCare está diseñado para mantener la aplicación lista para producción en todo momento, permitiendo un despliegue ágil y controlado. Este enfoque permite asegurar que los cambios realizados puedan ser entregados al entorno de producción rápidamente, con mínima intervención manual y máxima confianza en su estabilidad.
 
 #### 7.2.1. Tools and Practices
 
+**Herramientas utilizadas:**
+
+- **GitHub Actions / GitLab CI:** Automatizan el pipeline de CI/CD. Configuramos pasos específicos que detienen el despliegue final, permitiendo una revisión manual.
+- **Docker:** Conteneriza la aplicación backend de HormonalCare, garantizando consistencia entre entornos (desarrollo, staging y producción).
+- **Trello:** Utilizado para gestionar visualmente el proceso de despliegue y documentar la aprobación del mismo por parte del equipo técnico o stakeholders.
+
+**Prácticas aplicadas:**
+
+- **Feature Branching y Merge Requests:** Cada nueva funcionalidad es desarrollada en una rama específica y fusionada a la rama principal solo tras superar las pruebas automatizadas.
+- **Pipeline de Validación en Staging:** Antes de desplegar a producción, el sistema se despliega en un entorno de staging para pruebas manuales o revisión por parte del equipo médico.
+- **Despliegue Semiautomático:** Aunque el pipeline puede ejecutar todos los pasos automáticamente, el despliegue final requiere aprobación humana.
+- **Aprobación Manual:** El código no se libera hasta que un miembro del equipo (ej. líder técnico o product owner) revisa los resultados del pipeline.
+- **Rollback Manual:** En caso de errores críticos, el rollback se realiza de forma controlada por el equipo, permitiendo diagnosticar causas y recuperar el sistema.
 
 
 #### 7.2.2. Stages Deployment Pipeline Components
+
+El pipeline de despliegue se divide en etapas claves para asegurar una transición segura y controlada desde el desarrollo hasta la producción:
+
+- **Integración Continua (CI):** Automatiza la ejecución de pruebas unitarias, de integración y de comportamiento. Cada commit dispara la ejecución del pipeline.
+  
+- **Validación en Staging:** El sistema se despliega en un entorno controlado que simula producción. Aquí se ejecutan pruebas manuales, de carga y de seguridad por parte del equipo.
+
+- **Despliegue Manual:** Una vez superadas las pruebas en staging, se espera una aprobación explícita por parte del equipo responsable.
+
+- **Monitoreo y Feedback:** Se integran herramientas de monitoreo que permiten evaluar el rendimiento, la disponibilidad y el comportamiento del sistema antes y después del despliegue.
+
+- **Aprobación del Despliegue:** El pipeline se detiene hasta recibir la validación por parte de un desarrollador o administrador para proceder con el despliegue final a producción.
 
 
 ### 7.3. Continuous Deployment

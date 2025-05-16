@@ -39,9 +39,9 @@
 
 ## Registro de versiones del informe
 
-| Versión |    Fecha   |    Autor   |    Descripción de la modificación    |
-|:-----:|:--------:|:--------:|:--------:|
-| TB1     | 26/04/2025 | Los Hormonales | El equipo realizó la entrega del TB1 lo que incluye los capítulos I, II, III ,IV y V completos.  |
+| Versión | Fecha       | Autor         | Descripción de la modificación |
+|:-------:|:-----------:|:-------------:|:-------------------------------:|
+| TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
 
 
 ## Project Report Collaboration Insights
@@ -49,9 +49,7 @@
 El URL del repositorio se encuentra en: [https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/](https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/).
 
 
-TB1:
-
-Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
+TB1: Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
 
 Adoptamos un enfoque colaborativo y transparente para el desarrollo del informe, estableciendo un repositorio en la organización de GitHub de nuestro equipo, donde cada miembro contribuyó activamente.
 
@@ -60,198 +58,109 @@ La elaboración del informe se realizó de manera coordinada y eficiente. A trav
 Como evidencia de nuestra colaboración y transparencia, incluimos un gráfico de commits en GitHub que muestra visualmente la participación activa de cada integrante en el desarrollo del informe. Estos commits, disponibles en nuestro repositorio, reflejan nuestro compromiso con el trabajo en equipo y la responsabilidad compartida.
 
 <div  align="center">
-<img src="assets/images/GeneralCommits.png">
+<img src="assets/images/insightsreport.png">
 </div>
 
 Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que también promovió un sentido de pertenencia y compromiso con el proyecto en todos los miembros del equipo. Estamos comprometidos a mantener este nivel de colaboración y excelencia en futuras entregas del informe.
 
 
-## Contenido
+# Contenido
+
+- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)  
+- [Student Outcome](#student-outcome)  
+
+## Capítulo I: Introducción
+
+- [1.1. Startup Profile](#11-startup-profile)  
+  - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)  
+  - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)  
+- [1.2. Solution Profile](#12-solution-profile)  
+  - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)  
+  - [1.2.2. Lean UX Process](#122-lean-ux-process)  
+    - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)  
+    - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)  
+    - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)  
+    - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)  
+- [1.3. Segmentos objetivo](#13-segmentos-objetivo)  
+
+## Capítulo II: Requirements Elicitation & Analysis
+
+- [2.1. Competidores](#21-competidores)  
+  - [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
+  - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)  
+- [2.2. Entrevistas](#22-entrevistas)  
+  - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)  
+  - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)  
+  - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)  
+- [2.3. Needfinding](#23-needfinding)  
+  - [2.3.1. User Personas](#231-user-personas)  
+  - [2.3.2. User Task Matrix](#232-user-task-matrix)  
+  - [2.3.3. User Journey Mapping](#233-user-journey-mapping)  
+  - [2.3.4. Empathy Mapping](#234-empathy-mapping)  
+  - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)  
+- [2.4. Ubiquitous Language](#24-ubiquitous-language)  
+
+## Capítulo III: Requirements Specification
+
+- [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)  
+- [3.2. User Stories](#32-user-stories)  
+- [3.3. Product Backlog](#33-product-backlog)  
+- [3.4. Impact Mapping](#34-impact-mapping)  
+
+## Capítulo IV: Product Design
+
+  - [4.1 Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.3 Mobile Style Guidelines](#413-mobile-style-guidelines)
+        - [4.1.3.1. IOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
+        - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
+    - [4.2 Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+    - [Wireframes para iOS](#wireframes-para-ios)
+    - [Wireframes para Android](#wireframes-para-android)
+      - [4.4.2 Mobile Applications Wireframes Diagrams](#442-mobile-applications-wireframes-diagrams)
+    - [**Pacientes**](#pacientes)
+    - [**Médicos**](#médicos)
+    - [**Administrador**](#administrador)
+      - [4.4.3 Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
+      - [4.4.4 Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
+    - [**Pacientes**](#pacientes-1)
+    - [**Médicos**](#médicos-1)
+    - [**Administrador**](#administrador-1)
+    - [4.5 Mobile Applications Prototyping](#45-mobile-applications-prototyping)
+      - [4.5.1 Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
+      - [4.5.2 IOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
+    - [**Pacientes**](#pacientes-2)
+    - [**Médicos**](#médicos-2)
+    - [**Administrador**](#administrador-2)
+    - [**User 2 (Paciente)**](#user-2-paciente)
+    - [**User 3 (Administrador)**](#user-3-administrador)
+
+
+## Capítulo V: Product Implementation
+
+- [5.1. Software Configuration Management](#51-software-configuration-management)  
+  - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
+  - [5.1.2. Source Code Management](#512-source-code-management)  
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)  
+  - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
+- [5.2. Product Implementation & Deployment](#52-product-implementation-deployment)  
+  - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
+  - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)  
+  - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)  
+  - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)  
+  - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)  
+  - [5.2.7. RESTful API documentation](#527-restful-api-documentation)  
+  - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)  
+- [5.3. Video About-the-Product](#53-video-about-the-product)  
+
+## Secciones Finales
+
+- [Conclusiones](#conclusiones)  
+- [Bibliografía](#bibliografía)  
+- [Anexos](#anexos)
 
-### [Registro de versiones del informe](#registro-de-versiones-del-informe)
-
-### [Contenido](#contenido)
-
-### [STUDENT OUTCOME](#student-outcome-1)
-
-### [Capítulo I: Introducción](#capítulo-i-introducción-1)
-
-[1.1.	Startup Profile](#11-startup-profile)
-
-[1.1.1.	Descripción de la Startup](#111descripción-de-la-startup)
-
-[1.1.2.	Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-
-[1.2.	Solution Profile](#12-solution-profile)
-
-[1.2.1.	Antecedentes y problemática](#121--antecedentes-y-problemática)
-
-[1.2.2.	Lean UX Process](#122lean-ux-process)
-
-[1.2.2.1.	Lean UX Problem Statements](#1221lean-ux-problem-statements)
-
-[1.2.2.2.	Lean UX Assumptions](#1222lean-ux-assumptions)
-
-[1.2.2.3.	Lean UX Hypothesis Statements](#1223lean-ux-hypothesis-statements)
-
-[1.2.2.4.	Lean UX Canvas](#1224lean-ux-canvas)
-
-[1.3.	Segmentos objetivo](#13segmentos-objetivo)
-
-### [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis-1)
-
-[2.1. Competidores](#21-competidores)
-
-[2.1.1. Análisis competitivo](#211-análisis-competitivo)
-
-[2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-
-[2.2. Entrevistas](#22-entrevistas)
-
-[2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-
-[2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-
-[2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-
-[2.3. Needfinding](#23-needfinding)
-
-[2.3.1. User Personas](#231-user-personas)
-
-[2.3.2. User Task Matrix](#232-user-task-matrix)
-
-[2.3.3. User Journey Mapping](#233-user-journey-mapping)
-
-[2.3.4. Empathy Mapping](#234-empathy-mapping)
-
-[2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-
-[2.4.      Ubiquitous Language](#24-ubiquitous-language)
-
-### [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification-1)
-
-[3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-
-[3.2. User Stories](#32-user-stories)
-
-[3.3. Impact Mapping](#33-impact-mapping)
-
-[3.4. Product Backlog](#34-product-backlog)
-
-### [Capítulo IV: Product Design](#capítulo-iv-product-design)
-
-[4.1.      Style Guidelines](#41-style-guidelines)
-
-[4.1.1.   General Style Guidelines](#411-general-style-guidelines)
-
-[4.1.2.	Web Style Guidelines](#412-web-style-guidelines)
-
-[4.1.3.	Mobile Style Guidelines](#412-mobile-style-guidelines)
-
-[4.1.3.1.	iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-
-[4.1.3.2.	Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-
-[4.2.      Information Architecture](#42-information-architecture)
-
-[4.2.1.   Organization Systems](#421-organization-systems)
-
-[4.2.2.   Labeling Systems](#422-labeling-systems)
-
-[4.2.3.   SEO Tags and Meta Tags](#423-seo-tags-and-mega-tags)
-
-[4.2.4.   Searching Systems](#424-searching-systems)
-
-[4.2.5.   Navigation Systems](#425-navigation-systems)
-
-[4.3.      Landing Page UI Design](#43-landing-page-ui-design)
-
-[4.3.1.   Landing Page Wireframe](#431-landing-page-wireframe)
-
-[4.3.2.   Landing Page Mock-up.](#432-landing-page-mockup)
-
-[4.4.     Mobile Applications UX/UI Design](#44-mobile-applications-ux/ui-design)
-
-[4.4.1.   Mobile Applications Wireframes](#441-mobile-applications-wireframes)
-
-[4.4.2.   Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)
-
-[4.4.3.   Mobile Applications Mock-ups](#443-mobile-applications-mockups)
-
-[4.4.4.   Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-
-[4.5.      Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-
-[4.5.1.   Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-
-[4.5.2.   iOS Mobile Applications Prototyping](#451-ios-mobile-applications-prototyping)
-
-[4.6.      Web Applications UX/UI Design](#46-web-applications-ux/ui-design)
-
-[4.6.1.   Web Applications Wireframes](#461-web-applications-wireframes)
-
-[4.6.2.   Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)
-
-[4.6.3.   Web Applications Mock-ups](#463-web-applications-mockups)
-
-[4.6.4.   Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)
-
-[4.7.     Web Applications Prototyping](#47-web-applications-prototyping)
-
-[4.8.     Domain-Driven Software Architecture](#48-domain-driven-software-architecture)
-
-[4.8.1.   Software Architecture Context Diagram](#481-software-architecture-context-diagram)
-
-[4.8.2.   Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)
-
-[4.8.3.   Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)
-
-[4.9.     Software Object-Oriented Design](#49-software-object-oriented-design)
-
-[4.9.1.   Class Diagrams](#491-class-diagrams)
-
-[4.9.2.   Class Dictionary](#492-class-dictionary)
-
-[4.10.    Database Design](#410-database-design)
-
-[4.10.1.  Relational/Non-Relational Database Diagram.](#4101-relational/non-relational-database-diagram)
-
-
-### [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-backend-product-implementation-validation--deployment)
-
-[5.1.      Software Configuration Management](#51-software-configuration-management)
-
-[5.1.1.   Software Development Environment Configuration](#511-software-development-environment-configuration)
-
-[5.1.2.   Source Code Management](#512-source-code-management)
-
-[5.1.3.   Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-
-[5.1.4.   Software Deployment Configuration](#514-software-deployment-configuration)
-
-[5.2.     Product Implementation & Deployment](#52-product-implementation--deployment)
-
-[5.2.1.   Sprint Backlogs.](#521-sprint-backlogs)
-
-[5.2.2.   Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-
-[5.2.3.   Implemented Frontend-Web Application Evidence](#523-implemented-frontendweb-application-evidence)
-
-[5.2.4.   Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-
-[5.2.5.   Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-and/or-serverless-backend-evidence)
-
-[5.2.6.   RESTful API documentation](#526-restful-api-documentation)
-
-[5.2.7.   Team Collaboration Insights](#527-team-collaboration-insights)
-
-[5.3. Video About-the-Product.](#53-video-about-the-product.)
-
-[Conclusiones y recomendaciones](#)
-
-[Bibliografía](#)
-
-[Anexos](#)
 
 
 ## STUDENT OUTCOME 
@@ -265,226 +174,223 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 
 
-|Criterio específico|Acciones realizadas|Conclusiones|
+| Criterio específico | Acciones realizadas | Conclusiones |
 | - | - | - |
-|c1. |<p>**Astuyauri Calderon, Jherson David**	</p><p>TB1: </p><p>**Carranza Tesen, Joaquin Enrique**	</p><p>TB1: </p><p>**Estrada Cajamune, Abraham Andres**</p><p>TB1: </p> <p>**Gamio Upiachihua, Brenda Lucía**</p><p>TB1: </p><p>**Soto Quispe, Diego Ulises :**</p><p>TB1:  </p>|<br>TB1:   </br>|
-|c2.|<p>**Astuyauri Calderon, Jherson David**	</p><p>TB1: </p><p>**Carranza Tesen, Joaquin Enrique**	</p><p>TB1: </p><p>**Estrada Cajamune, Abraham Andres**</p><p>TB1: </p> <p>**Gamio Upiachihua, Brenda Lucía**</p><p>TB1: </p><p>**Soto Quispe, Diego Ulises :**</p><p>TB1:  </p>|<br>TB1:   </br>|
+| c1. Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | <p>**Astuyauri Calderon, Jherson David**</p><p>TB1: Lideró la elaboración del Problem Statement, garantizando que el planteamiento reflejara de manera ética las verdaderas necesidades de los usuarios, evitando sesgos o manipulaciones.</p><p>**Carranza Tesen, Joaquin Enrique**</p><p>TB1: Redactó el perfil de la startup y los segmentos objetivos respetando la privacidad de los datos recopilados, asegurando que la información fuera presentada de manera honesta y precisa.</p><p>**Estrada Cajamune, Abraham Andres**</p><p>TB1: Durante la elaboración del análisis de entrevistas, se aseguró de representar las opiniones de los usuarios sin alterarlas, mostrando responsabilidad en el manejo de testimonios sensibles.</p><p>**Gamio Upiachihua, Brenda Lucía**</p><p>TB1: En el diseño del Empathy Map y User Personas, actuó con responsabilidad al reflejar con exactitud los sentimientos y necesidades de los usuarios entrevistados.</p><p>**Soto Quispe, Diego Ulises**</p><p>TB1: En la construcción del Lean UX Canvas, se preocupó por que las hipótesis y problemáticas planteadas fueran éticas y se enfocaran en mejorar la calidad de vida de los usuarios.</p> | <p>TB1: Se concluyó que actuar éticamente en el planteamiento de problemas, análisis de usuarios y desarrollo de soluciones promueve la confianza, la transparencia y la responsabilidad en los proyectos de ingeniería de software.</p> |
+| c2. Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | <p>**Astuyauri Calderon, Jherson David**</p><p>TB1: Propuso, en el Lean UX Hypothesis, soluciones de telemedicina accesibles para personas de bajos recursos, considerando el impacto social de la herramienta en comunidades vulnerables.</p><p>**Carranza Tesen, Joaquin Enrique**</p><p>TB1: Analizó en el Competitive Analysis cómo la solución debía ser económicamente sostenible frente a competidores más grandes, sugiriendo tácticas de bajo costo.</p><p>**Estrada Cajamune, Abraham Andres**</p><p>TB1: Durante el diseño del To-Be Scenario Mapping, evaluó la necesidad de minimizar tiempos de atención médica para mejorar la calidad de vida de los pacientes.</p><p>**Gamio Upiachihua, Brenda Lucía**</p><p>TB1: Propuso estrategias inclusivas en el diseño del User Journey Map para atender a pacientes de zonas rurales con acceso limitado a tecnología.</p><p>**Soto Quispe, Diego Ulises**</p><p>TB1: En el Impact Mapping, propuso acciones estratégicas que equilibraran el crecimiento de la solución con el respeto al medio ambiente mediante el uso de recursos digitales eficientes.</p> | <p>TB1: Se concluyó que las soluciones de software deben diseñarse considerando no solo su viabilidad técnica, sino también su impacto social, económico y ambiental, buscando siempre maximizar beneficios y minimizar daños.</p> |
 
 
 ## Capítulo I: Introducción
 
 ### 1.1. Startup Profile
-#### 1.1.1.Descripción de la Startup
+
+En esta sección describiremos la descripción de nuestra Startup.
+#### 1.1.1. Descripción de la Startup
 
 Los Hormonales es una startup conformada por estudiantes de la Facultad de Ingeniería y Ciencias de la Universidad Peruana de Ciencias Aplicadas (UPC), con el propósito de mejorar el seguimiento médico de pacientes. Nuestro objetivo es enfrentar los retos del sistema de salud peruano, especialmente en lo relacionado al monitoreo de enfermedades hormonales.
 
 Actualmente, el seguimiento de estas enfermedades en el Perú presenta diversas limitaciones, tanto para médicos como para pacientes, debido a la falta de eficiencia en los procesos. Esta situación se agrava en los centros de salud públicos, donde la alta demanda supera la capacidad de atención. Frente a este panorama, NinjaCode propone soluciones tecnológicas que agilizan la atención médica y permiten un uso más eficiente de los recursos en distintas regiones del país.
 
-Nuestra propuesta se basa en mejorar la comunicación, reforzar la seguridad y gestionar de manera efectiva la información médica de los usuarios. Con nuestra aplicación HormonalCare, desarrollada por NinjaCode, ofrecemos una plataforma digital segura, intuitiva y centrada en el usuario, diseñada específicamente para facilitar el seguimiento de enfermedades hormonales.
+Nuestra propuesta se basa en mejorar la comunicación, reforzar la seguridad y gestionar de manera efectiva la información médica de los usuarios. Con nuestra aplicación **HormonalCare**, desarrollada por **NinjaCode**, ofrecemos una plataforma digital segura, intuitiva y centrada en el usuario, diseñada específicamente para facilitar el seguimiento de enfermedades hormonales.
 
 Tenemos una misión clara: transformar la experiencia del seguimiento médico y contribuir al bienestar de millones de personas. Aspiramos a posicionarnos como referentes en salud digital a través de la innovación, garantizando altos estándares en protección de datos, conectividad y experiencia de usuario para mejorar la atención médica en el Perú y más allá.
 
-Logo del Startup:
+#### Logos
 
-<center><img src="assets/images/LosHormonales.png" width = 200></center>
+<p align="center">
+  <b>Logo de la Startup:</b><br>
+  <img src="assets/images/LosHormonales.png" alt="Logo Los Hormonales" width="220">
+</p>
 
-Logo del Producto:
+<p align="center">
+  <b>Logo del Producto:</b><br>
+  <img src="assets/images/LogoHormonalCare.png" alt="Logo HormonalCare" width="220">
+</p>
 
-<center><img src="assets/images/LogoHormonalCare.png"></center>
 
 
 
 #### 1.1.2. Perfiles de integrantes del equipo
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **JHERSON DAVID ASTUYAURI CALDERON** | <img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202218451**              |                                                              |
-| Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. | 
 
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **JOAQUÍN ENRIQUE CARRANZA TESÉN** | <img src="assets/images/profileJoaquin.png" alt="Jherson Astuyauri">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U20191B935**              |                                                              |
-| Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. | 
-
-|                             |                                                              |
-|-----------------------------|--------------------------------------------------------------|
-| **BRENDA LUCÍA GAMIO UPIACHIHUA** | <img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio">                                                    |
-| **INGENIERIA DE SOFTWARE**  |                                                              |
-| **U202120344**              |                                                              |
-| Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrea de ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente.Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código, y no me detengo hasta entenderlo completamente. Es mi forma de saciar mi curiosidad. | 
-
+| **Integrantes** | **Descripción** |
+|:---------------:|:----------------|
+| <p align="center"><img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri" width="120"><br><b>Jherson David Astuyauri Calderón</b></p> | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
+| <p align="center"><img src="assets/images/profileJoaquin.png" alt="Joaquín Carranza" width="120"><br><b>Joaquín Enrique Carranza Tesén</b></p> | Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. |
+| <p align="center"><img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio" width="120"><br><b>Brenda Lucía Gamio Upiachihua</b></p> | Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrera de Ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente. Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código y no me detengo hasta entenderlo completamente. |
+| <p align="center"><img src="assets/images/profile-abraham.jpg" alt="Abraham Estrada" width="120"><br><b>Abraham Andrés Estrada Cajamune</b></p> | Soy estudiante de Ingeniería de Software de la UPC cursando el séptimo ciclo. Me considero una persona comprometida con las actividades que se deben realizar, así como de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran. |
+| <p align="center"><img src="assets/images/Diego.jpg" alt="Diego Soto" width="120"><br><b>Diego Ulises Soto Quispe</b></p> | Soy estudiante de 7.º ciclo en la carrera de Ingeniería de Software. Me considero una persona responsable, puntual y comprometido con los trabajos asignados. Fuera del ámbito académico, disfruto jugar básquet, salir a pasear, jugar videojuegos y manejar bicicleta. |
 
 ### 1.2. Solution Profile
-   #### 1.2.1.  Antecedentes y problemática
-Los trastornos hormonales se han convertido en una preocupación creciente dentro del sistema de salud pública, afectando a personas de distintas edades y géneros. En Lima, al igual que en muchas otras ciudades, existen grandes desafíos en cuanto al diagnóstico, tratamiento y monitoreo de estos padecimientos. Patologías como la menopausia o el hiperandrogenismo requieren un enfoque médico integral, control constante y ajustes periódicos en la medicación para mantener estable la salud del paciente. En el Perú, estas condiciones presentan una alta prevalencia, pero el sistema de salud enfrenta serias limitaciones: la atención especializada es insuficiente, hay una escasez considerable de endocrinólogos, y muchos pacientes abandonan sus tratamientos o no alcanzan los objetivos terapéuticos establecidos, lo que complica aún más el manejo adecuado de estas enfermedades en Lima.
 
-Investigaciones como las de Farías y Bardales (2021), quienes analizaron la adherencia al tratamiento en pacientes con Diabetes Mellitus tipo 2 en el Hospital Reátegui, y las de Pocohuanca-Ancco, Villacorta y Hurtado-Roca (2021), sobre la falta de cumplimiento en el tratamiento antihipertensivo, revelan una preocupante realidad: los niveles de no-adherencia alcanzan el 40% y 27%, respectivamente. Estas cifras muestran lo difícil que resulta para los endocrinólogos dar un seguimiento adecuado a enfermedades hormonales que, en muchos casos, requieren control de por vida. A esto se suman los prolongados tiempos de espera. Según datos del INEI (2014), en promedio, un paciente debe esperar 17 días para obtener una cita médica. En el MINSA el promedio es de 12 días, en EsSalud es de 19 días, en las Fuerzas Armadas y Policiales 21 días, y en clínicas privadas 8 días. Además, el 49,3% de los encuestados señalaron que la demora en la atención es el principal problema, seguido por el maltrato (34,4%) y la escasez de medicamentos (18,1%).
+**HormonalCare** representa una propuesta tecnológica innovadora enfocada en transformar la gestión de enfermedades hormonales en el sistema de salud peruano. La solución consiste en una **plataforma digital** que facilita a médicos y pacientes la **gestión de registros médicos**, el **monitoreo hormonal constante** y la **comunicación remota en tiempo real**, integrando funcionalidades de **historial clínico digital**, **videoconsultas médicas** y **seguimiento estadístico personalizado**.
 
-Por otro lado, las estadísticas agravan aún más el panorama: solo existen 42 médicos especialistas por cada 100 mil personas en centros del MINSA (Minsa, 2023) y apenas 10 endocrinólogos para cada 500 mil peruanos (Manrique, 2015). Mientras tanto, los índices de obesidad, hipertensión y diabetes mellitus en mayores de 15 años siguen creciendo, alcanzando en 2020 valores del 24,6%, 21,7% y 4,5%, respectivamente (INEI, 2020).
+Esta tecnología permite el **registro detallado de síntomas y exámenes médicos**, habilitando el **ajuste inmediato de tratamientos** y el **monitoreo continuo de la evolución del paciente**. De esta forma, se optimiza el tiempo de respuesta médica, se mejora la adherencia al tratamiento y se reducen los traslados innecesarios a centros de salud.
 
-Ante este escenario, nuestro equipo identificó una oportunidad para desarrollar una aplicación que permita gestionar de forma eficiente los registros clínicos, realizar monitoreos hormonales y mejorar la comunicación entre pacientes y profesionales de salud involucrados. Esta solución tecnológica busca acelerar los procesos de ajuste de tratamiento, reducir tiempos de espera y traslados, y ofrecer una atención más rápida, personalizada y coordinada a quienes padecen trastornos hormonales en Lima. Nos basamos en los resultados positivos del piloto “Teletriaje y Teleurgencias” del CENATE, que logró disminuir los tiempos de espera de 4-5 horas a tan solo 15 minutos, además de implementar historias clínicas digitales que aceleran significativamente la evaluación médica (EsSalud, 2022). Todo esto es posible también gracias al aumento del acceso a Internet en el Perú, donde el 71,1% de la población ya está conectada (OPS, 2023), lo que abre nuevas oportunidades para la transformación digital en salud.
+Así, **HormonalCare** proporciona **atención médica especializada más accesible y eficiente**, promoviendo una **gestión integral de enfermedades hormonales** que favorece tanto a los pacientes como a los médicos endocrinólogos, mejorando la calidad de vida y contribuyendo a la transformación digital en el sector salud.
+#### 1.2.1. Antecedentes y problemática
 
-A continuación, se evidencia la utilización del método de las 5W’s y 2H’s para detallar la problemática:
+Los trastornos hormonales se han convertido en una preocupación creciente dentro del sistema de salud pública, afectando a personas de distintas edades y géneros. En Lima, al igual que en muchas otras ciudades, existen grandes desafíos en cuanto al diagnóstico, tratamiento y monitoreo de estos padecimientos. Patologías como la menopausia o el hiperandrogenismo requieren un enfoque médico integral, control constante y ajustes periódicos en la medicación para mantener la estabilidad de la salud del paciente. En el Perú, estas condiciones presentan una alta prevalencia, pero el sistema de salud enfrenta serias limitaciones: la atención especializada es insuficiente, hay una escasez considerable de endocrinólogos y muchos pacientes abandonan sus tratamientos o no logran alcanzar los objetivos terapéuticos establecidos, complicando aún más el manejo adecuado de estas enfermedades en Lima.
 
-**What:** ¿Cuál es el problema?
+Investigaciones como las de Farías y Bardales (2021), quienes analizaron la adherencia al tratamiento en pacientes con Diabetes Mellitus tipo 2 en el Hospital Reátegui, y las de Pocohuanca-Ancco, Villacorta y Hurtado-Roca (2021), sobre la falta de cumplimiento en el tratamiento antihipertensivo, revelan una preocupante realidad: los niveles de no-adherencia alcanzan el 40% y el 27%, respectivamente. Estas cifras evidencian las dificultades que enfrentan los endocrinólogos para dar un seguimiento adecuado a enfermedades que, en muchos casos, requieren control de por vida.
 
-El problema central radica en la inadecuada gestión de enfermedades hormonales en Lima. Estas afecciones requieren revisiones constantes, modificaciones frecuentes en la medicación y un manejo especializado, pero la falta de endocrinólogos, los largos tiempos de espera y la baja adherencia al tratamiento dificultan un seguimiento apropiado.
+A esto se suman los prolongados tiempos de espera. Según datos del INEI (2014), en promedio, un paciente debe esperar 17 días para obtener una cita médica. El MINSA reporta un promedio de 12 días, EsSalud de 19 días, las Fuerzas Armadas y Policiales de 21 días, y las clínicas privadas de 8 días. Además, el 49,3% de los encuestados señalaron que la demora en la atención es el principal problema, seguido por el maltrato (34,4%) y la escasez de medicamentos (18,1%).
 
-**Why:** ¿Por qué es un problema?
+Por otro lado, las estadísticas agravan aún más el panorama: solo existen 42 médicos especialistas por cada 100 mil personas en centros del MINSA (MINSA, 2023) y apenas 10 endocrinólogos para cada 500 mil peruanos (Manrique, 2015). Mientras tanto, los índices de obesidad, hipertensión y diabetes mellitus en mayores de 15 años continúan creciendo, alcanzando en 2020 valores del 24,6%, 21,7% y 4,5%, respectivamente (INEI, 2020).
 
-Es un problema porque la falta de atención y control adecuado de estas enfermedades puede desencadenar complicaciones graves que deterioran significativamente la calidad de vida del paciente. Los estudios muestran tasas preocupantes de no cumplimiento del tratamiento en casos crónicos como diabetes e hipertensión, lo que aumenta el riesgo de enfermedades cardiovasculares, problemas renales, dislipidemia y resistencia a la insulina.
+Ante este escenario, nuestro equipo identificó una oportunidad para desarrollar una aplicación que permita gestionar de forma eficiente los registros clínicos, realizar monitoreos hormonales y mejorar la comunicación entre pacientes y profesionales de la salud. Esta solución tecnológica busca acelerar los procesos de ajuste de tratamiento, reducir los tiempos de espera y traslados, y ofrecer una atención más rápida, personalizada y coordinada a quienes padecen trastornos hormonales en Lima.
 
-**Who:** ¿Quiénes se ven involucrados en el problema?
+Nos basamos en los resultados positivos del piloto "Teletriaje y Teleurgencias" del CENATE, que logró disminuir los tiempos de espera de 4-5 horas a tan solo 15 minutos, además de implementar historias clínicas digitales que aceleran significativamente la evaluación médica (EsSalud, 2022). Todo esto es posible también gracias al aumento del acceso a Internet en el Perú, donde el 71,1% de la población ya está conectada (OPS, 2023), lo que abre nuevas oportunidades para la transformación digital en salud.
 
-Los principales afectados son los pacientes con trastornos hormonales que no logran acceder fácilmente a atención médica especializada ni reciben un seguimiento continuo. También están involucrados los endocrinólogos y demás personal médico, que trabajan en condiciones limitadas y sin herramientas efectivas para acompañar de cerca a sus pacientes.
 
-**Where:** ¿Dónde se produce el problema?
+A continuación, se presenta el análisis de la problemática utilizando el método de las **5W’s y 2H’s**:
 
-El problema se manifiesta principalmente en la ciudad de Lima, aunque es extrapolable a muchas otras zonas urbanas del país. Las deficiencias son evidentes en establecimientos públicos como los del MINSA y EsSalud, donde los tiempos de espera son largos y los recursos escasos.
+- **What:** ¿Cuál es el problema?  
+  El problema central radica en la inadecuada gestión de enfermedades hormonales en Lima. Estas afecciones requieren revisiones constantes, modificaciones frecuentes en la medicación y un manejo especializado. Sin embargo, la falta de endocrinólogos, los largos tiempos de espera y la baja adherencia al tratamiento dificultan un seguimiento adecuado.
 
-**When:** ¿Cuándo se convierte en un problema?
+- **Why:** ¿Por qué es un problema?  
+  Porque la falta de atención y control adecuado puede desencadenar complicaciones graves que deterioran significativamente la calidad de vida del paciente. Los estudios muestran tasas preocupantes de incumplimiento en enfermedades crónicas como diabetes e hipertensión, aumentando el riesgo de enfermedades cardiovasculares, renales, dislipidemia y resistencia a la insulina.
 
-Se convierte en un problema crítico cuando los pacientes no reciben diagnóstico, tratamiento ni monitoreo en el momento adecuado. Esto puede empezar desde los primeros síntomas y agravarse rápidamente si no hay intervención médica oportuna.
+- **Who:** ¿Quiénes se ven involucrados en el problema?  
+  Los principales afectados son los pacientes con trastornos hormonales, que no logran acceder fácilmente a atención médica especializada ni reciben un seguimiento continuo. También están involucrados los endocrinólogos y demás personal médico, que enfrentan limitaciones en recursos y herramientas de seguimiento.
 
-**How:** ¿Cómo puede ayudar esta aplicación a abordar esta problemática?
+- **Where:** ¿Dónde se produce el problema?  
+  Principalmente en la ciudad de Lima, aunque también se presenta en muchas otras zonas urbanas del país. Las deficiencias son notorias en establecimientos públicos como los del MINSA y EsSalud.
 
-La aplicación propuesta busca enfrentar esta situación de varias maneras:
+- **When:** ¿Cuándo se convierte en un problema?  
+  El problema se vuelve crítico desde la aparición de los primeros síntomas si no se recibe diagnóstico, tratamiento o monitoreo oportuno, lo que puede agravar rápidamente la condición del paciente.
 
-Haciendo más accesibles las consultas con especialistas mediante videoconsultas y una mejor organización de citas.
+- **How:** ¿Cómo puede ayudar esta aplicación a abordar esta problemática?  
+  La aplicación propuesta enfrentaría la situación de varias maneras:
+  - Facilitando consultas virtuales con especialistas y mejor organización de citas.
+  - Permitirá el monitoreo constante de síntomas, niveles hormonales y medicamentos, ayudando al médico a realizar ajustes en tiempo real.
+  - Brindará información educativa personalizada para motivar a los pacientes a seguir su tratamiento.
+  - Mejorará la comunicación entre pacientes y personal médico, haciendo más efectiva la atención y el seguimiento.
 
-Permitirá el monitoreo constante de síntomas, niveles hormonales y medicamentos, ayudando al médico a realizar ajustes en tiempo real.
+- **How much:** ¿Cuál sería el impacto al implementar esta aplicación?  
+  La implementación de esta aplicación tendría un impacto positivo considerable: reduciría los tiempos de espera, facilitaría el acceso a especialistas y mejoraría la adherencia al tratamiento. Esto contribuiría a una atención médica más ágil, continua y centrada en el paciente, mejorando su calidad de vida y reduciendo las complicaciones asociadas a estas enfermedades.
 
-Brindará información educativa personalizada que motive a los pacientes a continuar con sus tratamientos.
 
-Mejorará la comunicación entre los pacientes y el personal médico, haciendo más efectiva la atención y el seguimiento.
+#### 1.2.2. Lean UX Process
 
-**How much:** ¿Cuál sería el impacto al implementar esta aplicación?
+En esta sección se aplica la metodología **Lean UX**, cuyo alcance incluye la **conceptualización del modelo de atención médica digital** que sustentará el desarrollo de HormonalCare. Esta metodología ágil permite centrar los esfuerzos del equipo en el **diseño de una solución centrada en el paciente**, enfocada en mejorar el seguimiento, diagnóstico y tratamiento de enfermedades hormonales.
 
-La implementación de esta aplicación tendría un impacto positivo considerable, al reducir los tiempos de espera, facilitar el acceso a especialistas y mejorar el cumplimiento del tratamiento. Esto contribuirá directamente a una atención más ágil, continua y centrada en el paciente, mejorando su calidad de vida y reduciendo complicaciones asociadas a estas enfermedades.
+El enfoque Lean UX nos permitió alinear los requerimientos detectados con las necesidades reales de pacientes y médicos endocrinólogos, utilizando técnicas de **Design Thinking** y validación temprana de hipótesis. A partir de los hallazgos obtenidos, se orientó el diseño hacia una **experiencia de usuario intuitiva y eficiente**, asegurando que HormonalCare facilite la comunicación remota, el monitoreo hormonal continuo y la optimización de los tiempos de atención médica.
 
+ ##### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.	Lean UX Process.
-   ##### 1.2.2.1.	Lean UX Problem Statements.
-   
-Hormonal Care se ha diseñado con el propósito de abordar los desafíos en la gestión de enfermedades hormonales en Lima, Perú. Nuestros objetivos principales incluyen facilitar el acceso equitativo a servicios especializados de atención médica para pacientes con enfermedades hormonales, mejorar la adherencia al tratamiento y promover el autocuidado entre los pacientes, así como reducir la incidencia de complicaciones relacionadas con enfermedades hormonales y los costos asociados para los pacientes y el sistema de salud en general.
+HormonalCare ha sido diseñado con el propósito de abordar los desafíos en la gestión de enfermedades hormonales en Lima, Perú. Sus objetivos principales incluyen facilitar el acceso equitativo a servicios médicos especializados, mejorar la adherencia al tratamiento, promover el autocuidado entre los pacientes y reducir tanto la incidencia de complicaciones como los costos asociados para los pacientes y el sistema de salud en general.
 
-Sin embargo, observamos que no estamos logrando completamente estos objetivos. Las principales áreas problemáticas incluyen la inequidad en el acceso a servicios especializados, lo que conduce a diagnósticos tardíos y tratamientos inadecuados; la baja adherencia al tratamiento debido a la falta de educación sobre el autocuidado y la escasa supervisión médica; y el incremento de los costos de salud y las complicaciones debido a la falta de seguimiento adecuado y la dificultad para acceder a atención médica especializada.
+Sin embargo, se ha identificado que aún no se alcanzan plenamente estos objetivos. Las principales áreas problemáticas son:
 
-Por lo tanto, buscamos mejorar Hormonal Care de manera que aborde estos desafíos de manera más efectiva. ¿Cómo podemos optimizar Hormonal Care para superar las barreras tecnológicas, económicas y sociales, y así promover una gestión eficiente del registro, seguimiento y tratamiento para pacientes con enfermedades hormonales en Lima, Perú? Nos enfocamos en mejorar el acceso a la atención médica especializada, aumentar la adherencia al tratamiento y reducir las complicaciones y los costos de salud asociados.
+- **Inequidad en el acceso a servicios especializados**, lo que deriva en diagnósticos tardíos y tratamientos inadecuados.
+- **Baja adherencia al tratamiento**, causada por la falta de educación en autocuidado y la limitada supervisión médica.
+- **Incremento de costos y complicaciones médicas**, producto de la falta de seguimiento adecuado y de las barreras en el acceso a atención especializada.
 
-   ##### 1.2.2.2.	Lean UX Assumptions.
+Ante esta situación, el equipo busca optimizar HormonalCare para enfrentar estos desafíos de manera más efectiva. Surge así la siguiente interrogante central:
 
+**¿Cómo podemos mejorar HormonalCare para superar las barreras tecnológicas, económicas y sociales, y promover una gestión eficiente del registro, seguimiento y tratamiento de pacientes con enfermedades hormonales en Lima?**
 
-Features:
+El enfoque estará en mejorar el acceso a la atención médica especializada, aumentar la adherencia al tratamiento y reducir tanto las complicaciones como los costos de salud asociados, siempre con una perspectiva centrada en el usuario y en la optimización continua del servicio.
 
-1. Comunicación y consulta de datos: Plataforma que permite la comunicación bidireccional entre médicos y pacientes, así como el acceso a datos médicos y la carga de información relevante.
-2. Monitoreo en historial clínico: Funcionalidad que permite llevar un registro detallado del historial médico de los pacientes, incluyendo tratamientos previos, resultados de pruebas y mediciones relevantes.
-3. Reuniones médicas virtuales: Posibilidad de realizar consultas médicas en línea mediante videoconferencias, facilitando el seguimiento de tratamientos y la comunicación entre médico y paciente.
-4. Gestión de pacientes: Herramientas que permiten asignar pacientes a médicos específicos, organizar citas y seguimientos, y compartir información de manera segura entre profesionales de la salud.
-5. Análisis estadístico y de datos: Funcionalidad para generar análisis estadísticos detallados sobre el progreso de los pacientes, facilitando la toma de decisiones clínicas basadas en evidencia.
+##### 1.2.2.2. Lean UX Assumptions
 
-Business Outcomes:
+**Features:**
 
-1. Incremento de la eficiencia en la atención médica: Reducción de los tiempos de espera y traslados para pacientes y médicos, optimizando la gestión de recursos y aumentando la productividad de las consultas.
-2. Mejora en la calidad de la atención: Facilitación del seguimiento y tratamiento de enfermedades hormonales, lo que conduce a una atención más efectiva y personalizada para cada paciente.
-3. Aumento de la satisfacción del cliente: Mejora en la experiencia del usuario al ofrecer una plataforma intuitiva y eficaz, lo que se traduce en una mayor satisfacción tanto para médicos como para pacientes.
+1. **Comunicación y consulta de datos:** Plataforma que permite la comunicación bidireccional entre médicos y pacientes, así como el acceso y carga de información médica relevante.
+2. **Monitoreo en historial clínico:** Funcionalidad que permite registrar tratamientos previos, resultados de pruebas y mediciones hormonales de los pacientes.
+3. **Reuniones médicas virtuales:** Realización de consultas médicas en línea mediante videoconferencias, facilitando el seguimiento de tratamientos.
+4. **Gestión de pacientes:** Herramientas para asignar pacientes a médicos, organizar citas, seguimientos y compartir información médica de manera segura.
+5. **Análisis estadístico y de datos:** Generación de análisis estadísticos sobre el progreso de los pacientes, facilitando la toma de decisiones clínicas basadas en evidencia.
 
-Users:
+**Business Outcomes:**
 
-1. Médicos endocrinólogos: Profesionales de la salud especializados en el tratamiento de trastornos hormonales, quienes utilizan la plataforma para monitorear y gestionar el tratamiento de sus pacientes.
-2. Pacientes: Personas que requieren tratamiento médico hormonal, que utilizan la plataforma para acceder a consultas médicas virtuales, cargar información relevante y seguir el progreso de su tratamiento.
+1. **Incremento de la eficiencia en la atención médica:** Reducción de tiempos de espera y traslados, optimizando la gestión de recursos y aumentando la productividad en las consultas.
+2. **Mejora en la calidad de la atención:** Facilitación del seguimiento y tratamiento de enfermedades hormonales, ofreciendo atención más efectiva y personalizada.
+3. **Aumento de la satisfacción del cliente:** Mejora de la experiencia del usuario mediante una plataforma intuitiva y eficaz, beneficiando tanto a médicos como a pacientes.
 
-User Outcomes & Benefits:
+**Users:**
 
-1. Mayor accesibilidad a la atención médica: Posibilidad de recibir atención médica especializada sin necesidad de desplazarse a un centro de salud, lo que facilita el acceso a la atención en áreas remotas o con limitaciones de movilidad.
-2. Seguimiento personalizado del tratamiento: Mejora en el seguimiento y control de enfermedades hormonales, gracias al monitoreo continuo y al acceso a información detallada sobre el historial clínico y el progreso del tratamiento.
-3. Experiencia de usuario mejorada: Simplificación de procesos, reducción de tiempos de espera y mayor comodidad en la comunicación con el médico, lo que mejora la experiencia global del usuario y aumenta su satisfacción con el servicio ofrecido.
+1. **Médicos endocrinólogos:** Profesionales especializados que utilizan la plataforma para gestionar y monitorear el tratamiento de sus pacientes.
+2. **Pacientes:** Personas que requieren tratamiento médico hormonal y utilizan la plataforma para acceder a consultas virtuales, cargar información y seguir su progreso.
 
+**User Outcomes & Benefits:**
 
-Business Assumptions:
-1.	Creemos que nuestros usuarios necesitan agilizar su forma de llevar tratamientos médicos hormonales a través de la telemedicina puesto que esta ha demostrado ser rentable en cuanto a costos de servicios y que ha permitido la disminución de los gastos de traslado y tiempo que tienen los pacientes.
-2.	Podemos resolver estas necesidades con una plataforma que permita la comunicación y consulta de datos en la cual se pueda llevar el monitoreo en un historial clínico y el acceso a una reunión medica sin la necesidad de pactar una cita presencial, lo cual agilizaría el seguimiento y tratamiento de enfermedades hormonales.
-3.	Nuestros clientes iniciales serán médicos especializados en endocrinología quienes desean llevar un mejor control y que el tratamiento de sus pacientes sea lo más estable y eficaz posible. Lo que permitirá una mejora en cuanto a agilización en tiempos de monitoreo tanto para ellos como sus pacientes.
-4.	El valor más importante que un cliente quiere de nuestro servicio es la simplicidad y efectividad, puesto que los pacientes y los médicos necesitan de una comunicación constante y organizada, sin complicaciones durante el manejo de la plataforma, otorgando una mejor experiencia de usuario.
-5.	El cliente también va a obtener diversos beneficios adicionales como la organización que la plataforma da al momento del que el paciente ingrese sus controles de su respectiva enfermedad, el poder asignar pacientes a algún miembro de su red contactos y que la información del historial médico sea compartida de manera inmediata, y el poder subir los resutados de los exámenes de control, que hará el propio paciente en un laboratorio que se le fue asignado por su médico, y que enviará para que el médico pueda analizarlas.
+1. **Mayor accesibilidad a la atención médica:** Posibilidad de recibir atención especializada sin desplazamientos físicos, favoreciendo el acceso en zonas remotas o con limitaciones de movilidad.
+2. **Seguimiento personalizado del tratamiento:** Mejora continua en el control de enfermedades hormonales mediante el monitoreo constante y el acceso al historial clínico actualizado.
+3. **Experiencia de usuario mejorada:** Procesos simplificados, reducción de tiempos de espera y mayor comodidad en la interacción médico-paciente.
 
-6.	Vamos a obtener la mayoría de nuestros clientes mediante los periodos de prueba que ofrece nuestra plataforma en la cual los médicos podrán experimentar con los beneficios antes de comprometerse al pago de una suscripción.
+**Business Assumptions:**
 
-7.	Vamos a obtener ingresos mediante la suscripción que pagarán los médicos especializados en endocrinología quienes desean establecer una mejor relación en el tratamiento de sus pacientes agilizando los tiempos de cada control que se requiera y llevando un historial clínico del paciente que siempre estará a la disposición del médico encargado.
-
-8.	Nuestra competencia principal en el mercado serán aplicaciones de los propios centros de salud que han desarrollado para no depender de una herramienta externa para el tratamiento de enfermedades tales como Teleatiendo, que es la plataforma de Essalud, que gestiona la solicitud, registro y consulta de datos sobre los servicios de telemedicina y monitoreo.
-
-9.	Vamos a tener ventaja frente a nuestra competencia debido a la experiencia intuitiva de navegación que se ofrece tanto a pacientes como a médicos y la disponibilidad de un control detallado de la evoluación de la enfermedad hormonal del paciente. La experiencia de usuario acompañada de una buena gestión del historial médico marca una importante diferencia en cuanto a nuestros competidores.
-
-10.	El mayor riesgo del servicio es la perdida de la escalabilidad si se experimenta un aumento repentino en el número de usuarios que accedan a la plataforma de manera simultánea en un corto periodo de tiempo.
-
-11.	Lo resolveremos realizando una cuidadosa planificación y gestión de la capacidad de nuestros servidores y recursos informáticos, lo que nos permitirá ajustar dinámicamente la capacidad del sistema según la demanda.
-
-12.	Otras suposiciones podrían incluir que los médicos y pacientes estarán dispuestos a adoptar tecnología nueva y confiar en la telemedicina como una alternativa viable y segura para el seguimiento y tratamiento de enfermedades hormonales. O también que no surgirán barreras regulatorias o legales significativas que limiten la operación de nuestro servicio de telemedicina, como restricciones en la teleconsulta o requisitos adicionales de certificación médica para la atención a distancia.
-
-
-User Assumptions:
-
-
-1.	¿Quien es el usuario?
-
-Los médicos endocrinólogos son los principales son nuestros principales usuarios quienes se suscriben a nuestro servicio. Los pacientes también serán usuarios, pero no pagan una suscripción, contarán con su propia interfaz.
-
-2.	¿Dónde encaja nuestro producto en su trabajo o vida?
-
-Según Castillo (2023), en áreas rurales o remotas donde la disponibilidad de servicios médicos especializados es limitada, la telemedicina ofrece la oportunidad de acceder a expertos sin la necesidad de realizar largos desplazamientos. En el sistema tradicional, los pacientes a menudo enfrentan largos tiempos de espera, a veces semanas o meses, para obtener una cita con un médico especialista, como un endocrinólogo. En este contexto, HormonalCare surge como una solución que permite a los médicos agilizar el tratamiento de sus pacientes sin requerir la presencia física, facilitando así la atención médica remota. Esto permite que los pacientes realicen sus rutinas médicas de forma autónoma, con la supervisión del médico correspondiente.
-
-
-3.	¿Qué problemas soluciona nuestro producto?
-
- En primer lugar, facilita el acceso a la atención médica especializada en endocrinología, especialmente en áreas rurales o remotas donde la disponibilidad de servicios médicos especializados es limitada. Además, agiliza el seguimiento y tratamiento de enfermedades hormonales al permitir a los médicos monitorear de manera remota el progreso de sus pacientes sin la necesidad de citas presenciales. Esto optimiza el tiempo de los médicos al proporcionarles una plataforma organizada y eficiente para llevar el historial clínico de sus pacientes, lo que permite una mejor gestión y seguimiento de su tratamiento. Por último, mejora la experiencia del paciente al eliminar la necesidad de largos desplazamientos y tiempos de espera para obtener una consulta con un endocrinólogo, ofreciendo una alternativa conveniente y accesible a la atención médica tradicional.
-
-4.	¿Cuándo y cómo es nuestro producto usado?
-
-Nuestro servicio se utiliza cuando el paciente encuentra el espacio y el tiempo adecuados para concertar una reunión con su médico y llevar a cabo un autodiagnóstico cargando las pruebas de forma organizada en la plataforma. Durante esta sesión, el paciente es monitoreado por el médico a través de una videollamada. Dependiendo de los datos proporcionados por el paciente, HormonalCare genera un análisis estadístico detallado que permite al médico examinar con mayor precisión el comportamiento y los estímulos que experimenta el paciente durante el período de seguimiento autónomo. Estos datos se almacenan en el historial clínico del paciente, al cual solo el médico asignado tiene acceso, así como cualquier colega a quien pueda delegar el seguimiento.
-
-5.	¿Cuáles son las funcionalidades más importantes?
-
-Las estadísticas que respaldan el tratamiento médico y la gestión de datos de los exámenes de laboratorio ordenados por el médico responsable son fundamentales. Además, la capacidad de recuperación y transferencia de datos de manera eficiente es crucial en situaciones donde un médico decide delegar la responsabilidad de un paciente a uno de sus colegas.
-
-6.	¿Cómo debe verse nuestro producto y como debe comportarse?
-
-Nuestro producto debe ser simple y eficaz, de modo que tanto pacientes como médicos se sientan cómodos al utilizar todas sus funcionalidades. De esta manera, buscamos asegurar que la experiencia del usuario sea lo más confortable posible durante la navegación por la aplicación.
-
-
-
-
-   ##### 1.2.2.3.	Lean UX Hypothesis Statements. 
-
-1. Creemos que, al desarrollar una aplicación que permita una gestión eficiente y eficaz de los registros médicos, un seguimiento de los niveles hormonales y una comunicación fluida entre los profesionales de la salud involucrados en el tratamiento de pacientes con enfermedades hormonales en Lima, podremos reducir significativamente los tiempos de espera para obtener atención médica especializada. Sabremos que hemos tenido éxito, cuando observemos una disminución sustancial en los tiempos de espera reportados por los usuarios de nuestra aplicación en comparación con los datos previos a su implementación.
-
-2. Creemos que. al digitalizar los registros médicos y facilitar una comunicación inmediata entre los profesionales de la salud, podremos mejorar la eficiencia en el proceso de atención médica de pacientes con enfermedades hormonales en Lima, reduciendo así la carga de trabajo y optimizando los recursos disponibles. Sabremos que hemos tenido éxito, cuando observemos una mejora en la eficiencia del proceso de atención médica para pacientes con enfermedades hormonales, medida a través de la reducción de quejas relacionadas con tiempos de espera y la optimización del flujo de trabajo de los profesionales de la salud.
-
-3. Creemos que, al ofrecer una herramienta tecnológica que facilite el ajuste de tratamientos, reduzca los tiempos de traslado y mejore la coordinación entre profesionales de la salud, lograremos incrementar la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes con enfermedades hormonales en Lima. Sabremos que hemos tenido éxito, cuando observemos un aumento notable en la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes que utilicen nuestra aplicación en comparación con aquellos que no lo hacen.
-
-4. Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada. Sabremos que hemos tenido éxito, cuando observemos una mejora en la percepción de la calidad de vida de los pacientes con enfermedades hormonales, evaluada a través de encuestas de satisfacción y testimonios positivos que reflejen una experiencia de atención médica más satisfactoria y efectiva.
-   
+1. Creemos que los usuarios necesitan agilizar su tratamiento médico hormonal mediante telemedicina, ya que reduce costos de traslado y tiempo.
+2. Podemos resolver esta necesidad mediante una plataforma que permita la comunicación continua, el monitoreo en historial clínico y la realización de reuniones médicas virtuales.
+3. Nuestros clientes iniciales serán médicos endocrinólogos que buscan optimizar el seguimiento de sus pacientes de forma estable y eficaz.
+4. El valor más importante que ofreceremos es la simplicidad y efectividad en la comunicación médico-paciente, asegurando una experiencia de usuario ágil y clara.
+5. El cliente también obtendrá beneficios adicionales como:
+   - Organización del ingreso de controles médicos.
+   - Asignación de pacientes entre colegas de la red médica.
+   - Carga y análisis de resultados de exámenes de control en la plataforma.
+6. Captaremos la mayoría de nuestros clientes mediante periodos de prueba gratuitos, donde los médicos podrán evaluar los beneficios antes de suscribirse.
+7. Los ingresos se generarán a través de las suscripciones pagadas por médicos especializados en endocrinología.
+8. Nuestra competencia principal será plataformas desarrolladas por centros de salud, como Teleatiendo de Essalud.
+9. Nuestra ventaja competitiva radicará en la experiencia de usuario intuitiva y en el control detallado del historial clínico del paciente.
+10. El mayor riesgo identificado es la pérdida de escalabilidad ante un aumento repentino de usuarios simultáneos.
+11. Para mitigar este riesgo, realizaremos una planificación y gestión cuidadosa de la capacidad de servidores, permitiendo ajustes dinámicos según la demanda.
+12. Suponemos que médicos y pacientes estarán dispuestos a adoptar tecnologías de telemedicina como alternativa viable y segura, y que no surgirán barreras regulatorias significativas.
+
+**User Assumptions:**
+
+1. **¿Quién es el usuario?**  
+   Los médicos endocrinólogos son nuestros principales usuarios suscriptores. Los pacientes también serán usuarios, aunque no pagarán suscripción, y contarán con su propia interfaz.
+
+2. **¿Dónde encaja nuestro producto en su trabajo o vida?**  
+   Según Castillo (2023), en áreas rurales o remotas donde la disponibilidad de servicios especializados es limitada, HormonalCare facilita el acceso a médicos especialistas sin necesidad de desplazamientos extensos, optimizando el tratamiento remoto bajo supervisión médica.
+
+3. **¿Qué problemas soluciona nuestro producto?**  
+   HormonalCare facilita el acceso a atención especializada, agiliza el monitoreo remoto de enfermedades hormonales y optimiza la gestión del historial clínico, mejorando también la experiencia del paciente al reducir traslados y tiempos de espera.
+
+4. **¿Cuándo y cómo se usa nuestro producto?**  
+   El servicio se utiliza cuando el paciente agenda una reunión virtual con su médico y carga sus pruebas de manera organizada en la plataforma. Los datos son analizados por el médico y registrados automáticamente en el historial clínico para su seguimiento.
+
+5. **¿Cuáles son las funcionalidades más importantes?**  
+   Las funcionalidades clave son:
+   - Gestión y análisis de datos de exámenes médicos.
+   - Monitoreo de progresos hormonales.
+   - Delegación de pacientes entre médicos, garantizando continuidad en la atención.
+
+6. **¿Cómo debe verse nuestro producto y cómo debe comportarse?**  
+   HormonalCare debe ser simple, intuitivo y eficaz, garantizando que tanto médicos como pacientes puedan utilizar todas sus funcionalidades de manera cómoda, segura y ágil.
+
+##### 1.2.2.3. Lean UX Hypothesis Statements
+
+• Creemos que, al desarrollar una aplicación que permita una gestión eficiente y eficaz de los registros médicos, un seguimiento de los niveles hormonales y una comunicación fluida entre los profesionales de la salud involucrados en el tratamiento de pacientes con enfermedades hormonales en Lima, podremos reducir significativamente los tiempos de espera para obtener atención médica especializada.  
+Sabremos que hemos tenido éxito cuando observemos una disminución sustancial en los tiempos de espera reportados por los usuarios de nuestra aplicación en comparación con los datos previos a su implementación.
+
+• Creemos que, al digitalizar los registros médicos y facilitar una comunicación inmediata entre los profesionales de la salud, podremos mejorar la eficiencia en el proceso de atención médica de pacientes con enfermedades hormonales en Lima, reduciendo así la carga de trabajo y optimizando los recursos disponibles.  
+Sabremos que hemos tenido éxito cuando observemos una mejora en la eficiencia del proceso de atención médica, medida a través de la reducción de quejas relacionadas con tiempos de espera y la optimización del flujo de trabajo de los profesionales de la salud.
+
+• Creemos que, al ofrecer una herramienta tecnológica que facilite el ajuste de tratamientos, reduzca los tiempos de traslado y mejore la coordinación entre profesionales de la salud, lograremos incrementar la adherencia al tratamiento y el cumplimiento de los objetivos terapéuticos por parte de los pacientes con enfermedades hormonales en Lima.  
+Sabremos que hemos tenido éxito cuando observemos un aumento notable en la adherencia al tratamiento y en el cumplimiento de los objetivos terapéuticos por parte de los usuarios de nuestra aplicación en comparación con aquellos que no la utilizan.
+
+• Creemos que, al ofrecer una plataforma que permita una gestión centralizada de los registros médicos y una coordinación más efectiva entre los diferentes especialistas involucrados en el tratamiento de enfermedades hormonales, podremos mejorar la calidad de vida de los pacientes al garantizar una atención más integral y personalizada.  
+Sabremos que hemos tenido éxito cuando observemos una mejora en la percepción de la calidad de vida de los pacientes, evaluada mediante encuestas de satisfacción y testimonios positivos que reflejen una experiencia médica más satisfactoria y efectiva.
 
    ##### 1.2.2.4.	Lean UX Canvas.
 
-<center><img src="assets/images/leanuxcanva.png"></center>
 
+![alt text](<assets/images/Lean ux canvas.png>)
 
-[https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305](https://miro.com/app/board/uXjVKZP_3i8=/?share_link_id=815368354305)
+Link : https://www.canva.com/design/DAGlv8sP4v4/KgG7eTq9_YaklhN8gP29VA/edit?utm_content=DAGlv8sP4v4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+### 1.3. Segmentos objetivo
 
-### 1.3.	Segmentos objetivo.
+**Pacientes con enfermedades hormonales en Lima**
 
-**Pacientes con enfermedades hormonales en Lima:** 
+Este segmento está compuesto por personas que enfrentan importantes obstáculos en la gestión de sus condiciones médicas. A pesar del creciente índice de enfermedades como la obesidad, hipertensión y diabetes mellitus, los pacientes se ven afectados por la falta de acceso oportuno a endocrinólogos, la escasez de recursos en el sistema de salud y las limitaciones en el seguimiento de sus tratamientos. Muchos experimentan largos tiempos de espera, baja adherencia terapéutica y una atención médica poco personalizada, lo que incrementa el riesgo de complicaciones graves y deteriora su calidad de vida.  
+Estos pacientes buscan soluciones que les ofrezcan atención eficiente, coordinada e inmediata, así como herramientas digitales que les permitan monitorear sus niveles hormonales y síntomas de manera constante.
 
-Este grupo enfrenta numerosos obstáculos en el manejo de sus condiciones médicas. A pesar de la creciente prevalencia de enfermedades como obesidad, hipertensión y diabetes mellitus, se ven afectados por la falta de acceso oportuno a médicos endocrinólogos, la escasez de recursos en el sistema de salud y las dificultades para realizar un seguimiento adecuado. Muchos experimentan largos tiempos de espera, baja adherencia al tratamiento y falta de atención personalizada, lo que puede provocar complicaciones graves y afectar su calidad de vida. Anhelan soluciones que les brinden una atención más eficiente, coordinada e inmediata, así como herramientas para monitorear sus niveles hormonales y síntomas de manera constante.
+**Profesionales de la salud (endocrinólogos)**
 
-**Profesionales de la salud (endocrinólogos):**
-
-Los médicos endocrinólogos en Lima se enfrentan a desafíos significativos en el manejo de pacientes con enfermedades hormonales. Con una preocupante escasez de especialistas en esta área y una alta demanda, su labor se ve obstaculizada por la sobrecarga de trabajo, la falta de herramientas para un seguimiento eficaz y las dificultades para coordinar ajustes oportunos en los tratamientos. Necesitan soluciones innovadoras que optimicen su tiempo, faciliten el monitoreo remoto de pacientes, mejoren la comunicación con otros profesionales de la salud involucrados y les permitan brindar una atención más personalizada y coordinada.
-
+Los endocrinólogos en Lima enfrentan desafíos significativos al gestionar el tratamiento de pacientes con trastornos hormonales. La escasez de especialistas y la alta demanda de consultas dificultan su labor diaria, generando sobrecarga de trabajo y reduciendo la capacidad de ofrecer un seguimiento personalizado y continuo.  
+Estos profesionales necesitan soluciones tecnológicas que optimicen su tiempo, faciliten el monitoreo remoto de sus pacientes, mejoren la coordinación entre diferentes especialistas de la salud y les permitan brindar una atención médica más efectiva, ágil y centrada en las necesidades particulares de cada paciente.
 
 ## Capítulo-II Requirements Elicitation & Analysis 
 
@@ -612,7 +518,133 @@ Incluye la elaboración de preguntas principales y secundarias dirigidas tanto a
 
 ### 2.2.2 Registro de entrevistas  
 
-### 2.2.3 Análisis de entrevistas  
+**Segmento objetivo \#1: Pacientes con enfermades hormonales**
+
+**Entrevistado N°1: Rodrigo Ismael Vitón**  
+**Sexo:** Masculino  
+**Edad:** 23 años  
+**Ubicación:** Chorrillos, Lima, Perú  
+
+![alt text](assets/images/rodrigo.png)
+
+Link de la entrevista: https://youtu.be/aOPl7IZ2zoM
+
+Resumen: Rodrigo, un joven de 23 años que reside en Chorrillos, Lima, padece hipotiroidismo desde hace un año y medio. Actualmente enfrenta dificultades en el seguimiento de su tratamiento hormonal, principalmente por olvidos en la toma de medicamentos y complicaciones para adquirirlos a tiempo, sumado a la falta de disponibilidad para realizar consultas presenciales frecuentes. A pesar de su ritmo de vida acelerado, muestra gran interés en herramientas tecnológicas que le faciliten el control de su salud, utilizando ya apps como Google Calendar y Medisafe. Rodrigo expresó que valoraría altamente una aplicación como HormonalCare que le permita recibir recordatorios de medicación, tener acceso remoto a resultados médicos, gestionar sus citas de manera virtual y comunicarse directamente con su médico. Considera que una solución digital mejoraría notablemente su adherencia al tratamiento y su calidad de vida. Está fuertemente motivado por alcanzar metas y superar desafíos, y se sentiría más seguro si pudiera realizar el seguimiento de su condición de manera digital, demostrando ser un perfil ideal para el tipo de usuario que HormonalCare busca atender.
+
+**Entrevistado N°2: Arnhol Alfredo Castrejón Calderon**  
+**Sexo:** Masculino  
+**Edad:** 19 años  
+**Ubicación:** La Victoria, Lima, Perú  
+
+![alt text](assets/images/arnold.png)
+
+Link de la entrevista: https://youtu.be/HNvPSaW__bA
+
+Resumen: 
+El paciente Arnhol Alfredo Castrejón Calderon, diagnosticado con hipotiroidismo, señala que una de las principales dificultades que enfrenta en su tratamiento hormonal es el seguimiento adecuado de sus controles médicos, la organización de sus citas y la adherencia a los horarios de medicación. Asiste a consultas médicas cada tres meses para evaluar su evolución clínica y ajustar su tratamiento.
+
+Además, expresa que le gustaría contar con una comunicación directa y ágil con su médico para resolver dudas o incidentes que puedan surgir entre consultas. Relata una experiencia frustrante relacionada con la larga espera para ser atendido en su centro de salud, lo cual refuerza su interés en herramientas digitales. Por ello, manifiesta su disposición a utilizar una aplicación sencilla y segura que le permita comunicarse directamente con su médico, consultar resultados de análisis, programar citas médicas y recibir recordatorios sobre su medicación a través de notificaciones o mensajes de texto.
+
+En cuanto a su perfil tecnológico, el paciente utiliza principalmente una tablet con sistema operativo Android, emplea software como Spacedesk y aplicaciones de notas, prefiere dispositivos Samsung y navega usualmente a través de Google Chrome. Finalmente, destaca que se siente más motivado por el logro de sus metas personales y profesionales que por el temor a tomar decisiones importantes.
+
+
+**Segmento objetivo \#2: Médicos Endocrinólogos**
+
+**Entrevistado N°1: Rengo Araujo Ingunza**  
+**Sexo:** Masculino  
+**Edad:** 33 años  
+**Ubicación:** Lima, Lima, Perú  
+
+![alt text](assets/images/abraham.png)
+
+**Link de la entrevista:** https://youtu.be/HoqtsqvhqWM?si=ctYNNfHuHzr_M0NW
+
+
+**Resumen:** El Dr. Renzo, endocrinólogo de 33 años residente en Arequipa, trabaja en el sector público. Utiliza sistemas como Windows, el navegador Chrome y herramientas como Google Workspace y Medscape. Tiene 4 años de experiencia en su especialidad, tratando principalmente diabetes, hipotiroidismo y síndrome metabólico. Considera que la atención estatal es regular y opina que una aplicación podría mejorar el seguimiento de pacientes al facilitar la comunicación, el control y la adherencia al tratamiento. Aproximadamente el 60% de sus pacientes cumple con sus tratamientos. Renzo valora altamente la seguridad, la privacidad y las funciones prácticas en una app, y cree que el uso de esta tecnología podría incrementar su cartera de pacientes. Se siente fuertemente motivado por alcanzar metas, su desarrollo profesional y la interacción social.
+
+**Entrevistado N°2: Adriana García Pino**  
+**Sexo:** Femenino  
+**Edad:** 37 años  
+**Ubicación:** San Isidro, Lima, Perú  
+
+![alt text](assets/images/brenda.png)
+
+Link de la entrevista: https://youtu.be/YcFtCghQue8
+
+**Resumen de la entrevista:** La doctora Adriana García Pino resalta que muchos pacientes con enfermedades hormonales, como resistencia a la insulina o síndrome de ovario poliquístico (SOP), enfrentan serias dificultades para llevar un control adecuado debido al desconocimiento o la falta de seguimiento constante. Esto suele generar complicaciones médicas y desmotivación en el tratamiento. 
+
+Adriana considera que una aplicación de acompañamiento sería una solución positiva y necesaria, facilitando el monitoreo del tratamiento y los cambios en el estilo de vida. La app podría empoderar a los pacientes al mostrar su progreso de manera clara y motivadora.
+
+Sugiere que la plataforma incluya funcionalidades como recordatorios de medicación, seguimiento de síntomas, evolución de análisis médicos, promoción de hábitos saludables y educación continua. También propone incorporar un espacio de comunicación directa con el médico y alertas personalizadas. 
+
+Adriana enfatiza que la app debe ser clara, amigable y personalizada para no abrumar a los pacientes, además de integrar aspectos de salud mental y emocional para brindar un acompañamiento integral durante todo el proceso de tratamiento.
+
+
+**Entrevistado N°3: Josue Cordova**  
+**Sexo:** Masculino  
+**Edad:** 33 años  
+**Ubicación:** Lima, Lima, Perú  
+
+![alt text](assets/images/abraham2.png)
+
+**Link de la entrevista:** https://youtu.be/FLm7sMKUpgU
+
+
+**Resumen:** El Dr. Jsoue, endocrinólogo de 33 años residente en Trujillo, trabaja en el sector público y por ratos privador. Utiliza sistemas como MacOs, Windows, el navegador Safari y Chrome y herramientas como Zoom y Medscape. Tiene 5 años de experiencia en su especialidad, tratando principalmente diabetes I  y II, hipotiroidismo. Considera que la atención estatal es baja y opina que una aplicación podría mejorar y facilitar la comunicación, tiempo de espera, el control y la adherencia al tratamiento. Aproximadamente el 50% de sus pacientes cumple con sus tratamientos con seguimiento cada 1 a 2 mesesm y se basa en el control para el tratamiento respectivo del paciente. JOsue valora altamente la seguridad, la privacidad y las funciones prácticas en una app, y cree que el uso de esta tecnología podría incrementar su cartera de pacientes. 
+
+
+#### 2.2.3. Análisis de entrevistas
+
+De acuerdo con la información recopilada de las entrevistas, realizamos el siguiente análisis segmentado:
+
+### Segmento objetivo #1: Pacientes con enfermedades hormonales
+
+**Hallazgos:**
+
+- Los pacientes enfrentan dificultades en el cumplimiento del tratamiento debido al olvido de medicación y falta de seguimiento cercano.
+- Se sienten frustrados por los largos tiempos de espera en citas médicas, la falta de claridad sobre su evolución clínica y la escasa comunicación con su médico.
+- Manifiestan interés en el uso de una app que les permita gestionar su historial, recibir recordatorios automáticos y consultar resultados hormonales de manera fácil y rápida.
+- Consideran que la comunicación directa con su endocrinólogo a través de una app aumentaría su motivación y sensación de acompañamiento médico.
+- Valoran funcionalidades como alertas de medicación, recordatorios de citas, acceso a resultados de laboratorio y gráficas de evolución hormonal.
+
+### Segmento objetivo #2: Médicos especialistas en endocrinología
+
+**Hallazgos:**
+
+- La mayoría de los médicos realiza seguimientos presenciales, pero existe alta disposición para adoptar herramientas digitales de telemonitoreo.
+- Se reportan dificultades para realizar ajustes de tratamiento en tiempo real debido a la falta de datos actualizados de los pacientes.
+- El control ideal debería ser más frecuente, sin depender exclusivamente de visitas presenciales.
+- Valoran altamente una plataforma que permita acceso al historial hormonal, generación automática de reportes y notificaciones sobre alteraciones críticas.
+- Consideran que una aplicación como HormonalCare puede optimizar su tiempo, mejorar la adherencia terapéutica de los pacientes y facilitar la gestión remota de tratamientos.
+- Priorizarían el uso de la plataforma si esta ofrece facilidad de uso, seguridad de datos y funcionalidad específica para el monitoreo hormonal.
+
+### Conclusiones generales
+
+Los hallazgos del **segmento 1** (pacientes hormonales) reflejan una necesidad importante por soluciones que les permitan llevar un control más autónomo, claro y seguro de su enfermedad, manteniendo siempre la comunicación fluida con su médico.
+
+En el **segmento 2** (médicos especialistas), se evidencia una necesidad clara de digitalizar el seguimiento de pacientes, optimizar tiempos, mejorar la adherencia y asegurar un monitoreo más efectivo y continuo.
+
+Ambos segmentos coinciden en que una aplicación como **HormonalCare**, que integre comunicación médica, historial clínico digitalizado, recordatorios inteligentes y análisis de evolución hormonal, mejoraría significativamente la experiencia de seguimiento y tratamiento, tanto para pacientes como para profesionales de la salud.
+
+
+**Entrevista completa:**
+
+Link de las entrevistas completas: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EQLSn5n6pk1OgjMRcRx96FUBaJAFzmX3j8QLE3KB7wPoHw?e=HY5oJh&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Análisis por medio de herramientas estadísticas:**
+
+Segmento Objetivo 1: https://forms.gle/stAdtJ7i9BXNpVWF7
+
+![alt text](<assets/images/segmento 1.png>)
+
+![alt text](<assets/images/segmento 1.1.png>)
+
+
+Segmento objetivo 2: https://forms.gle/8fnMNcT7XupidRfz5
+
+![alt text](<assets/images/segmento 2.png>)
+
+![alt text](assets/images/sgemento2.png)
 
 ## 2.3 Needfinding  
 En esta sección se presentarán los artefactos generados a partir del proceso de recopilación realizado en los segmentos objetivo de HormonalCare. Este proceso concluye con la creación de los User Personas, la User Task Matrix, los User Journey Maps, el Empathy Mapping y el As-Is Scenario Mapping, los cuales reflejan las necesidades, comportamientos y puntos de mejora identificados en pacientes y médicos especialistas en salud hormonal.  
@@ -1005,7 +1037,7 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
         </tr> 
         <tr>
             <td>US05</td>
-            <td>ComuSelección de Rol</td>
+            <td>Selección de Rol</td>
             <td>
                <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> poder elegir el rol de paciente o médico <strong>para</strong> utilizar la app según mis necesidades.
             </td>
@@ -1724,18 +1756,20 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
         </tr>
         <tr>
             <td>US40</td>
-            <td>Añadir medicación</td>
+            <td>Visualización de perfil del paciente/médico</td>
             <td>
-               <strong>Como</strong> médico <strong>quiero</strong> poder añadir una receta médica vinculada a la medicación <strong>para</strong> facilitar al paciente la obtención del medicamento.
+               <strong>Como</strong> usuario (paciente o médico), <strong>quiero</strong> poder acceder y visualizar los detalles de mi perfil, incluyendo información básica como nombre, correo electrónico, rol, especialidad (en el caso de médicos) o historial clínico básico (en el caso de pacientes), <strong>para</strong> mantenerme informado sobre mis datos registrados en la plataforma HormonalCare.
             </td>
             <td>
-               <strong>Escenario 1</strong>: Médico quiere añadir una receta médica para su paciente <br>
-               <strong>Given</strong> que un médico endocrinólogo registrado en la aplicación se encuentra en la historia clínica del paciente, <br>
-               <strong>When</strong> haga clic en la pestaña “Añadir tratamiento y medicación” <br>
-               <strong>And</strong> haga clic en el botón “Añadir receta médica” <br>
-               <strong>Then</strong> el sistema abrirá una pestaña que le permitirá subir un archivo con la receta médica firmada por el paciente, <br>
-               <strong>And</strong> le llegará una notifiación al paciente para que pueda descargarla y adquirir el medicamento.
-            </td>
+               <strong>Escenario 1</strong>: Visualización de perfil de paciente <br>
+               <strong>Given</strong> que soy un usuario paciente, <br>
+               <strong>When</strong> ingreso a la sección "Perfil" desde el menú de navegación, <br>
+               <strong>Then</strong> puedo visualizar mi nombre, correo electrónico, edad.
+               <br><br>
+               <strong>Escenario 2</strong>: Visualización de perfil de médico <br>
+               <strong>Given</strong> que soy un usuario médico, <br>
+               <strong>When</strong> ingreso a la sección "Perfil" desde el menú de navegación, <br>
+               <strong>Then</strong> puedo visualizar mi nombre, género, número, cumpleaños, especialidad médica, años de experiencia, certicados, número de escuela, código para nuevos pacientes.
             <td>EP04</td>
         </tr>
     </tbody>
@@ -1744,63 +1778,396 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
 
 ### 3.3. Impact Mapping.
 
-<img src="assets/images/impac mapping.png" alt="impac mapping">
+Impact Mapping Para paciente
+
+![alt text](<images/mapping 1.png>)
+
+Impact Mapping para Médico
+
+![alt text](<images/mapping 2.png>)
 
 ### 3.4. Product Backlog.
-Para elaborar nuestro product backlog hemos utilizado la escala Fibonacci (1,2,3,5…). Además, la Historia de usuario base elegida por el grupo es US016, ya que consideramos que su nivel de complejidad, frecuencia y riesgo son intermedios.
+Utilizamos la escala de Fibonacci para la estimación de los Story Points 
 
-|#Orden|User Story Id|Titulo|Descripción|Story points (1/2/3/5/8)|
-| - | - | - | - | - |
-|01|US01|Visualización del Header.  |Como como visitante deseo observar un header con varias secciones para conocer más sobre el producto.|3|
-|02|US01|Información sobre Planes o Suscripciones.|Como como visitante deseo observar una sección con información de los planes o suscripciones de la app para elegir el que mejor se ajusta a mi situación.|2|
-|03|US01|Visualización del footer en la landing page.|Como visitante, quiero acceder rápidamente a información relevante sobre la aplicación para informarme o revisar información adicional.|1|
-|04|US01|Conocer la misión y visión de la aplicación.|Como visitante deseo conocer más sobre la misión, visión y valores de la empresa detrás de la aplicación.|2|
-|05|US24|Comunicación directa con el equipo de soporte.|Como visitante de la aplicación, deseo poder comunicarme directamente con el equipo de soporte para solucionar problemas técnicos o comentarios sobre la plataforma.|2|
-|06|US16|Visualización de la Historia Clínica del paciente por parte del médico.|Como médico quiero poder visualizar una historia clínica con campos como datos del paciente, motivo de consulta, antecedentes, exámenes médicos, reportes externos y diagnósticos y tratamiento, vinculada al paciente para poder tener un registro del paciente y brindar una mejor atención.|3|
-|07|US17|Ingreso de información y edición de la historia clínica del paciente por parte del médico.|Como médico quiero poder ingresar y editar la información de la historia clínica de mi paciente para poder tener la información actualizada de la historia clínica.|5|
-|08|US28|Ver la medicación del paciente.|Como médico quiero ver la medicación dispuesta a cada paciente para verificar o cambiar la receta médica.|3|
-|09|US39|Diagnóstico y tratamiento.|Como médico quiero poder añadir Diagnósticos y tratamiento a mi paciente para tener un registro detallado de su evolución.|3|
-|10|US29|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|11|US05|Selección de Rol.|Como usuario de "HormonalCare" deseo poder elegir el rol de paciente o médico para utilizar la app según mis necesidades.|2|
-|12|US03|Registro de usuario|Como usuario de "HormonalCare" quiero poder registrarme en la aplicación para guardar mi cuenta en la plataforma.|2|
-|13|US20|Agendar cita con médico endocrinólogo para usuarios totalmente nuevos.|Como paciente quiero poder agendar una cita con un médico endocrinólogo que me parezca adecuado tanto en precio como en calificación para poder recibir el tratamiento de mi enfermedad hormonal de manera remota.|3|
-|14|US11|Agendar una cita con el paciente.|Como médico quiero agendar una cita médica a un paciente que ya se atiende conmigo para continuar con el tratamiento.|3|
-|15|US31|Asignación de Paciente a Otro Médico con Programación de Cita por parte del Médico.|Como médico, cuando estoy visualizando el perfil de otro médico en la plataforma y deseo asignarle un paciente, quiero tener la capacidad de seleccionar al paciente deseado y luego ver los horarios disponibles del médico para programar una cita con el paciente asignado.|5|
-|16|US34|Agendar cita con el médico especialista	|Como paciente nuevo quiero ver y elegir el horario disponible del médico para poder agendar mi cita|3|
-|17|US14|Ver próximas citas.|Como paciente, quiero poder visualizar mis próximas citas médicas programadas, para poder estar preparado y organizado para mis consultas.|3|
-|18|US02|Integración de Google Calendar para visualizar citas médicas y medicamentos.|<p>Como desarrollador,</p><p>Necesito integrar Google Calendar en nuestra aplicación médica</p><p>Para permitir que los usuarios visualicen sus citas médicas programadas y los horarios de medicación.</p>|5|
-|19|US04|Inicio de sesión con cuenta de HormonalCare|Como usuario de "HormonalCare" quiero iniciar sesión con mi cuenta registrada para acceder a mis configuraciones de forma rápida y segura.|1|
-|20|US26|Médico asigna a paciente y programa una cita con un colega.|Como medico quiero poder realizar un traslado de paciente a otro médico para que pueda tener un horario más flexible.|3|
-|21|US08|Ver lista de pacientes del día.|Como médico deseo ver los pacientes del día para tener una cita médica más eficiente.|1|
-|22|US12|Visualización y Gestión de Horario por parte del Médico.|Como médico, quiero poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, para organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.|5|
-|23|US13|Ver calendario paciente.|Como paciente, quiero poder ver mi calendario para revisar mis citas programadas y los medicamentes que debo tomar a qué hora.|3|
-|24|US38|Subir resultados de exámenes médicos de laboratorio por parte del paciente.|Como paciente quiero poder cargar mis resultados de laboratorio para que mi medico los lea y me recete un determinado tratamiento para mi enfermedad hormonal.|1|
-|25|US30|Ver información detallada de los pacientes.|Como medico quiero poder tener de manera organizada los resultados de mis pacientes para que pueda llevar un registro más detallado de su tratamiento.|3|
-|26|US24|Ver los exámenes a evaluar.|Como médico deseo observar los exámenes que tengo que evaluar de cada paciente para personalizar su tratamiento.	|3|
-|27|US38|Subir mis exámenes.|Como paciente, quiero poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla para que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.	|3|
-|29|US40|Añadir medicación.|Como médico quiero poder añadir una receta médica vinculada a la medicación para facilitar al paciente la obtención del medicamento.|2|
-|30|US05|Paciente accede a su perfil de usuario.|Como paciente, quiero poder ver y editar mi perfil médico en la aplicación, para poder acceder a mi información médica de forma segura y cómoda.	|2|
-|31|US27|Comunicación directa con el paciente.|Como médico quiero comunicarme de forma directa con el paciente para resolver consultas.|5|
-|32|US09|Notificaciones a médicos de las citas.	|Como médico deseo recibir notificaciones de las citas para prepárame mejor.|3|
-|33|US26|Edición de Perfil por parte del Médico.|Como médico, quiero poder acceder y editar mi perfil en la plataforma para mantener actualizada mi información profesional.|2|
-|34|US30|Ver el historial médico de un paciente.|Como médico deseo ver el historial médico de mi paciente para garantizar un tratamiento óptimo.|3|
-|35|US33|Selección de médico disponible.|Como paciente nuevo quiero poder ver el perfil del médico elegido con campos como su nombre completo, sus años de experiencia, títulos adjuntos e información profesional como su formación de pregrado, postgrado, número de colegio médico, registro nacional de especialista y la tarifa estándar para informarme sobre las bondades de su servicio.|1|
-|36|US35|Pago de cita.|Como paciente quiero poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin para poder pagar y agendar mi cita.|5|
-|37|US27|Comunicación entre el paciente y el médico especialista.|Como paciente, quiero poder comunicarme con mi doctor a través de un chat para poder hacer preguntas sobre mi enfermedad hormonal y su tratamiento.|5|
-|38|US37|Ver recordatorios de hoy.|Como paciente, quiero poder visualizar todos los recordatorios programados para el día de hoy, para estar al tanto de mis compromisos médicos y de salud.|2|
-|39|US15|Ver notificaciones.|Como paciente, quiero poder recibir notificaciones sobre mensajes enviados por mi médico, para mantenerme informado sobre cualquier comunicación relevante relacionada con mi atención médica.|3|
-|40|US28|Gestión de Medicamentos|Como desarrollador, necesito implementar el endpoint de medicamentos, para permitir que los usuarios gestionen sus registros de medicación.|5|
-|41|US52|Gestión de Inscripciones|Como desarrollador, necesito implementar el endpoint de inscripciones, para permitir que los usuarios gestionen sus inscripciones médicas.|5|
-|42|US54|Gestión de Razones de Consulta|Como desarrollador, necesito implementar el endpoint de razones de consulta, para permitir que los usuarios gestionen las razones de sus consultas médicas.|5|
-|43|US55|Gestión de Tratamientos|Como desarrollador, necesito implementar el endpoint de tratamientos, para permitir que los usuarios gestionen sus tratamientos médicos.|5|
-|44|US56|Gestión de Perfiles|Como desarrollador, necesito implementar el endpoint de perfiles, para permitir que los usuarios gestionen la información de los perfiles de pacientes y doctores.|5|
-|45|US57|Gestión de Calendario|Como desarrollador, necesito implementar el endpoint de calendario, para permitir que los usuarios gestionen sus eventos y citas médicas.|5|
-|46|US58|Gestión de Identidad y Acceso|Como desarrollador, necesito implementar el endpoint de gestión de identidad y acceso, para permitir que los usuarios gestionen sus cuentas y permisos.|5|
+<table>
+    <thead>
+        <tr>
+            <th>Sprint #</th>
+            <th>Título</th>
+            <th>Descripción</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Fundamentos de Acceso y Gestión de Pacientes</td>
+            <td>En este sprint construiremos la base esencial del sistema. Nos enfocaremos en implementar el acceso de usuarios mediante login seguro, visualizar información de pacientes, gestionar horarios, programar citas médicas y habilitar la visualización y edición inicial de las historias clínicas. También se activarán los primeros comunicados médicos y la gestión de tratamientos.</td>    
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Comunicación y Coordinación Médica</td>
+            <td>Este sprint se centrará en fortalecer la comunicación entre médicos y pacientes. Implementaremos el módulo de mensajería, la asignación eficiente de pacientes a médicos y notificaremos eventos importantes. Esto permitirá una mejor coordinación en los procesos de atención médica y un canal de soporte directo.</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Seguimiento de Tratamientos y Evaluaciones</td>
+            <td>Aquí construiremos herramientas de seguimiento de la evolución del paciente. Se implementarán funcionalidades como la carga de resultados de exámenes, el tracker de tratamiento y la gestión detallada de medicamentos. El objetivo es fomentar la adherencia terapéutica y mejorar la autonomía del paciente en su tratamiento.</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Optimización y Calidad Total</td>
+            <td>Este sprint estará enfocado en optimizar funcionalidades existentes, agregar módulos de reportes estadísticos y asegurar la calidad general del sistema. Se afinará la experiencia de usuario, se realizarán correcciones finales y se preparará la plataforma para su entrega final y presentación.</td>
+        </tr>  
+    </tbody>
+</table>
 
 
-**Asimismo, se adjunta el enlace del product backlog en la herramienta indicada.**
-<img src="assets/images/product-backlog-new.png" >
-https://trello.com/invite/b/66EkeO8t/ATTI7681f5c932b9217761b0224c0051dd4cC0E965E5/product-backlog-hormonalcare
+<table>
+        <thead>
+            <tr>
+                <th>Sprint</th>
+                <th>User Story Id</th>
+                <th>Título</th>
+                <th>Descripción</th>
+                <th>Story Points (1/2/3/5)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>EP01/US04</td>
+                <td>Inicio de sesión con cuenta de HormonalCare</td>
+                <td>
+                  <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> iniciar sesión con mi cuenta registrada <strong>para</strong> acceder a mis configuraciones de forma rápida y segura.
+                </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP01/US05</td>
+                <td>Selección de Rol</td>
+                <td>
+                  <strong>Como</strong> usuario de "HormonalCare" <strong>quiero</strong> poder elegir el rol de paciente o médico <strong>para</strong> utilizar la app según mis necesidades.
+                </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP04/US07</td>
+                <td>Visualización detallada de información de pacientes como médico</td>
+                <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> acceder a una vista general del estado de mis pacientes, <strong>para</strong> organizar mis prioridades clínicas y tomar decisiones rápidas.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP03/US08</td>
+                <td>Visualización de lista de pacientes programados para el día como médico</td>
+                <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> ver la lista de pacientes programados <strong>para</strong> el día para organizar eficientemente mis citas médicas.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP07/US09</td>
+                <td>Notificaciones de citas para médicos</td>
+                <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> recibir notificaciones sobre citas programadas <strong>para</strong> prepararme adecuadamente.
+               </td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>EP03/US11</td>
+                <td>Programar próximas citas con pacientes actuales</td>
+                <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> agendar fácilmente nuevas citas de seguimiento, <strong>para</strong> asegurar continuidad y control del tratamiento.
+               </td>
+                <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP03/US12</td>
+               <td>Visualización y Gestión de Horario por parte del Médico</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, <strong>para</strong> organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US16</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> ver la historia clínica completa y ordenada de mis pacientes, <strong>para</strong> brindar un diagnóstico más certero y personalizado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US17</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder ingresar y editar la información de la historia clínica de mi paciente <strong>para</strong> poder tener la información actualizada de la historia clínica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP09/US28</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> visualizar y modificar el tratamiento farmacológico del paciente, <strong>para</strong> ajustar la medicación de acuerdo con su evolución clínica.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP04/US39</td>
+               <td>Diagnóstico y tratamiento</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder añadir Diagnósticos y tratamiento a mi paciente <strong>para</strong> tener un registro detallado de su evolución.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>US40</td>
+               <td>Visualización de perfil del paciente/médico</td>
+               <td>
+                  <strong>Como</strong> usuario (paciente o médico), <strong>quiero</strong> poder acceder y visualizar los detalles de mi perfil, incluyendo información básica como nombre, correo electrónico, rol, especialidad (en el caso de médicos) o historial clínico básico (en el caso de pacientes), <strong>para</strong> mantenerme informado sobre mis datos registrados en la plataforma HormonalCare.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>1</td>
+               <td>EP08/US21</td>
+               <td>Enviar comunicados importantes a médicos y pacientes</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder enviar comunicados globales a todos los médicos o pacientes, <strong>para</strong> informar sobre actualizaciones importantes, mantenimientos o recomendaciones de uso.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US13</td>
+               <td>Ver calendario paciente</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder ver mi calendario <strong>para</strong> revisar mis citas programadas y los medicamentes que debo tomar a qué hora.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US14</td>
+               <td>Ver próximas citas</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> ver mis próximas consultas médicas y también poder regresar a mis recordatorios del día, <strong>para</strong> estar organizada/o en mi tratamiento.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US22</td>
+               <td>Reasignación de Pacientes (Chat Admin-Médico)</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder asignar o cambiar el médico encargado de un paciente, <strong>para</strong> mantener una correcta organización clínica en caso de rotación o necesidad médica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US23</td>
+               <td>Revisar logs de acceso sospechoso</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> revisar registros de accesos sospechosos o múltiples intentos fallidos, <strong>para</strong> prevenir intrusiones o problemas de seguridad.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US24</td>
+               <td>Gestionar soporte técnico vía chat y estado</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> tener una interfaz de chat para comunicarme con los usuarios que solicitan soporte técnico y poder actualizar el estado de sus solicitudes, <strong>para</strong> resolver problemas y mantener a los usuarios informados.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US20</td>
+               <td>Agendar cita con médico endocrinólogo para usuarios nuevos</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder agendar una cita con un médico endocrinólogo adecuado <strong>para</strong> recibir tratamiento de mi enfermedad hormonal de manera remota.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP03/US34</td>
+               <td>Agendar cita con el médico especialista</td>
+               <td>
+                  <strong>Como</strong> paciente nuevo <strong>quiero</strong> ver y elegir el horario disponible del médico <strong>para</strong> poder agendar mi cita.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP05/US36</td>
+               <td>Comunicación entre el paciente y el médico especialista</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder enviarle mensajes a mi médico, <strong>para</strong> resolver dudas sin esperar hasta la siguiente consulta.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>2</td>
+               <td>EP06/US38</td>
+               <td>Subir mis exámenes</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla <strong>para</strong> que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.
+               </td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP05/US18</td>
+               <td>Gestionar quejas y mensajes entre usuarios</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> recibir y redirigir los mensajes de queja o sugerencia entre médicos y pacientes, <strong>para</strong> garantizar una comunicación organizada y justa.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP08/US19</td>
+               <td>Eliminar usuarios conflictivos de la plataforma</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder suspender o eliminar usuarios problemáticos, <strong>para</strong> mantener la seguridad y el buen funcionamiento del sistema.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP09/US25</td>
+               <td>Seguimiento continuo del tratamiento con sistema de racha</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> registrar diariamente mis controles y ver una racha de cumplimiento continuo del tratamiento, <strong>para</strong> monitorear mi progreso y mantenerme motivado a seguir mi rutina médica.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP08/US26</td>
+               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> poder transferir pacientes entre colegas y organizar sus citas de manera eficiente.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP05/US27</td>
+               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> tener una vía de comunicación directa con mis pacientes, <strong>para</strong> resolver dudas rápidas o dar indicaciones de seguimiento.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>3</td>
+               <td>EP06/US06</td>
+               <td>Subir mis exámenes médicos desde la app</td>
+               <td>
+                  <strong>Como</strong> paciente, <strong>quiero</strong> poder subir fácilmente mis resultados de laboratorio, <strong>para</strong> que mi médico pueda revisarlos sin tener que ir al consultorio.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP07/US37</td>
+               <td>Ver recordatorios de hoy</td>
+               <td>
+                  <strong>Como</strong> paciente, qui<strong>quiero</strong>ero ver todos los recordatorios del día actual, <strong>para</strong> no olvidar ningún compromiso relacionado a mi salud.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP04/US30</td>
+               <td>Ver el historial médico de un paciente</td>
+               <td>
+                  <strong>Como</strong> médico <strong>quiero</strong> ver el historial médico de mi paciente <strong>para</strong> garantizar un tratamiento óptimo.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP08/US31</td>
+               <td>Asignación de Pacientes (Chat Admin-Médico-Paciente)</td>
+               <td>
+                  <strong>Como</strong> médico, cuando estoy visualizando el perfil de otro médico en la plataforma y deseo asignarle un paciente, <strong>quiero</strong> tener la capacidad de seleccionar al paciente deseado y luego ver los horarios disponibles del médico <strong>para</strong> programar una cita con el paciente asignado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP10/US32</td>
+               <td>Visualizar médicos disponibles</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder visualizar a los médicos disponibles con campos como especialidad, subespecialidad, tarifa, recomendaciones, nombre y foto <strong>para</strong> tratar mi enfermedad hormonal.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP10/US33</td>
+               <td>Selección de médico disponible</td>
+               <td>
+                  <strong>Como</strong> paciente nuevo <strong>quiero</strong> poder ver el perfil del médico elegido con campos como su nombre completo, sus años de experiencia, títulos adjuntos e información profesional como su formación de pregrado, postgrado, número de colegio médico, registro nacional de especialista y la tarifa estándar <strong>para</strong> informarme sobre las bondades de su servicio.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP06/US10</td>
+               <td>Revisar resultados de exámenes cargados por los pacientes</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> acceder a los exámenes médicos subidos por mis pacientes, <strong>para</strong> evaluar su situación clínica y ajustar tratamientos si es necesario.
+               </td>
+               <td>2</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP04/US16</td>
+               <td>Visualizar historia clínica estructurada del paciente</td>
+               <td>
+                  <strong>Como</strong> médico, <strong>quiero</strong> ver la historia clínica completa y ordenada de mis pacientes, <strong>para</strong> brindar un diagnóstico más certero y personalizado.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>US35</td>
+               <td>Pago de cita</td>
+               <td>
+                  <strong>Como</strong> paciente <strong>quiero</strong> poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin <strong>para</strong> poder pagar y agendar mi cita.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP07/US37</td>
+               <td>Ver recordatorios de hoy</td>
+               <td>
+                  <strong>Como</strong> paciente, qui<strong>quiero</strong>ero ver todos los recordatorios del día actual, <strong>para</strong> no olvidar ningún compromiso relacionado a mi salud.
+               </td>
+               <td>3</td>
+            </tr>
+        </tbody>
+</table>
 
 
 ## Capítulo IV: Producto Design
@@ -1892,14 +2259,59 @@ Cada color fue elegido estratégicamente para construir una interfaz amable, cla
 
 ![alt text](assets/images/iconos.png)
 
-**4.1.3 Mobile Style Guidelines**  
-  **4.1.3.1. IOS Mobile Style Guidelines**  
-  **4.1.3.2. Android Mobile Style Guidelines**
+#### 4.1.3 Mobile Style Guidelines  
+##### 4.1.3.1. IOS Mobile Style Guidelines
+  La versión de **HormonalCare en iOS** ha sido diseñada siguiendo las *Human Interface Guidelines* de Apple, enfocándose en la claridad, profundidad y tactilidad. El diseño se adapta perfectamente a las pantallas de iPhone, manteniendo un equilibrio entre el estilo moderno y la funcionalidad intuitiva.
 
-**4.2 Information Architecture**  
+- **Colores predominantes:**  
+  - Fondo de botones: `#A78AAB`  
+  - Componentes secundarios y contenedores: `#8F7193`
+![alt text](<assets/images/stylemobile/coloresmobile.png>)
+
+- **Tipografía:**  
+  - **Inter Bold 20px** para títulos  
+  - **Inter Regular 15px** para el cuerpo de texto  
+  - Garantiza legibilidad en pantallas pequeñas, manteniendo una estética sobria y empática.
+
+![alt text](<assets/images/stylemobile/tipografiamobile.png>)
+
+- **Componentes clave:**  
+  - **Botones accesibles** con bordes suaves y etiquetas claras  
+  - **Iconografía uniforme y minimalista** (usuario, calendario, historial médico, etc.)  
+  - **Interacciones fluidas y nativas**, con transiciones suaves y retroalimentación táctil
+    
+![alt text](<assets/images/stylemobile/componentesmobile.png>)
+
+
+##### 4.1.3.2. Android Mobile Style Guidelines
+
+En Android, **HormonalCare** se rige por los principios de *Material Design*, priorizando la jerarquía visual, interacción táctil y adaptabilidad en distintos dispositivos y resoluciones.
+
+- **Colores predominantes:**  
+  - Fondo de botones: `#A78AAB`  
+  - Áreas de fondo y tarjetas secundarias: `#8F7193`  
+  - Se conserva la coherencia cromática multiplataforma
+![alt text](<assets/images/stylemobile/coloresmobile.png>)
+
+- **Tipografía:**  
+  - **Inter 20px** para títulos (`headlineSmall`)  
+  - **Inter 15px** para cuerpo (`bodyMedium`)  
+  - Cumple con las normas de accesibilidad y jerarquía de Material Design
+
+![alt text](<assets/images/stylemobile/tipografiamobile.png>)
+
+- **Componentes clave:**  
+  - **Botones Material personalizados**, con ripple effect y texto responsivo  
+  - **Iconografía consistente** compartida con iOS  
+  - **Navegación estructurada**, con scroll vertical y transiciones suaves
+
+![alt text](<assets/images/stylemobile/componentesmobile.png>)
+
+
+### 4.2 Information Architecture  
 En esta sección, el equipo detalla las decisiones y fundamentos que guían la organización del contenido en las experiencias web y móvil de HormonalCare, incluyendo tanto la Landing Page como los módulos de la aplicación para pacientes y médicos. Estas decisiones buscan asegurar que los usuarios puedan acceder fácilmente a funciones clave como citas médicas, historial clínico, recetas, alertas y mensajería. La arquitectura de la información está diseñada para garantizar una navegación fluida, con una estructura clara, jerarquía visual coherente y etiquetas intuitivas que permiten encontrar rápidamente lo que se necesita. Se incluyen estrategias de organización, etiquetado, navegación y búsqueda adaptadas a ambos entornos, asegurando una experiencia consistente y eficiente.
 
-**4.2.1. Organization Systems**  
+#### 4.2.1. Organization Systems
 Para estructurar la arquitectura de la información de HormonalCare, se ha implementado un sistema de organización jerárquico tanto en la experiencia web como móvil, abarcando desde la Landing Page hasta los distintos módulos de la aplicación para pacientes y médicos. Esta organización permite que los usuarios encuentren con facilidad la información médica y las herramientas necesarias para gestionar su salud o brindar atención médica.
 
 **Landing Page**  
@@ -2061,14 +2473,188 @@ Para el diseño del mock-up de la landing page se consideró lo siguiente: se ap
 ![alt text](assets/images/animado5.png)
 
 **4.4. Mobile Applications UI/UX Design**  
-  **4.4.1 Mobile Applications Wireframes**  
-  **4.4.2 Mobile Applications Wireframes Diagrams**  
-  **4.4.3 Mobile Applications Mock-ups**  
-  **4.4.4 Mobile Applications User Flow Diagrams**
 
-**4.5 Mobile Applications Prototyping**  
-  **4.5.1 Android Mobile Applications Prototyping**  
-  **4.5.2 IOS Mobile Applications Prototyping**
+**4.4.1 Mobile Applications Wireframes**  
+
+En las siguientes imágenes se presentan los wireframes diseñados para la versión móvil del sistema, contemplando los perfiles de paciente, médico y administrador. Cada pantalla representa los flujos clave de interacción dentro de la app, adaptados a una experiencia ágil y responsiva.
+
+Las interfaces cubren funcionalidades como recordatorios, historial médico, agendamiento de citas, mensajería interna y gestión administrativa. Todo ha sido estructurado con base en principios de usabilidad y jerarquía visual, asegurando claridad y eficiencia en la navegación móvil.
+  
+  ### Wireframes para iOS
+  
+  ![Wireframes iOS](assets/images/Wireframes%20mobile/ioswireframes.png)
+  
+  ### Wireframes para Android
+  
+  ![Wireframes Android](assets/images/Wireframes%20mobile/androidwireframes.png)
+  
+  Para visualizar el conjunto completo de wireframes, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+
+#### 4.4.2 Mobile Applications Wireframes Diagrams 
+
+Para la elaboración de los Wireflow Diagrams móviles, se ha estructurado cada flujo de interacción con base en los User Goals y User Personas definidos para HormonalCare.
+Cada pantalla representa una funcionalidad clave dentro de la aplicación, permitiendo visualizar cómo se ejecutan las tareas desde un dispositivo móvil, manteniendo una experiencia clara, intuitiva y centrada en el usuario.
+
+
+### **Pacientes**
+
+**User Goal: Como paciente deseo registrarme para ingresar a la aplicación.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente1.png)
+
+**User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente2.png)
+
+**User Goal: Como paciente deseo agendar mi primera cita con el médico escogido para iniciar con mi tratamiento.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente3.png)
+
+**User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente4.png)
+
+**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente5.png)
+
+**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente6.png)
+
+**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
+
+![alt text](assets/images/wireflows/wireflowpaciente7.png)
+
+
+### **Médicos**
+**User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan cómo deben llevar su vida cotidiana de ahora en adelante con los medicamentos que se les fue asignado.**  
+A través de la misma vista de diagnóstico, se podrá ingresar información sobre el tratamiento y medicación indicada.
+
+![alt text](assets/images/wireflows/wireflowmedico1.png)
+
+**User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.**  
+El médico tiene la opción de registrar la posología detallada (nombre, dosis y frecuencia) para cada medicamento recetado.
+
+![alt text](assets/images/wireflows/wireflowmedico2.png)
+
+
+**User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.**  
+Al acceder al calendario, el médico podrá seleccionar fechas y horarios específicos, y asignar pacientes disponibles a esos espacios.
+
+![alt text](assets/images/wireflows/wireflowmedico3.png)
+
+### **Administrador**
+
+**User Goal: Como administrador deseo recibir y gestionar los mensajes entre médicos y pacientes para mantener una comunicación fluida y ordenada.**  
+
+![alt text](assets/images/wireflows/wireflowadmin1.png)
+
+**User Goal: Como administrador deseo gestionar usuarios conflictivos para mantener un ambiente seguro dentro de la plataforma.**  
+
+![alt text](assets/images/wireflows/wireflowadmin2.png)
+
+**User Goal: Como administrador deseo enviar comunicados importantes a médicos y pacientes para informar sobre mantenimientos o novedades de la plataforma.**  
+
+![alt text](assets/images/wireflows/wireflowadmin3.png)
+
+**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.** 
+
+![alt text](assets/images/wireflows/wireflowadmin4.png)
+
+**User Goal: Como administrador deseo gestionar solicitudes de soporte técnico para brindar ayuda a los usuarios en caso de inconvenientes.**  
+
+![alt text](assets/images/wireflows/wireflowadmin5.png)
+
+  
+#### 4.4.3 Mobile Applications Mock-ups
+
+![alt text](assets/images/userflowmobile/mobilemockup.png)
+
+ Para visualizar el conjunto completo de Mock-Ups, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+ 
+ 
+#### 4.4.4 Mobile Applications User Flow Diagrams
+
+
+### **Pacientes**
+
+**User Goal: Como paciente deseo registrarme para ingresar a la aplicación.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente1.png)
+
+**User Goal: Como paciente deseo visualizar los médicos disponibles para seleccionar el que crea conveniente.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente2.png)
+
+**User Goal: Como paciente deseo iniciar sesión con mis credenciales para ingresar a la aplicación.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente3.png)
+
+**User Goal: Como paciente deseo acceder a un calendario para poder visualizar mis próximas citas.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente4.png)
+
+**User Goal: Como paciente deseo acceder a las notificaciones para mantenerme al tanto de las actualizaciones de mi tratamiento.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente5.png)
+
+**User Goal: Como paciente deseo subir mis exámenes pendientes para poder continuar con mi tratamiento.**  
+
+![alt text](assets/images/userflowmobile/userflowpaciente6.png)
+
+
+### **Médicos**
+**User Goal: Como médico deseo incluir el tratamiento de cada paciente para que sepan cómo deben llevar su vida cotidiana de ahora en adelante con los medicamentos que se les fue asignado.**  
+A través de la misma vista de diagnóstico, se podrá ingresar información sobre el tratamiento y medicación indicada.
+
+![alt text](assets/images/userflowmobile/userflowmedico1.png)
+
+**User Goal: Como médico deseo anotar la medicación que adquirirá el paciente junto con sus medidas adecuadas para que el paciente pueda llevar su tratamiento sin complicaciones.**  
+El médico tiene la opción de registrar la posología detallada (nombre, dosis y frecuencia) para cada medicamento recetado.
+
+![alt text](assets/images/userflowmobile/userflowmedico2.png)
+
+
+**User Goal: Como médico deseo configurar mi calendario para que pueda añadir a un paciente a una determinada hora.**  
+Al acceder al calendario, el médico podrá seleccionar fechas y horarios específicos, y asignar pacientes disponibles a esos espacios.
+
+![alt text](assets/images/userflowmobile/userflowmedico3.png)
+
+### **Administrador**
+
+**User Goal: Como administrador deseo recibir y gestionar los mensajes entre médicos y pacientes para mantener una comunicación fluida y ordenada.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin1.png)
+
+**User Goal: Como administrador deseo gestionar usuarios conflictivos para mantener un ambiente seguro dentro de la plataforma.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin2.png)
+
+**User Goal: Como administrador deseo enviar comunicados importantes a médicos y pacientes para informar sobre mantenimientos o novedades de la plataforma.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin3.png)
+
+**User Goal: Como administrador deseo reasignar pacientes a otros médicos disponibles para asegurar la continuidad del servicio clínico.** 
+
+![alt text](assets/images/userflowmobile/userflowadmin4.png)
+
+**User Goal: Como administrador deseo gestionar solicitudes de soporte técnico para brindar ayuda a los usuarios en caso de inconvenientes.**  
+
+![alt text](assets/images/userflowmobile/userflowadmin5.png)
+
+
+### 4.5 Mobile Applications Prototyping  
+
+ Para visualizar el prototipo, puede acceder al diseño en Figma a través del siguiente enlace: [Ver en Figma](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=52-3823&t=NisTh8FrMgdWBmOm-1)
+ 
+#### 4.5.1 Android Mobile Applications Prototyping  
+![alt text](assets/images/mobileapplicationprototyping.png)
+
+
+#### 4.5.2 IOS Mobile Applications Prototyping
+![alt text](assets/images/mobileapplicationprototyping.png)
+
 
 **4.6 Web Application UX/UI Design**  
 En esta sección, se presentan los resultados del diseño de la aplicación web HormonalCare desarrollada en Figma, centrada en la experiencia de usuario para médicos endocrinólogos y pacientes.
@@ -2332,16 +2918,701 @@ Link: https://lucid.app/lucidchart/ab4175a1-bcf2-46cf-9d63-de24f0831da0/edit?vie
 **Link del Figma:**  
 [https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1](https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=RjBQpuMKmkxBY37l-1)
 
-**Video de exposición:**
+## 4.8 Domain-Driven Software Architecture
 
+### 4.8.1 Software Architecture Context Diagram
+**Diagrama de contexto:**
+<img src="images/context diagram.png">
+[https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546](https://structurizr.com/review/53553f42-3e09-4c86-adac-c1eb6cfb5546)
+
+
+### 4.8.2 Software Architecture Container Diagrams
+**Diagrama de contenedores:**
+
+<img src="images/container-diagram.png">
+[https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5](https://structurizr.com/review/655bac62-3716-4d0f-a793-cf94abfe0ff5)
+
+
+### 4.8.3 Software Architecture Components Diagrams
+
+**API REST component diagram:**
+
+<img src="images/api-component-diagram-part1.png">
+<img src="images/api-component-diagram-part2.png">
+[https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579](https://structurizr.com/review/c4694a1b-0399-4e90-8f21-e7af13ddd579)
+
+**Medical Appointment BC Component Diagram:**
+
+<img src="images/MedicalAppointment component diagram.png">
+[https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b](https://structurizr.com/review/fda0c708-4e86-43d5-ac76-086b20a0f82b)
+
+**Calendar BC Component Diagram:**
+
+<img src="images/calendar component diagram.png">
+[https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3](https://structurizr.com/review/d51cf89a-ed30-4c9c-8a2f-609c81a902d3)
+
+**History Medical BC Component Diagram:**
+
+<img src="images/History medical component diagram.png">
+[https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c](https://structurizr.com/review/620c16a6-df93-409c-a657-0efb2572a59c)
+
+**Notification BC Component Diagram:**
+
+<img src="images/notification component diagram.png">
+[https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8](https://structurizr.com/review/79b22862-a261-4dd5-a5de-766efe361ce8)
+
+**Indentity & Access BC Component Diagram:**
+
+<img src="images/indentity-and-access.png">
+[https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6](https://structurizr.com/review/bf8600f3-0d8a-454f-a7a0-eaff9c48c8f6)
+
+**Profile BC Component Diagram:**
+
+<img src="images/profiles-component.png">
+[https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2](https://structurizr.com/review/996dd845-d120-4fed-b371-b97a0751d2a2)
+
+**Communication BC Component Diagram:**
+
+<img src="images/communications.png">
+[https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a](https://structurizr.com/review/559d55a9-e201-422f-bb56-c4ee7ddc217a)
+
+**Subscription and Payments BC Component Diagram:**
+
+<img src="images/subscription-and-payments.png">
+[https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08](https://structurizr.com/review/1dfebd9b-b248-4592-ad74-59585f1e1b08)
+
+## 4.9 Software Object-Oriented Design
+
+### 4.9.1 Class Diagrams
+
+
+#### Identity & Access Class Diagram
+![](images/identityaccess.png)
+#### Profile Class Diagram
+![](images/profile.png)
+#### Communication Class Diagram
+![](images/communication.png)
+#### Subscription and Payments Class Diagram
+![](images/subscription.png)
+#### Medical Appointment Class Diagram
+![](images/mappointment.png)
+#### History Medical Class Diagram
+![](images/hmedical.png)
+#### Calendar Class Diagram
+![](images/calendar.png)
+#### Notification Class Diagram
+![](images/notification.png)
+
+Link: https://lucid.app/lucidchart/d44fb0b9-bf32-40fc-95c1-5925166b7d09/edit?viewport_loc=-6058%2C-4170%2C9111%2C6374%2C0_0&invitationId=inv_1c796232-59df-47e8-aa7a-00e4001bc754
+
+
+
+#### Class Diagram
+![](images/classdiagram.png)
+
+Link: [https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310](https://lucid.app/lucidchart/abe981e7-1c29-4d33-af25-1a2ba48c3300/edit?viewport_loc=-7598%2C-884%2C3976%2C2123%2C0_0&invitationId=inv_34e168e9-90db-4b20-9ca7-1c81ca7a0310)
+
+### 4.9.2 Class Dictionary
+
+
+|Class|Description|
+| :- | :- |
+|Doctor|The Doctor class represents physicians specialized in endocrinology who use the "HormonalCare" application. Doctors can access the platform to manage patient treatment, schedule appointments, review medical records, and communicate with other doctors and patients.|
+|User|The User class represents users of the "HormonalCare" application. This class encapsulates common characteristics and behaviors shared by both patients and doctors within the system.|
+|Patient|This class represents patients within the "HormonalCare" application system. This class inherits from the User class and adds properties and methods specific to managing patient information and interactions.|
+|Request|This class contains requests made by patients within the application. This class stores detailed information about each request, including the requested date and time for the appointment, the reason for the medical appointment, the current status of the request, etc. |
+|Calendar|This class provides functionalities for managing medical appointments and events within the application. This class allows for scheduling, viewing, and managing events related to patient healthcare.|
+|Disease|This class represents different types of diseases, such as flu, diabetes, or hypertension. Each disease has a unique identifier and name. Medical consultations are related to diseases, meaning that when you visit the doctor for a disease, that disease is recorded.|
+|Result|This class handles the results of your medical tests, such as blood tests or X-rays. Each result has a unique number, a date, and the result of the examination. Results are related to your medical consultations. It provides the option to view and add the result.|
+|Laboratory|Here, medical laboratories where your tests are performed are registered. Each laboratory has an identifying number and a name. Test results come from these laboratories.	|
+|Treatment|Represents the treatments you receive for a disease. For example, if you are diagnosed with diabetes, treatment could include diet changes and medication. Each treatment has a unique number and type. Treatments that the doctor deems appropriate can be recorded.|
+|Medication|This includes the medications that are part of your treatment. Each medication has an identifying number, a generic name, and a brand. Medications are associated with the treatments you receive and can be recorded depending on the doctor's needs.|
+|Reminder|The Reminder class manages reminders within the system. It contains a unique identifier and descriptive content specifying the task or event to be remembered. It offers functionalities to set and receive reminder notifications.|
+|Message|This class represents messages sent within the application. Each message has a unique identifier, text content, and a date and time of sending. It allows sending messages between users and maintaining a record of communications.|
+|Chat|Here, conversations between users in the application are organized. It has a unique identifier representing each chat and can contain multiple messages. It provides methods to manage and send real-time messages between participants.|
+|MedicalConsultation|The Medical_Consultation class records medical consultations performed in the application. Each consultation has a unique identifier and an associated date. This class allows displaying relevant information about the consultation and adding additional details about the medical encounter.|
+|Prescription|Here, medical prescriptions generated for patients are managed. It includes information such as the type of prescription, the name, the price, and associated benefits. It allows viewing, recording, and deleting medical prescriptions within the system.|
+|MedicationReminder|The Medication_Reminder class manages reminders related to patient medication. It contains details such as reminder days, daily frequency, and instructions. It offers functionalities to record reminders and send notifications related to medication.|
+|Subscription|The Subscription class manages user subscriptions to plans within the application. It stores details such as the start and end date of the subscription. It provides methods to view, choose, change, and cancel subscription plans.|
+|SubscriptionType|Subscription\_Type defines the different types of subscription plans available in the application. Each type has a unique identifier, a name, a price, and associated benefits. This class facilitates the management and visualization of subscription plans.|
+|Payment|The Payment class records payments made by users within the system. It contains a unique identifier, a price, and a QR code associated with the payment. It allows performing and managing payment transactions in the application.|
+|Card|Here, the information of the credit card used for payments within the system is represented. It includes details such as the cardholder's name, card number, expiration date, and security number. This class facilitates the management of card data to perform transactions.|
+|Yape|The Yape class handles transactions made through the Yape payment service. It contains a unique transaction identifier and an associated transaction code. It provides methods to manage and visualize data related to Yape transactions.|
+|Plin|This class manages transactions made through the Plin payment service. It stores a unique transaction identifier and an associated code. It offers functionalities to handle and query Plin transaction data in the application.|
+
+## 4.10 Database Design
+
+### 4.10.1 Relational/Non-Relational Database Diagram
+
+
+#### Identity & Access Database Diagram
+![](images/Identity&Access_databasediagram.png)
+#### Profile Database Diagram
+![](images/Profile_databasediagram.png)
+#### Communication Database Diagram
+![](images/Communication_databasediagram.png)
+#### Subscription and Payments Database Diagram
+![](images/SubscriptionandPayments_databasediagram.png)
+#### Medical Appointment Database Diagram
+![](images/MedicalAppointment_databasediagram.png)
+#### History Medical Database Diagram
+![](images/HistoryMedical_databasediagram.png)
+#### Calendar Database Diagram
+![](images/Calendar_databasediagram.png)
+#### Notification Database Diagram
+![](images/Notification_databasediagram.png)
+
+
+
+
+#### Database Diagram
+![](images/DatabaseDiagram.png)
+
+Link: [https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs](https://upcedupe-my.sharepoint.com/:b:/g/personal/u202211742_upc_edu_pe/ERqeXmr72tpJsapVhOFRtwUBSZTw8gd5x9iD1lB0_XhtLw?e=lFrKWs)
+
+## Capítulo V: Product Implementation
+
+# 5.1 Software Configuration Management
+
+## 5.1.1 Software Development Environment Configuration
+
+
+
+**Project Management:**
+
+- **Trello:** Utilizado para la gestión de tareas y proyectos, permitiendo la asignación de actividades, definición de fechas límite y seguimiento del progreso de manera colaborativa.  
+[https://trello.com/signup](https://trello.com/signup)
+
+- **Structurizr:** Herramienta empleada para crear diagramas de arquitectura de software y documentar la arquitectura del sistema, facilitando la gestión técnica del proyecto.  
+[https://structurizr.com/](https://structurizr.com/)
+
+- **Microsoft Stream:** Plataforma utilizada para almacenar, publicar y compartir videos relacionados con el proyecto, centralizando los recursos visuales del equipo.  
+[https://www.microsoft.com/en-us/microsoft-365/microsoft-stream](https://www.microsoft.com/en-us/microsoft-365/microsoft-stream)
+
+- **Google Drive:** Utilizado para almacenamiento y colaboración en documentos, archivos y recursos del proyecto.  
+[https://www.google.com/drive/](https://www.google.com/drive/)
+
+- **GitHub Desktop:** Aplicación utilizada para gestionar el control de versiones del código fuente y facilitar la colaboración en el equipo de desarrollo.  
+[https://desktop.github.com/](https://desktop.github.com/)
+
+- **Google Forms:** Utilizado para recopilar retroalimentación y realizar encuestas de usuarios, recolectando datos relevantes para mejorar el diseño y desarrollo del producto.  
+[https://www.google.com/forms/about/](https://www.google.com/forms/about/)
+
+---
+
+**Requirements Management:**
+
+- **Miro:** Utilizado como herramienta principal para la gestión de requisitos, permitiendo la creación de mapas mentales y diagramas para organizar funcionalidades y objetivos clave.  
+[https://miro.com/signup/](https://miro.com/signup/)
+
+- **Lucidchart:** Complementariamente, utilizado para crear diagramas y documentación visual que apoyaron la organización de requisitos técnicos y de negocio.  
+[https://www.lucidchart.com/users/register](https://www.lucidchart.com/users/register)
+
+---
+
+**Product UX/UI Design:**
+
+- **Figma:** Herramienta principal para el diseño de la interfaz de usuario (UI) y experiencia de usuario (UX), permitiendo la creación de prototipos interactivos, wireframes y diseños visuales.  
+[https://www.figma.com/signup](https://www.figma.com/signup)
+
+- **UXPressia:** Utilizado para la creación de mapas de experiencia de usuario, perfiles de clientes y análisis de la usabilidad, mejorando la orientación al usuario del proyecto.  
+[https://uxpressia.com](https://uxpressia.com)
+
+- **Canva:** Empleado para generar recursos gráficos adicionales como imágenes, infografías y presentaciones, mejorando la comunicación visual del producto.  
+[https://www.canva.com/signup](https://www.canva.com/signup)
+
+---
+
+**Software Development:**
+
+- **IDE (Entorno de Desarrollo Integrado):** Se utilizó exclusivamente **Visual Studio Code** para todo el proceso de programación del proyecto. Visual Studio Code ofreció una plataforma ligera, flexible y extensible para escribir, depurar y administrar el código de manera eficiente.  
+[https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+
+## 5.1.2 Source Code Management
+
+
+**Gestión de Repositorios en GitHub:**
+
+Para garantizar la eficiencia y evitar conflictos en el desarrollo del proyecto, los productos de **Los Hormonales** fueron gestionados en una organización de GitHub. A continuación, se detallan los repositorios utilizados para organizar las distintas partes del proyecto:
+
+- **Landing Page:** Este repositorio contiene el código fuente de la página de inicio del proyecto. La página de inicio es fundamental para proporcionar a los usuarios una visión general del proyecto y guiarlos a través de las diferentes características y funcionalidades disponibles.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonalcare-landing-page](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonalcare-landing-page)
+
+- **Single Page Application (Frontend Web):** Este repositorio contiene el código fuente de la aplicación web principal del proyecto. Esta aplicación es el núcleo del proyecto, donde los usuarios interactúan con las funcionalidades clave.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-web-frontend](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-web-frontend)
+
+- **Mobile Frontend:** Este repositorio contiene el código fuente para la aplicación móvil, proporcionando la interfaz de usuario de la app en dispositivos móviles.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos_hormonal_care_mobile_frontend](https://github.com/Grupo-Diseno-los-hormonales/experimentos_hormonal_care_mobile_frontend)
+
+- **Backend:** Este repositorio alberga el código fuente del backend de la aplicación, encargado de la lógica del servidor y la gestión de datos de los usuarios.  
+[https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-backend](https://github.com/Grupo-Diseno-los-hormonales/experimentos-hormonal-care-backend)
+
+- **Report:** Repositorio que contiene los informes técnicos y documentales del proyecto, recopilando información clave sobre el desarrollo, pruebas y resultados.  
+[https://github.com/Grupo-Diseno-los-hormonales/upc-pre-202510-1asi0732-4441-los-hormonales-report-tb1](https://github.com/Grupo-Diseno-los-hormonales/upc-pre-202510-1asi0732-4441-los-hormonales-report-tb1)
+
+---
+
+**Estructura de Trabajo y Flujo de Gitflow:**
+
+Como equipo, decidimos dividir nuestro trabajo en varios repositorios para gestionar de manera eficiente el código y facilitar la colaboración. Esta estructura nos permitió enfocarnos en tareas específicas sin interferir en el trabajo de los demás, además de mantener un control de versiones claro y organizado.
+
+El flujo de trabajo fue gestionado a través de Gitflow, siguiendo los siguientes pasos:
+
+1. **Creación de la rama `develop`:** Esta rama fue utilizada como base para las versiones finales de cada funcionalidad (feature) que íbamos desarrollando.
+   
+2. **Creación de ramas para cada feature:** A partir de la rama `develop`, creamos ramas individuales para cada feature específico que íbamos desarrollando.
+
+3. **Proceso de desarrollo por feature:**
+   - Identificamos el **bounded context** para cada feature.
+   - Definimos el **feature** y nos movimos a la rama correspondiente.
+   - Realizamos un **merge** para traer los cambios de la rama `develop` a la rama del feature.
+   - Desarrollamos el feature, asegurándonos de que cada cambio estuviera correctamente reflejado en la rama.
+   - Verificamos el funcionamiento del feature, probando su rendimiento y funcionalidad.
+
+4. **Integración final:** Una vez que el feature fue probado y validado, realizamos un **merge** de vuelta a la rama `develop`.
+
+Este proceso se repitió para cada feature, permitiendo un desarrollo ordenado y eficiente de la aplicación web y móvil. Nos aseguramos de que cada nueva funcionalidad se integrara correctamente antes de fusionarla con la rama principal.
+
+
+## 5.1.3 Source Code Style Guide & Conventions
+
+Nuestro equipo adoptó las siguientes convenciones y guías de estilo para garantizar un código fuente coherente, legible y mantenible en los diferentes lenguajes y tecnologías utilizados en nuestra solución:
+
+
+HTML: 
+• Se adoptó la “HTML Style Guide and Coding Conventions” para garantizar un código HTML coherente y legible. 
+• Se utilizó la nomenclatura en inglés para los nombres de las clases y los ID. 
+• Se utilizó etiquetas semánticas adecuadas para mejorar la accesibilidad y la comprensión del código. 
+
+CSS: 
+• Se adoptó la “Google HTML/CSS Style Guide” para garantizar un código CSS coherente y legible. 
+• Se prefirió el uso de abreviaturas y valores numéricos sin unidades cuando sea posible. 
+• Se aplicaron principios de diseño responsivo y accesibilidad en los estilos.
+
+JavaScript y TypeScript: 
+• Se adoptó la “Google TypeScript Style Guide” y el “Angular coding style guide” para garantizar un código JavaScript y TypeScript coherente y legible. 
+• Las declaraciones de variables se realizaron al principio de su ámbito. 
+• Se prefirió el uso de const y let sobre var. 
+• Se utilizó la notación de camelCase para nombrar variables y funciones. 
+
+Gherkin: 
+• Se adoptaron las “Gherkin Conventions for Readable Specifications”. 
+• Se utilizó un lenguaje claro para los escenarios y los pasos. 
+• Se utilizó la nomenclatura en inglés para los nombres de los escenarios y los pasos.
+
+Flutter (Dart):  
+• Se adoptó la “Effective Dart: Style” como guía principal para asegurar un código Dart coherente, legible y mantenible.  
+• Se siguió la convención de usar la notación **camelCase** para nombrar variables, funciones, métodos y parámetros.  
+• Las clases se nombraron utilizando la notación **PascalCase**.  
+• Se prefiere el uso de **const** y **final** para definir constantes e inmutabilidad cuando sea necesario.  
+• Se utilizó **Widget** como primer elemento en los nombres de las clases que definen interfaces de usuario, por ejemplo, `WidgetHomePage`.  
+• Las funciones y métodos se nombraron de manera descriptiva, usando verbos para las acciones, por ejemplo, `buildUserInterface()` o `updateData()`.  
+• Se empleó la técnica de **StatefulWidget** solo cuando fue necesario, y se trató de mantener la mayor parte del código en **StatelessWidget** para optimizar el rendimiento.  
+• Se evitaron los **Widgets** anidados profundamente y se prefirió la reutilización de componentes.  
+• Se utilizaron los paquetes y plugins de Flutter siguiendo las mejores prácticas de la comunidad y la documentación oficial.  
+• Se adoptó el uso de **dartfmt** para formatear automáticamente el código y garantizar una apariencia uniforme.
+
+
+## 5.1.4 Software Deployment Configuration
+
+**Landing Page:**  
+Utilizamos el servicio **GitHub Pages** para desplegar la landing page del proyecto **HormonalCare**. Este servicio nos permitió hospedar nuestra landing page directamente desde nuestro repositorio de GitHub.
+
+**Los pasos que seguimos:**
+
+1. Después de haber integrado los cambios y nuevas versiones de la landing page en el repositorio, y asegurarnos de que las ramas estén actualizadas, ingresamos a la plataforma de GitHub y nos dirigimos a nuestro repositorio del proyecto.
+2. Dentro del repositorio, accedimos a la pestaña de "Settings" y buscamos la sección denominada "Pages" en el menú lateral.
+3. En la sección "Pages", seleccionamos la rama **main** desde la cual se desplegará la landing page.
+4. Después de haber seleccionado la rama, confirmamos los cambios realizados, y GitHub realizó el proceso de despliegue de la landing page.
+5. Una vez que el proceso de despliegue finalizó, GitHub nos proporcionó el enlace para ver nuestra landing page publicada: [https://grupo-diseno-los-hormonales.github.io/experimentos-hormonalcare-landing-page/](https://grupo-diseno-los-hormonales.github.io/experimentos-hormonalcare-landing-page/).
+---
+
+**Frontend Web Applications:**  
+El despliegue del **frontend** también está en proceso, y pronto se publicará para que esté disponible para su interacción con el backend.
+
+**Backend:**  
+El despliegue del **backend** también está en proceso, y pronto se publicará para que esté disponible para su interacción con el frontend.
+
+
+# 5.2 Product Implementation & Deployment
+
+## 5.2.1 Sprint Backlogs
+
+-Sprint Planning 1
+
+|Sprint #|Sprint 1|
+| - | - |
+|**Sprint Planning Background**||
+|Date|2025-04-10|
+|Time|9:00|
+|Location|Reunión realizada mediante Discord|
+|Prepared By|Astuyauri Calderon Jherson David|
+|Attendees (to planning meeting)|Astuyauri Calderon, Jherson David (U202218451) / Carranza Tesen, Joaquin Enrique (U20191B935) / Estrada Cajamune, Abraham Andres (U202112164) / Gamio Upiachihua, Brenda Lucía (U202120344) / Soto Quispe, Diego Ulises (U202214477)|
+|**Sprint Goal & User Stories**||
+|Sprint 1 Goal|Organizar las secciones asignadas a cada uno para implementar y completar los capitulso correspondientes a la entrega del TB1.|
+|Sprint 1 Velocity|40|
+|Sum of Story Points|39|
+
+Aquí tienes el Sprint Backlog para el Sprint 1 basado en las historias de usuario que mencionaste:
+
+---
+
+##### 5.2.1.2. Sprint Backlog 1
+
+En el primer sprint de nuestra aplicación "HormonalCare", nos centraremos en la implementación de las funcionalidades clave de inicio de sesión, selección de roles, visualización de pacientes y gestión de citas. Este sprint establece las bases para una experiencia de usuario fluida y organizada, permitiendo a médicos y pacientes acceder a sus configuraciones y gestionar citas de manera eficiente.
+# Sprint Backlog 1 - HormonalCare
+
+
+| **User Story** | **Work-Item / Task** | **Descripción** | **Estimation (Hours)** | **Assigned To** | **Status (To-do / In Process / To-Review / Done)** |
+|:---------------:|:--------------------:|:---------------:|:----------------------:|:--------------:|:--------------------------------------------------:|
+| EP01/US04 | **T01** Inicio de sesión | Desarrollar la funcionalidad de inicio de sesión para usuarios registrados en "HormonalCare" | 3 | Astuyauri Calderon | Done |
+| EP01/US05 | **T01** Selección de Rol | Implementar la opción para que el usuario elija su rol (paciente o médico) al iniciar sesión | 3 | Carranza Tesen | Done |
+| EP04/US07 | **T01** Visualización detallada de pacientes | Mostrar una vista detallada del estado de los pacientes para los médicos | 3 | Estrada Cajamune | Done |
+| EP03/US08 | **T01** Lista de pacientes programados | Visualizar la lista de pacientes programados para el día para médicos | 3 | Gamio Upiachihua | Done |
+| EP07/US09 | **T01** Notificaciones de citas | Desarrollar la funcionalidad de notificaciones para citas programadas | 2 | Soto Quispe | Done |
+| EP03/US11 | **T01** Programar citas | Crear una opción para que los médicos agenden citas de seguimiento | 3 | Astuyauri Calderon | Done |
+| EP03/US12 | **T01** Gestión de Horarios del Médico | Implementar la vista de horarios del médico, con opción de crear nuevos eventos | 5 | Carranza Tesen | Done |
+| EP04/US16 | **T01** Historia clínica del paciente | Visualizar la historia clínica estructurada del paciente | 3 | Estrada Cajamune | Done |
+| EP04/US17 | **T01** Editar historia clínica | Permitir que los médicos editen la historia clínica del paciente | 3 | Gamio Upiachihua | Done |
+| EP09/US28 | **T01** Tratamiento farmacológico | Visualizar y modificar el tratamiento farmacológico del paciente | 5 | Soto Quispe | Done |
+| EP04/US39 | **T01** Diagnóstico y tratamiento | Añadir diagnóstico y tratamiento para el paciente | 3 | Astuyauri Calderon | Done |
+| US40 | **T01** Visualización del perfil | Permitir a los usuarios (médicos/pacientes) ver su perfil con información relevante | 3 | Carranza Tesen | Done |
+| EP08/US21 | **T01** Enviar comunicados | Implementar una opción para que los administradores envíen comunicados a médicos/pacientes | 3 | Estrada Cajamune | Done |
+
+
+## 5.2.2 Implemented Landing Page Evidence
+
+A continuación se presentan las evidencias visuales de las diferentes secciones de la landing page implementada:
+
+### 1. Home
+![Home](assets/images/landing1.png)
+
+### 2. Features
+![Features](assets/images/landing2.png)
+
+### 3. Plans
+![Plans](assets/images/landing3.png)
+
+### 4. Testimonials
+![Testimonials](assets/images/landing4.png)
+
+### 5. Support
+![Support](assets/images/landing5.png)
+
+### 6. About
+![About](assets/images/landing6.png)
+
+
+## 5.2.3 Implemented Frontend-Web Application Evidence
+
+A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación web implementada:
+
+### 1. Pantalla de log in
+![Pantalla de log in](assets/images/frontendimpl1.png)
+
+### 2. Pantalla de selección de rol
+![Pantalla de selección de rol ](assets/images/frontendimpl2.png)
+
+### 3. Pantalla de registro
+![Pantalla de registro](assets/images/frontendimpl3.png)
+
+### 4. Pantalla de encontrar doctor 
+![Pantalla de encontrar doctor ](assets/images/frontendimpl4.png)
+
+### 5. Pantalla de doctores disponibles
+![Pantalla de doctores disponibles](assets/images/frontendimpl5.png)
+
+### 6. Pantalla de perfil del doctor
+![Pantalla de perfil del doctor](assets/images/frontendimpl6.png)
+
+### 7. Pantalla de tiempo disponible
+![Pantalla de tiempo disponible ](assets/images/frontendimpl7.png)
+
+### 8. Pantalla de pagos
+![Pantalla de pagos](assets/images/frontendimpl8.png)
+
+
+## 5.2.4 Acuerdo de Servicio - SaaS
+
+El presente Acuerdo de Servicio (el "Acuerdo") establece los términos y condiciones bajo los cuales los usuarios podrán acceder y utilizar la plataforma **HormonalCare** como parte del servicio SaaS (Software as a Service) proporcionado por **Los Hormonales**. Este Acuerdo es aplicable a todos los usuarios que utilicen el servicio, ya sea de manera gratuita o mediante suscripción.
+
+### 1. **Definiciones**
+   - **"Plataforma"**: Se refiere al servicio en línea proporcionado por **Los Hormonales** para la gestión de enfermedades hormonales, disponible a través de la web y la aplicación móvil **HormonalCare**.
+   - **"Usuario"**: Cualquier persona que acceda a la plataforma **HormonalCare** para utilizar los servicios ofrecidos.
+   - **"Servicios"**: Los servicios proporcionados por la plataforma **HormonalCare**, incluyendo acceso a consultas médicas, seguimiento de tratamientos, gestión de citas médicas, entre otros.
+   
+### 2. **Derechos y Obligaciones del Usuario**
+   - El usuario tiene el derecho de utilizar la plataforma **HormonalCare** de acuerdo con las funcionalidades proporcionadas.
+   - El usuario es responsable de proporcionar información precisa y actualizada al registrarse y utilizar el servicio.
+   - El usuario se compromete a utilizar la plataforma únicamente para fines legales y en conformidad con los términos del presente Acuerdo.
+   - El usuario deberá cumplir con las políticas de privacidad y seguridad aplicables, protegiendo su cuenta de acceso.
+
+### 3. **Licencia de Uso**
+   **Los Hormonales** concede al usuario una licencia no exclusiva, intransferible y limitada para acceder y utilizar la plataforma **HormonalCare** durante el período de validez del servicio contratado.
+
+### 4. **Obligaciones de Los Hormonales**
+   - **Los Hormonales** se comprometen a garantizar la disponibilidad y accesibilidad del servicio, sujeto a mantenimiento programado y circunstancias fuera de su control.
+   - **Los Hormonales** garantizan que los datos del usuario serán tratados conforme a su Política de Privacidad y las normativas aplicables en materia de protección de datos.
+
+### 5. **Limitaciones de Responsabilidad**
+   **Los Hormonales** no serán responsables por daños directos, indirectos, incidentales, especiales o consecuentes derivados del uso o la imposibilidad de uso de la plataforma **HormonalCare**, incluyendo, pero no limitado a, la pérdida de datos o interrupciones en el servicio.
+
+### 6. **Suspensión o Terminación de Servicios**
+   - **Los Hormonales** se reservan el derecho de suspender o terminar el acceso de un usuario a la plataforma **HormonalCare** en caso de violaciones de este Acuerdo, incluyendo el uso inapropiado de la plataforma, o el incumplimiento de las políticas establecidas.
+   - El usuario puede cancelar su cuenta en cualquier momento, sujeto a los términos de cancelación aplicables.
+
+### 7. **Confidencialidad**
+   Ambas partes se comprometen a mantener la confidencialidad de cualquier información confidencial intercambiada durante la duración del Acuerdo, y a no divulgar dicha información sin el consentimiento expreso de la otra parte, excepto cuando lo exija la ley.
+
+### 8. **Modificaciones del Acuerdo**
+   **Los Hormonales** se reservan el derecho de modificar este Acuerdo en cualquier momento. Las modificaciones se publicarán en la sección de "Términos y Condiciones" de la plataforma **HormonalCare**, y el usuario será notificado de las actualizaciones.
+
+### 9. **Cumplimiento Normativo**
+   El uso de la plataforma **HormonalCare** debe cumplir con todas las leyes y regulaciones aplicables, incluidas aquellas relacionadas con la protección de datos personales, propiedad intelectual y otros derechos de propiedad.
+
+### 10. **Resolución de Conflictos**
+   En caso de controversias derivadas del uso de la plataforma **HormonalCare**, ambas partes acuerdan resolver los conflictos mediante un proceso de mediación antes de recurrir a procedimientos legales.
+
+### 11. **Vigencia**
+   Este Acuerdo entrará en vigencia desde el momento en que el usuario acceda por primera vez a la plataforma **HormonalCare** y continuará en vigor hasta que sea terminado por cualquiera de las partes, conforme a las disposiciones del Acuerdo.
+
+## 5.2.5 Implemented Native-Mobile Application Evidence
+
+A continuación se presentan las evidencias visuales de las diferentes pantallas de la aplicación móvil implementada:
+
+### 1. Pantalla de sign in
+![Pantalla de sign in](assets/images/mobile1.jpg)
+
+### 2. Pantalla de Selección de Rol
+![Pantalla de Selección de Rol](assets/images/mobile2.jpg)
+
+### 3. Pantalla de los pacientes de hoy
+![Pantalla de los pacientes de hoy](assets/images/mobile3.png)
+
+### 4. Pantalla de añadir una cita médica
+![Pantalla de añadir una cita médica](assets/images/mobile4.jpg)
+
+### 5. Pantalla de Calendario
+![Pantalla de Calendario](assets/images/mobile5.jpg)
+
+### 6. Pantalla de Diagnostico y tratamiento del paciente
+![Pantalla de Diagnostico y tratamiento del pacienteo](assets/images/mobile6.jpg)
+
+### 7. Pantalla de perfil de usuario como médico
+![Pantalla de perfil de usuario como médico](assets/images/mobile7.jpg)
+
+
+## 5.2.6 Implemented RESTful API and/or Serverless Backend Evidence
+
+### 1. Authentication - Sign-up Endpoint
+![Endpoint de Sign-up](assets/images/endpoint1.png)
+
+### 2. Authentication - Sign-in Endpoint
+![Endpoint de Sign-in](assets/images/endpoint2.png)
+
+### 3. Roles 
+![Endpoint de Roles](assets/images/endpoint3.png)
+
+### 4. Users 
+![Endpoint de Usuarios](assets/images/endpoint4.png)
+
+### 5. User Profile 
+![Endpoint de Perfil de Usuario](assets/images/endpoint5.png)
+
+### 6. Notification 
+![Endpoint de Notificación](assets/images/endpoint6.png)
+
+### 7. Medical Appointment 
+![Endpoint de Cita Médica](assets/images/endpoint7.png)
+
+### 8. Treatment 
+![Endpoint de Tratamiento](assets/images/endpoint8.png)
+
+### 9. Medical Record
+![Endpoint de Historia Médica](assets/images/endpoint9.png)
+
+### 10. Patient 
+![Endpoint de Paciente](assets/images/endpoint10.png)
+
+### 11. Medication 
+![Endpoint de Medicación](assets/images/endpoint11.png)
+
+### 12. Doctor 
+![Endpoint de Doctor](assets/images/endpoint12.png)
+
+
+## 5.2.7 RESTful API Documentation
+
+
+#### Bounded Context: **Authentication**
+| Entity      | Endpoint URL                                  | Method |
+|-------------|-----------------------------------------------|--------|
+| Sign-up     | /api/v1/authentication/sign-up                | POST   |
+| Sign-in     | /api/v1/authentication/sign-in                | POST   |
+
+---
+
+#### Bounded Context: **Roles**
+| Entity      | Endpoint URL                                  | Method |
+|-------------|-----------------------------------------------|--------|
+| Get Roles   | /api/v1/roles                                 | GET    |
+
+---
+
+#### Bounded Context: **Users**
+| Entity            | Endpoint URL                                | Method |
+|-------------------|---------------------------------------------|--------|
+| Get All Users     | /api/v1/users                               | GET    |
+| Get User by ID    | /api/v1/users/{userId}                      | GET    |
+
+---
+
+#### Bounded Context: **Profile**
+| Entity                   | Endpoint URL                                      | Method |
+|--------------------------|---------------------------------------------------|--------|
+| Update Phone Number      | /api/v1/profile/profile/{profileId}/phoneNumber   | PUT    |
+| Update Image             | /api/v1/profile/profile/{profileId}/image         | PUT    |
+| Full Profile Update      | /api/v1/profile/profile/{profileId}/full-update   | PUT    |
+| Create Profile           | /api/v1/profile/profile                          | POST   |
+| Get Profile by ID        | /api/v1/profile/profile/{profileId}               | GET    |
+| Get Profile by User ID   | /api/v1/profile/profile/userId/{userId}          | GET    |
+| Check Profile Exists     | /api/v1/profile/profile/userId/exists/{userId}   | GET    |
+
+---
+
+#### Bounded Context: **Notification**
+| Entity                    | Endpoint URL                                      | Method |
+|---------------------------|---------------------------------------------------|--------|
+| Update Notification State  | /api/v1/notification/{notificationId}/state       | PUT    |
+| Create Notification        | /api/v1/notification                              | POST   |
+| Get Notification by ID     | /api/v1/notification/{notificationId}             | GET    |
+| Delete Notification        | /api/v1/notification/{notificationId}             | DELETE |
+| Get Notifications by Recipient ID | /api/v1/notification/notifications/recipient/{recipientId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Appointment**
+| Entity                     | Endpoint URL                                      | Method |
+|----------------------------|---------------------------------------------------|--------|
+| Get Appointment by ID       | /api/v1/medicalAppointment/{medicalAppointmentId} | GET    |
+| Update Appointment          | /api/v1/medicalAppointment/{medicalAppointmentId} | PUT    |
+| Delete Appointment          | /api/v1/medicalAppointment/{medicalAppointmentId} | DELETE |
+| Get All Appointments        | /api/v1/medicalAppointment                        | GET    |
+| Create Appointment          | /api/v1/medicalAppointment                        | POST   |
+| Get Appointments by Doctor ID | /api/v1/medicalAppointment/medicalAppointments/doctor/{doctorId} | GET    |
+
+---
+
+#### Bounded Context: **Treatment**
+| Entity                      | Endpoint URL                                      | Method |
+|-----------------------------|---------------------------------------------------|--------|
+| Get Treatment by ID          | /api/v1/medical-record/treatments/{treatmentId}   | GET    |
+| Update Treatment             | /api/v1/medical-record/treatments/{treatmentId}   | PUT    |
+| Create Treatment             | /api/v1/medical-record/treatments                 | POST   |
+| Get Treatments by Medical Record ID | /api/v1/medical-record/treatments/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Record**
+| Entity                      | Endpoint URL                                      | Method |
+|-----------------------------|---------------------------------------------------|--------|
+| Get Medical Record by ID     | /api/v1/medicalRecords/{medicalRecordId}          | GET    |
+| Create Medical Record       | /api/v1/medicalRecords                            | POST   |
+
+---
+
+#### Bounded Context: **Reason of Consultation**
+| Entity                         | Endpoint URL                                           | Method |
+|--------------------------------|--------------------------------------------------------|--------|
+| Get Reason of Consultation by ID | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | GET    |
+| Update Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | PUT    |
+| Create Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation        | POST   |
+| Get Reasons of Consultation by Medical Record ID | /api/v1/medical-record/reasons-of-consultation/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Patient**
+| Entity                   | Endpoint URL                                            | Method |
+|--------------------------|---------------------------------------------------------|--------|
+| Get Patient by ID         | /api/v1/medical-record/patient/{patientId}              | GET    |
+| Update Patient            | /api/v1/medical-record/patient/{patientId}              | PUT    |
+| Update Patient History    | /api/v1/medical-record/patient/personal-history/{patientId} | PUT    |
+| Update Family History     | /api/v1/medical-record/patient/family-history/{patientId} | PUT    |
+| Link Doctor to Patient    | /api/v1/medical-record/patient/doctor/{patientId}       | PUT    |
+| Create Patient            | /api/v1/medical-record/patient                          | POST   |
+| Get Patient Profile by ID | /api/v1/medical-record/patient/{patientId}/profile-id   | GET    |
+| Get Patient Record by ID  | /api/v1/medical-record/patient/record/{patientRecordId} | GET    |
+| Get Patient Profile       | /api/v1/medical-record/patient/profile/{profileId}      | GET    |
+| Get Patient Doctor        | /api/v1/medical-record/patient/doctor/{doctorId}        | GET    |
+
+---
+
+#### Bounded Context: **Medication**
+| Entity                        | Endpoint URL                                              | Method |
+|-------------------------------|-----------------------------------------------------------|--------|
+| Get Medication by ID           | /api/v1/medical-record/medications/{medicationId}         | GET    |
+| Update Medication              | /api/v1/medical-record/medications/{medicationId}         | PUT    |
+| Get Prescription by ID         | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | GET    |
+| Update Prescription            | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | PUT    |
+| Get Medication Type by ID      | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | GET    |
+| Update Medication Type         | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | PUT    |
+| Get All Medications            | /api/v1/medical-record/medications                       | GET    |
+| Create Medication              | /api/v1/medical-record/medications                       | POST   |
+| Get All Prescriptions          | /api/v1/medical-record/medications/prescriptions         | GET    |
+| Create Prescription            | /api/v1/medical-record/medications/prescriptions         | POST   |
+| Get All Medication Types       | /api/v1/medical-record/medications/medicationTypes       | GET    |
+| Create Medication Type         | /api/v1/medical-record/medications/medicationTypes       | POST   |
+| Get Prescriptions by Medical Record ID | /api/v1/medical-record/medications/prescriptions/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Exam**
+| Entity                      | Endpoint URL                                          | Method |
+|-----------------------------|-------------------------------------------------------|--------|
+| Get Medical Exam by ID       | /api/v1/medical-record/medical-exam/{medicalExamId}   | GET    |
+| Update Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | PUT    |
+| Delete Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | DELETE |
+| Create Medical Exam          | /api/v1/medical-record/medical-exam                   | POST   |
+| Get Medical Exams by Medical Record ID | /api/v1/medical-record/medical-exam/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Doctor**
+| Entity                     | Endpoint URL                                        | Method |
+|----------------------------|-----------------------------------------------------|--------|
+| Get Doctor by ID            | /api/v1/doctor/doctor/{doctorId}                    | GET    |
+| Update Doctor               | /api/v1/doctor/doctor/{doctorId}                    | PUT    |
+| Create Doctor               | /api/v1/doctor/doctor                               | POST   |
+| Get Doctor Profile by ID    | /api/v1/doctor/doctor/{doctorId}/profile-id         | GET    |
+| Get Doctor Record by ID     | /api/v1/doctor/doctor/record/{doctorRecordId}       | GET    |
+| Get Doctor Profile by Profile ID | /api/v1/doctor/doctor/profile/{profileId}         | GET    |
+
+---
+
+
+## 5.2.8 Team Collaboration Insights
+
+En la presente entrega, se llevaron a cabo avances significativos en la integración del frontend y backend de la aplicación HormonalCare. Se trabajó de manera colaborativa, asignando tareas específicas a cada miembro del equipo y utilizando herramientas como Discord para coordinar las actividades y el seguimiento del progreso.
+
+![Insights Frontend](assets/images/insightsfront1.png)
+![Insights Frontend](assets/images/insightsfront2.png)
+
+# 5.3 Video About-the-Product
+En esta sección, presentamos un video detallado sobre HormonalCare, diseñado para ofrecer una visión completa de sus características, funcionalidades, ventajas acerca del mismo. 
+
+A continuación, puedes ver el video a través de:
+
+**Link video en Youtube:** [https://youtu.be/66uURIoCmIE](https://youtu.be/66uURIoCmIE) (duración: 1:09 )
+![About the product](assets/images/abouttheproduct.png)
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 
-•	Nuestro equipo de NinjaCode ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
+•	Nuestro equipo de Los Hormonales ha logrado desarrollar una solución tecnológica innovadora, HormonalCare, que aborda los desafíos críticos en el seguimiento médico de enfermedades hormonales en el Perú. Hemos colaborado estrechamente para diseñar y desarrollar una aplicación que permita una gestión eficiente de registros médicos, seguimiento remoto de niveles hormonales y una comunicación efectiva entre pacientes y profesionales de la salud.
 
 •	A lo largo de este proyecto, hemos enfrentado desafíos significativos, desde la escasez de recursos tecnológicos hasta la competencia en el mercado de la salud digital. Sin embargo, nuestra determinación y compromiso nos han permitido superar obstáculos y seguir adelante.
 
-•	El proyecto de NinjaCode tiene objetivos claros, incluida la optimización de los seguimientos médicos, la reducción de los tiempos de espera y la mejora de la adherencia al tratamiento. Estos objetivos están respaldados por una profunda comprensión de la problemática actual en el sistema de atención médica peruano y una visión innovadora para implementar soluciones tecnológicas efectivas.
+•	El proyecto de Los Hormonales tiene objetivos claros, incluida la optimización de los seguimientos médicos, la reducción de los tiempos de espera y la mejora de la adherencia al tratamiento. Estos objetivos están respaldados por una profunda comprensión de la problemática actual en el sistema de atención médica peruano y una visión innovadora para implementar soluciones tecnológicas efectivas.
 
 •	La aplicación HormonalCare representa un avance significativo en la integración de tecnología digital en el campo de la salud. Desde la gestión eficiente de registros médicos hasta la facilitación de videoconsultas y la comunicación fluida entre pacientes y profesionales de la salud, esta innovación promete revolucionar la forma en que se realiza el seguimiento médico de enfermedades hormonales.
 
@@ -2370,62 +3641,8 @@ Link: https://lucid.app/lucidchart/ab4175a1-bcf2-46cf-9d63-de24f0831da0/edit?vie
 
 * Vista de Factores asociados a la no-adherencia al tratamiento farmacológico antihipertensivo en pacientes de un hospital del 		seguro social. (s/f). Org.pe. Recuperado el 01 de abril de 2024, de 								http://cmhnaaa.org.pe/ojs/index.php/rcmhnaaa/article/view/1252/507 
 
-
-
 ## ANEXOS
 
-* Video About-the-Team. 
-
-**Link video en Youtube:** https://youtu.be/DnfOV7qsQBs (duración: 10:19)
-
-
-
-**Link video en Microsoft Stream:** 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215099_upc_edu_pe/EWZOQMv9iqRCtuCOmrtsPQQBsVK6cnPKlrGpj7fWaUTXjw?e=3HHWsv&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-(duración: 10:19)
-
-<img src="assets/images/about the team.png" width=400>
-
-[0:00 Presentación]
-
-[0:06 Sesión de trabajo real del equipo]
-
-[05:05 Testimonios]
-
-[05:08 Testimonio de Luis Chinchihualpa]
-
-[06:09 Testimonio de Jherson Astuyauri]
-
-[07:02 Testimonio de Claudio Quispesivana]
-
-[08:04 Testimonio de Estefano Lostaunau]
-
-[08:57 Testimonio de Sebastian Lobato]
-
-[10:07 Despedida]
-
-
-* Video About the product *
-
-**Link video en Youtube:** https://youtu.be/rZrRMwphbxY (duracion: 1:37)
-
-**Link video en Youtube:** https://youtu.be/DnfOV7qsQBs (duración: 10:19)
-
-[0:00 Presentación]
-
-[0:06 Sesión de trabajo real del equipo]
-
-[05:05 Testimonios]
-
-[05:08 Testimonio de Luis Chinchihualpa]
-
-[06:09 Testimonio de Jherson Astuyauri]
-
-[07:02 Testimonio de Claudio Quispesivana]
-
-[08:04 Testimonio de Estefano Lostaunau]
-
-[08:57 Testimonio de Sebastian Lobato]
-
-[10:07 Despedida]
+| Nombre del Anexo | Enlace |
+|:-----------------|:-------|
+| Exposición TB1   | [[Ver Exposición](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EaDpPSxwGrpCtwN1kgiZEy0BVAzLFN-AEeO3vH6UG2lZgQ?e=gnnZcl&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EaDpPSxwGrpCtwN1kgiZEy0BVAzLFN-AEeO3vH6UG2lZgQ?e=6xCKGW&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |

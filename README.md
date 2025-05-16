@@ -155,6 +155,26 @@ Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que t
   - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)  
 - [5.3. Video About-the-Product](#53-video-about-the-product)  
 
+## Capítulo VI: Product Verification & Validation
+
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+  - [6.1.4. Core System Tests](#614-core-system-tests)  
+
+## Capítulo VII: DevOps Practices
+
+- [7.1. Continuous Integration](#71-continuous-integration)  
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+- [7.2. Continuous Delivery](#72-continuous-delivery)  
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+- [7.3. Continuous Deployment](#73-continuous-deployment)  
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+
 ## Secciones Finales
 
 - [Conclusiones](#conclusiones)  
@@ -3605,6 +3625,61 @@ A continuación, puedes ver el video a través de:
 
 **Link video en Youtube:** [https://youtu.be/66uURIoCmIE](https://youtu.be/66uURIoCmIE) (duración: 1:09 )
 ![About the product](assets/images/abouttheproduct.png)
+
+
+## Capítulo VI: Product Verification & Validation
+
+### 6.1. Testing Suites & Validation
+
+
+#### 6.1.1. Core Entities Unit Tests
+
+
+#### 6.1.2. Core Integration Tests
+
+#### 6.1.3. Core Behavior-Driven Development
+
+
+
+#### 6.1.4. Core System Tests
+
+
+
+## Capítulo VII: DevOps Practices
+
+### 7.1. Continuous Integration
+
+
+
+#### 7.1.1. Tools and Practices
+
+
+#### 7.1.2. Build & Test Suite Pipeline Components
+
+
+
+### 7.2. Continuous Delivery
+
+
+
+#### 7.2.1. Tools and Practices
+
+
+
+#### 7.2.2. Stages Deployment Pipeline Components
+
+
+### 7.3. Continuous Deployment
+
+
+
+#### 7.3.1. Tools and Practices
+
+
+
+#### 7.3.2. Production Deployment Pipeline Components
+
+
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 

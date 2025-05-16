@@ -3631,8 +3631,60 @@ A continuación, puedes ver el video a través de:
 
 ### 6.1. Testing Suites & Validation
 
-
 #### 6.1.1. Core Entities Unit Tests
+
+Los *Core Entities Unit Tests* son esenciales en el desarrollo de software, ya que garantizan la calidad y correcto funcionamiento de las entidades centrales. Estas pruebas ayudan a prevenir errores, facilitan el mantenimiento del código y aseguran que los servicios clave se comporten como se espera.
+
+#### MedicalAppointmentCommandServiceTest  
+![MedicalAppointmentCommandServiceTest](assets/images/coreentities/entitiestest1.png)
+
+#### MedicalAppointmentQueryServiceTest  
+![MedicalAppointmentQueryServiceTest](assets/images/coreentities/entitiestest2.png)
+
+#### MedicalRecordCommandServiceTest  
+![MedicalRecordCommandServiceTest](assets/images/coreentities/entitiestest3.png)
+
+#### MedicationCommandServiceTest  
+![MedicationCommandServiceTest](assets/images/coreentities/entitiestest4.png)
+
+#### MedicationQueryServiceTest  
+![MedicationQueryServiceTest](assets/images/coreentities/entitiestest5.png)
+
+#### PatientCommandServiceTest  
+![PatientCommandServiceTest](assets/images/coreentities/entitiestest6.png)
+
+#### PatientQueryServiceTest  
+![PatientQueryServiceTest](assets/images/coreentities/entitiestest7.png)
+
+#### PrescriptionCommandServiceTest  
+![PrescriptionCommandServiceTest](assets/images/coreentities/entitiestest8.png)
+
+#### PrescriptionQueryServiceTest  
+![PrescriptionQueryServiceTest](assets/images/coreentities/entitiestest9.png)
+
+#### ProfileCommandServiceTest  
+![ProfileCommandServiceTest](assets/images/coreentities/entitiestest10.png)
+
+#### ProfileQueryServiceTest  
+![ProfileQueryServiceTest](assets/images/coreentities/entitiestest11.png)
+
+#### ReasonOfConsultationCommandServiceTest  
+![ReasonOfConsultationCommandServiceTest](assets/images/coreentities/entitiestest12.png)
+
+#### ReasonOfConsultationQueryServiceTest  
+![ReasonOfConsultationQueryServiceTest](assets/images/coreentities/entitiestest13.png)
+
+#### RoleCommandServiceTest  
+![RoleCommandServiceTest](assets/images/coreentities/entitiestest14.png)
+
+#### RoleQueryServiceTest  
+![RoleQueryServiceTest](assets/images/coreentities/entitiestest15.png)
+
+#### TreatmentCommandServiceTest  
+![TreatmentCommandServiceTest](assets/images/coreentities/entitiestest16.png)
+
+#### UserCommandServiceTest  
+![UserCommandServiceTest](assets/images/coreentities/entitiestest17.png)
 
 
 #### 6.1.2. Core Integration Tests

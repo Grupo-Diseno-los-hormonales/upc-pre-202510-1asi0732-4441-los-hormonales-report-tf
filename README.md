@@ -3858,13 +3858,111 @@ El pipeline de despliegue se divide en etapas claves para asegurar una transici�
 
 ### 7.3. Continuous Deployment
 
-
+El objetivo del Continuous Deployment (CD) en HormonalCare es lograr que los cambios aprobados pasen automáticamente del entorno de desarrollo al de producción, garantizando entregas continuas y confiables sin intervención manual, siempre que superen todas las pruebas.
 
 #### 7.3.1. Tools and Practices
 
 
+**Herramientas utilizadas:**
+
+---
+
+### <img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" alt="GitHub Actions Logo" width="80"/> GitHub Actions
+
+Automatiza el pipeline de integración y despliegue continuo (CI/CD) mediante workflows configurables.  
+En **HormonalCare**, cada cambio en la rama `develop` dispara la ejecución de pruebas automáticas, validaciones de calidad del código, construcción del proyecto y despliegue directo a los entornos de producción o pruebas.
+
+---
+
+### <img src="https://logowik.com/content/uploads/images/301_docker.jpg" alt="Docker Logo" width="80"/> Docker
+
+Permite contenerizar la aplicación backend desarrollada en Spring Boot.  
+Gracias a Docker, se garantiza que el entorno de desarrollo sea idéntico al de producción, facilitando la portabilidad, el control de versiones de imágenes y la escalabilidad de servicios en **HormonalCare**.
+
+---
+
+### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3HvVa5UCZAucCoKnA0owixY0dqaoYwdOxA&s" alt="Railway Logo" width="80"/> Railway
+
+Plataforma de despliegue para el backend y gestión de bases de datos.  
+En **HormonalCare**, Railway aloja la base de datos MySQL y permite actualizaciones automáticas mediante migraciones. Además, ofrece monitoreo, backups automáticos y logs en tiempo real para mantener la disponibilidad del servicio.
+
+---
+
+### <img src="https://logowik.com/content/uploads/images/vercel1868.jpg" alt="Vercel Logo" width="80"/> Vercel
+
+Utilizado para el despliegue continuo del frontend web de **HormonalCare**.  
+Al hacer push al repositorio, Vercel construye el proyecto automáticamente y lo publica en su CDN global, garantizando tiempos de carga óptimos y alta disponibilidad. Incluye invalidación de caché y soporte para pruebas automatizadas.
+
+---
+
+### <img src="https://logo.clearbit.com/postman.com" alt="Postman Logo" width="80"/> Postman
+
+Herramienta esencial para la validación y prueba de las APIs REST del backend.  
+En **HormonalCare**, Postman se emplea para ejecutar colecciones de pruebas automatizadas, monitorear endpoints críticos y validar el cumplimiento del contrato de datos con el frontend.
+
+---
+
+### <img src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png?hl=es-419" alt="Firebase Logo" width="80"/> Firebase (opcional)
+
+Utilizado en etapas tempranas de desarrollo para pruebas rápidas del frontend y simulación de autenticación y almacenamiento en tiempo real.  
+Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante la fase de prototipado para pruebas de interfaces y funcionalidades básicas.
+
+---
+**Prácticas clave:**
+
+* **Feature Branching:** Cada nueva funcionalidad se desarrolla en ramas separadas y luego se integra a develop.
+* **Commit-based Deployment:** Cada commit en la rama develop activa el pipeline que construye, prueba y despliega automáticamente.
+* **Rollback Automático:** En caso de errores en producción, el sistema realiza un rollback automático y notifica al equipo.
+
 
 #### 7.3.2. Production Deployment Pipeline Components
+
+### Base de Datos – Railway
+
+1. **Migraciones Automáticas:**  
+   Spring Boot gestiona automáticamente la ejecución de scripts de migración al iniciar la aplicación, garantizando que la estructura de la base de datos esté siempre actualizada.
+
+2. **Backups Automáticos:**  
+   Railway genera copias de seguridad previas a cualquier migración crítica, permitiendo recuperación rápida ante fallos.
+
+3. **Monitoreo:**  
+   La plataforma ofrece métricas en tiempo real sobre el rendimiento, uso de memoria, conexiones activas, y estado general de la base de datos.
+
+4. **Validación de Esquema:**  
+   Se ejecutan pruebas automatizadas que verifican que el esquema de la base de datos esté sincronizado con el modelo de datos de la aplicación.
+
+5. **Despliegue Continuo:**  
+   Cada actualización del backend (tras superar validaciones) se refleja automáticamente en producción con sincronización inmediata de la base de datos.
+
+
+### Backend – Spring Boot en Railway
+
+1. **CI Integrado con GitHub Actions:**  
+   Cada commit en la rama `develop` dispara un workflow de integración continua que compila el proyecto con Maven, ejecuta pruebas unitarias y valida que todo esté en orden.
+
+2. **Contenerización con Docker:**  
+   Se genera automáticamente una nueva imagen Docker con la versión más reciente del backend para asegurar portabilidad y consistencia entre entornos.
+
+3. **Despliegue Automatizado:**  
+   Railway actualiza la instancia en producción con la nueva imagen del backend una vez superadas las pruebas.
+
+4. **Monitoreo y Alertas:**  
+   Railway proporciona herramientas para observar logs, errores y métricas de rendimiento del backend en tiempo real, permitiendo al equipo actuar rápidamente ante cualquier problema.
+
+
+### Frontend – Aplicación Web en Vercel
+
+1. **Compilación Automática:**  
+   Vercel detecta nuevos commits en el repositorio y construye automáticamente el frontend en modo producción.
+
+2. **Pruebas Automatizadas:**  
+   Se ejecutan pruebas unitarias con herramientas como **Vitest** o **Jest**, asegurando que las nuevas versiones no introduzcan errores visuales o funcionales.
+
+3. **Despliegue Instantáneo:**  
+   Tras superar las pruebas, Vercel publica la nueva versión del frontend en su red global de distribución (CDN), asegurando tiempos de carga rápidos y disponibilidad.
+
+4. **Invalidación de Caché:**  
+   Vercel actualiza automáticamente la caché para que los usuarios accedan siempre a la última versión disponible del sitio web.
 
 
 

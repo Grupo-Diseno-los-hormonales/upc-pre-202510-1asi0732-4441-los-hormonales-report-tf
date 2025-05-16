@@ -3689,8 +3689,6 @@ Los *Core Entities Unit Tests* son esenciales en el desarrollo de software, ya q
 
 #### 6.1.2. Core Integration Tests
 
-#### 6.1.3. Core Behavior-Driven Development
-
 En el desarrollo de HormonalCare, las *Core Integration Tests* cumplen un rol crucial para validar el correcto funcionamiento de los controladores que gestionan las interacciones entre el frontend, la lógica de negocio y la base de datos. Estas pruebas se encargan de verificar que los endpoints implementados respondan de forma adecuada ante solicitudes válidas e inválidas, validando tanto los flujos exitosos como los escenarios de error.
 
 Al simular diferentes contextos de uso, las pruebas de integración permiten detectar fallas de comunicación entre capas del sistema y asegurar que los datos viajen de forma coherente desde el cliente hasta el almacenamiento persistente y viceversa. Además, ayudan a garantizar respuestas con los códigos HTTP correctos, lo que mejora significativamente la experiencia del usuario y la robustez de la plataforma.
@@ -3733,6 +3731,58 @@ A continuación, se presentan las pruebas de integración desarrolladas para cad
 #### UsersControllerIntegrationTest  
 ![UsersControllerIntegrationTest](assets/images/coreintegration/integrationtests12.png)
 
+#### 6.1.3. Core Behavior-Driven Development
+
+En HormonalCare se aplicó el enfoque de *Behavior-Driven Development (BDD)* para asegurar que las funcionalidades del sistema se construyan según el comportamiento esperado desde la perspectiva del usuario. Esta metodología permite alinear el desarrollo técnico con los requerimientos funcionales, priorizando la experiencia del usuario final, ya sea paciente o médico.
+
+Cada una de las historias de usuario implementadas fue validada con escenarios de aceptación definidos en lenguaje natural y estructurados en formato Gherkin. Esto facilitó una mejor comunicación entre desarrolladores, diseñadores y stakeholders del proyecto, garantizando que las funcionalidades clave respondieran a los objetivos del producto.
+
+A continuación, se presentan las funcionalidades implementadas con sus respectivas evidencias visuales:
+
+#### US01 - Inicio de sesión con cuenta de HormonalCare  
+![US01](assets/images/corebehavior/feature1.png)
+
+#### US02 - Selección de rol (paciente o médico)  
+![US02](assets/images/corebehavior/feature2.png)
+
+#### US03 - Visualización de información general de pacientes por el médico  
+![US03](assets/images/corebehavior/feature3.png)
+
+#### US04 - Listado de pacientes programados para el día  
+![US04](assets/images/corebehavior/feature4.png)
+
+#### US05 - Visualización y gestión de horario por parte del médico  
+![US05](assets/images/corebehavior/feature5.png)
+
+#### US06 - Visualización de historia clínica estructurada del paciente  
+![US06](assets/images/corebehavior/feature6.png)
+
+#### US07 - Edición de historia clínica por el médico  
+![US07](assets/images/corebehavior/feature7.png)
+
+#### US08 - Visualización y modificación de tratamiento farmacológico  
+![US08](assets/images/corebehavior/feature8.png)
+
+#### US09 - Añadir diagnóstico y tratamiento  
+![US09](assets/images/corebehavior/feature9.png)
+
+#### US10 - Visualización del calendario de citas y medicación del paciente  
+![US10](assets/images/corebehavior/feature10.png)
+
+#### US11 - Visualización de próximas citas y recordatorios del paciente  
+![US11](assets/images/corebehavior/feature11.png)
+
+#### US12 - Agendamiento de citas con endocrinólogo  
+![US12](assets/images/corebehavior/feature12.png)
+
+#### US13 - Subida de exámenes médicos por el paciente  
+![US13](assets/images/corebehavior/feature13.png)
+
+#### US14 - Revisión de exámenes médicos por el médico  
+![US14](assets/images/corebehavior/feature14.png)
+
+#### US15 - Visualización del perfil de usuario (paciente/médico)  
+![US15](assets/images/corebehavior/feature15.png)
 
 
 #### 6.1.4. Core System Tests

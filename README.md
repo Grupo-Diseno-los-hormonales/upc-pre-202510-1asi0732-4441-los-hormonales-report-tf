@@ -3691,6 +3691,48 @@ Los *Core Entities Unit Tests* son esenciales en el desarrollo de software, ya q
 
 #### 6.1.3. Core Behavior-Driven Development
 
+En el desarrollo de HormonalCare, las *Core Integration Tests* cumplen un rol crucial para validar el correcto funcionamiento de los controladores que gestionan las interacciones entre el frontend, la lógica de negocio y la base de datos. Estas pruebas se encargan de verificar que los endpoints implementados respondan de forma adecuada ante solicitudes válidas e inválidas, validando tanto los flujos exitosos como los escenarios de error.
+
+Al simular diferentes contextos de uso, las pruebas de integración permiten detectar fallas de comunicación entre capas del sistema y asegurar que los datos viajen de forma coherente desde el cliente hasta el almacenamiento persistente y viceversa. Además, ayudan a garantizar respuestas con los códigos HTTP correctos, lo que mejora significativamente la experiencia del usuario y la robustez de la plataforma.
+
+A continuación, se presentan las pruebas de integración desarrolladas para cada uno de los controladores principales de la aplicación:
+
+#### DoctorControllerIntegrationTest  
+![DoctorControllerIntegrationTest](assets/images/coreintegration/integrationtests1.png)
+
+#### MedicalAppointmentControllerIntegrationTest  
+![MedicalAppointmentControllerIntegrationTest](assets/images/coreintegration/integrationtests2.png)
+
+#### MedicalExamControllerIntegrationTest  
+![MedicalExamControllerIntegrationTest](assets/images/coreintegration/integrationtests3.png)
+
+#### MedicalRecordControllerIntegrationTest  
+![MedicalRecordControllerIntegrationTest](assets/images/coreintegration/integrationtests4.png)
+
+#### MedicationControllerIntegrationTest  
+![MedicationControllerIntegrationTest](assets/images/coreintegration/integrationtests5.png)
+
+#### NotificationControllerIntegrationTest  
+![NotificationControllerIntegrationTest](assets/images/coreintegration/integrationtests6.png)
+
+#### PatientControllerIntegrationTest  
+![PatientControllerIntegrationTest](assets/images/coreintegration/integrationtests7.png)
+
+#### ProfileControllerIntegrationTest  
+![ProfileControllerIntegrationTest](assets/images/coreintegration/integrationtests8.png)
+
+#### ReasonOfConsultationControllerIntegrationTest  
+![ReasonOfConsultationControllerIntegrationTest](assets/images/coreintegration/integrationtests9.png)
+
+#### RolesControllerIntegrationTest  
+![RolesControllerIntegrationTest](assets/images/coreintegration/integrationtests10.png)
+
+#### TreatmentControllerIntegrationTest  
+![TreatmentControllerIntegrationTest](assets/images/coreintegration/integrationtests11.png)
+
+#### UsersControllerIntegrationTest  
+![UsersControllerIntegrationTest](assets/images/coreintegration/integrationtests12.png)
+
 
 
 #### 6.1.4. Core System Tests

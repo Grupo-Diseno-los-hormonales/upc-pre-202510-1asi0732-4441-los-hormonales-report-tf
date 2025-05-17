@@ -3787,6 +3787,104 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 
 #### 6.1.4. Core System Tests
 
+| US04 | Inicio de sesión con cuenta de HormonalCare | **Como usuario de "HormonalCare" quiero iniciar sesión con mi cuenta registrada para acceder a mis configuraciones de forma rápida y segura.** |
+|------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+
+
+| US05 | Selección de Rol | **Como usuario de "HormonalCare" quiero poder elegir el rol de paciente o médico para utilizar la app según mis necesidades.** |
+|------|------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+
+| US07 | Visualización detallada de información de pacientes como médico | **Como médico, quiero acceder a una vista general del estado de mis pacientes, para organizar mis prioridades clínicas y tomar decisiones rápidas.** |
+|------|----------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US08 | Visualización de lista de pacientes programados para el día como médico | **Como médico quiero ver la lista de pacientes programados para el día para organizar eficientemente mis citas médicas.** |
+|------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+
+| US09 | Notificaciones de citas para médicos | **Como médico quiero recibir notificaciones sobre citas programadas para prepararme adecuadamente.** |
+|------|-------------------------------------|-----------------------------------------------------------------------------------------------------|
+
+
+| US11 | Programar próximas citas con pacientes actuales | **Como médico, quiero agendar fácilmente nuevas citas de seguimiento, para asegurar continuidad y control del tratamiento.** |
+|------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+| US12 | Visualización y Gestión de Horario por parte del Médico | **Como médico, quiero poder ver mi horario con eventos programados y tener la capacidad de crear nuevos eventos según sea necesario, para organizar eficientemente mis actividades diarias y administrar mi agenda profesional de manera efectiva.** |
+|------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+| US16 | Visualizar historia clínica estructurada del paciente | **Como médico, quiero ver la historia clínica completa y ordenada de mis pacientes, para brindar un diagnóstico más certero y personalizado.** |
+|------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US17 | Visualizar historia clínica estructurada del paciente | **Como médico quiero poder ingresar y editar la información de la historia clínica de mi paciente para poder tener la información actualizada de la historia clínica.** |
+|------|------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US28 | Visualizar y modificar tratamiento farmacológico del paciente | **Como médico, quiero visualizar y modificar el tratamiento farmacológico del paciente, para ajustar la medicación de acuerdo con su evolución clínica.** |
+|------|---------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+| US39 | Diagnóstico y tratamiento | **Como médico quiero poder añadir Diagnósticos y tratamiento a mi paciente para tener un registro detallado de su evolución.** |
+|------|--------------------------|------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US40 | Visualización de perfil del paciente/médico | **Como usuario (paciente o médico), quiero poder acceder y visualizar los detalles de mi perfil, incluyendo información básica como nombre, correo electrónico, rol, especialidad (en el caso de médicos) o historial clínico básico (en el caso de pacientes), para mantenerme informado sobre mis datos registrados en la plataforma HormonalCare.** |
+|------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US21 | Enviar comunicados importantes a médicos y pacientes | **Como administrador, quiero poder enviar comunicados globales a todos los médicos o pacientes, para informar sobre actualizaciones importantes, mantenimientos o recomendaciones de uso.** |
+|------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US13 | Ver calendario paciente | **Como paciente, quiero poder ver mi calendario para revisar mis citas programadas y los medicamentes que debo tomar a qué hora.** |
+|------|------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+
+
+| US14 | Ver próximas citas | **Como paciente, quiero ver mis próximas consultas médicas y también poder regresar a mis recordatorios del día, para estar organizada/o en mi tratamiento.** |
+|------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US22 | Reasignación de Pacientes (Chat Admin-Médico) | **Como administrador, quiero poder asignar o cambiar el médico encargado de un paciente, para mantener una correcta organización clínica en caso de rotación o necesidad médica.** |
+|------|-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US23 | Revisar logs de acceso sospechoso | **Como administrador, quiero revisar registros de accesos sospechosos o múltiples intentos fallidos, para prevenir intrusiones o problemas de seguridad.** |
+|------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+| US24 | Gestionar soporte técnico vía chat y estado | **Como administrador, quiero tener una interfaz de chat para comunicarme con los usuarios que solicitan soporte técnico y poder actualizar el estado de sus solicitudes, para resolver problemas y mantener a los usuarios informados.** |
+|------|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US20 | Agendar cita con médico endocrinólogo para usuarios nuevos | **Como paciente quiero poder agendar una cita con un médico endocrinólogo adecuado para recibir tratamiento de mi enfermedad hormonal de manera remota.** |
+|------|------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+| US34 | Agendar cita con el médico especialista | **Como paciente nuevo quiero ver y elegir el horario disponible del médico para poder agendar mi cita.** |
+|------|----------------------------------------|----------------------------------------------------------------------------------------------------------|
+
+| US36 | Comunicación entre el paciente y el médico especialista | **Como paciente, quiero poder enviarle mensajes a mi médico, para resolver dudas sin esperar hasta la siguiente consulta.** |
+|------|---------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+
+
+| US38 | Subir mis exámenes | **Como paciente, quiero poder subir mis resultados de exámenes médicos en la aplicación de manera segura y sencilla para que mi médico pueda acceder a ellos y revisarlos cuando sea necesario.** |
+|------|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+
+
+
+
+
 
 
 ## Capítulo VII: DevOps Practices

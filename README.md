@@ -3801,12 +3801,13 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 | US04 | Inicio de sesión con cuenta de HormonalCare | **Como usuario de "HormonalCare" quiero iniciar sesión con mi cuenta registrada para acceder a mis configuraciones de forma rápida y segura.** |
 |------|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
 
-
-
-
+![alt text](<images/Captura de pantalla 2025-05-17 a la(s) 1.59.57 p. m..png>)
 
 | US05 | Selección de Rol | **Como usuario de "HormonalCare" quiero poder elegir el rol de paciente o médico para utilizar la app según mis necesidades.** |
 |------|------------------|-----------------------------------------------------------------------------------------------------------------------------|
+
+![alt text](<images/Captura de pantalla 2025-05-17 a la(s) 2.17.30 p. m..png>)
+
 
 
 | US07 | Visualización detallada de información de pacientes como médico | **Como médico, quiero acceder a una vista general del estado de mis pacientes, para organizar mis prioridades clínicas y tomar decisiones rápidas.** |

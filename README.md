@@ -3817,7 +3817,7 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 | US08 | Visualización de lista de pacientes programados para el día como médico | **Como médico quiero ver la lista de pacientes programados para el día para organizar eficientemente mis citas médicas.** |
 |------|--------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 
-| US09 | Notificaciones de citas para médicos | **Como médico quiero recibir notificaciones sobre citas programadas para prepararme adecuadamente.** |
+| US09 | Notificaciones de citas para mMédicos | **Como médico quiero recibir notificaciones sobre citas programadas para prepararme adecuadamente.** |
 |------|-------------------------------------|-----------------------------------------------------------------------------------------------------|
 
 

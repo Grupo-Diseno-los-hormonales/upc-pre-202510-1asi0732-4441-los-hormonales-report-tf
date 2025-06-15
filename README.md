@@ -3960,8 +3960,29 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 ![alt text](<images/Captura de pantalla 2025-05-17 a la(s) 4.05.04 p. m..png>)
 
 
+### 6.2. Código y Revisiones
+#### 6.2.1. Coding
+##### 6.2.1.1. Coding Standard
+##### 6.2.1.2. Code Quality & Code Security
+#### 6.2.2. Reviews
+
+### 6.3. Validación UX
+#### 6.3.1. Diseño de entrevistas
+#### 6.3.2. Registro de entrevistas
+#### 6.3.3. Evaluaciones según heurísticas
+
+### 6.4. Auditorías
+#### 6.4.1. Auditoría realizada
+##### 6.4.1.1. Información del grupo auditado
+##### 6.4.1.2. Cronograma
+##### 6.4.1.3. Contenido
 
 
+#### 6.4.2. Auditoría recibida
+##### 6.4.2.1. Información del grupo auditor
+##### 6.4.2.2. Cronograma
+##### 6.4.2.3. Contenido
+##### 6.4.2.4. Resumen de modificaciones
 
 
 ## Capítulo VII: DevOps Practices
@@ -4138,6 +4159,50 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 
 4. **Invalidación de Caché:**  
    Vercel actualiza automáticamente la caché para que los usuarios accedan siempre a la última versión disponible del sitio web.
+
+
+#### 7.4. Continuous Monitoring
+
+#### 7.4.1. Tools and Practices
+
+#### 7.4.2. Monitoring Pipeline Components
+
+#### 7.4.3. Alerting Pipeline Components
+
+#### 7.4.4. Notification Pipeline Components
+
+
+
+
+## Capítulo VIII: UX Research & Data Strategy
+
+### 8.1. As-Is Research
+#### 8.1.1. As-Is Summary
+#### 8.1.2. Raw Material
+#### 8.1.3. Experiment-Ready Questions
+#### 8.1.4. Question Backlog
+
+### 8.2. Research Design
+
+#### 8.2.1. Hypotheses
+
+#### 8.2.2. Measures
+
+#### 8.2.3. Conditions
+
+#### 8.2.4. Scale Calculations and Decisions
+
+#### 8.2.5. Methods Selection
+
+#### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
+
+#### 8.2.7. Web and Mobile Tracking Plan
+
+
+### 8.3. To-Be Definition
+#### 8.3.1. To-Be User Stories
+
+#### 8.3.2. To-Be Product Backlog
 
 
 

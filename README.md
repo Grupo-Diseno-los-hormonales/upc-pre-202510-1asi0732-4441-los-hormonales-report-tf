@@ -11,7 +11,7 @@
 
 <h1 align="center">Diseño de Experimentos de Ingeniería de Software</h1>
 
-<h2 align="center">TB1 REPORT</h2>
+<h2 align="center">TB2 REPORT</h2>
 
 <p align="center"><strong>Código:</strong> 1ASI0732 </p>
 <p align="center"><strong>Sección:</strong> 4441 </p>
@@ -42,7 +42,8 @@
 |:-------:|:-----------:|:-------------:|:-------------------------------:|
 | TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
 | TP    | 17/05/2025  | Los Hormonales | El equipo realizó la entrega del TP, que incluye los capítulos VI y VII completos. |
-
+| TB2 V1  | 01/06/2025  | Los Hormonales | El equipo completó los puntos restantes de los capítulos VI y VII. |
+| TB2 V2  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
 
 ## Project Report Collaboration Insights
 
@@ -73,7 +74,11 @@ Como evidencia de nuestra participación, incluimos el gráfico de commits del r
 Este enfoque fortaleció el trabajo en equipo y permitió mantener un desarrollo ordenado y eficiente del informe.
 
 
+Para esta segunda entrega del trabajo práctico (TB2), desarrollamos los capítulos VI, VII y VIII, que abarcan desde la implementación de estándares de codificación y auditorías internas/externas, hasta la evaluación heurística, monitoreo continuo del sistema y la construcción de experimentos a través del modelo As-Is / To-Be. Todo este proceso estuvo enfocado en fortalecer la calidad del proyecto y asegurar la trazabilidad de los datos recolectados, hipótesis formuladas, métricas definidas y decisiones estratégicas tomadas en base a los resultados esperados.
 
+El equipo trabajó de manera colaborativa mediante el uso de GitHub, donde cada integrante aportó a través de commits y revisiones continuas. La coordinación se mantuvo a través de reuniones frecuentes por Discord, permitiendo asignar responsabilidades específicas de forma equitativa. Además del trabajo individual, también se realizaron tareas grupales clave como el diseño y registro de entrevistas. Como evidencia del compromiso y esfuerzo colectivo, se adjunta el gráfico de actividad del repositorio del equipo.
+
+<div align="center"> <img src="assets/images/reporttb2.png"> </div>
 
 # Contenido
 
@@ -168,23 +173,75 @@ Este enfoque fortaleció el trabajo en equipo y permitió mantener un desarrollo
 
 ## Capítulo VI: Product Verification & Validation
 
-- [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
-  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
-  - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
-  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
-  - [6.1.4. Core System Tests](#614-core-system-tests)  
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+  - [6.1.4. Core System Tests](#614-core-system-tests)
+    
+- [6.2. Código y Revisiones](#62-código-y-revisiones)
+ - [6.2.1. Coding](#621-coding)
+    - [6.2.1.1. Coding Standard](#6211-coding-standard)
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
+  - [6.2.2. Reviews](#622-reviews)
+    
+- [6.3. Validación UX](#63-validación-ux)
+  - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
+  - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
+    
+- [6.4. Auditorías](#64-auditorías)
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
+    - [6.4.1.2. Cronograma](#6412-cronograma)
+    - [6.4.1.3. Contenido](#6413-contenido)
+      
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
+    - [6.4.2.2. Cronograma](#6422-cronograma)
+    - [6.4.2.3. Contenido](#6423-contenido)
+    - [6.4.2.4. Resumen de modificaciones](#6424-resumen-de-modificaciones)
 
 ## Capítulo VII: DevOps Practices
 
-- [7.1. Continuous Integration](#71-continuous-integration)  
-  - [7.1.1. Tools and Practices](#711-tools-and-practices)  
-  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
-- [7.2. Continuous Delivery](#72-continuous-delivery)  
-  - [7.2.1. Tools and Practices](#721-tools-and-practices)  
-  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
-- [7.3. Continuous Deployment](#73-continuous-deployment)  
-  - [7.3.1. Tools and Practices](#731-tools-and-practices)  
-  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+- [7.1. Continuous Integration](#71-continuous-integration)
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+    
+- [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
+    
+- [7.3. Continuous Deployment](#73-continuous-deployment)
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+    
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+
+## Capítulo VIII: UX Research & Data Strategy
+
+- [8.1. As-Is Research](#81-as-is-research)
+  - [8.1.1. As-Is Summary](#811-as-is-summary)
+  - [8.1.2. Raw Material](#812-raw-material)
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
+  - [8.1.4. Question Backlog](#814-question-backlog)
+    
+- [8.2. Research Design](#82-research-design)
+  - [8.2.1. Hypotheses](#821-hypotheses)
+  - [8.2.2. Measures](#822-measures)
+  - [8.2.3. Conditions](#823-conditions)
+  - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
+  - [8.2.5. Methods Selection](#825-methods-selection)
+  - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
+  - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
+    
+- [8.3. To-Be Definition](#83-to-be-definition)
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
 
 ## Secciones Finales
 

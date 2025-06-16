@@ -3962,9 +3962,117 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 
 ### 6.2. Código y Revisiones
 #### 6.2.1. Coding
+El desarrollo del sistema HormonalCare se llevó a cabo bajo una arquitectura cuidadosamente diseñada que prioriza la calidad, la claridad y la escalabilidad del código. Se implementaron principios de ingeniería de software moderna, destacando el uso de Domain-Driven Design (DDD) en el backend y buenas prácticas de codificación estructurada tanto en frontend como en backend.
+
+Este enfoque permitió separar claramente las responsabilidades, organizar el código en módulos comprensibles y facilitar la colaboración entre los integrantes del equipo. Para garantizar una codificación consistente y profesional, se adoptaron convenciones internas, herramientas automáticas y políticas de revisión continua que serán detalladas en las siguientes secciones.
+
+En las siguientes subsecciones se describen los estándares seguidos, las medidas de calidad aplicadas y las acciones realizadas para garantizar la seguridad del código desde las primeras etapas del desarrollo.
+
 ##### 6.2.1.1. Coding Standard
+
+En el desarrollo de HormonalCare, se adoptaron estándares de codificación que garantizan la mantenibilidad, legibilidad y escalabilidad del sistema. Los principales lineamientos utilizados fueron:
+
+* **Clean Code:** Se priorizó el uso de nombres descriptivos en variables, funciones y clases, favoreciendo funciones con responsabilidad única, eliminando código redundante y evitando comentarios innecesarios. Esto permitió un código más comprensible para todos los miembros del equipo.
+
+* **Domain-Driven Design (DDD):** Utilizamos un lenguaje ubicuo alineado con el dominio médico-hormonal. La lógica se encapsuló en servicios de dominio y se organizaron entidades bajo bounded contexts claramente definidos, como Patient, Doctor, MedicalRecord, Appointment, etc. 
+
+En el backend de HormonalCare se aplicó el enfoque de Domain-Driven Design (DDD) como eje central de diseño y codificación, lo cual permitió una separación clara entre la lógica de negocio y los mecanismos técnicos. La estructura del proyecto se organizó según los principios de DDD en módulos especializados, incluyendo:
+
+  * domain/: Define las entidades del dominio (como Paciente, ExamenHormonal, Cita) y sus comportamientos.
+  
+  * model/: Representa objetos de valor y estructuras auxiliares de cada entidad.
+  
+  * aggregates/: Agrupa entidades relacionadas bajo una raíz coherente, como HistorialHormonalAggregate.
+  
+  * command/: Contiene los comandos de aplicación que representan acciones de negocio (por ejemplo, RegistrarPacienteCommand).
+  
+  * command-services/: Servicios que orquestan la ejecución de comandos y la lógica de aplicación.
+  
+  * controllers/: Encargados de recibir las solicitudes HTTP, delegando en los command services.
+  
+  * interfaces/: Define interfaces de entrada y salida (ej. IPacienteRepository).
+
+  * infrastructure/: Implementa servicios técnicos como repositorios persistentes (ej. MongoDB), adaptadores, validaciones o envío de notificaciones.
+
+Ejemplo de estructura de carpetas del backend:
+
+![Carpetas backend](assets/images/carpetasbackend.png)
+
 ##### 6.2.1.2. Code Quality & Code Security
+
+La calidad del código y su seguridad son pilares en el desarrollo de HormonalCare, especialmente por tratarse de datos sensibles de salud. Las acciones específicas fueron:
+
+###### Calidad del Código
+
+* **Métricas aplicadas**:
+
+  * **Cobertura de pruebas**: Se exigió un mínimo de 80% de cobertura en componentes críticos (ver sección 6.1).
+  * **Complejidad ciclomática**: Se mantuvo bajo control con análisis automatizados periódicos.
+* **Herramientas utilizadas**:
+
+  * **SonarQube**: Para evaluar deuda técnica, duplicidad de código, complejidad, bugs y mantenibilidad.
+  * **SonarLint**: Integrado en el IDE de desarrollo (VS Code), alertando en tiempo real sobre malas prácticas.
+
+![sonart lint](assets/images/sonarlintimg.png)
+
+##### Seguridad del Código
+
+Se implementaron prácticas activas para prevenir vulnerabilidades dentro del backend desarrollado en **Spring Boot**:
+
+* **Validación rigurosa del input del usuario**, aplicando anotaciones como `@Valid`, `@NotNull`, `@Size` y validadores personalizados para prevenir entradas maliciosas.
+* **Protección ante ataques comunes** mediante la configuración de seguridad con **Spring Security**, incluyendo:
+
+  * Autenticación y autorización con JWT.
+  * Protección contra **CSRF** y políticas de CORS definidas explícitamente.
+  * Configuración de cabeceras HTTP seguras (como `X-Content-Type-Options`, `X-Frame-Options`) desde la capa de seguridad.
+* **Prevención de inyecciones** SQL mediante el uso exclusivo de **ORM con JPA/Hibernate** y consultas parametrizadas (`@Query` con parámetros seguros).
+* Uso de la guía **OWASP Top 10** como checklist en cada versión de despliegue para identificar y mitigar riesgos comunes.
+* Configuración de roles (`ROLE_DOCTOR`, `ROLE_PATIENT`, etc.) para restringir el acceso por perfil desde el backend.
+
+> Además, la seguridad del código se verificó como parte del pipeline de integración continua con GitHub Actions, el cual bloquea *pull requests* si el análisis estático detecta vulnerabilidades críticas o problemas de configuración de seguridad.
+
 #### 6.2.2. Reviews
+
+Las revisiones de código son un componente esencial del flujo de trabajo en HormonalCare. Fueron realizadas de forma colaborativa, estructurada y continua para asegurar calidad y coherencia.
+
+#### Tipos de Revisión
+
+| Tipo de revisión    | Descripción                                                                             |
+| ------------------- | --------------------------------------------------------------------------------------- |
+| Revisión por pares  | Cada *Pull Request* fue revisado por al menos un compañero antes del merge.             |
+| Revisión formal     | Se realizaron reuniones quincenales para discutir refactorizaciones y bugs recurrentes. |
+| Revisión automática | SonarQube y SonarLint se integraron al pipeline para detectar errores en tiempo real.   |
+
+#### Proceso de Revisión
+
+1. **Creación de Pull Request (PR)**
+   Cada contribución fue subida como PR con descripción clara, propósito, pruebas asociadas y etiquetas de tipo (`bugfix`, `feature`, `refactor`, etc.).
+
+2. **Checklist de revisión**
+   Se estableció una lista base para validar:
+
+   * Claridad y legibilidad del código
+   * Cobertura de pruebas
+   * Manejo adecuado de errores
+   * Cumplimiento del estándar de codificación
+   * Impacto en módulos existentes
+
+3. **Comentarios y feedback constructivo**
+   Se fomentó un ambiente positivo donde cada revisión era acompañada de observaciones respetuosas, sugerencias concretas y justificaciones técnicas.
+
+4. **Aprobación o rechazo**
+   Ningún PR era fusionado a `main` sin al menos una aprobación adicional. Si se solicitaban cambios, se documentaba el motivo y se revalidaba el PR tras ajustes.
+
+#### Criterios de Aceptación
+
+* ✅ El código cumple los estándares de calidad y seguridad definidos.
+* ✅ Alcanza una cobertura de pruebas ≥80% (según SonarQube).
+* ✅ No introduce vulnerabilidades ni quiebres de funcionalidad.
+
+#### Frecuencia de Revisión
+
+* Las revisiones se realizaban **al cierre de cada sprint (quincenalmente)**.
+* Revisiones espontáneas también eran promovidas al culminar funcionalidades críticas (ej. módulo de cita médica o historial clínico).
 
 ### 6.3. Validación UX
 #### 6.3.1. Diseño de entrevistas

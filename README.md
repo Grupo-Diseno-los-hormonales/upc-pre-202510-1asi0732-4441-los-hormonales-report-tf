@@ -4814,7 +4814,36 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 
 #### 8.2.4. Scale Calculations and Decisions
 
+El análisis de resultados experimentales en HormonalCare se basa en una escala de decisión por hipótesis, con niveles definidos según el cumplimiento métrico de cada hipótesis:
+
+* **Desfavorable:** No alcanza el valor mínimo esperado.
+* **Aceptable:** Cumple parcialmente la hipótesis, pero requiere mejora.
+* **Ideal:** Cumple exactamente la métrica objetivo.
+* **Excelente:** Supera en más del 25% la métrica esperada.
+
+| Hipótesis                                                                       | Métrica Esperada                    | Desfavorable | Aceptable | Ideal | Excelente (>25%) | Resultado       |
+| ------------------------------------------------------------------------------- | ----------------------------------- | ------------ | --------- | ----- | ---------------- | --------------- |
+| Recordatorios diarios aumentan adherencia en un 70%                             | % de pacientes con adherencia alta  | <50%         | 50%-69%   | 70%   | >87.5%           | 🟩 Ideal        |
+| Chat médico-paciente mejora acompañamiento en un 80%                            | % de pacientes con mayor percepción | <60%         | 60%-79%   | 80%   | >100%            | 🟨 Aceptable    |
+| Gráficas interactivas reducen errores médicos en un 60%                         | Reducción de errores clínicos       | <40%         | 40%-59%   | 60%   | >75%             | 🟥 Desfavorable |
+| Sincronización con Google Calendar aumenta retención en un 35%                  | Incremento de retención semanal     | <20%         | 20%-34%   | 35%   | >43.75%          | 🟩 Ideal        |
+| Dashboards personalizados mejoran decisiones clínicas en un 75%                 | % médicos reportando mejora         | <60%         | 60%-74%   | 75%   | >93.75%          | 🟩 Ideal        |
+| Gamificación incrementa cumplimiento de controles en un 40%                     | % aumento cumplimiento controles    | <25%         | 25%-39%   | 40%   | >50%             | 🟨 Aceptable    |
+| Onboarding interactivo reduce frustración y mejora tareas iniciales en un 60%   | % usuarios completando tareas       | <40%         | 40%-59%   | 60%   | >75%             | 🟩 Ideal        |
+| Modo oscuro mejora comodidad en un 50%                                          | % usuarios que lo prefieren         | <30%         | 30%-49%   | 50%   | >62.5%           | 🟩 Ideal        |
+| Filtros por prioridad reducen tiempo de respuesta clínica en un 30%             | Reducción promedio en minutos       | <15%         | 15%-29%   | 30%   | >37.5%           | 🟥 Desfavorable |
+| Alertas inteligentes permiten intervención oportuna en el 80% de casos críticos | % intervenciones anticipadas        | <60%         | 60%-79%   | 80%   | >100%            | 🟩 Ideal        |
+
 #### 8.2.5. Methods Selection
+
+
+| Herramienta          | Precio                             | Capacidad de Análisis                                                         | Sencillez                       | Ventajas                                                            |
+| -------------------- | ---------------------------------- | ----------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------- |
+| **Google Analytics** | Plan gratuito / integración amplia | Análisis exhaustivo de métricas, usuarios, conversiones, funnels, etc.        | Curva de aprendizaje moderada   | Integración con Firebase y apps móviles, dashboards personalizables |
+| **Lighthouse**       | Gratuito, ejecución local          | Análisis UX y performance: rendimiento, accesibilidad, SEO y buenas prácticas | Muy fácil de usar (solo 1 clic) | Ideal para auditar apps web progresivas y accesibilidad             |
+| **RedLine13**        | Gratuito con limitaciones          | Pruebas de carga concurrentes y rendimiento backend                           | Avanzado                        | Simula tráfico real para pruebas de estrés                          |
+| **Catchpoint**       | Basado en suscripción              | Monitoreo sintético desde múltiples ubicaciones y dispositivos                | Complejo pero potente           | Ideal para apps con usuarios en múltiples zonas geográficas         |
+
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 

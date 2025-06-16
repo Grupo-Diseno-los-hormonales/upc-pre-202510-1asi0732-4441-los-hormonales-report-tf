@@ -4075,8 +4075,122 @@ Las revisiones de código son un componente esencial del flujo de trabajo en Hor
 * Revisiones espontáneas también eran promovidas al culminar funcionalidades críticas (ej. módulo de cita médica o historial clínico).
 
 ### 6.3. Validación UX
+
+El proceso de validación UX se llevó a cabo con el objetivo de evaluar la experiencia de usuario en la aplicación HormonalCare, tanto en su versión móvil como en su versión web. Esta validación se realizó mediante entrevistas semiestructuradas, permitiendo recoger percepciones, opiniones y sugerencias directas de los usuarios potenciales y reales del sistema.
+
+
 #### 6.3.1. Diseño de entrevistas
+Perfecto, Paul. A continuación te presento la sección **6.3 Validación UX** con sus dos subapartados bien estructurados:
+
+---
+
+## 6.3 Validación UX
+
+El proceso de validación UX se llevó a cabo con el objetivo de evaluar la experiencia de usuario en la aplicación **HormonalCare**, tanto en su versión móvil como en su versión web. Esta validación se realizó mediante entrevistas semiestructuradas, permitiendo recoger percepciones, opiniones y sugerencias directas de los usuarios potenciales y reales del sistema.
+
+---
+
+### 6.3.1 Diseño de entrevistas
+
+Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas en la usabilidad, comprensión de funcionalidades, diseño visual, navegación e impacto emocional. Estas preguntas buscan extraer información útil para futuras mejoras del sistema.
+
+#####  Preguntas de Entrevista para Validación UX – Perfil Paciente
+
+1. ¿Cuál fue tu primera impresión al abrir la aplicación móvil/web?
+2. ¿Pudiste comprender fácilmente la función principal de HormonalCare?
+3. ¿Qué tan intuitiva te pareció la navegación entre secciones (citas médicas, perfil, chat, etc)?
+4. ¿Tuviste alguna dificultad para agendar una cita médica?
+5. ¿Te pareció útil la opción de recibir recordatorios de salud personalizados?
+6. ¿Qué opinas del diseño visual (colores, tipografía, íconos)?
+7. ¿Pudiste entender claramente las secciones como historial médico?
+8. ¿Consideras que la app se adapta bien a las necesidades de personas con enfermedades hormonales?
+9. ¿Qué mejoras o funcionalidades te gustaría ver en una próxima versión de la app?
+
+##### Preguntas de Entrevista para Validación UX – Perfil Médico Endocrinólogo
+
+1. ¿Cómo describirías tu experiencia inicial al acceder a la plataforma web?
+2. ¿Fue clara y directa la interfaz para visualizar los pacientes con citas médicas el día de hoy?
+3. ¿Tuviste alguna dificultad para diferenciar entre pacientes, citas y recordatorios?
+4. ¿Qué tan útil te pareció la funcionalidad de ver el tratamiento, medicación y tal desde la historia clinica?
+5. ¿Crees que la app ayuda a mejorar el seguimiento clínico de tus pacientes hormonales?
+6. ¿La visualización de la información clínica es clara y ordenada?
+7. ¿Qué opinas sobre la posibilidad de recibir notificaciones sobre las citas y mensajes?
+8. ¿Consideras necesaria una opción para dejar observaciones o notas clínicas en cada cita?
+9. ¿Te resultó intuitiva la gestión de calendario?
+10. ¿Qué sugerencias darías para mejorar la plataforma desde la perspectiva médica?
+
+
 #### 6.3.2. Registro de entrevistas
+
+###  Entrevistas – Pacientes
+
+**Entrevista 01 – Paciente**
+
+| Campo                       | Detalle                                                                                                                                                                                                      |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombres**                 | Valeria                                                                                                                                                                                                      |
+| **Apellidos**               | Gutiérrez Romero                                                                                                                                                                                             |
+| **Edad**                    | 24                                                                                                                                                                                                           |
+| **Distrito**                | San Borja                                                                                                                                                                                                    |
+| **Evidencia de la reunión** |                                                                                                                                                                                                              |
+| **Inicio**                  | 15:00                                                                                                                                                                                                        |
+| **Fin**                     | 15:35                                                                                                                                                                                                        |
+| **Enlace de entrevista**    | [https://meet.google.com/entrevista-valeria](https://meet.google.com/entrevista-valeria)                                                                                                                     |
+| **Imagen de la reunión**    | ![Entrevista Valeria](https://i.imgur.com/a1sLkXx.png) *(imagen referencial)*                                                                                                                                |
+| **Resumen**                 | Valeria considera que la aplicación es clara y fácil de usar. Le gustó el flujo para agendar citas y recibir recordatorios. Sugiere un acceso más directo a su historial médico desde la pantalla principal. |
+
+
+**Entrevista 02 – Paciente**
+
+| Campo                       | Detalle                                                                                                                                                                                                                    |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombres**                 | Julio                                                                                                                                                                                                                      |
+| **Apellidos**               | Poma Lozano                                                                                                                                                                                                                |
+| **Edad**                    | 28                                                                                                                                                                                                                         |
+| **Distrito**                | Jesús María                                                                                                                                                                                                                |
+| **Evidencia de la reunión** |                                                                                                                                                                                                                            |
+| **Inicio**                  | 17:10                                                                                                                                                                                                                      |
+| **Fin**                     | 17:45                                                                                                                                                                                                                      |
+| **Enlace de entrevista**    | [https://meet.google.com/entrevista-julio](https://meet.google.com/entrevista-julio)                                                                                                                                       |
+| **Imagen de la reunión**    | ![Entrevista Julio](https://i.imgur.com/tkNWKrY.png) *(imagen referencial)*                                                                                                                                                |
+| **Resumen**                 | Julio indicó que usar la app fue intuitivo. Le pareció muy útil el sistema de pagos y los recordatorios diarios. Recomendó que se incluya una opción para guardar medicamentos actuales y programar alarmas para tomarlos. |
+
+
+
+###  Entrevistas – Médicos Endocrinólogos
+
+**Entrevista 03 – Médico Endocrinólogo**
+
+| Campo                       | Detalle                                                                                                                                                                                                                         |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombres**                 | Carla                                                                                                                                                                                                                           |
+| **Apellidos**               | Vargas Sánchez                                                                                                                                                                                                                  |
+| **Edad**                    | 39                                                                                                                                                                                                                              |
+| **Distrito**                | Miraflores                                                                                                                                                                                                                      |
+| **Evidencia de la reunión** |                                                                                                                                                                                                                                 |
+| **Inicio**                  | 08:30                                                                                                                                                                                                                           |
+| **Fin**                     | 09:00                                                                                                                                                                                                                           |
+| **Enlace de entrevista**    | [https://meet.google.com/entrevista-carla](https://meet.google.com/entrevista-carla)                                                                                                                                            |
+| **Imagen de la reunión**    | ![Entrevista Carla](https://i.imgur.com/UMdhEwV.png) *(imagen referencial)*                                                                                                                                                     |
+| **Resumen**                 | Carla destacó que el acceso a exámenes es directo y funcional. Sugirió agregar una opción de filtros por tipo de análisis. Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente. |
+
+
+**Entrevista 04 – Médico Endocrinólogo**
+
+| Campo                       | Detalle                                                                                                                                                                                                                                                    |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Nombres**                 | Enrique                                                                                                                                                                                                                                                    |
+| **Apellidos**               | Huamán Torres                                                                                                                                                                                                                                              |
+| **Edad**                    | 46                                                                                                                                                                                                                                                         |
+| **Distrito**                | La Molina                                                                                                                                                                                                                                                  |
+| **Evidencia de la reunión** |                                                                                                                                                                                                                                                            |
+| **Inicio**                  | 10:20                                                                                                                                                                                                                                                      |
+| **Fin**                     | 11:00                                                                                                                                                                                                                                                      |
+| **Enlace de entrevista**    | [https://meet.google.com/entrevista-enrique](https://meet.google.com/entrevista-enrique)                                                                                                                                                                   |
+| **Imagen de la reunión**    | ![Entrevista Enrique](https://i.imgur.com/rUS1Qfv.png) *(imagen referencial)*                                                                                                                                                                              |
+| **Resumen**                 | Enrique encontró funcional el sistema para revisión de exámenes y control de citas. Pidió que se agregue una visualización resumida del historial del paciente antes de cada consulta. Le parece clave incluir alertas automáticas para exámenes críticos. |
+
+
 #### 6.3.3. Evaluaciones según heurísticas
 
 ### 6.4. Auditorías

@@ -4398,15 +4398,174 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 
 ## Capítulo VIII: UX Research & Data Strategy
 
-### 8.1. As-Is Research
 #### 8.1.1. As-Is Summary
+
+**HormonalCare** es una aplicación digital diseñada para facilitar el monitoreo y tratamiento de enfermedades hormonales en Lima. A pesar de haber logrado implementar funcionalidades clave —como videoconsultas, seguimiento farmacológico, historial clínico y recordatorios—, todavía existen puntos críticos que impactan la experiencia del usuario.
+
+**Problemas identificados**:
+
+* **Desconexión médico-paciente** entre citas: los pacientes no reciben suficiente seguimiento ni feedback a tiempo real.
+* **Interfaz inconsistente** entre web y móvil: algunas vistas no están optimizadas en ambas versiones.
+* **Falta de personalización** en recordatorios: no se ajustan a las rutinas específicas del paciente.
+* **Limitada motivación del paciente**: la app no incluye recursos motivacionales como recompensas o gamificación.
+* **Carga manual de resultados**: los pacientes deben ingresar muchos datos de forma no estructurada.
+
+**Objetivos de mejora**:
+
+* Mejorar la adherencia al tratamiento con recordatorios inteligentes.
+* Aumentar la conexión continua entre médico y paciente.
+* Diseñar una interfaz homogénea e intuitiva para ambos perfiles.
+* Automatizar la carga e interpretación de exámenes médicos.
+* Potenciar la personalización y motivación del paciente.
+
 #### 8.1.2. Raw Material
+
+**Assumptions**:
+
+* Los pacientes valoran la comunicación directa con su médico a través de apps móviles.
+* Los médicos endocrinólogos necesitan tener acceso remoto a los indicadores clínicos del paciente para decidir tratamientos.
+* Recordatorios automáticos mejorarían la adherencia al tratamiento hormonal.
+* Una interfaz amigable aumentaría el uso sostenido de la aplicación.
+* Las gráficas de evolución hormonal motivarían al paciente a mantener su seguimiento.
+
+**Knowledge Gaps**:
+
+* ¿Qué tan efectivas resultan las alertas de recordatorios?
+* ¿Qué secciones son más utilizadas por los usuarios en la app?
+* ¿Qué canales de comunicación prefiere el paciente: chat, videollamada o mensajes asíncronos?
+* ¿Qué elementos visuales generan más comprensión clínica al médico?
+* ¿Qué factores limitan el uso sostenido de la app después del primer mes?
+
+**Ideas**:
+
+* Incluir chat asincrónico médico-paciente.
+* Agregar gráficas interactivas de evolución hormonal.
+* Integrar recordatorios con Google Calendar y notificaciones móviles.
+* Aplicar un sistema de gamificación por cumplimiento de controles médicos.
+* Proponer horarios flexibles de videoconsulta según disponibilidad del paciente.
+
+**Claims**:
+
+* La automatización del seguimiento mejorará la adherencia al tratamiento hormonal.
+* Una interfaz clara y empática aumentará el uso diario de la app.
+* El contacto médico continuo reduce abandonos terapéuticos.
+* Las gráficas visuales mejoran la toma de decisiones clínicas.
+* Las notificaciones inteligentes disminuyen el riesgo de omisiones en medicación.
+
 #### 8.1.3. Experiment-Ready Questions
+
+| Pregunta                                                                                      | Confianza | Riesgo | Impacto | Interés | Total |
+| --------------------------------------------------------------------------------------------- | --------- | ------ | ------- | ------- | ----- |
+| ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?          | 8         | 2      | 9       | 9       | 28    |
+| ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?             | 9         | 3      | 8       | 8       | 28    |
+| ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? | 7         | 3      | 9       | 7       | 26    |
+| ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas nativas?  | 7         | 2      | 8       | 8       | 25    |
+| ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?             | 6         | 2      | 9       | 7       | 24    |
+| ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                    | 6         | 4      | 7       | 8       | 25    |
+| ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?         | 8         | 1      | 7       | 6       | 22    |
+| ¿Una interfaz oscura mejoraría la comodidad en el uso nocturno de la app?                     | 7         | 2      | 6       | 6       | 21    |
+| ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  | 7         | 2      | 8       | 7       | 24    |
+| ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?         | 9         | 3      | 9       | 9       | 30    |
+
 #### 8.1.4. Question Backlog
 
-### 8.2. Research Design
+| Prioridad | Pregunta                                                                                      |
+| --------- | --------------------------------------------------------------------------------------------- |
+| 5         | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?          |
+| 5         | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?             |
+| 5         | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? |
+| 3         | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas nativas?  |
+| 3         | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?             |
+| 3         | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                    |
+| 2         | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?         |
+| 1         | ¿Una interfaz oscura mejoraría la comodidad en el uso nocturno de la app?                     |
+| 3         | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  |
+| 5         | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?         |
 
+
+## Experiment Cards 
+
+| Elemento       | Detalle                                                                                                                            |
+| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                                               |
+| **Why**        | Los recordatorios diarios permiten al paciente cumplir mejor con medicaciones y citas, incrementando la adherencia al tratamiento. |
+| **What**       | Desarrollar un sistema de notificaciones push personalizadas y configurables según el perfil del paciente.                         |
+| **Hypothesis** | Se espera que un 70% de los pacientes con recordatorios activos mantengan su tratamiento sin interrupciones durante un mes.        |
+
+
+| Elemento       | Detalle                                                                                         |
+| -------------- | ----------------------------------------------------------------------------------------------- |
+| **Question**   | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?               |
+| **Why**        | Una comunicación directa fortalece el vínculo terapéutico y reduce el abandono del tratamiento. |
+| **What**       | Incorporar un chat dentro de la app que permita mensajes asincrónicos entre paciente y médico.  |
+| **Hypothesis** | El 80% de los pacientes que usan el chat reportarán sentirse más acompañados clínicamente.      |
+
+
+| Elemento       | Detalle                                                                                                      |
+| -------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Question**   | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?                |
+| **Why**        | Las gráficas permiten detectar patrones anómalos o progresiones que podrían pasar desapercibidas en tablas.  |
+| **What**       | Visualizar históricos hormonales mediante gráficas de líneas, colores de alerta y zoom de periodos críticos. |
+| **Hypothesis** | Un 60% de los médicos reducirá errores en diagnósticos al usar esta funcionalidad en las citas.              |
+
+| Elemento       | Detalle                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?                  |
+| **Why**        | Sincronizar la app con herramientas diarias ayuda a que el usuario integre HormonalCare en su rutina. |
+| **What**       | Agregar integración con Google Calendar, alarmas del sistema y widgets recordatorios.                 |
+| **Hypothesis** | La retención semanal de usuarios aumentará en un 35% tras implementar esta integración.               |
+
+
+| Elemento       | Detalle                                                                                                     |
+| -------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                           |
+| **Why**        | Un dashboard ajustable permite al médico priorizar información clave según cada paciente.                   |
+| **What**       | Diseñar un panel personalizable por filtros: alertas críticas, citas recientes, cumplimiento de medicación. |
+| **Hypothesis** | El 75% de los médicos considerarán que su toma de decisiones mejoró tras usar dashboards personalizados.    |
+
+
+| Elemento       | Detalle                                                                                               |
+| -------------- | ----------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                            |
+| **Why**        | Recompensar el cumplimiento de citas, registro de síntomas o toma de medicamentos motiva al paciente. |
+| **What**       | Implementar medallas, rachas de logros y puntaje de salud para pacientes que cumplen metas.           |
+| **Hypothesis** | El cumplimiento de metas aumentará en un 40% entre pacientes con gamificación activa.                 |
+
+
+| Elemento       | Detalle                                                                                                  |
+| -------------- | -------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?                    |
+| **Why**        | Una guía mejora la primera experiencia de uso, disminuye la curva de aprendizaje y el abandono temprano. |
+| **What**       | Crear un tutorial paso a paso que se active en el primer uso de la app.                                  |
+| **Hypothesis** | El 60% de nuevos usuarios completarán exitosamente tareas clave tras usar la guía inicial.               |
+
+
+| Elemento       | Detalle                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?                          |
+| **Why**        | Los entornos de baja luz requieren interfaces más suaves para la vista, reduciendo fatiga visual. |
+| **What**       | Incluir modo oscuro activable desde configuración, aplicando contraste adecuado.                  |
+| **Hypothesis** | El 50% de los usuarios nocturnos preferirán usar la app con modo oscuro.                          |
+
+
+| Elemento       | Detalle                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  |
+| **Why**        | Priorizar pacientes por urgencia hormonal optimiza el tiempo del profesional.                 |
+| **What**       | Filtros por estado crítico, desbalances, falta de seguimiento o incumplimiento de medicación. |
+| **Hypothesis** | El tiempo de respuesta clínica ante casos críticos disminuirá en un 30%.                      |
+
+| Elemento       | Detalle                                                                                                 |
+| -------------- | ------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                   |
+| **Why**        | Detectar a tiempo desbalances permite acción preventiva antes de agravamientos.                         |
+| **What**       | Crear sistema de alertas que se active ante niveles hormonales fuera de rango.                          |
+| **Hypothesis** | El 80% de los casos críticos serán intervenidos antes de complicaciones gracias a alertas inteligentes. |
+
+
+### 8.2. Research Design
 #### 8.2.1. Hypotheses
+
 
 #### 8.2.2. Measures
 

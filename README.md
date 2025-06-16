@@ -4566,10 +4566,249 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 ### 8.2. Research Design
 #### 8.2.1. Hypotheses
 
+### Hypotheses 01
+
+| Elemento            | Detalle                                                                                                            |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                               |
+| **Belief**          | Los recordatorios mejoran la adherencia al mantener al paciente informado y constante con sus actividades médicas. |
+| **Hypothesis**      | El 70% de los pacientes con recordatorios activos mantendrán su tratamiento sin interrupciones durante un mes.     |
+| **Null Hypothesis** | No habrá diferencia significativa en la adherencia con o sin recordatorios automáticos.                            |
+
+### Hypotheses 02
+
+| Elemento            | Detalle                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?                      |
+| **Belief**          | La comunicación directa a través del chat genera mayor sensación de acompañamiento médico y confianza. |
+| **Hypothesis**      | El 80% de los usuarios con acceso al chat reportarán mayor percepción de apoyo clínico.                |
+| **Null Hypothesis** | La implementación del chat no tendrá efecto significativo en la percepción de acompañamiento.          |
+
+### Hypotheses 03
+
+| Elemento            | Detalle                                                                                                |
+| ------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?          |
+| **Belief**          | Las gráficas ayudan a visualizar tendencias y alertas críticas que pueden mejorar el análisis clínico. |
+| **Hypothesis**      | El uso de gráficas reducirá en un 60% los errores clínicos en el análisis de resultados hormonales.    |
+| **Null Hypothesis** | No habrá una reducción significativa de errores médicos al usar gráficas.                              |
+
+### Hypotheses 04
+
+| Elemento            | Detalle                                                                                              |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?                 |
+| **Belief**          | La integración con herramientas externas facilita la adherencia tecnológica.                         |
+| **Hypothesis**      | La tasa de retención semanal aumentará un 35% tras la sincronización con Google Calendar y alarmas.  |
+| **Null Hypothesis** | No habrá cambios significativos en el uso continuo tras la sincronización con herramientas externas. |
+
+### Hypotheses 05
+
+| Elemento            | Detalle                                                                                             |
+| ------------------- | --------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                   |
+| **Belief**          | Un panel ajustado al contexto del médico permite tomar mejores decisiones con menor esfuerzo.       |
+| **Hypothesis**      | El 75% de los médicos reportará mejoras en su toma de decisiones al usar dashboards personalizados. |
+| **Null Hypothesis** | No habrá mejoras significativas en la toma de decisiones con dashboards personalizados.             |
+
+### Hypotheses 06
+
+| Elemento            | Detalle                                                                                  |
+| ------------------- | ---------------------------------------------------------------------------------------- |
+| **Question**        | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?               |
+| **Belief**          | La gamificación refuerza el comportamiento positivo al brindar recompensas psicológicas. |
+| **Hypothesis**      | Los pacientes con gamificación tendrán un aumento del 40% en cumplimiento de controles.  |
+| **Null Hypothesis** | La gamificación no influye significativamente en el cumplimiento de controles.           |
+
+### Hypotheses 07
+
+| Elemento            | Detalle                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| **Question**        | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?  |
+| **Belief**          | Un onboarding claro reduce el abandono y mejora la experiencia inicial del usuario.    |
+| **Hypothesis**      | El 60% de nuevos usuarios realizarán tareas clave exitosamente tras completar la guía. |
+| **Null Hypothesis** | La guía inicial no afectará significativamente la ejecución de tareas clave.           |
+
+### Hypotheses 08
+
+| Elemento            | Detalle                                                                            |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| **Question**        | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?           |
+| **Belief**          | El modo oscuro mejora la experiencia visual en ambientes de baja luz.              |
+| **Hypothesis**      | El 50% de usuarios nocturnos preferirá el modo oscuro y reportará mayor comodidad. |
+| **Null Hypothesis** | La interfaz oscura no afectará significativamente la comodidad de uso nocturno.    |
+
+### Hypotheses 09
+
+| Elemento            | Detalle                                                                                      |
+| ------------------- | -------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad? |
+| **Belief**          | Filtros inteligentes permiten organizar mejor los casos críticos.                            |
+| **Hypothesis**      | La gestión médica mejorará en un 30% en tiempos de atención a pacientes prioritarios.        |
+| **Null Hypothesis** | La implementación de filtros no influirá significativamente en la gestión médica.            |
+
+### Hypotheses 10
+
+| Elemento            | Detalle                                                                                              |
+| ------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                |
+| **Belief**          | Las alertas proactivas permiten actuar antes de que el caso empeore.                                 |
+| **Hypothesis**      | El 80% de los casos críticos serán intervenidos oportunamente tras activarse una alerta inteligente. |
+| **Null Hypothesis** | Las alertas no tendrán impacto significativo en la oportunidad de intervención clínica.              |
+
 
 #### 8.2.2. Measures
 
+### Measure 01
+
+| Elemento     | Detalle                                                                                                       |
+| ------------ | ------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                          |
+| **Measure**  | Medir la continuidad del tratamiento mediante seguimiento de registros semanales y encuestas de cumplimiento. |
+
+### Measure 02
+
+| Elemento     | Detalle                                                                                  |
+| ------------ | ---------------------------------------------------------------------------------------- |
+| **Question** | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?        |
+| **Measure**  | Encuestas de percepción de acompañamiento antes y después de la implementación del chat. |
+
+### Measure 03
+
+| Elemento     | Detalle                                                                                              |
+| ------------ | ---------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?        |
+| **Measure**  | Comparar reportes de errores clínicos y calidad de diagnósticos antes y después del uso de gráficas. |
+
+### Measure 04
+
+| Elemento     | Detalle                                                                               |
+| ------------ | ------------------------------------------------------------------------------------- |
+| **Question** | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?  |
+| **Measure**  | Analizar la tasa de retención semanal de usuarios y frecuencia de apertura de la app. |
+
+### Measure 05
+
+| Elemento     | Detalle                                                                                                        |
+| ------------ | -------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                              |
+| **Measure**  | Encuestas a médicos y análisis del tiempo promedio de revisión de casos antes y después de la personalización. |
+
+### Measure 06
+
+| Elemento     | Detalle                                                                                                          |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                                       |
+| **Measure**  | Comparar la frecuencia de cumplimiento de citas y actividades registradas entre usuarios con y sin gamificación. |
+
+### Measure 07
+
+| Elemento     | Detalle                                                                                                    |
+| ------------ | ---------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?                      |
+| **Measure**  | Evaluar la tasa de abandono de usuarios nuevos y encuestas sobre facilidad de uso posterior al onboarding. |
+
+### Measure 08
+
+| Elemento     | Detalle                                                                                                  |
+| ------------ | -------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?                                 |
+| **Measure**  | Encuestas sobre comodidad visual y tiempo de uso nocturno antes y después de implementar el modo oscuro. |
+
+### Measure 09
+
+| Elemento     | Detalle                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------ |
+| **Question** | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?     |
+| **Measure**  | Medir el tiempo medio de respuesta clínica y carga operativa antes y después del uso de filtros. |
+
+### Measure 10
+
+| Elemento     | Detalle                                                                                                   |
+| ------------ | --------------------------------------------------------------------------------------------------------- |
+| **Question** | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                     |
+| **Measure**  | Comparar el tiempo promedio entre la detección del desbalance y la intervención médica con y sin alertas. |
+
+
 #### 8.2.3. Conditions
+### Condition 01
+
+| Elemento                   | Detalle                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| **Question**               | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios? |
+| **Condición Experimental** | Pacientes con notificaciones automáticas activadas diariamente.                      |
+| **Condición de Control**   | Pacientes sin notificaciones automáticas activadas.                                  |
+
+### Condition 02
+
+| Elemento                   | Detalle                                                                           |
+| -------------------------- | --------------------------------------------------------------------------------- |
+| **Question**               | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento? |
+| **Condición Experimental** | Usuarios con acceso al chat activo.                                               |
+| **Condición de Control**   | Usuarios sin acceso al chat.                                                      |
+
+### Condition 03
+
+| Elemento                   | Detalle                                                                                       |
+| -------------------------- | --------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? |
+| **Condición Experimental** | Médicos con acceso a gráficas interactivas.                                                   |
+| **Condición de Control**   | Médicos sin acceso a gráficas (solo datos tabulares).                                         |
+
+### Condition 04
+
+| Elemento                   | Detalle                                                                              |
+| -------------------------- | ------------------------------------------------------------------------------------ |
+| **Question**               | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas? |
+| **Condición Experimental** | Usuarios con sincronización activa a calendario y alarmas.                           |
+| **Condición de Control**   | Usuarios sin sincronización.                                                         |
+
+### Condition 05
+
+| Elemento                   | Detalle                                                                           |
+| -------------------------- | --------------------------------------------------------------------------------- |
+| **Question**               | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico? |
+| **Condición Experimental** | Dashboard personalizado habilitado.                                               |
+| **Condición de Control**   | Dashboard estándar.                                                               |
+
+### Condition 06
+
+| Elemento                   | Detalle                                                                    |
+| -------------------------- | -------------------------------------------------------------------------- |
+| **Question**               | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles? |
+| **Condición Experimental** | App con elementos de gamificación activos.                                 |
+| **Condición de Control**   | App sin elementos de gamificación.                                         |
+
+### Condition 07
+
+| Elemento                   | Detalle                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------- |
+| **Question**               | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)? |
+| **Condición Experimental** | App con onboarding interactivo inicial.                                               |
+| **Condición de Control**   | App sin onboarding.                                                                   |
+
+### Condition 08
+
+| Elemento                   | Detalle                                                                  |
+| -------------------------- | ------------------------------------------------------------------------ |
+| **Question**               | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app? |
+| **Condición Experimental** | Modo oscuro disponible.                                                  |
+| **Condición de Control**   | Solo modo claro disponible.                                              |
+
+### Condition 09
+
+| Elemento                   | Detalle                                                                                      |
+| -------------------------- | -------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad? |
+| **Condición Experimental** | Panel con filtros por prioridad activado.                                                    |
+| **Condición de Control**   | Panel sin filtros.                                                                           |
+
+### Condition 10
+
+| Elemento                   | Detalle                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------- |
+| **Question**               | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna? |
+
 
 #### 8.2.4. Scale Calculations and Decisions
 

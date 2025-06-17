@@ -42,15 +42,15 @@
 |:-------:|:-----------:|:-------------:|:-------------------------------:|
 | TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
 | TP    | 17/05/2025  | Los Hormonales | El equipo realizó la entrega del TP, que incluye los capítulos VI y VII completos. |
-| TB2 V1  | 01/06/2025  | Los Hormonales | El equipo completó los puntos restantes de los capítulos VI y VII. |
-| TB2 V2  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
+| TB2  | 16/06/2025  | Los Hormonales | El equipo realizó la entrega del TB2, que incluye los puntos 6.2, 6.3, 6.4, el punto 7.4 y el capítulo VIII.|
+| TF  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
 
 ## Project Report Collaboration Insights
 
 El URL del repositorio se encuentra en: [https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/](https://github.com/Grupo-Diseno-los-hormonales/reporte-dise-o-de-experimentos/).
 
 
-TB1: Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
+**TB1**: Para la primera entrega de nuestro informe de proyecto, presentamos un avance tanto de la aplicación web como de la aplicación móvil, desarrollado en base al backlog previamente definido.
 
 Adoptamos un enfoque colaborativo y transparente para el desarrollo del informe, estableciendo un repositorio en la organización de GitHub de nuestro equipo, donde cada miembro contribuyó activamente.
 
@@ -58,23 +58,24 @@ La elaboración del informe se realizó de manera coordinada y eficiente. A trav
 
 Como evidencia de nuestra colaboración y transparencia, incluimos un gráfico de commits en GitHub que muestra visualmente la participación activa de cada integrante en el desarrollo del informe. Estos commits, disponibles en nuestro repositorio, reflejan nuestro compromiso con el trabajo en equipo y la responsabilidad compartida.
 
+Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que también promovió un sentido de pertenencia y compromiso con el proyecto en todos los miembros del equipo. Estamos comprometidos a mantener este nivel de colaboración y excelencia en futuras entregas del informe.
+
 <div  align="center">
 <img src="assets/images/insightsreport.png">
 </div>
 
-Este enfoque colaborativo no solo fortaleció la calidad del informe, sino que también promovió un sentido de pertenencia y compromiso con el proyecto en todos los miembros del equipo. Estamos comprometidos a mantener este nivel de colaboración y excelencia en futuras entregas del informe.
 
-TP: Para esta entrega del TP, presentamos el avance correspondiente a los capítulos VI y VII, que abarcan las pruebas unitarias y funcionales de servicios y controladores, así como las prácticas y herramientas utilizadas en el desarrollo.
+**TP**: Para esta entrega del TP, presentamos el avance correspondiente a los capítulos VI y VII, que abarcan las pruebas unitarias y funcionales de servicios y controladores, así como las prácticas y herramientas utilizadas en el desarrollo.
 
 Trabajamos de forma colaborativa usando un repositorio en la organización de GitHub del equipo, donde cada integrante contribuyó activamente. Coordinamos nuestras tareas mediante reuniones en Discord, asignando responsabilidades específicas para asegurar una distribución equilibrada del trabajo.
 
 Como evidencia de nuestra participación, incluimos el gráfico de commits del repositorio:
 
-<div align="center"> <img src="assets/images/reporttp.png"> </div>
 Este enfoque fortaleció el trabajo en equipo y permitió mantener un desarrollo ordenado y eficiente del informe.
 
+<div align="center"> <img src="assets/images/reporttp.png"> </div>
 
-Para esta segunda entrega del trabajo práctico (TB2), desarrollamos los capítulos VI, VII y VIII, que abarcan desde la implementación de estándares de codificación y auditorías internas/externas, hasta la evaluación heurística, monitoreo continuo del sistema y la construcción de experimentos a través del modelo As-Is / To-Be. Todo este proceso estuvo enfocado en fortalecer la calidad del proyecto y asegurar la trazabilidad de los datos recolectados, hipótesis formuladas, métricas definidas y decisiones estratégicas tomadas en base a los resultados esperados.
+**TB2**: Para esta segunda entrega del trabajo práctico (TB2), desarrollamos los capítulos VI, VII y VIII, que abarcan desde la implementación de estándares de codificación y auditorías internas/externas, hasta la evaluación heurística, monitoreo continuo del sistema y la construcción de experimentos a través del modelo As-Is / To-Be. Todo este proceso estuvo enfocado en fortalecer la calidad del proyecto y asegurar la trazabilidad de los datos recolectados, hipótesis formuladas, métricas definidas y decisiones estratégicas tomadas en base a los resultados esperados.
 
 El equipo trabajó de manera colaborativa mediante el uso de GitHub, donde cada integrante aportó a través de commits y revisiones continuas. La coordinación se mantuvo a través de reuniones frecuentes por Discord, permitiendo asignar responsabilidades específicas de forma equitativa. Además del trabajo individual, también se realizaron tareas grupales clave como el diseño y registro de entrevistas. Como evidencia del compromiso y esfuerzo colectivo, se adjunta el gráfico de actividad del repositorio del equipo.
 
@@ -125,46 +126,57 @@ El equipo trabajó de manera colaborativa mediante el uso de GitHub, donde cada 
 
 ## Capítulo IV: Product Design
 
-  - [4.1 Style Guidelines](#41-style-guidelines)
-      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-      - [4.1.3 Mobile Style Guidelines](#413-mobile-style-guidelines)
-        - [4.1.3.1. IOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)
-        - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)
-    - [4.2 Information Architecture](#42-information-architecture)
-      - [4.2.1. Organization Systems](#421-organization-systems)
-    - [Wireframes para iOS](#wireframes-para-ios)
-    - [Wireframes para Android](#wireframes-para-android)
-      - [4.4.2 Mobile Applications Wireframes Diagrams](#442-mobile-applications-wireframes-diagrams)
-    - [**Pacientes**](#pacientes)
-    - [**Médicos**](#médicos)
-    - [**Administrador**](#administrador)
-      - [4.4.3 Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)
-      - [4.4.4 Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)
-    - [**Pacientes**](#pacientes-1)
-    - [**Médicos**](#médicos-1)
-    - [**Administrador**](#administrador-1)
-    - [4.5 Mobile Applications Prototyping](#45-mobile-applications-prototyping)
-      - [4.5.1 Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)
-      - [4.5.2 IOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)
-    - [**Pacientes**](#pacientes-2)
-    - [**Médicos**](#médicos-2)
-    - [**Administrador**](#administrador-2)
-    - [**User 2 (Paciente)**](#user-2-paciente)
-    - [**User 3 (Administrador)**](#user-3-administrador)
-
+- [4.1. Style Guidelines](#41-style-guidelines)  
+  - [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
+  - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)  
+  - [4.1.3. Mobile Style Guidelines](#413-mobile-style-guidelines)  
+    - [4.1.3.1. iOS Mobile Style Guidelines](#4131-ios-mobile-style-guidelines)  
+    - [4.1.3.2. Android Mobile Style Guidelines](#4132-android-mobile-style-guidelines)  
+- [4.2. Information Architecture](#42-information-architecture)  
+  - [4.2.1. Organization Systems](#421-organization-systems)  
+  - [4.2.2. Labeling Systems](#422-labeling-systems)  
+  - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)  
+  - [4.2.4. Searching Systems](#424-searching-systems)  
+  - [4.2.5. Navigation Systems](#425-navigation-systems)  
+- [4.3. Landing Page UI Design](#43-landing-page-ui-design)  
+  - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)  
+  - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)  
+- [4.4. Mobile Applications UX/UI Design](#44-mobile-applications-uxui-design)  
+  - [4.4.1. Mobile Applications Wireframes](#441-mobile-applications-wireframes)  
+  - [4.4.2. Mobile Applications Wireflow Diagrams](#442-mobile-applications-wireflow-diagrams)  
+  - [4.4.3. Mobile Applications Mock-ups](#443-mobile-applications-mock-ups)  
+  - [4.4.4. Mobile Applications User Flow Diagrams](#444-mobile-applications-user-flow-diagrams)  
+- [4.5. Mobile Applications Prototyping](#45-mobile-applications-prototyping)  
+  - [4.5.1. Android Mobile Applications Prototyping](#451-android-mobile-applications-prototyping)  
+  - [4.5.2. iOS Mobile Applications Prototyping](#452-ios-mobile-applications-prototyping)  
+- [4.6. Web Applications UX/UI Design](#46-web-applications-uxui-design)  
+  - [4.6.1. Web Applications Wireframes](#461-web-applications-wireframes)  
+  - [4.6.2. Web Applications Wireflow Diagrams](#462-web-applications-wireflow-diagrams)  
+  - [4.6.3. Web Applications Mock-ups](#463-web-applications-mock-ups)  
+  - [4.6.4. Web Applications User Flow Diagrams](#464-web-applications-user-flow-diagrams)  
+- [4.7. Web Applications Prototyping](#47-web-applications-prototyping)  
+- [4.8. Domain-Driven Software Architecture](#48-domain-driven-software-architecture)  
+  - [4.8.1. Software Architecture Context Diagram](#481-software-architecture-context-diagram)  
+  - [4.8.2. Software Architecture Container Diagrams](#482-software-architecture-container-diagrams)  
+  - [4.8.3. Software Architecture Components Diagrams](#483-software-architecture-components-diagrams)  
+- [4.9. Software Object-Oriented Design](#49-software-object-oriented-design)  
+  - [4.9.1. Class Diagrams](#491-class-diagrams)  
+  - [4.9.2. Class Dictionary](#492-class-dictionary)  
+- [4.10. Database Design](#410-database-design)  
+  - [4.10.1. Relational/Non-Relational Database Diagram](#4101-relationalnon-relational-database-diagram)
 
 ## Capítulo V: Product Implementation
 
 - [5.1. Software Configuration Management](#51-software-configuration-management)  
   - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
   - [5.1.2. Source Code Management](#512-source-code-management)  
-  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)  
+  - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)  
   - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)  
-- [5.2. Product Implementation & Deployment](#52-product-implementation-deployment)  
+- [5.2. Product Implementation & Deployment](#52-product-implementation--deployment)  
   - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)  
   - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)  
   - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)  
-  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio-saas)  
+  - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)  
   - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)  
   - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)  
   - [5.2.7. RESTful API documentation](#527-restful-api-documentation)  
@@ -173,75 +185,84 @@ El equipo trabajó de manera colaborativa mediante el uso de GitHub, donde cada 
 
 ## Capítulo VI: Product Verification & Validation
 
-- [6.1. Testing Suites & Validation](#61-testing-suites--validation)
-  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
-  - [6.1.2. Core Integration Tests](#612-core-integration-tests)
-  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
-  - [6.1.4. Core System Tests](#614-core-system-tests)
-    
-- [6.2. Código y Revisiones](#62-código-y-revisiones)
- - [6.2.1. Coding](#621-coding)
-    - [6.2.1.1. Coding Standard](#6211-coding-standard)
-    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)
-  - [6.2.2. Reviews](#622-reviews)
-    
-- [6.3. Validación UX](#63-validación-ux)
-  - [6.3.1. Diseño de entrevistas](#631-diseño-de-entrevistas)
-  - [6.3.2. Registro de entrevistas](#632-registro-de-entrevistas)
-  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)
-    
-- [6.4. Auditorías](#64-auditorías)
-  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)
-    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)
-    - [6.4.1.2. Cronograma](#6412-cronograma)
-    - [6.4.1.3. Contenido](#6413-contenido)
-      
-  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)
-    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)
-    - [6.4.2.2. Cronograma](#6422-cronograma)
-    - [6.4.2.3. Contenido](#6423-contenido)
-    - [6.4.2.4. Resumen de modificaciones](#6424-resumen-de-modificaciones)
+- [6.1. Testing Suites & Validation](#61-testing-suites--validation)  
+  - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
+  - [6.1.2. Core Integration Tests](#612-core-integration-tests)  
+  - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
+  - [6.1.4. Core System Tests](#614-core-system-tests)  
+- [6.2. Static testing & Verification](#62-static-testing--verification)  
+  - [6.2.1. Static Code Analysis](#621-static-code-analysis)  
+    - [6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+    - [6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
+  - [6.2.2. Reviews](#622-reviews)  
+- [6.3. Validation Interviews](#63-validation-interviews)  
+  - [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
+  - [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
+  - [6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
+- [6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
+  - [6.4.1. Auditoría realizada](#641-auditoría-realizada)  
+    - [6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)  
+    - [6.4.1.2. Cronograma](#6412-cronograma)  
+    - [6.4.1.3. Contenido](#6413-contenido)  
+  - [6.4.2. Auditoría recibida](#642-auditoría-recibida)  
+    - [6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)  
+    - [6.4.2.2. Cronograma](#6422-cronograma)  
+    - [6.4.2.3. Contenido](#6423-contenido)  
+    - [6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
 
 ## Capítulo VII: DevOps Practices
 
-- [7.1. Continuous Integration](#71-continuous-integration)
-  - [7.1.1. Tools and Practices](#711-tools-and-practices)
-  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
-    
-- [7.2. Continuous Delivery](#72-continuous-delivery)
-  - [7.2.1. Tools and Practices](#721-tools-and-practices)
-  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)
-    
-- [7.3. Continuous Deployment](#73-continuous-deployment)
-  - [7.3.1. Tools and Practices](#731-tools-and-practices)
-  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-    
-- [7.4. Continuous Monitoring](#74-continuous-monitoring)
-  - [7.4.1. Tools and Practices](#741-tools-and-practices)
-  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)
-  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)
-  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)
+- [7.1. Continuous Integration](#71-continuous-integration)  
+  - [7.1.1. Tools and Practices](#711-tools-and-practices)  
+  - [7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+- [7.2. Continuous Delivery](#72-continuous-delivery)  
+  - [7.2.1. Tools and Practices](#721-tools-and-practices)  
+  - [7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+- [7.3. Continuous Deployment](#73-continuous-deployment)  
+  - [7.3.1. Tools and Practices](#731-tools-and-practices)  
+  - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
+- [7.4. Continuous Monitoring](#74-continuous-monitoring)  
+  - [7.4.1. Tools and Practices](#741-tools-and-practices)  
+  - [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
+  - [7.4.3. Alerting Pipeline Components](#743-alerting-pipeline-components)  
+  - [7.4.4. Notification Pipeline Components](#744-notification-pipeline-components)  
 
-## Capítulo VIII: UX Research & Data Strategy
+## Capítulo VIII: Experiment-Driven Development
 
-- [8.1. As-Is Research](#81-as-is-research)
-  - [8.1.1. As-Is Summary](#811-as-is-summary)
-  - [8.1.2. Raw Material](#812-raw-material)
-  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
-  - [8.1.4. Question Backlog](#814-question-backlog)
-    
-- [8.2. Research Design](#82-research-design)
-  - [8.2.1. Hypotheses](#821-hypotheses)
-  - [8.2.2. Measures](#822-measures)
-  - [8.2.3. Conditions](#823-conditions)
-  - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)
-  - [8.2.5. Methods Selection](#825-methods-selection)
-  - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)
-  - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)
-    
-- [8.3. To-Be Definition](#83-to-be-definition)
-  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
-  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
+- [8.1. Experiment Planning](#81-experiment-planning)  
+  - [8.1.1. As-Is Summary](#811-as-is-summary)  
+  - [8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims](#812-raw-material-assumptions-knowledge-gaps-ideas-claims)  
+  - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)  
+  - [8.1.4. Question Backlog](#814-question-backlog)  
+  - [8.1.5. Experiment Cards](#815-experiment-cards)  
+- [8.2. Experiment Design](#82-experiment-design)  
+  - [8.2.1. Hypotheses](#821-hypotheses)  
+  - [8.2.2. Measures](#822-measures)  
+  - [8.2.3. Conditions](#823-conditions)  
+  - [8.2.4. Scale Calculations and Decisions](#824-scale-calculations-and-decisions)  
+  - [8.2.5. Methods Selection](#825-methods-selection)  
+  - [8.2.6. Data Analytics: Goals, KPIs and Metrics Selection](#826-data-analytics-goals-kpis-and-metrics-selection)  
+  - [8.2.7. Web and Mobile Tracking Plan](#827-web-and-mobile-tracking-plan)  
+- [8.3. Experimentation](#83-experimentation)  
+  - [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
+  - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
+  - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+    - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
+    - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
+    - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
+    - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)  
+    - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)  
+    - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)  
+  - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)  
+    - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)  
+    - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)  
+- [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)  
+  - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)  
+  - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)  
+- [8.5. Continuous Learning](#85-continuous-learning)  
+  - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)  
+- [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)  
+  - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 
 ## Secciones Finales
 
@@ -263,8 +284,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Criterio específico**                                                                                                                                        | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Conclusiones**                                                                                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **c1. Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | **Astuyauri Calderón, Jherson David:**<br>- TB1: Lideré la elaboración del Problem Statement, asegurando que el planteamiento reflejara éticamente las necesidades reales de los usuarios, evitando sesgos o manipulaciones.<br>- TP: Implementé pruebas BDD (6.1.3) para validar escenarios fieles al comportamiento esperado.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Reflejó con respeto y confidencialidad las opiniones en análisis de entrevistas.<br>- TP: Validó pruebas de integración (6.1.2) asegurando correspondencia con el flujo real sin omitir errores.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Diseñó Empathy Map y User Personas fieles a los sentimientos de usuarios.<br>- TP: Coordinó pruebas unitarias (6.1.1) documentando sesgos y promoviendo transparencia.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: Planteó hipótesis éticas en Lean UX Canvas.<br>- TP: Supervisó despliegue continuo (7.3.2) asegurando que versiones liberadas no afectaran negativamente la experiencia. | TB1: Actuar éticamente en definición y análisis genera confianza y transparencia.<br>TP: Compromiso ético en validación y despliegue garantiza calidad sin comprometer seguridad ni privacidad.                              |
-| **c2. Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Astuyauri Calderón, Jherson David:**<br>- TB1: Propuso soluciones accesibles de telemedicina para personas con recursos limitados en Lean UX Hypothesis.<br>- TP: Diseñó pruebas simulando baja conectividad (6.1.4) para funcionamiento en zonas rurales.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Evaluó reducción de tiempos en To-Be Mapping para mejorar acceso a salud.<br>- TP: Diseñó pipelines eficientes (7.2.2) para acelerar entrega en situaciones críticas.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Propuso estrategias inclusivas para atención en zonas marginadas.<br>- TP: Adaptó pruebas unitarias para bajo rendimiento, promoviendo accesibilidad.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: En Impact Mapping, propuso acciones para minimizar impacto ambiental.<br>- TP: Coordinó automatización en nube para reducir consumo de recursos físicos y huella ecológica.                                                                                                             | TB1: Las soluciones deben maximizar beneficios sociales y económicos, minimizando impactos ambientales.<br>TP: Prácticas de testing y DevOps con perspectiva sostenible favorecen software accesible y con impacto positivo. |
+| **c1. Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | **Astuyauri Calderón, Jherson David:**<br>- TB1: Lideré la elaboración del Problem Statement, asegurando que el planteamiento reflejara éticamente las necesidades reales de los usuarios, evitando sesgos o manipulaciones.<br>- TP: Implementé pruebas BDD (6.1.3) para validar escenarios fieles al comportamiento esperado.<br>- TB2: Documentó la auditoría realizada (6.4.1) con objetividad, transparencia y respeto al trabajo de otros equipos.<br>  - Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3 como responsable de auditoría realizada.<br>  - Desarrolló la fase de experiment planning con los entregables 8.1.1, 8.1.2, 8.1.3 y 8.1.4.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Reflejó con respeto y confidencialidad las opiniones en análisis de entrevistas.<br>- TP: Validó pruebas de integración (6.1.2) asegurando correspondencia con el flujo real sin omitir errores.<br>- TB2: Participó en las evaluaciones heurísticas (6.3.3), brindando retroalimentación profesional basada en principios éticos.<br>  - Encargado del bloque 6.3.3 sobre validación UX.<br>  - Implementó el sistema completo de monitoreo continuo: 7.4, 7.4.1, 7.4.2, 7.4.3, 7.4.4.<br>  - Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Diseñó Empathy Map y User Personas fieles a los sentimientos de usuarios.<br>- TP: Coordinó pruebas unitarias (6.1.1) documentando sesgos y promoviendo transparencia.<br>- TB2: Coordinó la auditoría recibida (6.4.2), promoviendo una actitud abierta a la crítica y asegurando respeto mutuo.<br>  - Ejecutó la auditoría recibida: 6.4.2, 6.4.2.1, 6.4.2.2, 6.4.2.3 y 6.4.2.4.<br>  - Fue responsable de los entregables de diseño experimental: 8.2.1 y 8.2.2.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: Planteó hipótesis éticas en Lean UX Canvas.<br>- TP: Supervisó despliegue continuo (7.3.2) asegurando que versiones liberadas no afectaran negativamente la experiencia.<br>- TB2: Aplicó buenas prácticas en el análisis estático del código (6.2.1) fomentando responsabilidad técnica en la revisión interna.<br>  - Responsable de asegurar la calidad y seguridad del código (6.2.1.2).<br>  - Lideró el diseño de métodos (8.2.5), análisis de KPIs (8.2.6) y tracking web/mobile (8.2.7).<br>  - Redactó las historias de usuario To-Be (8.3.1) y el nuevo backlog (8.3.2). | TB1: Actuar éticamente en definición y análisis genera confianza y transparencia.<br>TP: Compromiso ético en validación y despliegue garantiza calidad sin comprometer seguridad ni privacidad.<br>TB2: El equipo demostró compromiso con la ética profesional al realizar validaciones cruzadas, auditorías y revisiones técnicas, fortaleciendo la transparencia y el respeto entre pares. |
+| **c2. Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Astuyauri Calderón, Jherson David:**<br>- TB1: Propuso soluciones accesibles de telemedicina para personas con recursos limitados en Lean UX Hypothesis.<br>- TP: Diseñó pruebas simulando baja conectividad (6.1.4) para funcionamiento en zonas rurales.<br>- TB2: Estableció métricas inclusivas en el tracking plan (8.2.7) para garantizar representatividad de usuarios diversos.<br>  - Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3 como responsable de auditoría realizada.<br>  - Desarrolló la fase de experiment planning con los entregables 8.1.1, 8.1.2, 8.1.3 y 8.1.4.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Evaluó reducción de tiempos en To-Be Mapping para mejorar acceso a salud.<br>- TP: Diseñó pipelines eficientes (7.2.2) para acelerar entrega en situaciones críticas.<br>- TB2: Participó en la selección de métodos de experimentación (8.2.5) priorizando eficiencia y aplicabilidad.<br>  - Encargado del bloque 6.3.3 sobre validación UX.<br>  - Implementó el sistema completo de monitoreo continuo: 7.4, 7.4.1, 7.4.2, 7.4.3, 7.4.4.<br>  - Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Propuso estrategias inclusivas para atención en zonas marginadas.<br>- TP: Adaptó pruebas unitarias para bajo rendimiento, promoviendo accesibilidad.<br>- TB2: Evaluó los resultados de los experimentos (8.4.1) considerando su aplicabilidad en distintos escenarios sociales.<br>  - Ejecutó la auditoría recibida: 6.4.2, 6.4.2.1, 6.4.2.2, 6.4.2.3 y 6.4.2.4.<br>  - Fue responsable de los entregables de diseño experimental: 8.2.1 y 8.2.2.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: En Impact Mapping, propuso acciones para minimizar impacto ambiental.<br>- TP: Coordinó automatización en nube para reducir consumo de recursos físicos y huella ecológica.<br>- TB2: Configuró prácticas sostenibles de monitoreo continuo (7.4), minimizando alertas innecesarias y consumo de recursos.<br>  - Responsable de asegurar la calidad y seguridad del código (6.2.1.2).<br>  - Lideró el diseño de métodos (8.2.5), análisis de KPIs (8.2.6) y tracking web/mobile (8.2.7).<br>  - Redactó las historias de usuario To-Be (8.3.1) y el nuevo backlog (8.3.2). | TB1: Las soluciones deben maximizar beneficios sociales y económicos, minimizando impactos ambientales.<br>TP: Prácticas de testing y DevOps con perspectiva sostenible favorecen software accesible y con impacto positivo.<br>TB2: Las acciones tomadas reflejan una toma de decisiones consciente del entorno, con soluciones de software inclusivas, sostenibles y de impacto positivo para el usuario final y el ecosistema tecnológico. |
 
 ---
 
@@ -4193,12 +4214,109 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 
 #### 6.3.3. Evaluaciones según heurísticas
 
-### 6.4. Auditorías
-#### 6.4.1. Auditoría realizada
-##### 6.4.1.1. Información del grupo auditado
-##### 6.4.1.2. Cronograma
-##### 6.4.1.3. Contenido
+### 6.4. Auditorías de experiencia de usuario
 
+Como parte del proceso de validación del proyecto, se realizaron auditorías internas y externas con el fin de evaluar la calidad del trabajo desarrollado en el equipo. Estas auditorías permitieron identificar fortalezas, oportunidades de mejora y asegurar el cumplimiento de estándares técnicos y metodológicos.
+
+En esta sección se presenta, por un lado, la auditoría realizada internamente por el líder del equipo a los miembros del grupo de trabajo, y por otro, la auditoría externa recibida por parte de otro equipo del curso. Ambas actividades forman parte del proceso formativo para fortalecer la responsabilidad profesional, la revisión entre pares y el trabajo colaborativo.
+
+#### 6.4.1. Auditoría realizada
+
+A continuación, se presentan los resultados de la auditoría interna realizada por el líder del equipo a los demás integrantes durante el desarrollo del entregable TB2 del proyecto.
+
+##### 6.4.1.1. Información del grupo auditado
+
+El grupo auditado está conformado por los siguientes miembros:
+
+- **Brenda Lucía Gamio Upiachihua**  
+- **Abraham Andrés Estrada Cajamune**  
+- **Jherson David Astuyauri Calderón**
+
+Cada uno participó activamente en las tres entregas clave del proyecto: **TB1**, **TP** y **TB2**, asumiendo capítulos completos en función de sus habilidades técnicas, disponibilidad y experiencia previa. La colaboración se gestionó mediante **GitHub** (con archivos Markdown) y la comunicación a través de **WhatsApp**, con validaciones constantes en reuniones virtuales.
+
+---
+
+#### 🔹 TB1 – Trabajo Base 1
+
+| Integrante                        | Capítulos trabajados                                                                                                                                                          | Descripción del trabajo realizado                                                                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Jherson David Astuyauri Calderón** | **Capítulo I: Introducción**<br>**Capítulo V: Product Implementation**                                                                                                        | Redactó la descripción inicial del proyecto, contexto y equipo (1.1 y 1.2). Además, configuró el entorno de desarrollo y estructura técnica de implementación.         |
+| **Brenda Lucía Gamio Upiachihua**    | **Capítulo III: Requirements Specification**                                                                                                                                  | Se encargó de definir las User Stories (3.2), Product Backlog (3.3), To-Be Scenario Mapping (3.1) e Impact Mapping (3.4).                                              |
+| **Abraham Andrés Estrada Cajamune**  | **Capítulo II: Requirements Elicitation & Analysis** (2.2)                                                                                                                    | Diseñó y ejecutó entrevistas a usuarios reales (2.2.1 a 2.2.3), obteniendo insumos esenciales para el desarrollo del sistema.                                          |
+
+---
+
+#### 🔹 TP – Trabajo Parcial
+
+| Integrante                        | Capítulos trabajados                                                                                                                                                 | Descripción del trabajo realizado                                                                                                                   |
+|----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Jherson David Astuyauri Calderón** | **Capítulo VI: Product Verification & Validation**<br>- 6.1 Testing Suites & Validation<br>- 6.1.1 Unit Tests<br>- 6.1.2 Integration Tests<br>- 6.1.3 BDD<br>- 6.1.4 System Tests | Diseñó e implementó las pruebas de validación para entidades clave y flujos de uso del sistema, incluyendo escenarios BDD.                         |
+| **Abraham Andrés Estrada Cajamune**  | **Capítulo VII: DevOps Practices**<br>- 7.1 CI<br>- 7.1.1 Tools<br>- 7.1.2 Pipeline<br>- 7.2 CD<br>- 7.2.1 Stages                                                          | Implementó los procesos de integración y entrega continua, configurando entornos y herramientas necesarias para control de versiones y automatización. |
+| **Brenda Lucía Gamio Upiachihua**    | **Capítulo VII: DevOps Practices**<br>- 7.2.2 Stages Deployment Pipeline<br>- 7.3 Continuous Deployment<br>- 7.3.1 Tools<br>- 7.3.2 Pipeline                             | Automatizó el despliegue del sistema en producción, asegurando la estabilidad del flujo de entrega y continuidad operativa.                         |
+
+---
+
+#### 🔹 TB2 – Trabajo Base 2
+
+| Integrante                        | Capítulos trabajados                                                                                                                                          | Descripción del trabajo realizado                                                                                                                      |
+|----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Jherson David Astuyauri Calderón** | **Capítulo VI:**<br>- 6.2.1.1 Coding Standard<br>- 6.4.1 Auditoría realizada<br>- 6.4.1.1 Información del grupo auditado<br>- 6.4.1.2 Cronograma<br>- 6.4.1.3 Contenido<br>**Capítulo VIII:**<br>- 8.1.1 As-Is Summary<br>- 8.1.2 Raw Material<br>- 8.1.3 Experiment-Ready Questions<br>- 8.1.4 Question Backlog | Definió estándares de codificación, redactó y lideró la auditoría interna, y realizó todo el análisis inicial de investigación (estado As-Is).         |
+| **Brenda Lucía Gamio Upiachihua**    | **Capítulo VI:**<br>- 6.2.2 Reviews<br>- 6.4.2 Auditoría recibida<br>- 6.4.2.1 Información del grupo auditor<br>- 6.4.2.2 Cronograma<br>- 6.4.2.3 Contenido<br>- 6.4.2.4 Resumen de modificaciones<br>**Capítulo VIII:**<br>- 8.2.1 Hypotheses<br>- 8.2.2 Measures              | Realizó la revisión de código cruzada, redactó la auditoría externa recibida y propuso hipótesis de mejora con sus respectivas métricas.              |
+| **Abraham Andrés Estrada Cajamune**  | **Capítulo VI:**<br>- 6.3.3 Evaluaciones según heurísticas<br>**Capítulo VII:**<br>- 7.4 Continuous Monitoring<br>- 7.4.1 Tools<br>- 7.4.2 Monitoring<br>- 7.4.3 Alerting<br>- 7.4.4 Notification<br>**Capítulo VIII:**<br>- 8.2.3 Conditions<br>- 8.2.4 Scale Calculations | Realizó evaluación heurística del sistema, diseñó el sistema de monitoreo completo y desarrolló condiciones y escalas para el análisis experimental.  |
+
+---
+
+Cada integrante cumplió a cabalidad con las responsabilidades asignadas en cada etapa del proyecto, demostrando compromiso, autonomía y capacidad para trabajar en equipo. Esta información será considerada para la evaluación individual del desempeño del grupo.
+
+##### 6.4.1.2. Cronograma de auditoria
+
+Se detalla a continuación el cronograma de auditoría interna por integrante, especificando la fecha de cada entregable, los capítulos asignados y las acciones de seguimiento realizadas por el líder del equipo:
+
+
+| **Fecha**        | **Entregable** | **Integrante auditado**                  | **Capítulos asignados**                                                                                                                                                                                                                               | **Seguimiento realizado**                                                                                                                                                      |
+|------------------|----------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 26 de abril 2025 | TB1            | Jherson David Astuyauri Calderón         | Capítulo I: Introducción<br>1.1 Startup Profile<br>1.2 Solution Profile<br>1.3 Segmentos objetivo<br>Capítulo V: Product Implementation<br>5.1 SCM<br>5.2 Implementación del producto<br>5.3 Video About-the-Product                                     | Verificación de redacción técnica clara, referencias correctas y coherencia entre configuración y contexto inicial                                                           |
+| 26 de abril 2025 | TB1            | Brenda Lucía Gamio Upiachihua            | Capítulo III: Requirements Specification<br>3.1 To-Be Scenario Mapping<br>3.2 User Stories<br>3.3 Product Backlog<br>3.4 Impact Mapping                                                                         | Validación de estructura de User Stories, Backlog y mapeo de requerimientos                                                                                                   |
+| 26 de abril 2025 | TB1            | Abraham Andrés Estrada Cajamune          | Capítulo II: Requirements Elicitation & Analysis<br>2.2 Entrevistas<br>2.2.1 Diseño<br>2.2.2 Registro<br>2.2.3 Análisis                                                                                          | Revisión de entrevistas diseñadas, calidad de transcripciones y análisis derivado                                                                                             |
+| 17 de mayo 2025  | TP             | Jherson David Astuyauri Calderón         | Capítulo VI: Testing Suites & Validation<br>6.1.1 Unit Tests<br>6.1.2 Integration Tests<br>6.1.3 BDD<br>6.1.4 System Tests                                                                                       | Pruebas BDD verificadas en GitHub, evidencia de testing unificado                                                                                                              |
+| 17 de mayo 2025  | TP             | Brenda Lucía Gamio Upiachihua            | Capítulo VII: Continuous Delivery & Deployment<br>7.2.2 Stages Deployment<br>7.3.1 Deployment Practices<br>7.3.2 Production Deployment                                                                           | Validación de pipeline final, revisión del proceso de despliegue en entorno de producción                                                                                     |
+| 17 de mayo 2025  | TP             | Abraham Andrés Estrada Cajamune          | Capítulo VII: Continuous Integration & Delivery<br>7.1.1 Tools & Practices<br>7.1.2 Build & Test Pipelines<br>7.2.1 Delivery Practices                                                                            | Verificación de integración continua y automatización de builds                                                                                                                |
+| 21 de junio 2025 | TB2            | Jherson David Astuyauri Calderón         | 6.2.1.1 Coding Standard<br>6.4.1 Auditoría realizada<br>6.4.1.1 Información del grupo auditado<br>6.4.1.2 Cronograma<br>6.4.1.3 Contenido<br>8.1.1 As-Is Summary<br>8.1.2 Raw Material<br>8.1.3 Experiment Questions<br>8.1.4 Question Backlog             | Evaluación del cumplimiento de auditoría interna, claridad en redacción técnica y documentación de hipótesis y hallazgos del estado actual (As-Is)                           |
+| 21 de junio 2025 | TB2            | Brenda Lucía Gamio Upiachihua            | 6.2.2 Reviews<br>6.4.2 Auditoría recibida (6.4.2.1 a 6.4.2.4)<br>8.2.1 Hypotheses<br>8.2.2 Measures                                                                                                                | Análisis de hipótesis y métricas experimentales, respuesta a observaciones externas y registro adecuado de la auditoría recibida                                              |
+| 21 de junio 2025 | TB2            | Abraham Andrés Estrada Cajamune          | 6.3.3 Evaluación heurística<br>7.4 Continuous Monitoring (7.4.1 a 7.4.4)<br>8.2.3 Conditions<br>8.2.4 Scale Decisions                                                                                              | Evaluación completa de principios heurísticos de UX, configuración de monitoreo y alertas en producción, diseño y justificación de condiciones experimentales para testeo   |
+
+##### 6.4.1.3. Contenido de auditoria realizada 
+
+Se evaluó individualmente el aporte de cada integrante en los tres entregables principales del proyecto: TB1, TP y TB2. Cada evaluación se basó en criterios de cumplimiento, calidad del contenido entregado, responsabilidad y colaboración continua con el equipo.
+
+
+#### 🟦 Entregable TB1
+
+| **Integrante**                        | **Capítulos asignados**                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|------------------------------------------|--------------------|----------|--------------------|
+| Jherson David Astuyauri Calderón     | Capítulo I: Introducción<br>Capítulo V: Product Implementation | 0–20               | **20**   | Entregó ambos capítulos en el plazo acordado, bien estructurados y sin errores. Coordinó activamente con el equipo. |
+| Brenda Lucía Gamio Upiachihua        | Capítulo III: Requirements Specification | 0–20               | **20**   | Documentó las User Stories y el Backlog con claridad. Entregó dentro del tiempo coordinado. |
+| Abraham Andrés Estrada Cajamune      | Capítulo II: Requirements Elicitation & Analysis (2.2 – Entrevistas) | 0–20               | **20**   | Realizó entrevistas completas, análisis profundo y aportó activamente en la validación cruzada. |
+
+
+
+#### 🟨 Entregable TP
+
+| **Integrante**                        | **Capítulos asignados**                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|------------------------------------------|--------------------|----------|--------------------|
+| Jherson David Astuyauri Calderón     | Capítulo VI: Testing Suites & Validation (6.1.1 - 6.1.4) | 0–20               | **20**   | Implementó correctamente las pruebas y subió las evidencias en GitHub. Coordinó bien con el resto del equipo. |
+| Brenda Lucía Gamio Upiachihua        | Capítulo VII: Continuous Delivery y Deployment (7.2.2, 7.3.1, 7.3.2) | 0–20               | **20**   | Cumplió los plazos y documentó el proceso de despliegue continuo con claridad. |
+| Abraham Andrés Estrada Cajamune      | Capítulo VII: CI/CD (7.1.1, 7.1.2, 7.2.1) | 0–20               | **20**   | Diseñó correctamente los pipelines y automatizaciones, entregando todo dentro del cronograma establecido. |
+
+
+
+#### 🟥 Entregable TB2
+
+| **Integrante**                        | **Capítulos asignados**                                                                                                                                                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------|--------------------|
+| Jherson David Astuyauri Calderón     | 6.2.1.1 Coding Standard<br>6.4.1 Auditoría realizada<br>6.4.1.1 Información del grupo auditado<br>6.4.1.2 Cronograma<br>6.4.1.3 Contenido<br>8.1.1 a 8.1.4 | 0–20               | **20**   | Lideró correctamente la auditoría interna. Documentó bien el análisis As-Is y cumplió los plazos coordinados. |
+| Brenda Lucía Gamio Upiachihua        | 6.2.2 Reviews<br>6.4.2 Auditoría recibida<br>6.4.2.1 Información del grupo auditor<br>6.4.2.2 Cronograma<br>6.4.2.3 Contenido<br>6.4.2.4 Resumen<br>8.2.1, 8.2.2 | 0–20               | **20**   | Respondió a observaciones externas y completó los temas asignados con buena redacción y consistencia. |
+| Abraham Andrés Estrada Cajamune      | 6.3.3 Evaluaciones según heurísticas<br>7.4.1 a 7.4.4 (Monitoring & Alerts)<br>8.2.3, 8.2.4                                              | 0–20               | **20**   | Entregó análisis de heurísticas y configuraciones de monitoreo en tiempo. Buen dominio técnico y colaboración. |
 
 #### 6.4.2. Auditoría recibida
 ##### 6.4.2.1. Información del grupo auditor
@@ -4834,28 +4952,180 @@ El análisis de resultados experimentales en HormonalCare se basa en una escala 
 | Filtros por prioridad reducen tiempo de respuesta clínica en un 30%             | Reducción promedio en minutos       | <15%         | 15%-29%   | 30%   | >37.5%           | 🟥 Desfavorable |
 | Alertas inteligentes permiten intervención oportuna en el 80% de casos críticos | % intervenciones anticipadas        | <60%         | 60%-79%   | 80%   | >100%            | 🟩 Ideal        |
 
-#### 8.2.5. Methods Selection
+### 8.2.5. Methods Selection
 
+Para validar las hipótesis planteadas en HormonalCare, se evaluaron distintas herramientas enfocadas en el análisis de rendimiento, accesibilidad, experiencia de usuario y comportamiento dentro de la aplicación. La siguiente tabla muestra una comparación entre las herramientas seleccionadas:
 
-| Herramienta          | Precio                             | Capacidad de Análisis                                                         | Sencillez                       | Ventajas                                                            |
-| -------------------- | ---------------------------------- | ----------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------- |
-| **Google Analytics** | Plan gratuito / integración amplia | Análisis exhaustivo de métricas, usuarios, conversiones, funnels, etc.        | Curva de aprendizaje moderada   | Integración con Firebase y apps móviles, dashboards personalizables |
-| **Lighthouse**       | Gratuito, ejecución local          | Análisis UX y performance: rendimiento, accesibilidad, SEO y buenas prácticas | Muy fácil de usar (solo 1 clic) | Ideal para auditar apps web progresivas y accesibilidad             |
-| **RedLine13**        | Gratuito con limitaciones          | Pruebas de carga concurrentes y rendimiento backend                           | Avanzado                        | Simula tráfico real para pruebas de estrés                          |
-| **Catchpoint**       | Basado en suscripción              | Monitoreo sintético desde múltiples ubicaciones y dispositivos                | Complejo pero potente           | Ideal para apps con usuarios en múltiples zonas geográficas         |
+| **Criterio**        | **Google Analytics**                                                                 | **Lighthouse**                                                                                     | **Firebase Analytics**                                                                      | **Encuestas post-uso (Google Forms)**                                                     |
+|---------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|
+| **Precio**          | Plan gratuito con opción de créditos premium                                         | Gratuito, ejecutable localmente en navegador                                                        | Totalmente gratuito (para proyectos pequeños/medianos)                                     | Gratuito                                                                                   |
+| **Capacidad de análisis** | Análisis de eventos, páginas vistas, tasa de conversión, embudos                 | Puntuación sobre rendimiento, accesibilidad, SEO, buenas prácticas                                 | Registro de eventos específicos dentro de la app móvil                                     | Recolección de percepciones, emociones y experiencia subjetiva del usuario                 |
+| **Sencillez**       | Interfaz intuitiva, curva de aprendizaje corta                                       | Interfaz visual directa, con recomendaciones claras                                                 | Integración directa en Flutter/Kotlin, interfaz amigable en Firebase Console              | Alta participación, no requiere instalación ni conocimientos técnicos                      |
+| **Ventajas**        | Excelente generación de reportes, embudos de conversión y comparación entre sesiones | Ideal para validar accesibilidad y tiempo de carga por pantalla                                     | Monitoreo en tiempo real de eventos clave como login, reserva, cancelaciones               | Permite obtener insights cualitativos, satisfacción y sugerencias con preguntas personalizadas |
+
+### Justificación
+
+Tras analizar estas alternativas, se seleccionaron las siguientes herramientas principales para los experimentos en HormonalCare:
+
+- **Google Analytics** → para analizar la navegación en la plataforma web y los embudos de conversión.
+- **Lighthouse** → para evaluar la accesibilidad, rendimiento y buenas prácticas en pantallas clave como Dashboard, Reserva y Perfil.
+- **Firebase Analytics** → como solución integrada en la app móvil (Flutter/Kotlin) para trackear eventos como reservas exitosas, flujo de login y tiempos de permanencia.
+- **Encuestas post-uso** → aplicadas mediante Google Forms luego de pruebas de usabilidad, para obtener insights sobre facilidad de uso, barreras y satisfacción percibida.
+
+La combinación de estas herramientas permitió validar hipótesis tanto cuantitativas como cualitativas, ofreciendo una visión holística sobre la experiencia del usuario, rendimiento técnico y percepción de valor del producto.
 
 
 #### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection
 
+Con el objetivo de evaluar el rendimiento técnico y la experiencia de usuario en la **versión web** de HormonalCare, se aplicaron pruebas de análisis con la herramienta **Lighthouse**. Estas evaluaciones permitieron verificar el cumplimiento de indicadores clave de rendimiento (KPIs), tales como: **performance**, **accesibilidad**, **buenas prácticas** y **SEO**.
+
+El enfoque fue analizar el comportamiento de las principales vistas de la plataforma web, considerando los tres segmentos objetivos del sistema:
+
+- 👤 **Paciente**
+- 🩺 **Doctor**
+- 🛠️ **Administrador**
+
+Esto permitió observar cómo varía la experiencia de navegación y tiempos de respuesta según el tipo de usuario y su flujo de uso.
+
+#### KPIs definidos:
+- **Rendimiento (Performance)**: velocidad de carga y procesamiento.
+- **Accesibilidad**: facilidad de uso en distintos contextos.
+- **Buenas Prácticas**: cumplimiento técnico recomendado por Lighthouse.
+- **SEO**: estructura apta para indexación y buscabilidad de vistas públicas.
+
+#### Metodología:
+Las pruebas fueron ejecutadas desde Google Chrome (modo escritorio), utilizando Lighthouse sobre las vistas más representativas de la versión web del sistema. Se obtuvieron reportes individuales por vista y se analizaron los resultados con fines comparativos.
+
+A continuación, se muestran las evidencias visuales generadas durante las pruebas:
+
+#### 🧑‍⚕️ Segmento Paciente
+
+![alt text](images/paciente1.jpeg)
+
+![alt text](images/paciente2.jpeg)
+
+![alt text](images/paciente3.jpeg)
+
+#### 👨‍⚕️ Segmento Doctor
+
+![alt text](images/medico1.jpeg)
+
+![alt text](images/medico2.jpeg)
+
+![alt text](images/medico3.jpeg)
+
+#### 🧑‍💼 Segmento Administrador
+
+![alt text](images/admin1.jpeg)
+
+![alt text](images/admin2.jpeg)
+
+![alt text](images/admin3.jpeg)
+
+![alt text](images/tabla.jpeg)
+
+![alt text](images/access.jpeg)
+
+![alt text](images/performance.jpeg)
+
+![alt text](images/seo.jpeg)
+
+Este análisis permitió priorizar mejoras técnicas en el desarrollo web, garantizando una experiencia de usuario fluida y alineada con los estándares modernos de calidad.
+
 #### 8.2.7. Web and Mobile Tracking Plan
 
+Para **HormonalCare**, el objetivo principal del plan de tracking es monitorear la interacción de los usuarios con la aplicación web con el fin de **optimizar funcionalidades clave, validar hipótesis experimentales y mejorar la experiencia de uso de cada segmento objetivo: pacientes, médicos endocrinólogos y administradores**.
 
-### 8.3. To-Be Definition
+Este plan se divide en dos fases: **Implementación Inicial** y **Seguimiento Continuo**, y contempla la recopilación de métricas tanto cuantitativas como cualitativas.
+
+#### 1. Implementación Inicial
+
+Durante esta fase se desplegaron nuevas funcionalidades correspondientes al flujo de agendamiento de citas, perfil médico, historial del paciente y panel administrativo. El foco fue establecer una **línea base de comportamiento y adopción**.
+
+##### Recopilación de Datos
+
+- **Métricas de uso:**  
+  - Número de usuarios activos por segmento.  
+  - Duración media de sesiones.  
+  - Flujos más recorridos (porcentaje de navegación entre módulos).
+
+- **Interacciones de los usuarios:**  
+  - Clics en botones clave (e.g., "Agendar Cita", "Enviar Mensaje", "Ver Historial").  
+  - Uso del chat médico-paciente.  
+  - Registro de formularios llenados por pacientes y médicos.  
+
+- **Feedback cualitativo:**  
+  - Encuestas embebidas dentro del dashboard al finalizar una acción.  
+  - Captura de observaciones del equipo durante pruebas moderadas.  
+
+##### Análisis Comparativo
+
+Se contrastaron los datos obtenidos con los resultados del As-Is Mapping (Cap. 8.1.1) y el backlog original (Cap. 8.1.4) para evaluar **si las funcionalidades implementadas resolvían efectivamente los pain points identificados en la fase exploratoria**.
+
+#### 2. Seguimiento Continuo
+
+Finalizada la implementación inicial, se definió un protocolo de monitoreo constante sobre los módulos principales para garantizar **sostenibilidad, iteración y evolución de la solución**.
+
+##### Recopilación de Datos
+
+- **Métricas en tiempo real:**  
+  - Visualización de sesiones activas en dashboards mediante Google Analytics 4.  
+  - Uso de Firebase para evaluar eventos personalizados (pantallas vistas, errores capturados, duración por vista).  
+
+- **Segmentación de usuarios:**  
+  - Análisis por tipo de usuario:  
+    - **Paciente:** uso del módulo de citas, visualización de historial, frecuencia de ingreso.  
+    - **Doctor:** tiempo invertido por cita, frecuencia de consulta de historial, interacción con pacientes.  
+    - **Administrador:** cantidad de usuarios gestionados, flujo de reportes generados.
+
+- **Tasa de retención:**  
+  - Monitoreo semanal y mensual del porcentaje de usuarios que regresan a la plataforma.  
+  - Análisis de funnels de conversión desde el login hasta completar una acción crítica.
+
+##### Evaluación y Ajustes
+
+- **Informes periódicos:**  
+  - Se generan reportes internos quincenales que incluyen KPIs clave por módulo, métricas de abandono y rendimiento general.  
+
+- **Iteración basada en datos:**  
+  - Ajustes al diseño UI y comportamiento UX según observaciones.  
+  - Nuevos experimentos priorizados en el backlog según funcionalidades con menor adopción o alto rebote.
+
+Este plan de tracking ha sido concebido como un **mecanismo central dentro del ciclo de Experiment-Driven Development de HormonalCare**, permitiendo evaluar **el impacto real de cada hipótesis aplicada** y asegurando que las futuras decisiones de diseño y desarrollo estén respaldadas por evidencia cuantificable.
+
+### 8.3. Experimentation
+
+Como parte del enfoque de desarrollo impulsado por experimentos, esta sección presenta las historias de usuario y funcionalidades que se plantean implementar tras los hallazgos obtenidos durante las fases de validación y análisis de datos. Estas nuevas propuestas buscan mejorar la experiencia del usuario y optimizar el rendimiento de la plataforma HormonalCare, tanto en su versión web como móvil. Las historias listadas a continuación representan el estado futuro deseado (To-Be), alineadas con las prioridades identificadas en el ciclo de mejora continua del proyecto.
+
 #### 8.3.1. To-Be User Stories
 
+| User Story ID | Título                                                       | Descripción                                                                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                  | Relacionado con (Epic ID) |
+|---------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
+| UA01          | Activar modo oscuro automático                               | Como usuario, quiero que la app active el modo oscuro automáticamente según la hora del día, para mejorar mi experiencia visual.                      | Escenario: Activar modo oscuro automático<br>Given que estoy usando la app,<br>When son las 18:00 hrs o más,<br>Then la app activa automáticamente el modo oscuro.                                                                                       | EP01                      |
+| UA02          | Recordatorios inteligentes por correo electrónico            | Como paciente, quiero recibir correos de recordatorio antes de mis citas, para no olvidarlas.                                                         | Escenario: Envío de recordatorio<br>Given que tengo una cita programada,<br>When faltan 24h,<br>Then recibo un correo automático con los detalles.                                                                                                       | EP07                      |
+| UA03          | Visualizar resumen semanal de progreso                       | Como paciente, quiero ver un resumen semanal de mis hábitos y seguimiento, para entender mi evolución.                                               | Escenario: Acceso a resumen semanal<br>Given que he usado la app durante la semana,<br>When ingreso a la sección de seguimiento,<br>Then puedo ver un gráfico con mis datos diarios y totales.                                                          | EP09                      |
+| UA04          | Filtrar historial médico por fecha                           | Como médico, quiero filtrar el historial de un paciente por rango de fechas, para encontrar información específica más fácilmente.                   | Escenario: Filtrado de historial<br>Given que estoy revisando un historial clínico,<br>When selecciono un rango de fechas,<br>Then solo se muestran los datos registrados en ese periodo.                                                               | EP04                      |
+| UA05          | Añadir etiquetas a pacientes para clasificación rápida       | Como médico, quiero poder etiquetar pacientes con palabras clave, para clasificar mi lista de manera más organizada.                                 | Escenario: Asignación de etiquetas<br>Given que visualizo la lista de pacientes,<br>When selecciono un paciente,<br>Then puedo añadir una etiqueta como “prioritario”, “nueva cita”, etc.                                                               | EP04                      |
+| UA06          | Configurar horarios de atención                              | Como médico, quiero poder establecer mis horas disponibles desde la app, para que los pacientes reserven solo en esos horarios.                      | Escenario: Establecer disponibilidad<br>Given que soy médico registrado,<br>When ingreso a configuración de agenda,<br>Then puedo seleccionar mis horarios semanales disponibles.                                                                         | EP03                      |
+| UA07          | Resumen de actividad administrativa semanal                  | Como administrador, quiero recibir un resumen semanal de accesos, citas y alertas, para evaluar el rendimiento general del sistema.                   | Escenario: Generación de informe<br>Given que finaliza la semana,<br>When accedo al panel de administración,<br>Then puedo ver un resumen descargable de actividad semanal.                                                                               | EP05                      |
+| UA08          | Notificar cambios de horario a usuarios                      | Como administrador, quiero notificar a usuarios si se realiza una reprogramación o cancelación, para evitar confusiones.                             | Escenario: Cambio de horario<br>Given que una cita ha sido reprogramada o cancelada,<br>When se guarda el cambio,<br>Then los usuarios involucrados reciben una notificación automática.                                                                 | EP05                      |
+| UA09          | Acceder a estadísticas de efectividad de tratamientos        | Como médico, quiero ver qué porcentaje de pacientes siguen correctamente sus tratamientos, para tomar mejores decisiones clínicas.                   | Escenario: Visualizar métricas<br>Given que estoy en la sección de pacientes,<br>When accedo al resumen de estadísticas,<br>Then puedo ver gráficos sobre cumplimiento de rachas y carga de exámenes.                                                   | EP09                      |
+| UA10          | Historial de chats con usuarios                              | Como administrador, quiero tener acceso al historial de chats con usuarios para dar seguimiento a quejas o solicitudes anteriores.                    | Escenario: Acceder al historial de soporte<br>Given que accedo a un ticket o usuario,<br>When abro su historial,<br>Then puedo leer todas las conversaciones previas almacenadas cronológicamente.                                                       | EP05                      |
+
+
 #### 8.3.2. To-Be Product Backlog
-
-
+| # | User Story ID | Título                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+|---|---------------|--------------------------------------------------------------|----------------------------------|
+| 1 | UA01          | Activar modo oscuro automático                               | 2                                |
+| 2 | UA02          | Recordatorios inteligentes por correo electrónico            | 3                                |
+| 3 | UA03          | Visualizar resumen semanal de progreso                       | 5                                |
+| 4 | UA04          | Filtrar historial médico por fecha                           | 3                                |
+| 5 | UA05          | Añadir etiquetas a pacientes para clasificación rápida       | 3                                |
+| 6 | UA06          | Configurar horarios de atención                              | 3                                |
+| 7 | UA07          | Resumen de actividad administrativa semanal                  | 5                                |
+| 8 | UA08          | Notificar cambios de horario a usuarios                      | 2                                |
+| 9 | UA09          | Acceder a estadísticas de efectividad de tratamientos        | 3                                |
+|10 | UA10          | Historial de chats con usuarios                              | 3                                |
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 

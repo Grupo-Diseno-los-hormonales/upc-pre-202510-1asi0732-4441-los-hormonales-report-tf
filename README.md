@@ -4324,15 +4324,21 @@ Como parte del proceso formativo de revisión entre pares, se llevó a cabo una 
 
 **Auditoría de Jherson David Astuyauri Calderón**<br>
 
-  * Auditor: Jherson David Astuyauri Calderón
-
-  * Auditado: Soto Quispe, Diego Ulises (Líder del equipo)
-
+* **Auditor:** Jherson David Astuyauri Calderón
+* **Auditado:** Soto Quispe, Diego Ulises (Líder del equipo)
   Esta auditoría fue realizada considerando evidencias documentadas, cumplimiento de entregas, comunicaciones internas y desempeño general a lo largo de los tres trabajos clave del curso: TB1, TP y TB2.
 
-**Auditoría de Brenda Gamio**<br>
+**Auditoría de Brenda Lucía Gamio Upiachihua**<br>
 
-**Auditoría de Abraham**<br>
+* **Auditora:** Brenda Lucía Gamio Upiachihua
+* **Auditado:** Soto Quispe, Diego Ulises (Líder del equipo)
+  La auditoría fue elaborada desde la perspectiva de colaboración funcional en el área de requerimientos, diseño de historias de usuario y coordinación grupal.
+
+**Auditoría de Abraham Andrés Estrada Cajamune**<br>
+
+* **Auditor:** Abraham Andrés Estrada Cajamune
+* **Auditado:** Soto Quispe, Diego Ulises (Líder del equipo)
+  El análisis se basó en el acompañamiento del líder durante las fases de levantamiento de información, validación técnica y revisión entre pares.
 
 ##### 6.4.2.2. Cronograma
 
@@ -4344,11 +4350,25 @@ Como parte del proceso formativo de revisión entre pares, se llevó a cabo una 
 | Elaboración de observaciones         | 14/06/2025              |
 | Retroalimentación en reunión interna | 15/06/2025              |
 
-**Auditoría de Brenda Gamio**<br>
+**Auditoría de Brenda Lucía Gamio Upiachihua**<br>
 
-**Auditoría de Abraham**<br>
+| Actividad                            | Fecha                   |
+| ------------------------------------ | ----------------------- |
+| Revisión del trabajo del líder       | 11/06/2025 – 13/06/2025 |
+| Elaboración de observaciones         | 14/06/2025              |
+| Retroalimentación en reunión interna | 15/06/2025              |
+
+**Auditoría de Abraham Andrés Estrada Cajamune**<br>
+
+| Actividad                            | Fecha                   |
+| ------------------------------------ | ----------------------- |
+| Revisión del trabajo del líder       | 10/06/2025 – 12/06/2025 |
+| Elaboración de observaciones         | 13/06/2025              |
+| Retroalimentación en reunión interna | 15/06/2025              |
+
 
 ##### 6.4.2.3. Contenido
+
 **Auditoría de Jherson David Astuyauri Calderón**<br>
 
 El líder del equipo, Diego Ulises Soto Quispe, asumió un rol clave a lo largo del desarrollo del proyecto. Sus contribuciones fueron integrales, tanto en aspectos técnicos como organizativos. A continuación, se detallan sus aportes más relevantes:
@@ -4357,26 +4377,42 @@ El líder del equipo, Diego Ulises Soto Quispe, asumió un rol clave a lo largo 
 | **Soto Quispe, Diego Ulises** | Coordinación del equipo, planificación general, organización de reuniones internas y externas, seguimiento del cronograma y cumplimiento de entregables.<br><br>Participación directa en los siguientes capítulos:<br>• 6.2: Static Testing & Verification<br>• 6.2.1: Análisis estático de código<br>• 6.2.2: Revisión por pares<br>• 6.3: Validation Interviews<br>• 7.1 y 7.2: CI/CD pipelines<br>• Apoyo transversal en estructura técnica y revisión de entregables | 0–20   | **20**             | Excelente liderazgo y gestión del equipo. Su rol fue determinante para mantener la cohesión, el enfoque metodológico y la calidad del proyecto. |
 
 
-**Auditoría de Brenda Gamio**<br>
+**Auditoría de Brenda Lucía Gamio Upiachihua**<br>
 
-**Auditoría de Abraham**<br>
+El líder del equipo, Diego Ulises Soto Quispe, mantuvo una comunicación efectiva y constante con todos los miembros del grupo. Desde el inicio del proyecto, se encargó de organizar las reuniones y de definir los cronogramas de trabajo en base a la disponibilidad de cada integrante. Destacó por su capacidad para resolver conflictos y brindar apoyo técnico en el análisis estático de código, entrevistas y DevOps.
+
+| Integrante                    | Capítulos trabajados y tareas gestionadas                                                                                                                                                   | Puntos | Calificación Final | Observaciones                                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------ | ----------------------------------------------------------------------------------------------- |
+| **Soto Quispe, Diego Ulises** | Gestión integral del proyecto, monitoreo de entregables, guía metodológica en entrevistas de validación (6.3), asistencia en CI/CD (7.1, 7.2) y revisión de convenciones de código (6.2.1). | 0–20   | **20**             | Excelente coordinación general. Facilitó una experiencia colaborativa positiva y bien dirigida. |
+
+---
+
+**Auditoría de Abraham Andrés Estrada Cajamune**<br>
+
+El líder mostró una clara orientación al cumplimiento de estándares y demostró gran dominio de los temas técnicos. Fue clave durante la elaboración del análisis heurístico, entrevistas, validaciones y pruebas. Además, brindó apoyo constante en el manejo de herramientas como GitHub, ayudando a los demás a integrarse al flujo de trabajo técnico.
+
+| Integrante                    | Capítulos trabajados y apoyo técnico                                                                                                                                                          | Puntos | Calificación Final | Observaciones                                                                            |
+| ----------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------ | ---------------------------------------------------------------------------------------- |
+| **Soto Quispe, Diego Ulises** | Acompañamiento en los procesos de validación y pruebas (6.3, 6.4), apoyo técnico en los despliegues y monitoreo (7.3 y 7.4), facilitador de soluciones ante los bloqueos técnicos del equipo. | 0–20   | **20**             | Mostró liderazgo técnico destacable y promovió el aprendizaje colaborativo en el equipo. |
+
 
 ##### 6.4.2.4. Resumen de modificaciones
-**Auditoría de Jherson David Astuyauri Calderón**
+
+**Auditoría de Jherson David Astuyauri Calderón**<br>
+
 Durante la auditoría no se identificaron hallazgos críticos, pero se discutieron recomendaciones de mejora que fueron rápidamente atendidas por el líder:
 
-Se propuso mejorar la documentación de las entrevistas de validación (6.3.2), integrando citas textuales y perfiles más detallados. Esto fue implementado antes de la entrega final.
+* Mejora de la documentación de entrevistas (6.3.2)
+* Inclusión de evidencias más claras en CI/CD y pruebas automatizadas (7.1.2)
 
-Se sugirió hacer más visibles las evidencias de pruebas automatizadas (7.1.2 y 7.2.2), lo cual fue incorporado en el repositorio del proyecto y referenciado correctamente en la documentación.
+**Auditoría de Brenda Lucía Gamio Upiachihua**<br>
 
-Conclusión:
-El desempeño del líder fue sobresaliente. Se destaca su compromiso con la calidad, su capacidad de organización y su constante disposición para facilitar el trabajo colaborativo. La auditoría concluye que cumplió ampliamente con sus responsabilidades como líder de equipo.
+Se sugirió organizar visualmente mejor los cronogramas de validación (TP), integrando colores y versiones en línea. Además, se recomendó reforzar la descripción del impacto de las entrevistas, lo cual fue atendido mediante un resumen ampliado en el documento final.
 
+**Auditoría de Abraham Andrés Estrada Cajamune**<br>
 
+Se planteó la idea de mejorar la trazabilidad de cambios en el repositorio, agregando convenciones de commit más específicas. Diego aceptó la propuesta e incorporó mensajes más descriptivos, además de etiquetas consistentes para versiones.
 
-**Auditoría de Brenda Gamio**
-
-**Auditoría de Abraham**
 
 ## Capítulo VII: DevOps Practices
 

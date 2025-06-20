@@ -42,8 +42,8 @@
 |:-------:|:-----------:|:-------------:|:-------------------------------:|
 | TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
 | TP    | 17/05/2025  | Los Hormonales | El equipo realizó la entrega del TP, que incluye los capítulos VI y VII completos. |
-| TB2  | 16/06/2025  | Los Hormonales | El equipo realizó la entrega del TB2, que incluye los puntos 6.2, 6.3, 6.4, el punto 7.4 y el capítulo VIII.|
-| TF  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
+| TB2 v1 | 10/06/2025  | Los Hormonales | El equipo realizó la entrega del TB2, que incluye los puntos 6.2, 6.3, 6.4, el punto 7.4 y el capítulo VIII.|
+| TB2 v2  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
 
 ## Project Report Collaboration Insights
 
@@ -324,7 +324,6 @@ Tenemos una misión clara: transformar la experiencia del seguimiento médico y 
 | **Integrantes** | **Descripción** |
 |:---------------:|:----------------|
 | <p align="center"><img src="https://jhersonss24-portafolio.netlify.app/assets/profile-front_1.jpg" alt="Jherson Astuyauri" width="120"><br><b>Jherson David Astuyauri Calderón</b></p> | Hola, soy Jherson Astuyauri. Tengo 20 años y actualmente curso el séptimo ciclo de la carrera de Ingeniería de Software. Elegí esta carrera porque me apasiona la tecnología y su impacto en la evolución del mundo, así como en la mejora de la calidad de vida de las personas. Actualmente, me interesan especialmente las áreas de inteligencia artificial y ciberseguridad. Puedo aportar al equipo con los conocimientos técnicos que he adquirido a lo largo de los cursos previos, además de mi capacidad para trabajar en equipo de manera efectiva, con una actitud proactiva y responsabilidad. |
-| <p align="center"><img src="assets/images/profileJoaquin.png" alt="Joaquín Carranza" width="120"><br><b>Joaquín Enrique Carranza Tesén</b></p> | Hola, soy Joaquín Carranza. Tengo 24 años y actualmente curso el sexto ciclo de la carrera de Ingeniería de Software. Me gusta la tecnología y la forma en que ayuda a las personas a resolver problemas de manera más rápida y eficiente. Me interesa especialmente el manejo de datos y la ciberseguridad. Siento que puedo aportar a mi equipo ideas desde otra perspectiva, ya que siempre me cuestiono cómo se podría mejorar el producto o hacia qué objetivo estamos apuntando. |
 | <p align="center"><img src="assets/images/profile-brenda.jpg" alt="Brenda Gamio" width="120"><br><b>Brenda Lucía Gamio Upiachihua</b></p> | Soy Brenda Gamio. Tengo 20 años y me encuentro estudiando la carrera de Ingeniería de Software. Lo que más me motiva es entender cómo funcionan las cosas y encontrar nuevas formas de mejorarlas. Mi curiosidad es el motor que me lleva a explorar herramientas, frameworks y metodologías. Me encanta seguir aprendiendo y desafiarme constantemente. Cuando algo despierta mi interés, me sumerjo en ello: leo documentación, veo tutoriales, pruebo con código y no me detengo hasta entenderlo completamente. |
 | <p align="center"><img src="assets/images/profile-abraham.jpg" alt="Abraham Estrada" width="120"><br><b>Abraham Andrés Estrada Cajamune</b></p> | Soy estudiante de Ingeniería de Software de la UPC cursando el séptimo ciclo. Me considero una persona comprometida con las actividades que se deben realizar, así como de trabajar en equipo eficientemente. Mi objetivo es aportar apoyo a mi equipo y poder satisfacer las necesidades que se requieran. |
 | <p align="center"><img src="assets/images/Diego.jpg" alt="Diego Soto" width="120"><br><b>Diego Ulises Soto Quispe</b></p> | Soy estudiante de 7.º ciclo en la carrera de Ingeniería de Software. Me considero una persona responsable, puntual y comprometido con los trabajos asignados. Fuera del ámbito académico, disfruto jugar básquet, salir a pasear, jugar videojuegos y manejar bicicleta. |
@@ -4319,11 +4318,65 @@ Se evaluó individualmente el aporte de cada integrante en los tres entregables 
 | Abraham Andrés Estrada Cajamune      | 6.3.3 Evaluaciones según heurísticas<br>7.4.1 a 7.4.4 (Monitoring & Alerts)<br>8.2.3, 8.2.4                                              | 0–20               | **20**   | Entregó análisis de heurísticas y configuraciones de monitoreo en tiempo. Buen dominio técnico y colaboración. |
 
 #### 6.4.2. Auditoría recibida
-##### 6.4.2.1. Información del grupo auditor
-##### 6.4.2.2. Cronograma
-##### 6.4.2.3. Contenido
-##### 6.4.2.4. Resumen de modificaciones
+Como parte del proceso formativo de revisión entre pares, se llevó a cabo una auditoría de experiencia de usuario al grupo de trabajo, con énfasis en evaluar la participación, liderazgo y cumplimiento de responsabilidades del líder del equipo.
 
+##### 6.4.2.1. Información del grupo auditor
+
+**Auditoría de Jherson David Astuyauri Calderón**<br>
+
+  * Auditor: Jherson David Astuyauri Calderón
+
+  * Auditado: Soto Quispe, Diego Ulises (Líder del equipo)
+
+  Esta auditoría fue realizada considerando evidencias documentadas, cumplimiento de entregas, comunicaciones internas y desempeño general a lo largo de los tres trabajos clave del curso: TB1, TP y TB2.
+
+**Auditoría de Brenda Gamio**<br>
+
+**Auditoría de Abraham**<br>
+
+##### 6.4.2.2. Cronograma
+
+**Auditoría de Jherson David Astuyauri Calderón**<br>
+
+| Actividad                            | Fecha                   |
+| ------------------------------------ | ----------------------- |
+| Revisión del trabajo del líder       | 10/06/2025 – 13/06/2025 |
+| Elaboración de observaciones         | 14/06/2025              |
+| Retroalimentación en reunión interna | 15/06/2025              |
+
+**Auditoría de Brenda Gamio**<br>
+
+**Auditoría de Abraham**<br>
+
+##### 6.4.2.3. Contenido
+**Auditoría de Jherson David Astuyauri Calderón**<br>
+
+El líder del equipo, Diego Ulises Soto Quispe, asumió un rol clave a lo largo del desarrollo del proyecto. Sus contribuciones fueron integrales, tanto en aspectos técnicos como organizativos. A continuación, se detallan sus aportes más relevantes:
+| Integrante                    | Capítulos trabajados                                                                                                                                                                                                                                                                                                                                                                                                                                                     | Puntos | Calificación Final | Observaciones                                                                                                                                   |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Soto Quispe, Diego Ulises** | Coordinación del equipo, planificación general, organización de reuniones internas y externas, seguimiento del cronograma y cumplimiento de entregables.<br><br>Participación directa en los siguientes capítulos:<br>• 6.2: Static Testing & Verification<br>• 6.2.1: Análisis estático de código<br>• 6.2.2: Revisión por pares<br>• 6.3: Validation Interviews<br>• 7.1 y 7.2: CI/CD pipelines<br>• Apoyo transversal en estructura técnica y revisión de entregables | 0–20   | **20**             | Excelente liderazgo y gestión del equipo. Su rol fue determinante para mantener la cohesión, el enfoque metodológico y la calidad del proyecto. |
+
+
+**Auditoría de Brenda Gamio**<br>
+
+**Auditoría de Abraham**<br>
+
+##### 6.4.2.4. Resumen de modificaciones
+**Auditoría de Jherson David Astuyauri Calderón**
+Durante la auditoría no se identificaron hallazgos críticos, pero se discutieron recomendaciones de mejora que fueron rápidamente atendidas por el líder:
+
+Se propuso mejorar la documentación de las entrevistas de validación (6.3.2), integrando citas textuales y perfiles más detallados. Esto fue implementado antes de la entrega final.
+
+Se sugirió hacer más visibles las evidencias de pruebas automatizadas (7.1.2 y 7.2.2), lo cual fue incorporado en el repositorio del proyecto y referenciado correctamente en la documentación.
+
+Conclusión:
+El desempeño del líder fue sobresaliente. Se destaca su compromiso con la calidad, su capacidad de organización y su constante disposición para facilitar el trabajo colaborativo. La auditoría concluye que cumplió ampliamente con sus responsabilidades como líder de equipo.
+
+
+
+**Auditoría de Brenda Gamio**
+
+**Auditoría de Abraham**
 
 ## Capítulo VII: DevOps Practices
 
@@ -4981,9 +5034,9 @@ Con el objetivo de evaluar el rendimiento técnico y la experiencia de usuario e
 
 El enfoque fue analizar el comportamiento de las principales vistas de la plataforma web, considerando los tres segmentos objetivos del sistema:
 
-- 👤 **Paciente**
-- 🩺 **Doctor**
-- 🛠️ **Administrador**
+- **Paciente**
+- **Doctor**
+- **Administrador**
 
 Esto permitió observar cómo varía la experiencia de navegación y tiempos de respuesta según el tipo de usuario y su flujo de uso.
 
@@ -4998,7 +5051,7 @@ Las pruebas fueron ejecutadas desde Google Chrome (modo escritorio), utilizando 
 
 A continuación, se muestran las evidencias visuales generadas durante las pruebas:
 
-#### 🧑‍⚕️ Segmento Paciente
+#### Segmento Paciente
 
 ![alt text](images/paciente1.jpeg)
 
@@ -5006,7 +5059,7 @@ A continuación, se muestran las evidencias visuales generadas durante las prueb
 
 ![alt text](images/paciente3.jpeg)
 
-#### 👨‍⚕️ Segmento Doctor
+#### Segmento Doctor
 
 ![alt text](images/medico1.jpeg)
 
@@ -5014,7 +5067,7 @@ A continuación, se muestran las evidencias visuales generadas durante las prueb
 
 ![alt text](images/medico3.jpeg)
 
-#### 🧑‍💼 Segmento Administrador
+#### Segmento Administrador
 
 ![alt text](images/admin1.jpeg)
 

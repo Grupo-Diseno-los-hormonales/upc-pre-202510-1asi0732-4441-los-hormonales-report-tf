@@ -2164,15 +2164,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
             </tr>
             <tr>
                <td>3</td>
-               <td>EP05/US18</td>
-               <td>Gestionar quejas y mensajes entre usuarios</td>
-               <td>
-                  <strong>Como</strong> administrador, <strong>quiero</strong> recibir y redirigir los mensajes de queja o sugerencia entre médicos y pacientes, <strong>para</strong> garantizar una comunicación organizada y justa.
-               </td>
-               <td>5</td>
-            </tr>
-            <tr>
-               <td>3</td>
                <td>EP09/US25</td>
                <td>Seguimiento continuo del tratamiento con sistema de racha</td>
                <td>

@@ -4179,20 +4179,20 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 
 ###  Entrevistas – Médicos Endocrinólogos
 
-**Entrevista 03 – Médico Endocrinólogo**
+**Entrevista 03 – (Estudiante) Médico Endocrinólogo**
 
 | Campo                       | Detalle                                                                                                                                                                                                                         |
 | --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombres**                 | Carla                                                                                                                                                                                                                           |
-| **Apellidos**               | Vargas Sánchez                                                                                                                                                                                                                  |
-| **Edad**                    | 39                                                                                                                                                                                                                              |
-| **Distrito**                | Miraflores                                                                                                                                                                                                                      |
+| **Nombres**                 | Joaquín                                                                                                                                                                                                                           |
+| **Apellidos**               | Rivadeneyra Ramos                                                                                                                                                                                                                  |
+| **Edad**                    | 20                                                                                                                                                                                                                              |
+| **Distrito**                | Monterrico                                                                                                                                                                                                                      |
 | **Evidencia de la reunión** |                                                                                                                                                                                                                                 |
-| **Inicio**                  | 08:30                                                                                                                                                                                                                           |
-| **Fin**                     | 09:00                                                                                                                                                                                                                           |
-| **Enlace de entrevista**    | [https://meet.google.com/entrevista-carla](https://meet.google.com/entrevista-carla)                                                                                                                                            |
-| **Imagen de la reunión**    | ![Entrevista Carla](https://i.imgur.com/UMdhEwV.png) *(imagen referencial)*                                                                                                                                                     |
-| **Resumen**                 | Carla destacó que el acceso a exámenes es directo y funcional. Sugirió agregar una opción de filtros por tipo de análisis. Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente. |
+| **Inicio**                  | 00:00                                                                                                                                                                                                                           |
+| **Fin**                     | 08:31                                                                                                                                                                                                                           |
+| **Enlace de entrevista**    | [Entrevista Joaquín](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201500225_upc_edu_pe/ETCzYsdaNZpMtbF533iyvl4B4IkH6_SKwwVf1-7kGfGhYA?e=CgGgQs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                            |
+| **Imagen de la reunión**    | ![Entrevista Joaquín](assets/images/joaquin.png)                                                                                                                                                    |
+| **Resumen**                 | Joaquín destacó lo intuitivo y fácil uso de la app. Sugirió agregar una mejor forma de mostrar el historial clínico del paciente, más simplificada. Además de hacer cada cita más reconocible (una primera cita, cita de seguimiento, etc). Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente después de cada cita con su paciente. |
 
 
 **Entrevista 04 – Médico Endocrinólogo**

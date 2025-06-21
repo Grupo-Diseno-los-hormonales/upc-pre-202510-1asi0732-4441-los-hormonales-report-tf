@@ -4170,6 +4170,21 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 ---
 
 
+**Entrevista 01**
+
+| Campo                       | Detalle                                                                                                                                                                                                      |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Nombres**                 |  Arely                                                                                                                                                                                                      |
+| **Apellidos**               |  Calderon                                                                                                                                                                                             |
+| **Edad**                    | 20                                                                                                                                                                                                           |
+| **Distrito**                | La Victoria                                                                                                                                                                                                   |
+| **Duración**                     | 13:59                                                                                                                                                                                                        |
+| **Enlace de entrevista**    | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112164_upc_edu_pe/EWq91l38tWFMniGt2HY5Qm4BVuM_7hwaX6nQ3JD8CmXSAQ?e=Vyd2ds&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202112164_upc_edu_pe/EWq91l38tWFMniGt2HY5Qm4BVuM_7hwaX6nQ3JD8CmXSAQ?e=Vyd2ds&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D                                                                                                                |
+| **Imagen de la reunión**    |  <img src="images\Captura de pantalla 2025-06-21 183855.png" alt= "evidencia reunion abraham">                                                                                                                                |
+| **Resumen**                 |Durante la entrevista, arely expresó una impresión muy intuitiva sobre la aplicación HormonalCare, destacando especialmente el diseño visual y la claridad en la navegación. Señaló que la app cumple adecuadamente con su propósito de atender las necesidades de pacientes con enfermedades hormonales, y valoró particularmente la funcionalidad que permite mostrar la medicación asignada al paciente.  En general, consideró que la app es completa, funcional y bien estructurada.  |
+
+
+
 ### 6.3.3. Evaluaciones según heurísticas
 #### 📌 SITE O APP A EVALUAR:
 

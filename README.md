@@ -4670,17 +4670,37 @@ Un Monitoring Pipeline Components es un sistema continuo de monitoreo reúne una
 
 * **Redline13:** Es una plataforma especializada en pruebas de carga y rendimiento, especialmente útil para la web. Su principal función es simular múltiples usuarios accediendo a la aplicación simultáneamente, permitiendo medir cómo responde el sistema bajo condiciones de alta demanda. Al realizar pruebas de carga en la web a gran escala, Redline13 ayuda a los equipos a identificar los puntos de estrangulamiento en el rendimiento de la aplicación y garantizar que pueda manejar grandes volúmenes de tráfico sin comprometer la experiencia del usuario. Además, permite verificar el rendimiento en condiciones extremas, lo que es crucial para la estabilidad a largo plazo de la aplicación.
   <br><br>
-* **WebPageTest:** Es una herramienta utilizada para medir y analizar el rendimiento de las aplicaciones web desde diferentes ubicaciones y con distintos navegadores. Permite realizar pruebas exhaustivas de tiempos de carga, tiempos de respuesta del servidor, optimización de imágenes y otros factores que afectan la experiencia del usuario. WebPageTest ofrece una evaluación profunda del rendimiento de la web, incluyendo métricas de velocidad y optimización de recursos. Su capacidad para realizar pruebas desde múltiples ubicaciones geográficas es especialmente útil para evaluar cómo se comporta la aplicación en diversas condiciones de red, lo que garantiza una experiencia uniforme para todos los usuarios, independientemente de su ubicación.
+
+<p align="center">
+  <img src="assets/images/logo_redline.jpg" alt="Logo Redline13" width="300">
+</p>
+
+* **WebPageTest:** Es una herramienta utilizada para medir y analizar el rendimiento de las aplicaciones web desde diferentes ubicaciones y con distintos navegadores. Permite realizar pruebas exhaustivas de tiempos de carga, tiempos de respuesta del servidor, optimización de imágenes y otros factores que afectan la experiencia del usuario. WebPageTest ofrece una evaluación profunda del rendimiento de la web, incluyendo métricas de velocidad y optimización de recursos. Su capacidad para realizar pruebas desde múltiples ubicaciones geográficas es especialmente útil para evaluar cómo se comporta la aplicación en diversas condiciones de red, lo que garantiza una experiencia uniforme para todos los usuarios, independientemente de su ubicación.<br><br>
+
+<p align="center">
+  <img src="assets/images/logo_webpagetest.png" alt="Logo WebPageTest" width="300">
+</p>
+
 
 #### 7.4.3. Alerting Pipeline Components
 El sistema de alertas forma parte fundamental del pipeline de monitoreo, ya que permite activar respuestas inmediatas ante incidentes que comprometan la disponibilidad o el rendimiento de aplicaciones web y móviles. Gracias a su integración, el equipo técnico puede ser notificado sin demora cuando se detectan eventos críticos o patrones anómalos, lo que facilita una gestión proactiva de incidentes y minimiza el impacto en los usuarios finales. Para garantizar una implementación eficiente, se emplearán herramientas como Firebase Crashlytics, Sentry y New Relic, las cuales brindan visibilidad en tiempo real sobre el estado de la aplicación.
 
-* **Firebase Crashlytics:** Es una herramienta que monitorea los fallos y errores en aplicaciones móviles en tiempo real. Cuando se produce un crash o error en la aplicación, Crashlytics genera alertas automáticas que se envían al equipo de desarrollo. Estas alertas contienen detalles como el tipo de error, el dispositivo afectado y la versión de la app, lo que permite a los desarrolladores realizar correcciones rápidas. Además, Crashlytics ofrece integración con herramientas como Slack o Correo Electrónico, para asegurar que las alertas sean enviadas por los canales más efectivos para el equipo.
-  <br><br>
+* **Firebase Crashlytics:** Es una herramienta que monitorea los fallos y errores en aplicaciones móviles en tiempo real. Cuando se produce un crash o error en la aplicación, Crashlytics genera alertas automáticas que se envían al equipo de desarrollo. Estas alertas contienen detalles como el tipo de error, el dispositivo afectado y la versión de la app, lo que permite a los desarrolladores realizar correcciones rápidas. Además, Crashlytics ofrece integración con herramientas como Slack o Correo Electrónico, para asegurar que las alertas sean enviadas por los canales más efectivos para el equipo.<br><br>
+<p align="center">
+  <img src="assets/images/logo_firebase_crashlytics.jpg" alt="Logo Firebase Crashlytics" width="300">
+</p>
+
 * **Sentry:** Es una herramienta para monitorear los errores y excepciones que ocurren tanto en la versión web como en la versión móvil de la aplicación. Cuando un error no manejado ocurre, Sentry genera una alerta que proporciona información detallada sobre el fallo, incluyendo el stack trace, la versión de la aplicación y el entorno del usuario. Las alertas pueden ser personalizadas y enviadas a los canales de comunicación del equipo como Slack, Correo Electrónico o Microsoft Teams. Además, Sentry permite agrupar los errores similares y realizar un seguimiento de los problemas recurrentes, lo que ayuda a priorizar los arreglos basados en el impacto del usuario.
   <br><br>
-* **New Relic:** Es una plataforma de monitoreo de rendimiento que proporciona métricas en tiempo real sobre el funcionamiento de las aplicaciones web. A través de New Relic, se pueden definir umbrales personalizados para métricas clave como el tiempo de respuesta, el uso de la CPU o la latencia de red. Cuando estas métricas exceden los límites establecidos, New Relic genera alertas automáticas. Las alertas pueden ser enviadas a través de Slack, Correo Electrónico, o directamente a las aplicaciones de gestión de incidentes como PagerDuty. La integración de New Relic con Grafana también permite la visualización avanzada de métricas y la creación de paneles personalizados con alertas visuales, lo que facilita la identificación de problemas en tiempo real.
-<br><br>
+
+<p align="center">
+  <img src="assets/images/logo_sentry.png" alt="Logo Sentry" width="300">
+</p>
+
+* **New Relic:** Es una plataforma de monitoreo de rendimiento que proporciona métricas en tiempo real sobre el funcionamiento de las aplicaciones web. A través de New Relic, se pueden definir umbrales personalizados para métricas clave como el tiempo de respuesta, el uso de la CPU o la latencia de red. Cuando estas métricas exceden los límites establecidos, New Relic genera alertas automáticas. Las alertas pueden ser enviadas a través de Slack, Correo Electrónico, o directamente a las aplicaciones de gestión de incidentes como PagerDuty. La integración de New Relic con Grafana también permite la visualización avanzada de métricas y la creación de paneles personalizados con alertas visuales, lo que facilita la identificación de problemas en tiempo real.<br><br>
+  <p align="center">
+  <img src="assets/images/logo_newrelic.jpg" alt="Logo New Relic" width="300">
+</p>
 
 La combinación de Firebase Crashlytics, Sentry, y New Relic permite al equipo de desarrollo recibir alertas inmediatas sobre problemas técnicos, facilitando la detección proactiva y la resolución rápida de incidentes. Esta integración asegura que se pueda intervenir antes de que los problemas afecten a los usuarios finales, minimizando el tiempo de inactividad y mejorando la experiencia del usuario.
 

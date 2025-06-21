@@ -4161,6 +4161,74 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 
 
 #### 6.3.3. Evaluaciones según heurísticas
+#### 📌 SITE O APP A EVALUAR:
+
+**HormonalCare**
+
+#### 📝 TAREAS A EVALUAR:
+
+**El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:**
+
+1. Registro de un usuario nuevo (paciente o doctor)  
+2. Inicio de sesión en la plataforma  
+3. Visualización del dashboard de usuario (paciente, doctor o administrador)  
+4. Búsqueda y selección de médicos disponibles  
+5. Programación de una cita médica  
+6. Envío de mensajes a otros usuarios (chat médico/paciente)  
+7. Subida de resultados médicos o exámenes  
+8. Visualización de notificaciones y comunicados  
+
+**❌No están incluidas en esta versión de la evaluación las siguientes tareas:**
+
+1. Procesamiento de pagos en línea  
+2. Integración completa con calendarios externos (Google Calendar, etc.)  
+3. Gestión avanzada de suscripciones o planes premium  
+4. Análisis de métricas o estadísticas por usuario  
+5. Funcionalidades específicas de monitoreo hormonal automatizado
+
+   #### ⚠ ESCALA DE SEVERIDAD:
+
+*Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:*
+
+| Nivel | Descripción |
+|-------|-------------|
+| **1** | Problema superficial: puede ser fácilmente superador por el usuario o ocurre con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+| **2** | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja resolverlo de cara al siguiente release. |
+| **3** | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+| **4** | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+#### 📋 TABLA RESUMEN:
+
+| #  | Problema                                                                                         | Escala de severidad | Heurística/Principio violado(a)                                  |
+|----|--------------------------------------------------------------------------------------------------|---------------------|-------------------------------------------------------------------|
+| 1  | El sistema no valida si la contraseña y su confirmación coinciden en el registro                | 3                   | Usability: Prevención de errores                                  |
+| 2  | El botón “Forgot password?” parece un enlace desactivado                                        | 2                   | Usability: Reconocimiento antes que recuerdo                      |
+| 3  | No hay retroalimentación tras intentar iniciar sesión sin conexión                              | 3                   | Usability: Manejo de errores                                      |
+| 4  | No se indica si los campos son requeridos hasta que se envía el formulario                      | 3                   | Usability: Prevención de errores                                  |
+| 5  | El botón “Enter” no cambia de estado al hacer clic                                               | 2                   | Usability: Visibilidad del estado del sistema                     |
+| 6  | No se proporciona retroalimentación clara al usuario cuando el login falla                      | 2                   | Usability: Ayuda al usuario a reconocer, diagnosticar y corregir errores |
+| 7  | La vista principal del paciente no permite distinguir cuál es el próximo paso o acción esperada | 2                   | Information Architecture: Is it usable?                          |
+| 8  | Filtro de género en búsqueda de doctores no permite múltiples selecciones ni muestra activo     | 1                   | Usability: Libertad y control del usuario                         |
+| 9  | No se valida visualmente si el archivo cargado como examen fue subido correctamente             | 2                   | Usability: Visibilidad del estado del sistema                     |
+| 10 | Las etiquetas de accesibilidad como “alt” en imágenes de doctores están ausentes                | 2                   | Inclusive Design: Proporciona experiencias comparables            |
+
+
+### PROBLEMA #1
+
+**Tarea evaluada:** Registro de un usuario nuevo  
+**Heurística / Principio violado:** Usability – Prevención de errores  
+**Descripción del problema:**  
+Durante el proceso de registro, el formulario solicita la contraseña y su confirmación, pero el sistema **no valida automáticamente** si ambas coinciden antes de enviar el formulario. Esto permite que el usuario continúe con datos incorrectos, generando frustración y potenciales errores de acceso posteriores.
+
+**Recomendación de mejora:**  
+Implementar una validación en tiempo real que indique si ambos campos de contraseña coinciden. Adicionalmente, mostrar un mensaje claro en caso de discrepancia al intentar enviar el formulario.
+
+**Severidad:** Alta (3)  
+**Evidencia visual:**  
+Captura del formulario de registro donde no se muestra advertencia al ingresar contraseñas distintas.
+
+<img src ="assets/images/Captura de pantalla 2025-06-21 145727.png" alt= "foto evidencia de no igualdad contraseña">
+
 
 
 ### 6.4. Auditorías de experiencia de usuario

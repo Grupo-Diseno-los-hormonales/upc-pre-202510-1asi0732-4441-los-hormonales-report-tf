@@ -2173,15 +2173,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
             </tr>
             <tr>
                <td>3</td>
-               <td>EP08/US19</td>
-               <td>Eliminar usuarios conflictivos de la plataforma</td>
-               <td>
-                  <strong>Como</strong> administrador, <strong>quiero</strong> poder suspender o eliminar usuarios problemáticos, <strong>para</strong> mantener la seguridad y el buen funcionamiento del sistema.
-               </td>
-               <td>3</td>
-            </tr>
-            <tr>
-               <td>3</td>
                <td>EP09/US25</td>
                <td>Seguimiento continuo del tratamiento con sistema de racha</td>
                <td>
@@ -2192,7 +2183,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
             <tr>
                <td>3</td>
                <td>EP08/US26</td>
-               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>Transferencia de Pacientes ( Médico-Médico con paciente)</td>
                <td>
                   <strong>Como</strong> médico <strong>quiero</strong> poder transferir pacientes entre colegas y organizar sus citas de manera eficiente.
                </td>
@@ -2201,38 +2192,11 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
             <tr>
                <td>3</td>
                <td>EP05/US27</td>
-               <td>Transferencia de Pacientes (Chat Médico-Médico con Admin)</td>
+               <td>Transferencia de Pacientes ( Médico-Médico con Admin)</td>
                <td>
                   <strong>Como</strong> médico, <strong>quiero</strong> tener una vía de comunicación directa con mis pacientes, <strong>para</strong> resolver dudas rápidas o dar indicaciones de seguimiento.
                </td>
                <td>3</td>
-            </tr>
-            <tr>
-               <td>3</td>
-               <td>EP05/US22</td>
-               <td>Reasignación de Pacientes (Chat Admin-Médico)</td>
-               <td>
-                  <strong>Como</strong> administrador, <strong>quiero</strong> poder asignar o cambiar el médico encargado de un paciente, <strong>para</strong> mantener una correcta organización clínica en caso de rotación o necesidad médica.
-               </td>
-               <td>3</td>
-            </tr>
-            <tr>
-               <td>3</td>
-               <td>EP05/US23</td>
-               <td>Revisar logs de acceso sospechoso</td>
-               <td>
-                  <strong>Como</strong> administrador, <strong>quiero</strong> revisar registros de accesos sospechosos o múltiples intentos fallidos, <strong>para</strong> prevenir intrusiones o problemas de seguridad.
-               </td>
-               <td>5</td>
-            </tr>
-            <tr>
-               <td>3</td>
-               <td>EP05/US24</td>
-               <td>Gestionar soporte técnico vía chat y estado</td>
-               <td>
-                  <strong>Como</strong> administrador, <strong>quiero</strong> tener una interfaz de chat para comunicarme con los usuarios que solicitan soporte técnico y poder actualizar el estado de sus solicitudes, <strong>para</strong> resolver problemas y mantener a los usuarios informados.
-               </td>
-               <td>5</td>
             </tr>
             <tr>
                <td>3</td>
@@ -2242,6 +2206,33 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                   <strong>Como</strong> paciente nuevo <strong>quiero</strong> ver y elegir el horario disponible del médico <strong>para</strong> poder agendar mi cita.
                </td>
                <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP08/US19</td>
+               <td>Eliminar usuarios conflictivos de la plataforma</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder suspender o eliminar usuarios problemáticos, <strong>para</strong> mantener la seguridad y el buen funcionamiento del sistema.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP05/US23</td>
+               <td>Revisar logs de acceso sospechoso</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> revisar registros de accesos sospechosos o múltiples intentos fallidos, <strong>para</strong> prevenir intrusiones o problemas de seguridad.
+               </td>
+               <td>5</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP05/US24</td>
+               <td>Gestionar soporte técnico vía chat y estado</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> tener una interfaz de chat para comunicarme con los usuarios que solicitan soporte técnico y poder actualizar el estado de sus solicitudes, <strong>para</strong> resolver problemas y mantener a los usuarios informados.
+               </td>
+               <td>5</td>
             </tr>
             <tr>
                <td>4</td>
@@ -2258,6 +2249,15 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                <td>Ver el historial médico de un paciente</td>
                <td>
                   <strong>Como</strong> médico <strong>quiero</strong> ver el historial médico de mi paciente <strong>para</strong> garantizar un tratamiento óptimo.
+               </td>
+               <td>3</td>
+            </tr>
+            <tr>
+               <td>4</td>
+               <td>EP05/US22</td>
+               <td>Reasignación de Pacientes (Chat Admin-Médico)</td>
+               <td>
+                  <strong>Como</strong> administrador, <strong>quiero</strong> poder asignar o cambiar el médico encargado de un paciente, <strong>para</strong> mantener una correcta organización clínica en caso de rotación o necesidad médica.
                </td>
                <td>3</td>
             </tr>

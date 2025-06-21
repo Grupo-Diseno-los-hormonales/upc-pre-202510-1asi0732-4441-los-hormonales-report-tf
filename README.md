@@ -4616,21 +4616,54 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 
 #### 7.4. Continuous Monitoring
 
+El monitoreo continuo en *HormonalCare* tiene como objetivo supervisar en tiempo real el estado, rendimiento y comportamiento del sistema en producción, permitiendo una reacción oportuna ante errores, cuellos de botella o cambios en el comportamiento del usuario. Esta práctica es clave dentro del enfoque DevOps, ya que asegura una retroalimentación constante desde el entorno operativo, mejorando la calidad del software y la experiencia del usuario. A través de un conjunto de herramientas especializadas, el equipo puede detectar incidencias de forma proactiva, tomar decisiones basadas en datos y garantizar la disponibilidad y estabilidad de la plataforma.
+
 #### 7.4.1. Tools and Practices
 
 * **Pruebas de Carga y Estrés:** JMeter será utilizado para ejecutar pruebas de rendimiento y estrés en las versiones web y móvil de la aplicación. Esta plataforma facilita la simulación de múltiples usuarios accediendo al sistema al mismo tiempo, un aspecto crítico para asegurar que la aplicación funcione correctamente incluso con un tráfico elevado. En el caso específico de la app móvil, JMeter permite desarrollar scripts que repliquen las acciones de los usuarios, lo que ayuda a analizar cómo responde la plataforma bajo distintos niveles de demanda. <br><br>
-  
+
+<p align="center">
+  <img src="assets/images/logo_jmeter.png" alt="Logo JMeter" width="300">
+</p>
+
 * **Monitoreo de la Experiencia del Usuario:** 
-  * Firebase Analytics: Utilizado tanto para la aplicación móvil como para la web, Firebase Analytics proporciona un análisis detallado sobre cómo los usuarios interactúan con la aplicación. Permite medir eventos, comportamientos de navegación, conversiones y más, brindando una visión completa del uso de la app en ambas plataformas. Esto permite optimizar la interfaz de usuario y la experiencia general del usuario de manera continua.
+  * Firebase Analytics: Utilizado tanto para la aplicación móvil como para la web, Firebase Analytics proporciona un análisis detallado sobre cómo los usuarios interactúan con la aplicación. Permite medir eventos, comportamientos de navegación, conversiones y más, brindando una visión completa del uso de la app en ambas plataformas. Esto permite optimizar la interfaz de usuario y la experiencia general del usuario de manera continua.<br><br>
+ 
+    <p align="center">
+        <img src="assets/images/logo_firebase.png" alt="Logo Firebase" width="300">
+    </p>
+
   * Sentry: Se integra tanto en la aplicación móvil (Flutter) como en la versión web para monitorear los errores en tiempo real. En ambos entornos, Sentry recopila información detallada sobre las excepciones, fallos y errores no manejados, proporcionando datos que facilitan la resolución rápida de problemas. También permite rastrear problemas recurrentes y establecer prioridades según el impacto. <br><br>
+  <p align="center">
+  <img src="assets/images/logo_sentry.png" alt="Logo Sentry" width="300">
+</p>
+  
 
 * **Supervisión de APIs:**
-  * Postman: Se utilizará para realizar pruebas de funcionalidad y validar la correcta interacción entre la aplicación y las APIs. Esto incluye verificar endpoints, respuestas HTTP, autenticación y manejo de errores.
+  * Postman: Se utilizará para realizar pruebas de funcionalidad y validar la correcta interacción entre la aplicación y las APIs. Esto incluye verificar endpoints, respuestas HTTP, autenticación y manejo de errores. <br><br>
+  
+<p align="center">
+  <img src="assets/images/logo_postman.jpg" alt="Logo Postman" width="300">
+</p>
+
   * Pingdom: Proporcionará monitoreo en tiempo real, generando métricas clave como tiempo de respuesta, disponibilidad y latencia de las APIs. Esto permitirá detectar rápidamente caídas de servicio o cuellos de botella que afecten el rendimiento. <br><br>
 
+<p align="center">
+  <img src="assets/images/logo_pingdom.png" alt="Logo Pingdom" width="300">
+</p>
+
 * **Auditorías de Calidad Web y Accesibilidad:**
-  * Redline13: Plataforma que permite realizar pruebas de carga en la web a gran escala. Esta herramienta es especialmente útil para probar cómo la aplicación web maneja un alto volumen de tráfico. Se puede simular miles de usuarios simultáneamente y medir la capacidad de la aplicación para manejar múltiples solicitudes.
+  * Redline13: Plataforma que permite realizar pruebas de carga en la web a gran escala. Esta herramienta es especialmente útil para probar cómo la aplicación web maneja un alto volumen de tráfico. Se puede simular miles de usuarios simultáneamente y medir la capacidad de la aplicación para manejar múltiples solicitudes. <br><br>
+
+<p align="center">
+  <img src="assets/images/logo_redline.jpg" alt="Logo Redline13" width="300">
+</p>
+
   * WebPageTest: Se utilizará para evaluar la velocidad y el rendimiento de la aplicación web. Permite realizar pruebas desde diferentes ubicaciones geográficas y con distintos navegadores, lo que ayuda a evaluar el rendimiento de tu página web en diferentes condiciones y para distintos usuarios. <br><br>
+  
+<p align="center">
+  <img src="assets/images/logo_webpagetest.png" alt="Logo WebPageTest" width="300">
+</p>
 
 #### 7.4.2. Monitoring Pipeline Components
 Un Monitoring Pipeline Components es un sistema continuo de monitoreo reúne una serie de etapas clave para asegurar la calidad y el buen desempeño de la aplicación. Este proceso abarca desde la recolección y el almacenamiento de datos hasta su análisis y visualización, con el propósito de detectar y solucionar fallos de manera anticipada, antes de que impacten a los usuarios. Herramientas especializadas como Redline13 y WebPageTest resultan esenciales, ya que permiten evaluar aspectos cruciales de la experiencia del usuario.

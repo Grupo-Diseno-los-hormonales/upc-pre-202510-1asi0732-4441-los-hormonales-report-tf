@@ -3980,15 +3980,15 @@ A continuación, se presentan las funcionalidades implementadas con sus respecti
 ![alt text](<images/Captura de pantalla 2025-05-17 a la(s) 4.05.04 p. m..png>)
 
 
-### 6.2. Código y Revisiones
-#### 6.2.1. Coding
+### 6.2. Static testing & Verification
+#### 6.2.1. Static Code Analysis
 El desarrollo del sistema HormonalCare se llevó a cabo bajo una arquitectura cuidadosamente diseñada que prioriza la calidad, la claridad y la escalabilidad del código. Se implementaron principios de ingeniería de software moderna, destacando el uso de Domain-Driven Design (DDD) en el backend y buenas prácticas de codificación estructurada tanto en frontend como en backend.
 
 Este enfoque permitió separar claramente las responsabilidades, organizar el código en módulos comprensibles y facilitar la colaboración entre los integrantes del equipo. Para garantizar una codificación consistente y profesional, se adoptaron convenciones internas, herramientas automáticas y políticas de revisión continua que serán detalladas en las siguientes secciones.
 
 En las siguientes subsecciones se describen los estándares seguidos, las medidas de calidad aplicadas y las acciones realizadas para garantizar la seguridad del código desde las primeras etapas del desarrollo.
 
-##### 6.2.1.1. Coding Standard
+##### 6.2.1.1. Coding standard & Code conventions.
 
 En el desarrollo de HormonalCare, se adoptaron estándares de codificación que garantizan la mantenibilidad, legibilidad y escalabilidad del sistema. Los principales lineamientos utilizados fueron:
 
@@ -4094,17 +4094,9 @@ Las revisiones de código son un componente esencial del flujo de trabajo en Hor
 * Las revisiones se realizaban **al cierre de cada sprint (quincenalmente)**.
 * Revisiones espontáneas también eran promovidas al culminar funcionalidades críticas (ej. módulo de cita médica o historial clínico).
 
-### 6.3. Validación UX
-
-El proceso de validación UX se llevó a cabo con el objetivo de evaluar la experiencia de usuario en la aplicación HormonalCare, tanto en su versión móvil como en su versión web. Esta validación se realizó mediante entrevistas semiestructuradas, permitiendo recoger percepciones, opiniones y sugerencias directas de los usuarios potenciales y reales del sistema.
 
 
-#### 6.3.1. Diseño de entrevistas
-Perfecto, Paul. A continuación te presento la sección **6.3 Validación UX** con sus dos subapartados bien estructurados:
-
----
-
-## 6.3 Validación UX
+## 6.3 Validation Interviews.
 
 El proceso de validación UX se llevó a cabo con el objetivo de evaluar la experiencia de usuario en la aplicación **HormonalCare**, tanto en su versión móvil como en su versión web. Esta validación se realizó mediante entrevistas semiestructuradas, permitiendo recoger percepciones, opiniones y sugerencias directas de los usuarios potenciales y reales del sistema.
 
@@ -4128,7 +4120,7 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 12. ¿Qué sugerencias, mejoras o nuevas funciones crees que podríamos incorporar?
 
 
-#### 6.3.2. Registro de entrevistas
+### 6.3.2. Registro de entrevistas
 
 
 **Entrevista 01**
@@ -4160,7 +4152,7 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 | **Resumen**                 | Joaquín destacó lo intuitivo y fácil uso de la app. Sugirió agregar una mejor forma de mostrar el historial clínico del paciente, más simplificada. Además de hacer cada cita más reconocible (una primera cita, cita de seguimiento, etc). Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente después de cada cita con su paciente. |
 
 
-#### 6.3.3. Evaluaciones según heurísticas
+### 6.3.3. Evaluaciones según heurísticas
 #### 📌 SITE O APP A EVALUAR:
 
 **HormonalCare**
@@ -4229,7 +4221,118 @@ Captura del formulario de registro donde no se muestra advertencia al ingresar c
 
 <img src ="assets/images/Captura de pantalla 2025-06-21 145727.png" alt= "foto evidencia de no igualdad contraseña">
 
+### PROBLEMA #2
 
+**Tarea evaluada:** Inicio de sesión  
+**Heurística / Principio violado:** Usability – Reconocimiento antes que recuerdo  
+**Descripción del problema:**  
+El enlace “Forgot password?” está presentado como texto con estilo de enlace, pero no presenta ningún cambio visual al pasar el cursor ni genera ninguna acción cuando se hace clic, lo que genera **ambigüedad sobre si está habilitado o no**. Esto puede llevar al usuario a pensar que la opción no está disponible.
+
+**Recomendación de mejora:**  
+Aplicar un estilo visual consistente con enlaces interactivos (subrayado, cambio de color al pasar el mouse) y asegurarse de que dispare una acción clara (como redirección a recuperación de contraseña o mensaje de implementación futura).
+
+**Severidad:** Media (2)  
+**Evidencia visual:**  
+Captura de la pantalla de inicio de sesión donde se observa el texto “Forgot password?” sin reacción ni estilo de enlace activo.
+
+<img src = "images/Captura de pantalla 2025-06-21 150436.png" alt = "foto evidencia link forgot password">
+
+### PROBLEMA #3
+
+**Tarea evaluada:** Inicio de sesión  
+**Heurística / Principio violado:** Usability – Manejo de errores  
+**Descripción del problema:**  
+Cuando un usuario intenta iniciar sesión sin conexión a internet (modo offline o sin conectividad estable), **no se muestra retroalimentación o mensaje de error específico**. El formulario simplemente no responde, lo que deja al usuario sin saber si fue un error de sus credenciales o un problema de conectividad.
+
+**Recomendación de mejora:**  
+Detectar la falta de conexión y mostrar un mensaje informativo como “Sin conexión a internet. Por favor verifica tu red e intenta nuevamente.” Esto orienta al usuario y evita confusión.
+
+**Severidad:** Alta (3)  
+**Evidencia visual:**  
+Simulación de intento de login sin red donde el sistema no proporciona retroalimentación clara.
+
+<img src ="images/Captura de pantalla 2025-06-21 150843.png" alt= "foto evidencia de Sin conexión a internet">
+
+### PROBLEMA #4
+
+**Tarea evaluada:** Inicio de sesión  
+**Heurística / Principio violado:** Usability – Ayuda al usuario a reconocer, diagnosticar y corregir errores  
+**Descripción del problema:**  
+Cuando se ingresan credenciales incorrectas, el sistema simplemente muestra un mensaje genérico (“Invalid email or password”) sin indicar cuál de los campos puede estar equivocado. Esto puede causar confusión, especialmente si el usuario ha cometido un error tipográfico en uno solo de los campos.
+
+**Recomendación de mejora:**  
+Ofrecer retroalimentación más específica, como “La contraseña es incorrecta” o “No se encontró un usuario con este correo”, sin comprometer la seguridad. También se puede incluir un ícono de advertencia junto al campo erróneo.
+
+**Severidad:** Media (2)  
+**Evidencia visual:**  
+Captura del mensaje genérico tras intento fallido de inicio de sesión.
+
+<img src="images/Captura de pantalla 2025-06-21 151959.png" alt = "foto evidencia">
+
+### PROBLEMA #7
+
+**Tarea evaluada:** Visualización del dashboard del paciente  
+**Heurística / Principio violado:** Information Architecture – Is it usable?  
+**Descripción del problema:**  
+En la vista principal del dashboard del paciente, el usuario se enfrenta a múltiples secciones (recordatorios, tareas pendientes, carga de exámenes, búsqueda de doctores) sin una jerarquía visual clara ni indicadores que prioricen las acciones esperadas. Esto puede provocar que el usuario no sepa por dónde empezar o qué acción es más importante.
+
+**Recomendación de mejora:**  
+Reorganizar el contenido con una estructura jerárquica clara, destacando visualmente la acción más importante del día (por ejemplo, “Próxima cita” o “Subir examen pendiente”). Agregar etiquetas o sugerencias que orienten la interacción.
+
+**Severidad:** Media (2)  
+**Evidencia visual:**  
+Captura del dashboard del paciente mostrando múltiples bloques sin foco principal o guía al usuario.
+
+<img src="images\Captura de pantalla 2025-06-21 152412.png" alt= "evidencia primera seccion dashboard paciente">
+<img src="images\Captura de pantalla 2025-06-21 152418.png"
+alt= "evidencia segunda seccion dashboard paciente">
+
+### PROBLEMA #8
+
+**Tarea evaluada:** Búsqueda y selección de médicos disponibles  
+**Heurística / Principio violado:** Usability – Libertad y control del usuario  
+**Descripción del problema:**  
+El filtro por género en la búsqueda de doctores solo permite seleccionar un valor a la vez y no muestra visualmente cuál está activo, lo que **limita la libertad de exploración del usuario** y puede causar confusión si se desea comparar múltiples opciones sin tener que limpiar y volver a aplicar filtros.
+
+**Recomendación de mejora:**  
+Permitir la selección múltiple de filtros y agregar indicación visual clara del filtro activo. Alternativamente, permitir deseleccionar fácilmente el filtro aplicado.
+
+**Severidad:** Baja (1)  
+**Evidencia visual:**  
+Captura de la sección de filtros en la búsqueda de doctores donde no se muestra filtro activo ni se permite selección múltiple.
+<img src="images\Captura de pantalla 2025-06-21 152844.png" alt="evidencia filtro de busqueda">
+
+### PROBLEMA #9
+
+**Tarea evaluada:** Subida de resultados médicos o exámenes  
+**Heurística / Principio violado:** Usability – Visibilidad del estado del sistema  
+**Descripción del problema:**  
+Cuando el usuario selecciona un archivo para subir como examen médico, **no se proporciona una confirmación clara ni visual de que la subida fue exitosa**. Solo se muestra el nombre del archivo, pero no hay indicadores como un ícono de éxito, barra de progreso o mensaje de confirmación.
+
+**Recomendación de mejora:**  
+Incluir una retroalimentación visual inmediata luego de seleccionar o subir el archivo, como un mensaje del tipo “Archivo cargado exitosamente” o un ícono de check verde. Esto ayuda a reforzar la percepción de control del usuario.
+
+**Severidad:** Media (2)  
+**Evidencia visual:**  
+Captura de la sección de carga de exámenes donde solo se muestra el nombre del archivo sin retroalimentación visual adicional.
+
+<img src="images\Captura de pantalla 2025-06-21 153135.png" alt="evidencia de subida de archivos">
+
+### PROBLEMA #10
+
+**Tarea evaluada:** Búsqueda y selección de médicos disponibles  
+**Heurística / Principio violado:** Usability – Usabilidad para todos (accesibilidad)  
+**Descripción del problema:**  
+Las imágenes de perfil de los doctores no contienen el atributo `alt` para accesibilidad, lo que dificulta la navegación por parte de usuarios que emplean lectores de pantalla. Esto compromete la inclusión de personas con discapacidades visuales y reduce el cumplimiento de estándares de accesibilidad web.
+
+**Recomendación de mejora:**  
+Agregar descripciones significativas en los atributos `alt` de cada imagen, por ejemplo: `alt="Doctor María López, especialista en endocrinología"`. Esto mejora la comprensión del contenido para todos los usuarios.
+
+**Severidad:** Media (2)  
+**Evidencia visual:**  
+Inspección de código en la sección de búsqueda de doctores revela ausencia de atributo `alt` en imágenes.
+
+<img src="images\Captura de pantalla 2025-06-21 153614.png" alt= "evidencia de falta de alt">
 
 ### 6.4. Auditorías de experiencia de usuario
 
@@ -4534,42 +4637,58 @@ El objetivo del Continuous Deployment (CD) en HormonalCare es lograr que los cam
 
 ---
 
-### <img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" alt="GitHub Actions Logo" width="80"/> GitHub Actions
+<p align="center">
+ <img src="https://icon.icepanel.io/Technology/png-shadow-512/GitHub.png" alt="GitHub Actions Logo" width="80"/> </p>
+<p align="center">GitHub Actions</p>
 
 Automatiza el pipeline de integración y despliegue continuo (CI/CD) mediante workflows configurables.  
 En **HormonalCare**, cada cambio en la rama `develop` dispara la ejecución de pruebas automáticas, validaciones de calidad del código, construcción del proyecto y despliegue directo a los entornos de producción o pruebas.
 
 ---
-
-### <img src="https://logowik.com/content/uploads/images/301_docker.jpg" alt="Docker Logo" width="80"/> Docker
+<p align="center">
+ <img src="https://logowik.com/content/uploads/images/301_docker.jpg" alt="Docker Logo" width="80"/> </p>
+<p align="center">
+Docker
+</p>
 
 Permite contenerizar la aplicación backend desarrollada en Spring Boot.  
 Gracias a Docker, se garantiza que el entorno de desarrollo sea idéntico al de producción, facilitando la portabilidad, el control de versiones de imágenes y la escalabilidad de servicios en **HormonalCare**.
 
 ---
-
-### <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3HvVa5UCZAucCoKnA0owixY0dqaoYwdOxA&s" alt="Railway Logo" width="80"/> Railway
+<p align="center">
+ <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz3HvVa5UCZAucCoKnA0owixY0dqaoYwdOxA&s" alt="Railway Logo" width="80"/> </p>
+<p align="center">Railway</p>
 
 Plataforma de despliegue para el backend y gestión de bases de datos.  
 En **HormonalCare**, Railway aloja la base de datos MySQL y permite actualizaciones automáticas mediante migraciones. Además, ofrece monitoreo, backups automáticos y logs en tiempo real para mantener la disponibilidad del servicio.
 
 ---
-
-### <img src="https://logowik.com/content/uploads/images/vercel1868.jpg" alt="Vercel Logo" width="80"/> Vercel
+<p align="center">
+ <img src="https://logowik.com/content/uploads/images/vercel1868.jpg" alt="Vercel Logo" width="80"/> </p>
+<p align="center">
+Vercel
+</p>
 
 Utilizado para el despliegue continuo del frontend web de **HormonalCare**.  
 Al hacer push al repositorio, Vercel construye el proyecto automáticamente y lo publica en su CDN global, garantizando tiempos de carga óptimos y alta disponibilidad. Incluye invalidación de caché y soporte para pruebas automatizadas.
 
 ---
 
-### <img src="https://logo.clearbit.com/postman.com" alt="Postman Logo" width="80"/> Postman
+<p align="center">
+<img src="https://logo.clearbit.com/postman.com" alt="Postman Logo" width="80"/></p> 
+<p align="center"> Postman </p>
 
 Herramienta esencial para la validación y prueba de las APIs REST del backend.  
 En **HormonalCare**, Postman se emplea para ejecutar colecciones de pruebas automatizadas, monitorear endpoints críticos y validar el cumplimiento del contrato de datos con el frontend.
 
 ---
+<p align="center">
+<img src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png?hl=es-419" alt="Firebase Logo" width="80"/></p>
 
-### <img src="https://firebase.google.com/static/images/brand-guidelines/logo-vertical.png?hl=es-419" alt="Firebase Logo" width="80"/> Firebase (opcional)
+<p align="center">
+ Firebase (opcional)
+ </p>
+
 
 Utilizado en etapas tempranas de desarrollo para pruebas rápidas del frontend y simulación de autenticación y almacenamiento en tiempo real.  
 Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante la fase de prototipado para pruebas de interfaces y funcionalidades básicas.
@@ -4756,9 +4875,9 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 
 
 
-## Capítulo VIII: UX Research & Data Strategy
+## Capítulo VIII: Experiment-Driven Development
 
-### 8.1. As-Is Research
+### 8.1. Experiment Planning 
 #### 8.1.1. As-Is Summary
 
 **HormonalCare** es una aplicación digital diseñada para facilitar el monitoreo y tratamiento de enfermedades hormonales en Lima. A pesar de haber logrado implementar funcionalidades clave —como videoconsultas, seguimiento farmacológico, historial clínico y recordatorios—, todavía existen puntos críticos que impactan la experiencia del usuario.
@@ -4779,7 +4898,7 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 * Automatizar la carga e interpretación de exámenes médicos.
 * Potenciar la personalización y motivación del paciente.
 
-#### 8.1.2. Raw Material
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
 
 **Assumptions**:
 
@@ -4844,7 +4963,7 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 | 5         | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?         |
 
 
-#### Experiment Cards 
+#### 8.1.5. Experiment Cards 
 
 | Elemento       | Detalle                                                                                                                            |
 | -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
@@ -4925,7 +5044,7 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 | **Hypothesis** | El 80% de los casos críticos serán intervenidos antes de complicaciones gracias a alertas inteligentes. |
 
 
-### 8.2. Research Design
+### 8.2. Experiment Design 
 #### 8.2.1. Hypotheses
 
 #### Hypotheses 01

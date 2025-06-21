@@ -4376,16 +4376,40 @@ El líder del equipo, Diego Ulises Soto Quispe, asumió un rol clave a lo largo 
 | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Soto Quispe, Diego Ulises** | Coordinación del equipo, planificación general, organización de reuniones internas y externas, seguimiento del cronograma y cumplimiento de entregables.<br><br>Participación directa en los siguientes capítulos:<br>• 6.2: Static Testing & Verification<br>• 6.2.1: Análisis estático de código<br>• 6.2.2: Revisión por pares<br>• 6.3: Validation Interviews<br>• 7.1 y 7.2: CI/CD pipelines<br>• Apoyo transversal en estructura técnica y revisión de entregables | 0–20   | **20**             | Excelente liderazgo y gestión del equipo. Su rol fue determinante para mantener la cohesión, el enfoque metodológico y la calidad del proyecto. |
 
+<br>
+<br>
 
 **Auditoría de Brenda Lucía Gamio Upiachihua**<br>
 
 El líder del equipo, Diego Ulises Soto Quispe, mantuvo una comunicación efectiva y constante con todos los miembros del grupo. Desde el inicio del proyecto, se encargó de organizar las reuniones y de definir los cronogramas de trabajo en base a la disponibilidad de cada integrante. Destacó por su capacidad para resolver conflictos y brindar apoyo técnico en el análisis estático de código, entrevistas y DevOps.
 
-| Integrante                    | Capítulos trabajados y tareas gestionadas                                                                                                                                                   | Puntos | Calificación Final | Observaciones                                                                                   |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | ------------------ | ----------------------------------------------------------------------------------------------- |
-| **Soto Quispe, Diego Ulises** | Gestión integral del proyecto, monitoreo de entregables, guía metodológica en entrevistas de validación (6.3), asistencia en CI/CD (7.1, 7.2) y revisión de convenciones de código (6.2.1). | 0–20   | **20**             | Excelente coordinación general. Facilitó una experiencia colaborativa positiva y bien dirigida. |
 
----
+
+#### Entregable TB1
+
+| **Integrante**                        | **Capítulos asignados**                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|------------------------------------------|--------------------|----------|--------------------|
+| Soto Quispe, Diego Ulises     | Capítulo IV: Product Design | 0–20               | **20**   | Entregó el capítulo en el plazo acordado, bien estructurados y sin errores. Coordinó activamente con el equipo. |
+
+
+
+#### Entregable TP
+
+| **Integrante**                        | **Capítulos asignados**                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|------------------------------------------|--------------------|----------|--------------------|
+| Soto Quispe, Diego Ulises     | Capítulo VI: Testing Suites & Validation (6.1.4) | 0–20               | **20**   | Implementó correctamente las pruebas y subió las evidencias en GitHub. Coordinó bien con el resto del equipo. |
+
+
+
+#### Entregable TB2
+
+| **Integrante**                        | **Capítulos asignados**                                                                                                                                                 | **Escala (0-20)** | **Nota** | **Justificación** |
+|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|----------|--------------------|
+| Soto Quispe, Diego Ulises     | 6.2.1.2 Code Quality & Code Security<br>8.2.5 Methods Selection<br>8.2.6 Data Analytics: Goals, KPIs and Metrics Selection<br>8.2.7 Web and Mobile Tracking Plan<br>8.3.1 To-Be User Stories<br>8.3.2 To-Be Product Backlog | 0–20               | **20**   | Lideró correctamente la auditoría interna. Documentó bien el análisis As-Is y cumplió los plazos coordinados. |
+|
+
+<br>
+<br>
 
 **Auditoría de Abraham Andrés Estrada Cajamune**<br>
 

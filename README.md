@@ -4618,6 +4618,20 @@ Aunque **HormonalCare** no lo emplea en producción, Firebase fue útil durante 
 
 #### 7.4.1. Tools and Practices
 
+* **Pruebas de Carga y Estrés:** JMeter será utilizado para ejecutar pruebas de rendimiento y estrés en las versiones web y móvil de la aplicación. Esta plataforma facilita la simulación de múltiples usuarios accediendo al sistema al mismo tiempo, un aspecto crítico para asegurar que la aplicación funcione correctamente incluso con un tráfico elevado. En el caso específico de la app móvil, JMeter permite desarrollar scripts que repliquen las acciones de los usuarios, lo que ayuda a analizar cómo responde la plataforma bajo distintos niveles de demanda. <br><br>
+  
+* **Monitoreo de la Experiencia del Usuario:** 
+  * Firebase Analytics: Utilizado tanto para la aplicación móvil como para la web, Firebase Analytics proporciona un análisis detallado sobre cómo los usuarios interactúan con la aplicación. Permite medir eventos, comportamientos de navegación, conversiones y más, brindando una visión completa del uso de la app en ambas plataformas. Esto permite optimizar la interfaz de usuario y la experiencia general del usuario de manera continua.
+  * Sentry: Se integra tanto en la aplicación móvil (Flutter) como en la versión web para monitorear los errores en tiempo real. En ambos entornos, Sentry recopila información detallada sobre las excepciones, fallos y errores no manejados, proporcionando datos que facilitan la resolución rápida de problemas. También permite rastrear problemas recurrentes y establecer prioridades según el impacto. <br><br>
+
+* **Supervisión de APIs:**
+  * Postman: Se utilizará para realizar pruebas de funcionalidad y validar la correcta interacción entre la aplicación y las APIs. Esto incluye verificar endpoints, respuestas HTTP, autenticación y manejo de errores.
+  * Pingdom: Proporcionará monitoreo en tiempo real, generando métricas clave como tiempo de respuesta, disponibilidad y latencia de las APIs. Esto permitirá detectar rápidamente caídas de servicio o cuellos de botella que afecten el rendimiento. <br><br>
+
+* **Auditorías de Calidad Web y Accesibilidad:**
+  * Redline13: Plataforma que permite realizar pruebas de carga en la web a gran escala. Esta herramienta es especialmente útil para probar cómo la aplicación web maneja un alto volumen de tráfico. Se puede simular miles de usuarios simultáneamente y medir la capacidad de la aplicación para manejar múltiples solicitudes.
+  * WebPageTest: Se utilizará para evaluar la velocidad y el rendimiento de la aplicación web. Permite realizar pruebas desde diferentes ubicaciones geográficas y con distintos navegadores, lo que ayuda a evaluar el rendimiento de tu página web en diferentes condiciones y para distintos usuarios. <br><br>
+
 #### 7.4.2. Monitoring Pipeline Components
 
 #### 7.4.3. Alerting Pipeline Components

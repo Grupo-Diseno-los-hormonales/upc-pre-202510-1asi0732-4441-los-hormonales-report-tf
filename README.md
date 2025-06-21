@@ -4122,34 +4122,52 @@ Para guiar las entrevistas se definió un conjunto de preguntas clave, enfocadas
 
 ### 6.3.2. Registro de entrevistas
 
+## **Entrevistas – HormonalCare**
 
-**Entrevista 01**
+### **Entrevista 01**
 
-| Campo                       | Detalle                                                                                                                                                                                                      |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Nombres**                 | Arnhol Alfredo                                                                                                                                                                                                      |
-| **Apellidos**               | Castrejon Calderon                                                                                                                                                                                             |
-| **Edad**                    | 20                                                                                                                                                                                                           |
-| **Distrito**                | La Victoria                                                                                                                                                                                                   |
-| **Duración**                     | 15:35                                                                                                                                                                                                        |
-| **Enlace de entrevista**    | [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EQU8DbvL49ZMpXacTmDf7b4BSl_CZETfxfyr0lKpP9SsWQ?e=YYByfP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EQU8DbvL49ZMpXacTmDf7b4BSl_CZETfxfyr0lKpP9SsWQ?e=YYByfP)                                                                                                                     |
-| **Imagen de la reunión**    | ![Entrevista Arnhol](assets/images/entrevista_validacion_paciente1.png)                                                                                                                                  |
-| **Resumen**                 |Durante la entrevista, Arnhol expresó una impresión muy positiva sobre la aplicación HormonalCare, destacando especialmente el diseño visual y la claridad en la navegación. Señaló que la app cumple adecuadamente con su propósito de atender las necesidades de pacientes con enfermedades hormonales, y valoró particularmente la funcionalidad que permite mostrar la medicación asignada al paciente. Como sugerencia, propuso incluir un sistema de reseñas o comentarios para que los pacientes puedan calificar y compartir su experiencia con los médicos. En general, consideró que la app es completa, funcional y bien estructurada.  |
+| Campo                    | Detalle                                                                                                                                                                                                      |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombres**              | Arnhol Alfredo                                                                                                                                                                                               |
+| **Apellidos**            | Castrejon Calderon                                                                                                                                                                                           |
+| **Edad**                 | 20                                                                                                                                                                                                           |
+| **Distrito**             | La Victoria                                                                                                                                                                                                  |
+| **Duración**             | 15:35                                                                                                                                                                                                        |
+| **Enlace de entrevista** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202218451_upc_edu_pe/EQU8DbvL49ZMpXacTmDf7b4BSl_CZETfxfyr0lKpP9SsWQ?e=YYByfP)                                                            |
+| **Imagen de la reunión** | ![Entrevista Arnhol](assets/images/entrevista_validacion_paciente1.png)                                                                                                                                    |
+| **Resumen**              | Durante la entrevista, Arnhol expresó una impresión muy positiva sobre la aplicación HormonalCare, destacando especialmente el diseño visual y la claridad en la navegación. Señaló que la app cumple adecuadamente con su propósito de atender las necesidades de pacientes con enfermedades hormonales, y valoró particularmente la funcionalidad que permite mostrar la medicación asignada al paciente. Como sugerencia, propuso incluir un sistema de reseñas o comentarios para que los pacientes puedan calificar y compartir su experiencia con los médicos. En general, consideró que la app es completa, funcional y bien estructurada. |
 
+---
 
+### **Entrevista 02**
 
-**Entrevista 02**
+| Campo                    | Detalle                                                                                                                                                                                                                         |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombres**              | Joaquín                                                                                                                                                                                                                         |
+| **Apellidos**            | Rivadeneyra Ramos                                                                                                                                                                                                               |
+| **Edad**                 | 20                                                                                                                                                                                                                              |
+| **Distrito**             | Monterrico                                                                                                                                                                                                                      |
+| **Duración**             | 08:31                                                                                                                                                                                                                           |
+| **Enlace de entrevista** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201500225_upc_edu_pe/ETCzYsdaNZpMtbF533iyvl4B4IkH6_SKwwVf1-7kGfGhYA?e=CgGgQs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Imagen de la reunión** | ![Entrevista Joaquín](assets/images/joaquin.png)                                                                                                                                                                                |
+| **Resumen**              | Joaquín destacó lo intuitivo y fácil uso de la app. Sugirió agregar una mejor forma de mostrar el historial clínico del paciente, más simplificada. Además de hacer cada cita más reconocible (una primera cita, cita de seguimiento, etc). Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente después de cada cita con su paciente. |
 
-| Campo                       | Detalle                                                                                                                                                                                                                         |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Nombres**                 | Joaquín                                                                                                                                                                                                                           |
-| **Apellidos**               | Rivadeneyra Ramos                                                                                                                                                                                                                  |
-| **Edad**                    | 20                                                                                                                                                                                                                              |
-| **Distrito**                | Monterrico                                                                                                                                                                                                                      |
-| **Duración**                     | 08:31                                                                                                                                                                                                                           |
-| **Enlace de entrevista**    | [Entrevista Joaquín](https://upcedupe-my.sharepoint.com/:v:/g/personal/u201500225_upc_edu_pe/ETCzYsdaNZpMtbF533iyvl4B4IkH6_SKwwVf1-7kGfGhYA?e=CgGgQs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)                                                                                                                                            |
-| **Imagen de la reunión**    | ![Entrevista Joaquín](assets/images/joaquin.png)                                                                                                                                                    |
-| **Resumen**                 | Joaquín destacó lo intuitivo y fácil uso de la app. Sugirió agregar una mejor forma de mostrar el historial clínico del paciente, más simplificada. Además de hacer cada cita más reconocible (una primera cita, cita de seguimiento, etc). Le gustó la interfaz limpia, pero considera útil una sección de "anotaciones clínicas" por paciente después de cada cita con su paciente. |
+---
+
+### **Entrevista 03**
+
+| Campo                    | Detalle                                                                                                                                                                                                                          |
+|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Nombres**              | Pilar                                                                                                                                                                                                                            |
+| **Apellidos**            | Campos Rodríguez                                                                                                                                                                                                                 |
+| **Edad**                 | 31                                                                                                                                                                                                                               |
+| **Distrito**             | Surco                                                                                                                                                                                                                            |
+| **Duración**             | 12:10                                                                                                                                                                                                                            |
+| **Enlace de entrevista** | [Ver entrevista](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202214477_upc_edu_pe/EYvPMZ0pZgdJjUW_VxJ8P9UBTmW7CoSu2edNI6ULpfXoTw?e=tljciY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
+| **Imagen de la reunión** | ![Entrevista Pilar](assets/images/pilar2.png)                                                                                                                                                                                     |
+| **Resumen**              | Pilar comentó que la app HormonalCare le pareció moderna y bien pensada, especialmente para pacientes que necesitan control periódico. Apreció que las funciones están bien distribuidas y que todo es accesible desde el menú principal. Como sugerencia, propuso incorporar un sistema de alertas o recordatorios para medicamentos y citas próximas. También mencionó que sería útil incluir una sección educativa con consejos o artículos sobre enfermedades hormonales. En general, calificó la experiencia como clara, útil y centrada en el bienestar del paciente. |
+
+---
 
 
 ### 6.3.3. Evaluaciones según heurísticas

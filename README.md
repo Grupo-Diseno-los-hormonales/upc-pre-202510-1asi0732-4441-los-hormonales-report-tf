@@ -4707,6 +4707,34 @@ La combinación de Firebase Crashlytics, Sentry, y New Relic permite al equipo d
 
 #### 7.4.4. Notification Pipeline Components
 
+La implementación de un pipeline de notificaciones es fundamental para mantener informado al equipo de desarrollo sobre el estado del sistema y sus componentes. En el contexto de **HormonalCare**, se ha optado por integrar la herramienta **Sentry**, la cual permite detectar, registrar y notificar errores en tiempo real durante la ejecución de la aplicación, tanto en el entorno web como móvil.
+
+Sentry se integra fácilmente con frameworks modernos como Angular y Flutter, y ofrece soporte para monitoreo del lado cliente y servidor. En nuestro caso, fue implementado directamente en el frontend Angular del sistema, permitiendo capturar excepciones no controladas con información detallada como:
+
+- Tipo de error y descripción
+- Stack trace completo
+- Navegador, sistema operativo y versión
+- Ruta o página donde ocurrió el error
+- Dirección IP y entorno (`production` o `development`)
+- Frecuencia y usuarios impactados
+
+Esta información es clave para diagnosticar con rapidez la raíz del problema y reducir significativamente los tiempos de respuesta ante fallos.
+
+##### Integración y verificación
+
+Para verificar la correcta integración del pipeline de notificaciones, se introdujo un error de prueba desde el componente principal de la aplicación (`AppComponent`). Al ejecutar este error intencional, Sentry generó una entrada en su consola de monitoreo, capturando automáticamente el evento junto a todos los metadatos relevantes.
+
+A continuación se muestra la evidencia del error capturado:
+
+<p align="center">
+  <img src="assets/images/sentry_error_evidencia.png" alt="Error de prueba capturado por Sentry" width="700"/>
+</p>
+
+> **Figura 1**. Captura del error de prueba "Sentry Test Error" visualizado en la plataforma Sentry.
+
+##### Conclusión
+
+Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un mecanismo de notificación en tiempo real que permite detectar y diagnosticar errores antes de que escalen o afecten de forma masiva a los usuarios. Esto refuerza la estrategia de observabilidad del sistema y promueve una gestión proactiva de la calidad del software.
 
 
 

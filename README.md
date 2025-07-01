@@ -11,7 +11,7 @@
 
 <h1 align="center">Diseño de Experimentos de Ingeniería de Software</h1>
 
-<h2 align="center">TB2 REPORT</h2>
+<h2 align="center">TF REPORT</h2>
 
 <p align="center"><strong>Código:</strong> 1ASI0732 </p>
 <p align="center"><strong>Sección:</strong> 4441 </p>
@@ -38,12 +38,12 @@
 
 ## Registro de versiones del informe
 
-| Versión | Fecha       | Autor         | Descripción de la modificación |
-|:-------:|:-----------:|:-------------:|:-------------------------------:|
-| TB1     | 26/04/2025  | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
-| TP    | 17/05/2025  | Los Hormonales | El equipo realizó la entrega del TP, que incluye los capítulos VI y VII completos. |
-| TB2 v1 | 10/06/2025  | Los Hormonales | El equipo realizó la entrega del TB2, que incluye los puntos 6.2, 6.3, 6.4, el punto 7.4 y el capítulo VIII.|
-| TB2 v2  | 18/06/2025  | Los Hormonales | El equipo realizó los puntos asignados del capítulo VIII. |
+| Versión |   Fecha    | Autor         | Descripción de la modificación |
+|:-------:|:----------:|:-------------:|:-------------------------------:|
+|   TB1   | 26/04/2025 | Los Hormonales | El equipo realizó la entrega del TB1, que incluye los capítulos I, II, III, IV y V completos. |
+|   TP    | 17/05/2025 | Los Hormonales |  El equipo realizó la entrega del TP, que incluye los capítulos V (hasta el 5.2.8), VI y VII completos. |
+|   TB2   | 10/06/2025 | Los Hormonales | El equipo realizó la entrega del TB2, que incluye los capítulos VI, VII y VIII completos.|
+|   TF    | 01/07/2025 | Los Hormonales | El equipo realizó la entrega del TF, que incluye los capítulos 8.3, 8.4, 8.5 y 8.6 completos. |
 
 ## Project Report Collaboration Insights
 
@@ -80,6 +80,14 @@ Este enfoque fortaleció el trabajo en equipo y permitió mantener un desarrollo
 El equipo trabajó de manera colaborativa mediante el uso de GitHub, donde cada integrante aportó a través de commits y revisiones continuas. La coordinación se mantuvo a través de reuniones frecuentes por Discord, permitiendo asignar responsabilidades específicas de forma equitativa. Además del trabajo individual, también se realizaron tareas grupales clave como el diseño y registro de entrevistas. Como evidencia del compromiso y esfuerzo colectivo, se adjunta el gráfico de actividad del repositorio del equipo.
 
 <div align="center"> <img src="assets/images/reporttb2.png"> </div>
+
+**TF**: Para esta entrega final del **Trabajo Final (TF)**, presentamos la culminación de los capítulos **8.3, 8.4, 8.5 y 8.6**, los cuales abarcan desde la **experimentación con la plataforma**, **análisis de resultados**, **aprendizajes compartidos** hasta la **preparación final del producto**.
+
+El equipo trabajó de forma colaborativa usando un repositorio central en GitHub, donde cada integrante contribuyó activamente mediante **commits**, **validaciones de pruebas** y **mejoras en la documentación**. Las reuniones periódicas permitieron mantener una coordinación eficiente y distribuir las responsabilidades de forma equitativa.
+
+Como evidencia de nuestra participación, incluimos el gráfico actualizado de commits del repositorio para esta entrega final:
+
+
 
 # Contenido
 
@@ -282,12 +290,13 @@ El curso contribuye al cumplimiento del Student Outcome ABET:
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 
-| **Criterio específico**                                                                                                                                        | **Acciones realizadas**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      | **Conclusiones**                                                                                                                                                                                                             |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **c1. Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software**                                                                  | **Astuyauri Calderón, Jherson David:**<br>- TB1: Lideré la elaboración del Problem Statement, asegurando que el planteamiento reflejara éticamente las necesidades reales de los usuarios, evitando sesgos o manipulaciones.<br>- TP: Implementé pruebas BDD (6.1.3) para validar escenarios fieles al comportamiento esperado.<br>- TB2: Documentó la auditoría realizada (6.4.1) con objetividad, transparencia y respeto al trabajo de otros equipos.<br>  - Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3 como responsable de auditoría realizada.<br>  - Desarrolló la fase de experiment planning con los entregables 8.1.1, 8.1.2, 8.1.3 y 8.1.4.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Reflejó con respeto y confidencialidad las opiniones en análisis de entrevistas.<br>- TP: Validó pruebas de integración (6.1.2) asegurando correspondencia con el flujo real sin omitir errores.<br>- TB2: Participó en las evaluaciones heurísticas (6.3.3), brindando retroalimentación profesional basada en principios éticos.<br>  - Encargado del bloque 6.3.3 sobre validación UX.<br>  - Implementó el sistema completo de monitoreo continuo: 7.4, 7.4.1, 7.4.2, 7.4.3, 7.4.4.<br>  - Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Diseñó Empathy Map y User Personas fieles a los sentimientos de usuarios.<br>- TP: Coordinó pruebas unitarias (6.1.1) documentando sesgos y promoviendo transparencia.<br>- TB2: Coordinó la auditoría recibida (6.4.2), promoviendo una actitud abierta a la crítica y asegurando respeto mutuo.<br>  - Ejecutó la auditoría recibida: 6.4.2, 6.4.2.1, 6.4.2.2, 6.4.2.3 y 6.4.2.4.<br>  - Fue responsable de los entregables de diseño experimental: 8.2.1 y 8.2.2.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: Planteó hipótesis éticas en Lean UX Canvas.<br>- TP: Supervisó despliegue continuo (7.3.2) asegurando que versiones liberadas no afectaran negativamente la experiencia.<br>- TB2: Aplicó buenas prácticas en el análisis estático del código (6.2.1) fomentando responsabilidad técnica en la revisión interna.<br>  - Responsable de asegurar la calidad y seguridad del código (6.2.1.2).<br>  - Lideró el diseño de métodos (8.2.5), análisis de KPIs (8.2.6) y tracking web/mobile (8.2.7).<br>  - Redactó las historias de usuario To-Be (8.3.1) y el nuevo backlog (8.3.2). | TB1: Actuar éticamente en definición y análisis genera confianza y transparencia.<br>TP: Compromiso ético en validación y despliegue garantiza calidad sin comprometer seguridad ni privacidad.<br>TB2: El equipo demostró compromiso con la ética profesional al realizar validaciones cruzadas, auditorías y revisiones técnicas, fortaleciendo la transparencia y el respeto entre pares. |
-| **c2. Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Astuyauri Calderón, Jherson David:**<br>- TB1: Propuso soluciones accesibles de telemedicina para personas con recursos limitados en Lean UX Hypothesis.<br>- TP: Diseñó pruebas simulando baja conectividad (6.1.4) para funcionamiento en zonas rurales.<br>- TB2: Estableció métricas inclusivas en el tracking plan (8.2.7) para garantizar representatividad de usuarios diversos.<br>  - Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3 como responsable de auditoría realizada.<br>  - Desarrolló la fase de experiment planning con los entregables 8.1.1, 8.1.2, 8.1.3 y 8.1.4.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- TB1: Evaluó reducción de tiempos en To-Be Mapping para mejorar acceso a salud.<br>- TP: Diseñó pipelines eficientes (7.2.2) para acelerar entrega en situaciones críticas.<br>- TB2: Participó en la selección de métodos de experimentación (8.2.5) priorizando eficiencia y aplicabilidad.<br>  - Encargado del bloque 6.3.3 sobre validación UX.<br>  - Implementó el sistema completo de monitoreo continuo: 7.4, 7.4.1, 7.4.2, 7.4.3, 7.4.4.<br>  - Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- TB1: Propuso estrategias inclusivas para atención en zonas marginadas.<br>- TP: Adaptó pruebas unitarias para bajo rendimiento, promoviendo accesibilidad.<br>- TB2: Evaluó los resultados de los experimentos (8.4.1) considerando su aplicabilidad en distintos escenarios sociales.<br>  - Ejecutó la auditoría recibida: 6.4.2, 6.4.2.1, 6.4.2.2, 6.4.2.3 y 6.4.2.4.<br>  - Fue responsable de los entregables de diseño experimental: 8.2.1 y 8.2.2.<br><br>**Soto Quispe, Diego Ulises:**<br>- TB1: En Impact Mapping, propuso acciones para minimizar impacto ambiental.<br>- TP: Coordinó automatización en nube para reducir consumo de recursos físicos y huella ecológica.<br>- TB2: Configuró prácticas sostenibles de monitoreo continuo (7.4), minimizando alertas innecesarias y consumo de recursos.<br>  - Responsable de asegurar la calidad y seguridad del código (6.2.1.2).<br>  - Lideró el diseño de métodos (8.2.5), análisis de KPIs (8.2.6) y tracking web/mobile (8.2.7).<br>  - Redactó las historias de usuario To-Be (8.3.1) y el nuevo backlog (8.3.2). | TB1: Las soluciones deben maximizar beneficios sociales y económicos, minimizando impactos ambientales.<br>TP: Prácticas de testing y DevOps con perspectiva sostenible favorecen software accesible y con impacto positivo.<br>TB2: Las acciones tomadas reflejan una toma de decisiones consciente del entorno, con soluciones de software inclusivas, sostenibles y de impacto positivo para el usuario final y el ecosistema tecnológico. |
+### Tabla de Evaluación Ética y de Impacto del Trabajo Final (TF)
 
----
+
+| **Criterio específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|--------------------------|-------------------|
+| **c1. Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** | **Astuyauri Calderón, Jherson David:**<br>- **TB1:** Lideré la elaboración del Problem Statement, asegurando que el planteamiento reflejara éticamente las necesidades reales de los usuarios, evitando sesgos o manipulaciones.<br>- **TP:** Implementé pruebas BDD (6.1.3) para validar escenarios fieles al comportamiento esperado.<br>- **TB2:** Documentó la auditoría realizada (6.4.1) con objetividad, transparencia y respeto al trabajo de otros equipos.<br>Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3 como responsable de auditoría realizada.<br>Desarrolló la fase de experiment planning con los entregables 8.1.1, 8.1.2, 8.1.3 y 8.1.4.<br>- **TF:** Asumió el desarrollo del backend (8.3.3.5) aplicando buenas prácticas éticas en el manejo de datos y APIs, y redactó el entregable 8.3.6, mostrando compromiso con la transparencia en la colaboración técnica entre el equipo.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- **TB1:** Reflejó con respeto y confidencialidad las opiniones en análisis de entrevistas.<br>- **TP:** Validó pruebas de integración (6.1.2) asegurando correspondencia con el flujo real sin omitir errores.<br>- **TB2:** Participó en las evaluaciones heurísticas (6.3.3), brindando retroalimentación profesional basada en principios éticos.<br>Encargado del bloque 6.3.3 sobre validación UX.<br>Implementó el sistema completo de monitoreo continuo: 7.4, 7.4.1, 7.4.2, 7.4.3, 7.4.4.<br>Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br>- **TF:** Desarrolló el frontend web (8.3.3.3) siguiendo lineamientos de usabilidad y accesibilidad, y gestionó el entregable 8.5.1 con reflexiones éticas sobre su experiencia en el desarrollo.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- **TB1:** Diseñó Empathy Map y User Personas fieles a los sentimientos de usuarios.<br>- **TP:** Coordinó pruebas unitarias (6.1.1) documentando sesgos y promoviendo transparencia.<br>- **TB2:** Coordinó la auditoría recibida (6.4.2), promoviendo una actitud abierta a la crítica y asegurando respeto mutuo.<br>Ejecutó la auditoría recibida: 6.4.2, 6.4.2.1, 6.4.2.2, 6.4.2.3 y 6.4.2.4.<br>Responsable de los entregables de diseño experimental: 8.2.1 y 8.2.2.<br>- **TF:** Implementó el pipeline de trabajo (8.3.3), organizó el Sprint Backlog (8.3.3.1) y desarrolló la versión móvil (8.3.3.4), gestionando de forma ética la asignación y cumplimiento de tareas según las capacidades del equipo.<br><br>**Soto Quispe, Diego Ulises:**<br>- **TB1:** Planteó hipótesis éticas en Lean UX Canvas.<br>- **TP:** Supervisó despliegue continuo (7.3.2) asegurando que versiones liberadas no afectaran negativamente la experiencia.<br>- **TB2:** Aplicó buenas prácticas en el análisis estático del código (6.2.1) fomentando responsabilidad técnica en la revisión interna.<br>Responsable de asegurar la calidad y seguridad del código (6.2.1.2).<br>Lideró el diseño de métodos (8.2.5), análisis de KPIs (8.2.6) y tracking web/mobile (8.2.7).<br>Redactó las historias de usuario To-Be (8.3.1) y el nuevo backlog (8.3.2).<br>- **TF:** Analizó los resultados experimentales (8.4.1), re-priorizó el backlog (8.4.2) y desarrolló la landing page (8.3.3.2), actuando con rigor metodológico y cuidando la trazabilidad ética de cada decisión. | **TB1:** Actuar éticamente en definición y análisis genera confianza y transparencia.<br>**TP:** Compromiso ético en validación y despliegue garantiza calidad sin comprometer seguridad ni privacidad.<br>**TB2:** El equipo demostró compromiso con la ética profesional al realizar validaciones cruzadas, auditorías y revisiones técnicas.<br>**TF:** Cada integrante aplicó su responsabilidad técnica respetando criterios éticos en diseño, desarrollo y validación, mostrando madurez profesional y transparencia en la toma de decisiones. |
+| **c2. Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales** | **Astuyauri Calderón, Jherson David:**<br>- **TB1:** Propuso soluciones accesibles de telemedicina para personas con recursos limitados en Lean UX Hypothesis.<br>- **TP:** Diseñó pruebas simulando baja conectividad (6.1.4) para funcionamiento en zonas rurales.<br>- **TB2:** Estableció métricas inclusivas en el tracking plan (8.2.7) para garantizar representatividad de usuarios diversos.<br>Elaboró los entregables 6.2.1.1, 6.4.1, 6.4.1.1, 6.4.1.2, 6.4.1.3.<br>Desarrolló la fase de experiment planning con 8.1.1 a 8.1.4.<br>- **TF:** En el backend (8.3.3.5), planteó arquitecturas escalables y reutilizables para atender tanto a centros urbanos como zonas rurales; y en 8.3.6 documentó decisiones inclusivas del equipo para todos los contextos de uso.<br><br>**Estrada Cajamune, Abraham Andrés:**<br>- **TB1:** Evaluó reducción de tiempos en To-Be Mapping para mejorar acceso a salud.<br>- **TP:** Diseñó pipelines eficientes (7.2.2) para acelerar entrega en situaciones críticas.<br>- **TB2:** Participó en la selección de métodos de experimentación (8.2.5) priorizando eficiencia y aplicabilidad.<br>Encargado del bloque 6.3.3.<br>Implementó monitoreo completo: 7.4 a 7.4.4.<br>Apoyó en diseño experimental con 8.2.3 y 8.2.4.<br>- **TF:** Desde el frontend (8.3.3.3), planteó interfaces accesibles adaptadas a distintos niveles de alfabetización digital; y reflexionó en 8.5.1 sobre el impacto social del software en la salud.<br><br>**Gamio Upiachihua, Brenda Lucía:**<br>- **TB1:** Propuso estrategias inclusivas para atención en zonas marginadas.<br>- **TP:** Adaptó pruebas para bajo rendimiento.<br>- **TB2:** Evaluó resultados experimentales (8.4.1) considerando su aplicabilidad en distintos contextos.<br>Ejecutó auditoría recibida.<br>Responsable de diseño experimental 8.2.1 y 8.2.2.<br>- **TF:** En 8.3.3 lideró un pipeline flexible, y en 8.3.3.4 desarrolló una app móvil funcional con bajo consumo de datos, facilitando la llegada a usuarios sin acceso constante a internet.<br><br>**Soto Quispe, Diego Ulises:**<br>- **TB1:** En Impact Mapping, propuso acciones para minimizar impacto ambiental.<br>- **TP:** Coordinó automatización en nube para reducir huella ecológica.<br>- **TB2:** Configuró prácticas sostenibles de monitoreo continuo.<br>Diseñó métodos (8.2.5), KPIs (8.2.6) y tracking (8.2.7).<br>Redactó To-Be Stories y backlog (8.3.1 y 8.3.2).<br>- **TF:** En 8.4.1 y 8.4.2 analizó datos de experimentos considerando impacto generalizable; y en 8.3.3.2 desarrolló la landing page con estrategias de accesibilidad y eficiencia visual. | **TB1:** Las soluciones planteadas fueron diseñadas considerando su efecto en comunidades con limitaciones de acceso, economía o tecnología.<br>**TP:** Las pruebas y prácticas de DevOps tuvieron en cuenta realidades complejas de usuarios diversos.<br>**TB2:** El equipo trabajó alineado a objetivos inclusivos, eficientes y sostenibles.<br>**TF:** Cada integrante consideró el impacto de sus decisiones en el bienestar del usuario final, priorizando accesibilidad, inclusión y sostenibilidad en diseño, funcionalidades y despliegue. |
 
 ## Capítulo I: Introducción
 
@@ -5484,33 +5493,202 @@ Como parte del enfoque de desarrollo impulsado por experimentos, esta sección p
 
 #### 8.3.1. To-Be User Stories
 
-| User Story ID | Título                                                       | Descripción                                                                                                                                           | Criterios de Aceptación                                                                                                                                                                                                                                  | Relacionado con (Epic ID) |
-|---------------|--------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------|
-| UA01          | Activar modo oscuro automático                               | Como usuario, quiero que la app active el modo oscuro automáticamente según la hora del día, para mejorar mi experiencia visual.                      | Escenario: Activar modo oscuro automático<br>Given que estoy usando la app,<br>When son las 18:00 hrs o más,<br>Then la app activa automáticamente el modo oscuro.                                                                                       | EP01                      |
-| UA02          | Recordatorios inteligentes por correo electrónico            | Como paciente, quiero recibir correos de recordatorio antes de mis citas, para no olvidarlas.                                                         | Escenario: Envío de recordatorio<br>Given que tengo una cita programada,<br>When faltan 24h,<br>Then recibo un correo automático con los detalles.                                                                                                       | EP07                      |
-| UA03          | Visualizar resumen semanal de progreso                       | Como paciente, quiero ver un resumen semanal de mis hábitos y seguimiento, para entender mi evolución.                                               | Escenario: Acceso a resumen semanal<br>Given que he usado la app durante la semana,<br>When ingreso a la sección de seguimiento,<br>Then puedo ver un gráfico con mis datos diarios y totales.                                                          | EP09                      |
-| UA04          | Filtrar historial médico por fecha                           | Como médico, quiero filtrar el historial de un paciente por rango de fechas, para encontrar información específica más fácilmente.                   | Escenario: Filtrado de historial<br>Given que estoy revisando un historial clínico,<br>When selecciono un rango de fechas,<br>Then solo se muestran los datos registrados en ese periodo.                                                               | EP04                      |
-| UA05          | Añadir etiquetas a pacientes para clasificación rápida       | Como médico, quiero poder etiquetar pacientes con palabras clave, para clasificar mi lista de manera más organizada.                                 | Escenario: Asignación de etiquetas<br>Given que visualizo la lista de pacientes,<br>When selecciono un paciente,<br>Then puedo añadir una etiqueta como “prioritario”, “nueva cita”, etc.                                                               | EP04                      |
-| UA06          | Configurar horarios de atención                              | Como médico, quiero poder establecer mis horas disponibles desde la app, para que los pacientes reserven solo en esos horarios.                      | Escenario: Establecer disponibilidad<br>Given que soy médico registrado,<br>When ingreso a configuración de agenda,<br>Then puedo seleccionar mis horarios semanales disponibles.                                                                         | EP03                      |
-| UA07          | Resumen de actividad administrativa semanal                  | Como administrador, quiero recibir un resumen semanal de accesos, citas y alertas, para evaluar el rendimiento general del sistema.                   | Escenario: Generación de informe<br>Given que finaliza la semana,<br>When accedo al panel de administración,<br>Then puedo ver un resumen descargable de actividad semanal.                                                                               | EP05                      |
-| UA08          | Notificar cambios de horario a usuarios                      | Como administrador, quiero notificar a usuarios si se realiza una reprogramación o cancelación, para evitar confusiones.                             | Escenario: Cambio de horario<br>Given que una cita ha sido reprogramada o cancelada,<br>When se guarda el cambio,<br>Then los usuarios involucrados reciben una notificación automática.                                                                 | EP05                      |
-| UA09          | Acceder a estadísticas de efectividad de tratamientos        | Como médico, quiero ver qué porcentaje de pacientes siguen correctamente sus tratamientos, para tomar mejores decisiones clínicas.                   | Escenario: Visualizar métricas<br>Given que estoy en la sección de pacientes,<br>When accedo al resumen de estadísticas,<br>Then puedo ver gráficos sobre cumplimiento de rachas y carga de exámenes.                                                   | EP09                      |
-| UA10          | Historial de chats con usuarios                              | Como administrador, quiero tener acceso al historial de chats con usuarios para dar seguimiento a quejas o solicitudes anteriores.                    | Escenario: Acceder al historial de soporte<br>Given que accedo a un ticket o usuario,<br>When abro su historial,<br>Then puedo leer todas las conversaciones previas almacenadas cronológicamente.                                                       | EP05                      |
-
+| ID   | Título                                            | Descripción                                                                                          | Criterios de Aceptación                                                                                         | Epic |
+|------|---------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------|
+| UA01 | Activar modo oscuro manualmente                   | Como visitante, paciente, doctor y administrador, quiero activar o desactivar el modo oscuro desde configuración, para cuidar mi vista. | Given que ingreso a Configuración. When activo el botón “Modo Oscuro”. Then la interfaz cambia a modo oscuro.   | EP01 |
+| UA02 | Cambiar idioma de la app                          | Como visitante, paciente, doctor y administrador, quiero cambiar el idioma de la app a inglés, para usarla en el idioma que prefiera. | Given que ingreso a Configuración. When selecciono “Inglés”. Then toda la interfaz cambia a ese idioma.         | EP01 |
+| UA03 | Ver saludo personalizado con nombre               | Como paciente, doctor y administrador, quiero ver un saludo con mi nombre al ingresar, para sentirme reconocido. | Given que inicio sesión. When entro al dashboard. Then aparece “Hola, [nombre]”.                                | EP01 |
+| UA04 | Mostrar etiqueta “Hoy” en citas del día actual    | Como paciente, doctor y administrador, quiero que las citas del día estén marcadas con “Hoy”, para identificarlas fácilmente. | Given que estoy en la lista de citas. When una cita es para hoy. Then se le añade un texto o ícono “Hoy”.       | EP03 |
+| UA05 | Mostrar última fecha de acceso del usuario        | Como paciente, doctor y administrador, quiero ver la última vez que ingresé, para tener control sobre mis accesos. | Given que ingreso al sistema. When llego al dashboard. Then aparece un texto como “Último acceso: [fecha y hora]”. | EP01 |
+| UA06 | Ver ícono de verificado en médicos confirmados    | Como paciente, quiero ver un ícono de “verificado” en médicos aprobados, para tener más confianza.   | Given que veo una lista de médicos. When uno está verificado. Then aparece un ícono junto a su nombre.         | EP10 |
+| UA07 | Confirmación antes de salir de la app             | Como paciente, doctor y administrador, quiero que la app me pregunte si deseo salir, para evitar cerrar por error. | Given que toco “Salir” o uso botón atrás. When aún estoy en sesión. Then aparece una ventana de confirmación.  | EP01 |
+| UA08 | Mostrar pestaña destacada según módulo abierto    | Como paciente, doctor y administrador, quiero que la sección actual aparezca resaltada, para saber en qué parte de la app estoy. | Given que navego por la app. When estoy en una sección. Then el botón correspondiente aparece resaltado.     | EP01 |
+| UA09 | Agregar botón “Volver al inicio” en scroll largo  | Como paciente, doctor y administrador, quiero un botón que me lleve al inicio en pantallas largas, para ahorrar tiempo. | Given que estoy en una vista larga. When scrolleo hasta abajo. Then aparece un botón flotante “↑ Inicio”.       | EP01 |
+| UA10 | Ver estado “en línea” del médico                  | Como paciente, quiero ver si el médico está conectado, para saber si puedo enviarle un mensaje.      | Given que entro a la vista del médico. When está en línea. Then aparece un punto verde o “En línea”.           | EP05 |
 
 #### 8.3.2. To-Be Product Backlog
-| # | User Story ID | Título                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
-|---|---------------|--------------------------------------------------------------|----------------------------------|
-| 1 | UA01          | Activar modo oscuro automático                               | 2                                |
-| 2 | UA02          | Recordatorios inteligentes por correo electrónico            | 3                                |
-| 3 | UA03          | Visualizar resumen semanal de progreso                       | 5                                |
-| 4 | UA04          | Filtrar historial médico por fecha                           | 3                                |
-| 5 | UA05          | Añadir etiquetas a pacientes para clasificación rápida       | 3                                |
-| 6 | UA06          | Configurar horarios de atención                              | 3                                |
-| 7 | UA07          | Resumen de actividad administrativa semanal                  | 5                                |
-| 8 | UA08          | Notificar cambios de horario a usuarios                      | 2                                |
-| 9 | UA09          | Acceder a estadísticas de efectividad de tratamientos        | 3                                |
-|10 | UA10          | Historial de chats con usuarios                              | 3                                |
+| #  | User Story ID | Título                                           | Story Points (1 / 2 / 3 / 5 / 8) |
+|----|----------------|--------------------------------------------------|----------------------------------|
+| 1  | UA01           | Activar modo oscuro manualmente                  | 2                                |
+| 2  | UA02           | Cambiar idioma de la app                         | 5                                |
+| 3  | UA03           | Ver saludo personalizado con nombre              | 1                                |
+| 4  | UA04           | Mostrar etiqueta “Hoy” en citas del día actual   | 2                                |
+| 5  | UA05           | Mostrar última fecha de acceso del usuario       | 2                                |
+| 6  | UA06           | Ver ícono de verificado en médicos confirmados   | 1                                |
+| 7  | UA07           | Confirmación antes de salir de la app            | 2                                |
+| 8  | UA08           | Mostrar pestaña destacada según módulo abierto   | 1                                |
+| 9  | UA09           | Agregar botón “Volver al inicio” en scroll largo | 2                                |
+| 10 | UA10           | Ver estado “en línea” del médico                 | 3                                |
+
+## 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+Esta sección contiene la ejecución práctica del experimento usando el pipeline implementado. Se debe mostrar cómo cada componente del sistema (Landing Page, Web, App, Backend) fue adaptado según las hipótesis planteadas y qué resultados se obtuvieron en cada sprint experimental.
+
+### 8.3.3.1. To-Be Sprint Backlogs
+Se documentan los Sprint Backlogs específicos usados en la ejecución del experimento, con user stories seleccionadas, tareas por integrante, estimaciones, responsables y estados de avance.
+
+### 8.3.3.2. Implemented To-Be Landing Page Evidence
+Evidencia visual y técnica de los cambios aplicados en la Landing Page como parte del experimento. Incluye capturas de pantalla, código fuente, enlaces de despliegue y commits.
+
+### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+Demuestra la implementación en el frontend web durante el experimento. Se debe incluir evidencia funcional de nuevas vistas, interacciones, commits y despliegues.
+
+### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+Se presenta la evidencia de implementación experimental en la app móvil (Android/iOS). Puede incluir capturas, builds, navegación funcional, commits y videos si aplica.
+
+### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+Incluye los endpoints nuevos o modificados que fueron parte del experimento. Se debe adjuntar la documentación de API (Swagger/OpenAPI), código, pruebas y ejemplos de uso.
+
+### 8.3.3.6. Team Collaboration Insights
+Se evidencia la colaboración del equipo durante la ejecución del experimento. Deben mostrarse commits, PRs, estadísticas de contribución, organización del trabajo, y lecciones aprendidas en equipo.
+
+
+
+## 8.3.4. To-Be Validation Interviews
+Esta sección valida si los cambios aplicados durante el experimento generan valor real. Incluye entrevistas de validación con usuarios finales que interactúan con las nuevas funcionalidades.
+
+
+### 8.3.4.1. Diseño de Entrevistas
+Diseño de las sesiones de validación: qué preguntas se realizarán, qué funcionalidades serán probadas y con qué segmentos de usuarios se realizarán.
+
+### 8.3.4.2. Registro de Entrevistas
+Resumen de cada entrevista realizada: nombre, perfil, edad, video, hora de inicio y duración, comentarios clave y apreciaciones del usuario.
+
+
+
+## 8.4. Experiment Aftermath & Analysis
+Análisis crítico de los resultados obtenidos durante el experimento. Aquí se validan o refutan las hipótesis con base en los datos recopilados.
+
+### 8.4.1. Analysis and Interpretation of Results
+Se interpretan los datos obtenidos (KPIs, métricas, comportamiento de usuarios) y se concluye si las hipótesis fueron validadas o no.
+
+- En el estudio, las preguntas clave se reformularon en base a las funcionalidades propuestas en las experiment cards seleccionadas, con el objetivo de obtener información más precisa y útil sobre la experiencia de los usuarios. Esto permitió identificar percepciones, necesidades y puntos de mejora en la aplicación HormonalCare desde la perspectiva de pacientes, médicos y administradores.
+
+#### **Preguntas Formuladas**
+
+Se aplicó un breve cuestionario a **23 usuarios reales** del prototipo funcional (entre ellos pacientes y profesionales), quienes respondieron según su experiencia directa con el producto. Las preguntas formuladas fueron:
+
+1. ¿Qué tan útil considera el modo oscuro durante el uso nocturno de la app?
+2. ¿Qué opina sobre la opción de cambiar el idioma de la aplicación?
+3. ¿La guía inicial interactiva le ayudó a comprender mejor cómo usar la aplicación?
+4. ¿Considera que los elementos de gamificación (puntos, medallas, etc.) motivan su cumplimiento de tareas?
+5. ¿La inclusión de un chat médico-paciente mejoró su sensación de acompañamiento?
+
+Estas preguntas se alinean directamente con las funcionalidades priorizadas en el ciclo de experimentación del sistema HormonalCare. A partir de sus respuestas, se analizaron niveles de aceptación, percepción de utilidad y áreas de mejora futura.
+
+### Análisis de datos Demográficos
+
+- **Distribución de edades:**
+
+En el estudio participaron **23 usuarios** de perfiles mixtos (pacientes, doctores y administradores), cuyas edades oscilaron entre los **20 y 70 años**. Se observó que el grupo predominante fue el de **25 a 34 años**, representando un **39.1%** de los participantes. Le siguen los rangos de **20 a 24 años** y **35 a 44 años**, ambos con un **21.7%** cada uno. Los grupos de mayor edad, entre **45 y 70 años**, representaron en conjunto un **17.5%** del total.
+
+Este resultado evidencia que la aplicación HormonalCare está generando mayor atracción entre adultos jóvenes, sin dejar de incluir a perfiles adultos con necesidades clínicas más complejas.
+
+Este hallazgo refuerza la necesidad de ofrecer una interfaz **inclusiva, intuitiva y accesible**, que responda tanto a las expectativas tecnológicas de los más jóvenes como a la claridad funcional que requieren los adultos mayores.
+
+![forms1.jpeg](images/forms1.jpeg)
+
+
+- **Duración de uso de la plataforma:**
+
+Según los resultados del estudio, el **26.1% de los usuarios** indicó usar la app HormonalCare entre **30 minutos y 1 hora al día**, mientras que un **21.7%** lo hace entre **1 y 2 horas**, otro **21.7%** entre **2 y 3 horas**, y un **21.7%** más de **3 horas**. Solo un **8.7%** de los encuestados reportó utilizarla por **menos de 30 minutos diarios**.
+
+Este patrón de uso revela un nivel de **interacción constante y sostenida**, especialmente entre aquellos que utilizan la aplicación para el seguimiento de citas, revisión de tratamientos y comunicación directa con profesionales de salud.
+
+![forms2.jpeg](images/forms2.jpeg)
+
+### Evaluación de Características
+
+- **Opción de Modo Oscuro:**
+
+El **56.5% de los participantes** (34.8% *Muy útil* y 21.7% *Útil*) consideró que la función de **modo oscuro** en HormonalCare mejora su experiencia de uso. Además, un **13%** se mantuvo **neutral**, mientras que un **8.7%** opinó que es **poco útil** y un **21.7%** la calificó como **nada útil**.
+
+Este resultado **valida parcialmente la hipótesis** de la experiment card correspondiente, la cual anticipaba que al menos el 60% de los usuarios preferirían utilizar la aplicación en modo oscuro. Aunque no se alcanzó exactamente esa cifra, el nivel de aceptación sigue siendo considerablemente alto.
+
+El hallazgo sugiere que mantener esta funcionalidad no solo aporta comodidad visual, especialmente en sesiones nocturnas, sino que también tiene un impacto positivo en la percepción general del diseño de la app.
+
+![forms3.jpeg](images/forms3.jpeg)
+
+- **Cambio de Idioma en la Aplicación:**
+
+El **43.5%** de los participantes consideró que la posibilidad de cambiar el idioma en HormonalCare es **imprescindible**, mientras que otro **17.4%** lo valoró como **bastante útil**. Estos resultados reflejan que más del **60% de los usuarios** considera esta función clave para la experiencia de uso, especialmente en contextos multilingües.
+
+Además, un **17.4%** indicó que **no sabía que existía la opción**, lo cual sugiere una oportunidad de mejora en la visibilidad y accesibilidad de la función dentro del menú de configuración.
+
+Estos hallazgos validan directamente la hipótesis planteada en la **experiment card 2**, donde se proyectaba que al menos el 30% de los usuarios modificaría el idioma, mejorando su experiencia. En la práctica, la importancia percibida supera esa expectativa, destacando la necesidad de mantener y potenciar esta funcionalidad para públicos diversos.
+
+![forms4.jpeg](images/forms4.jpeg)
+
+- **Elementos de Gamificación (medallas, rachas, puntajes):**
+
+El **56.5%** de los usuarios señaló que los elementos de gamificación dentro de **HormonalCare** les motivan significativamente a cumplir con sus controles y tareas médicas. Este resultado respalda fuertemente la hipótesis original de la *experiment card*, que proyectaba un aumento del 40% en el cumplimiento gracias a estos estímulos visuales.
+
+En contraste, un **17.4%** de los participantes indicó que sí los nota, pero no influyen realmente en su comportamiento, mientras que un **26.1%** (sumando los que los consideran irrelevantes, confusos o no los habían notado) representa una porción de usuarios que podría beneficiarse de un rediseño o una mayor visibilidad de estos elementos.
+
+Este análisis sugiere que la gamificación es una estrategia útil y motivadora para una mayoría clara de usuarios, pero que aún puede ser mejorada en términos de usabilidad y presencia dentro de la interfaz.
+
+![forms5.jpeg](images/forms5.jpeg)
+
+- **Guía Inicial (Onboarding):**
+
+El **56.5%** de los participantes afirmó que la guía inicial les ayudó significativamente a comprender el funcionamiento de la app **HormonalCare** desde el primer uso. Otro **34.8%** indicó que fue útil, aunque presentaba algunas dudas o vacíos de información. Un **8.7%** expresó que no la encontró útil o que no la vio al momento de ingresar.
+
+Este resultado respalda parcialmente la hipótesis de la *experiment card* correspondiente, que proponía un tutorial inicial para reducir la curva de aprendizaje. La mayoría lo encontró beneficioso, lo que sugiere que la funcionalidad cumple con su propósito; sin embargo, aún hay oportunidad de **mejorar la claridad y visibilidad** de la guía para nuevos usuarios.
+
+![forms6.jpeg](images/forms6.jpeg)
+
+- **Funcionalidad de Chat Médico-Paciente:**
+
+El **52.2%** de los encuestados manifestó que la posibilidad de comunicarse con su médico a través de un chat en la app **HormonalCare** les hace sentir **más acompañados y tranquilos**, lo que valida la hipótesis de que esta funcionalidad fortalece el vínculo terapéutico.
+
+Además, un **17.4%** indicó que considera útil esta función, aunque no sustituye una consulta presencial. Un **13%** prefiere medios tradicionales como llamadas o correos, mientras que el **8.7%** expresó que no ha utilizado la función pero le interesaría hacerlo. Solo otro **8.7%** no considera relevante esta opción.
+
+Estos resultados respaldan la implementación del chat como una herramienta complementaria clave en el tratamiento, especialmente para pacientes que buscan apoyo emocional y seguimiento continuo sin necesidad de desplazarse.
+
+![forms7.jpeg](images/forms7.jpeg)
+
+### Recomendaciones de los Usuarios
+
+Entre las funcionalidades evaluadas en la encuesta, se identificaron cinco características clave que los usuarios consideraron que **mejoraron significativamente la usabilidad** de la app HormonalCare:
+
+- **Chat con el médico** (56.5%)
+- **Opción de cambiar el idioma** (43.5%)
+- **Activación del modo oscuro** (34.8%)
+- **Elementos de gamificación** como medallas, rachas o puntajes (30.4%)
+- **Guía inicial o tutorial (onboarding)** (21.7%)
+
+![forms8.jpeg](images/forms8.jpeg)
+
+Estas respuestas reflejan que las funcionalidades centradas en la **comunicación directa**, la **personalización visual** y la **facilitación del aprendizaje** son valoradas positivamente por los usuarios. En particular, el chat médico-paciente se posiciona como la opción con mayor impacto percibido, reforzando la importancia de la atención continua y personalizada.
+
+Este análisis valida las hipótesis planteadas en las respectivas *experiment cards*, y demuestra que las decisiones de diseño e implementación abordadas durante el proyecto estuvieron alineadas con las necesidades reales de los usuarios.
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+Reevaluación del Question Backlog tras los experimentos. Se ajustan prioridades y puntuaciones en función del impacto real medido.
+
+
+| **Prioridad (1, 2, 3, 5, 8)** | **Pregunta** |
+|------------------------------|--------------|
+| 1 | ¿Mejorará la experiencia de uso nocturno añadir un modo oscuro en la app HormonalCare? |
+| 2 | ¿Facilitará el acceso a usuarios no hispanohablantes al agregar traducciones en la app HormonalCare? |
+| 3 | ¿Reducirá la tasa de abandono de nuevos usuarios el uso de una guía o tutorial al abrir HormonalCare por primera vez? |
+| 5 | ¿Motivará más a los usuarios el incluir elementos de gamificación como medallas, rachas o puntajes en HormonalCare? |
+| 5 | ¿Mejorará la percepción de acompañamiento clínico la incorporación de un chat directo entre paciente y médico en HormonalCare? |
+
+
+## 8.5. Continuous Learning
+Esta sección refleja el aprendizaje continuo obtenido a partir del experimento y cómo influye en decisiones futuras del producto.
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+Material generado por el equipo en sesiones de retroalimentación interna. Incluye aprendizajes, reflexiones, mejoras, errores detectados y ajustes al roadmap.
+
+
+## 8.6. To-Be Software Platform Pre-launch
+Última etapa antes del despliegue final de la solución. Se sintetizan resultados y se elabora contenido introductorio del producto para comunicar su valor al público objetivo.
+
+### 8.6.1. About-the-Product Intro Video
+Video corto (1 a 3 min) que presenta el modelo de negocio, funcionalidades clave, segmentos beneficiados y testimonios. Se incrusta en la Landing Page.
+
+
 
 ## **CONCLUSIONES Y RECOMENDACIONES**
 

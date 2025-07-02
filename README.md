@@ -5529,6 +5529,23 @@ Se documentan los Sprint Backlogs específicos usados en la ejecución del exper
 ### 8.3.3.2. Implemented To-Be Landing Page Evidence
 Evidencia visual y técnica de los cambios aplicados en la Landing Page como parte del experimento. Incluye capturas de pantalla, código fuente, enlaces de despliegue y commits.
 
+#### ✅ UA01 - Activar modo oscuro manualmente
+
+Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro desde la barra de navegación, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos y se mantiene activa incluso al recargar la página, gracias al almacenamiento del estado en el navegador. Se aplicaron cambios visuales a todos los componentes de la página, como fondos, botones, textos y formularios.
+
+![ua11.jpeg](images/ua11.jpeg)
+
+![us01.jpeg](images/us01.jpeg)
+
+
+#### ✅ UA02 - Cambiar idioma de la app
+
+Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
+
+![us2.jpeg](images/us2.jpeg)
+
+![us22.jpeg](images/us22.jpeg)
+
 ### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 Demuestra la implementación en el frontend web durante el experimento. Se debe incluir evidencia funcional de nuevas vistas, interacciones, commits y despliegues.
 

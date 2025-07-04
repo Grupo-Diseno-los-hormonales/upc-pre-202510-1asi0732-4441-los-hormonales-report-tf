@@ -5553,7 +5553,128 @@ Demuestra la implementación en el frontend web durante el experimento. Se debe 
 Se presenta la evidencia de implementación experimental en la app móvil (Android/iOS). Puede incluir capturas, builds, navegación funcional, commits y videos si aplica.
 
 ### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
-Incluye los endpoints nuevos o modificados que fueron parte del experimento. Se debe adjuntar la documentación de API (Swagger/OpenAPI), código, pruebas y ejemplos de uso.
+
+Durante la fase de experimentación, se diseñaron e implementaron nuevas funcionalidades orientadas a mejorar la experiencia del usuario final. Sin embargo, **estas mejoras fueron desarrolladas exclusivamente en el frontend**, sin necesidad de modificar los endpoints existentes ni implementar nueva lógica en el backend.
+
+Todas las historias de usuario To-Be hicieron uso de los **servicios RESTful ya desarrollados previamente**. Por tanto, esta sección documenta los endpoints relevantes que fueron utilizados desde la interfaz para completar dichas funcionalidades.
+
+### Endpoints utilizados 
+
+#### Bounded Context: **Medical Record**
+| Entity                      | Endpoint URL                                      | Method |
+|-----------------------------|---------------------------------------------------|--------|
+| Get Medical Record by ID     | /api/v1/medicalRecords/{medicalRecordId}          | GET    |
+| Create Medical Record       | /api/v1/medicalRecords                            | POST   |
+
+---
+
+#### Bounded Context: **Reason of Consultation**
+| Entity                         | Endpoint URL                                           | Method |
+|--------------------------------|--------------------------------------------------------|--------|
+| Get Reason of Consultation by ID | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | GET    |
+| Update Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation/{reasonOfConsultationId} | PUT    |
+| Create Reason of Consultation  | /api/v1/medical-record/reasons-of-consultation        | POST   |
+| Get Reasons of Consultation by Medical Record ID | /api/v1/medical-record/reasons-of-consultation/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Patient**
+| Entity                   | Endpoint URL                                            | Method |
+|--------------------------|---------------------------------------------------------|--------|
+| Get Patient by ID         | /api/v1/medical-record/patient/{patientId}              | GET    |
+| Update Patient            | /api/v1/medical-record/patient/{patientId}              | PUT    |
+| Update Patient History    | /api/v1/medical-record/patient/personal-history/{patientId} | PUT    |
+| Update Family History     | /api/v1/medical-record/patient/family-history/{patientId} | PUT    |
+| Link Doctor to Patient    | /api/v1/medical-record/patient/doctor/{patientId}       | PUT    |
+| Create Patient            | /api/v1/medical-record/patient                          | POST   |
+| Get Patient Profile by ID | /api/v1/medical-record/patient/{patientId}/profile-id   | GET    |
+| Get Patient Record by ID  | /api/v1/medical-record/patient/record/{patientRecordId} | GET    |
+| Get Patient Profile       | /api/v1/medical-record/patient/profile/{profileId}      | GET    |
+| Get Patient Doctor        | /api/v1/medical-record/patient/doctor/{doctorId}        | GET    |
+
+---
+
+#### Bounded Context: **Medication**
+| Entity                        | Endpoint URL                                              | Method |
+|-------------------------------|-----------------------------------------------------------|--------|
+| Get Medication by ID           | /api/v1/medical-record/medications/{medicationId}         | GET    |
+| Update Medication              | /api/v1/medical-record/medications/{medicationId}         | PUT    |
+| Get Prescription by ID         | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | GET    |
+| Update Prescription            | /api/v1/medical-record/medications/prescriptions/{prescriptionId} | PUT    |
+| Get Medication Type by ID      | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | GET    |
+| Update Medication Type         | /api/v1/medical-record/medications/medicationTypes/{medicationTypeId} | PUT    |
+| Get All Medications            | /api/v1/medical-record/medications                       | GET    |
+| Create Medication              | /api/v1/medical-record/medications                       | POST   |
+| Get All Prescriptions          | /api/v1/medical-record/medications/prescriptions         | GET    |
+| Create Prescription            | /api/v1/medical-record/medications/prescriptions         | POST   |
+| Get All Medication Types       | /api/v1/medical-record/medications/medicationTypes       | GET    |
+| Create Medication Type         | /api/v1/medical-record/medications/medicationTypes       | POST   |
+| Get Prescriptions by Medical Record ID | /api/v1/medical-record/medications/prescriptions/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Medical Exam**
+| Entity                      | Endpoint URL                                          | Method |
+|-----------------------------|-------------------------------------------------------|--------|
+| Get Medical Exam by ID       | /api/v1/medical-record/medical-exam/{medicalExamId}   | GET    |
+| Update Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | PUT    |
+| Delete Medical Exam          | /api/v1/medical-record/medical-exam/{medicalExamId}   | DELETE |
+| Create Medical Exam          | /api/v1/medical-record/medical-exam                   | POST   |
+| Get Medical Exams by Medical Record ID | /api/v1/medical-record/medical-exam/medicalRecordId/{medicalRecordId} | GET    |
+
+---
+
+#### Bounded Context: **Doctor**
+| Entity                     | Endpoint URL                                        | Method |
+|----------------------------|-----------------------------------------------------|--------|
+| Get Doctor by ID            | /api/v1/doctor/doctor/{doctorId}                    | GET    |
+| Update Doctor               | /api/v1/doctor/doctor/{doctorId}                    | PUT    |
+| Create Doctor               | /api/v1/doctor/doctor                               | POST   |
+| Get Doctor Profile by ID    | /api/v1/doctor/doctor/{doctorId}/profile-id         | GET    |
+| Get Doctor Record by ID     | /api/v1/doctor/doctor/record/{doctorRecordId}       | GET    |
+| Get Doctor Profile by Profile ID | /api/v1/doctor/doctor/profile/{profileId}         | GET    |
+
+---
+### Evidencias gráficas de los Endpoints (Swagger)
+Estas capturas muestran los endpoints consumidos por el frontend de HormonalCare, y están disponibles en la documentación Swagger del proyecto:
+
+### 1. Authentication - Sign-up Endpoint  
+![Endpoint de Sign-up](assets/images/endpoint1.png)
+
+### 2. Authentication - Sign-in Endpoint  
+![Endpoint de Sign-in](assets/images/endpoint2.png)
+
+### 3. Roles  
+![Endpoint de Roles](assets/images/endpoint3.png)
+
+### 4. Users  
+![Endpoint de Usuarios](assets/images/endpoint4.png)
+
+### 5. User Profile  
+![Endpoint de Perfil de Usuario](assets/images/endpoint5.png)
+
+### 6. Notification  
+![Endpoint de Notificación](assets/images/endpoint6.png)
+
+### 7. Medical Appointment  
+![Endpoint de Cita Médica](assets/images/endpoint7.png)
+
+### 8. Treatment  
+![Endpoint de Tratamiento](assets/images/endpoint8.png)
+
+### 9. Medical Record  
+![Endpoint de Historia Médica](assets/images/endpoint9.png)
+
+### 10. Patient  
+![Endpoint de Paciente](assets/images/endpoint10.png)
+
+### 11. Medication  
+![Endpoint de Medicación](assets/images/endpoint11.png)
+
+### 12. Doctor  
+![Endpoint de Doctor](assets/images/endpoint12.png)
+
+
 
 ### 8.3.3.6. Team Collaboration Insights
 Se evidencia la colaboración del equipo durante la ejecución del experimento. Deben mostrarse commits, PRs, estadísticas de contribución, organización del trabajo, y lecciones aprendidas en equipo.

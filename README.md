@@ -5795,7 +5795,7 @@ A continuación, se detallan las preguntas presentadas, junto con los resultados
 
 #### Preguntas de validación de funcionalidades observadas
 
-* ¿Qué tan clara te parece la función del botón “Modo Oscuro”?
+* ¿Qué tan útil te parece la función del botón “Modo Oscuro”?
 * ¿Activarías el modo oscuro por comodidad o por preferencia visual?
 * ¿Mostrar la fecha actual en la sección de citas te ayuda a orientarte mejor?
 * ¿El saludo con el nombre del usuario transmite cercanía o personalización?

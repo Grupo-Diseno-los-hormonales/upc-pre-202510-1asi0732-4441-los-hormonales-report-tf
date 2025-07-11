@@ -5966,24 +5966,26 @@ Aunque la mayoría no tuvo problemas, el 37.5% encontró algo confuso. Esto sugi
 
 El **modo oscuro y cambio de idioma** son percibidas como las funciones más valiosas. Este resultado ayuda a priorizar en futuras versiones.
 
-
-
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
-Reevaluación del Question Backlog tras los experimentos. Se ajustan prioridades y puntuaciones en función del impacto real medido.
 
+Las prioridades han sido ajustadas considerando la **evidencia estadística del formulario**, el impacto percibido por los usuarios y el cumplimiento (o no) de las hipótesis planteadas en cada experimento. Se clasifican del 1 (alta prioridad) al 5 (menor prioridad inmediata), manteniendo un enfoque en mejoras accesibles y con alto valor percibido por los usuarios.
 
-| **Prioridad (1, 2, 3, 5, 8)** | **Pregunta** |
-|------------------------------|--------------|
-| 1 | ¿Mejorará la experiencia de uso nocturno añadir un modo oscuro en la app HormonalCare? |
-| 2 | ¿Facilitará el acceso a usuarios no hispanohablantes al agregar traducciones en la app HormonalCare? |
-| 3 | ¿Reducirá la tasa de abandono de nuevos usuarios el uso de una guía o tutorial al abrir HormonalCare por primera vez? |
-| 5 | ¿Motivará más a los usuarios el incluir elementos de gamificación como medallas, rachas o puntajes en HormonalCare? |
-| 5 | ¿Mejorará la percepción de acompañamiento clínico la incorporación de un chat directo entre paciente y médico en HormonalCare? |
+| **Prioridad (1–5)** | **Pregunta reevaluada**                                                                                                                |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| 1                   | ¿El modo oscuro mejora la comodidad de uso, especialmente en ambientes con poca luz?                                                   |
+| 1                   | ¿Mostrar el estado “en línea” del médico facilita la decisión de contacto por parte del usuario?                                       |
+| 1                   | ¿El ícono de “médico verificado” incrementa la confianza del usuario en los profesionales disponibles?                                 |
+| 2                   | ¿El saludo personalizado con el nombre del usuario genera una experiencia más cercana y humanizada?                                    |
+| 2                   | ¿Mostrar la fecha actual en la vista de citas mejora la orientación y planificación del usuario?                                       |
+| 2                   | ¿El botón flotante “Volver al inicio” facilita la navegación en pantallas con mucho contenido?                                         |
+| 2                   | ¿El mensaje de confirmación al cerrar sesión previene errores accidentales por parte del usuario?                                      |
+| 3                   | ¿Cambiar el idioma desde la configuración resulta sencillo y útil para usuarios no hispanohablantes?                                   |
+| 4                   | ¿Algún botón, ícono o texto confunde al usuario promedio y debería rediseñarse para mejorar la comprensión?                            |
+| 5                   | ¿La incorporación de pequeños elementos visuales como etiquetas, íconos e indicadores mejora la percepción general de valor de la app? |
+
 
 
 ## 8.5. Continuous Learning
-Esta sección refleja el aprendizaje continuo obtenido a partir del experimento y cómo influye en decisiones futuras del producto.
-
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 Material generado por el equipo en sesiones de retroalimentación interna. Incluye aprendizajes, reflexiones, mejoras, errores detectados y ajustes al roadmap.
 

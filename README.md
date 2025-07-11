@@ -5746,9 +5746,9 @@ A continuación, se detallan las preguntas presentadas, junto con los resultados
 **Conclusión:**
 La mayoría de los participantes tienen entre **30 y 48 años** (75%). Distribución:
 
-* 39 - 48 años: 47.5%
+* 39 - 48 años: 10%
 * 30 - 38 años: 27.5%
-* 22 - 29 años: 10%
+* 22 - 29 años: 47.5%
 * 15 - 21 años: 12.5%
 * 49 - 59 años: 2.5%
 * +60 años: 0%
@@ -5762,11 +5762,11 @@ Esto demuestra que la app está captando principalmente adultos jóvenes y adult
 
 **Conclusión:**
 
-* Femenino: 55%
-* Masculino: 45%
+* Femenino: 45%
+* Masculino: 55%
 * Otro / Prefiero no decir: 0%
 
-Se observa una ligera mayoría de usuarias mujeres. No hay respuestas de género diverso, pero el equilibrio entre hombres y mujeres puede ser útil para evaluar la usabilidad con enfoque de género.
+Se observa una ligera mayoría de usuarios hombres. No hay respuestas de género diverso, pero el equilibrio entre hombres y mujeres puede ser útil para evaluar la usabilidad con enfoque de género.
 
 
 #### **Nivel de familiaridad con apps móviles**

@@ -5785,21 +5785,33 @@ Para lograr esto, se diseñó un formulario digital tipo Google Forms con una es
 
 A continuación, se detallan las preguntas presentadas, junto con los resultados obtenidos y su interpretación.
 
-### Preguntas Formuladas
+#### Preguntas demográficas
 
-Las siguientes preguntas fueron presentadas a una muestra de usuarios potenciales de HormonalCare. 
+* ¿Cuál es tu edad?
+* ¿Cuál es tu género?
+* ¿Cuál es tu ocupación actual?
+* ¿Qué tan familiarizado/a estás con el uso de apps móviles? (1 = Nada familiar / 5 = Muy familiar)
+* ¿Has utilizado alguna app de salud o de citas médicas anteriormente?
 
-1. ¿Qué es lo primero que te llama la atención al ver esta pantalla de la app?
-2. ¿Te parece clara la función del botón “Modo Oscuro”? ¿Lo activarías tú?
-3. ¿Crees que mostrar la fecha actual en la sección de citas ayuda al médico a orientarse?
-4. ¿El saludo con el nombre del usuario transmite cercanía o personalización?
-5. ¿Notas el ícono de “verificado” junto al médico? ¿Te inspira confianza al verlo?
-6. ¿Qué opinas sobre mostrar si el médico está “en línea”? ¿Lo usarías como guía para comunicarte?
-7. ¿Te parece útil tener un botón flotante para volver al inicio cuando hay mucho contenido?
-8. ¿El mensaje que aparece al intentar cerrar sesión es claro? ¿Evitaría errores, según tú?
-9. ¿Cambiar el idioma desde la configuración parece sencillo y accesible?
-10. ¿Algún botón, ícono o texto te resultó confuso o poco intuitivo al ver la pantalla?
+#### Preguntas de validación de funcionalidades observadas
 
+* ¿Qué tan clara te parece la función del botón “Modo Oscuro”?
+* ¿Activarías el modo oscuro por comodidad o por preferencia visual?
+* ¿Mostrar la fecha actual en la sección de citas te ayuda a orientarte mejor?
+* ¿El saludo con el nombre del usuario transmite cercanía o personalización?
+* ¿Notaste el ícono de “verificado” junto al nombre del médico?
+* ¿Ese ícono de verificado te genera más confianza al elegir un médico?
+* ¿Qué tan útil te parece saber si el médico está “en línea”?
+* ¿Usarías el estado “en línea” como guía para comunicarte con un médico?
+* ¿Qué tan útil te parece el botón flotante para volver al inicio en pantallas largas?
+* ¿El mensaje que aparece al intentar cerrar sesión es claro y evita errores?
+* ¿Cambiar el idioma desde configuración te parece una función fácil de entender y usar?
+* ¿Algún botón, ícono o texto te resultó confuso o poco intuitivo?
+* ¿Qué funcionalidad de las que viste te pareció más útil?
+
+---
+
+¿Deseas que ahora te agrupe algunas como obligatorias y otras opcionales para el diseño del form, o te doy una versión exportable a Excel/CSV?
 
 ----
 

@@ -5700,22 +5700,83 @@ Se evidencia la colaboración del equipo durante la ejecución del experimento. 
 
 
 
-## 8.3.4. To-Be Validation Interviews
-Esta sección valida si los cambios aplicados durante el experimento generan valor real. Incluye entrevistas de validación con usuarios finales que interactúan con las nuevas funcionalidades.
+
+#### 8.3.4. To-Be Validation Interviews
+
+Esta sección valida si los cambios aplicados durante el experimento generan valor real. Incluye entrevistas de validación con usuarios finales que observan las nuevas funcionalidades.
+El objetivo es recoger impresiones sobre la claridad, utilidad y facilidad de uso de cada mejora propuesta, sin requerir una interacción directa con la app. Las respuestas permitirán identificar oportunidades de mejora y confirmar si las funcionalidades desarrolladas responden a las necesidades del usuario.
+
+##### 8.3.4.1. Diseño de Entrevistas
+
+#### preguntas para entrevistas de validación
+
+1. **¿Qué es lo primero que te llama la atención al ver esta pantalla de la app?**
+2. **¿Te parece clara la función del botón “Modo Oscuro”? ¿Lo activarías tú?**
+3. **¿Crees que mostrar la fecha actual en la sección de citas ayuda al médico a orientarse?**
+4. **¿El saludo con el nombre del usuario transmite cercanía o personalización?**
+5. **¿Notas el ícono de “verificado” junto al médico? ¿Te inspira confianza al verlo?**
+6. **¿Qué opinas sobre mostrar si el médico está “en línea”? ¿Lo usarías como guía para comunicarte?**
+7. **¿Te parece útil tener un botón flotante para volver al inicio cuando hay mucho contenido?**
+8. **¿El mensaje que aparece al intentar cerrar sesión es claro? ¿Evitaría errores, según tú?**
+9. **¿Cambiar el idioma desde la configuración parece sencillo y accesible?**
+10. **¿Algún botón, ícono o texto te resultó confuso o poco intuitivo al ver la pantalla?**
+
+##### 8.3.4.2. Registro de Entrevistas
+
+#### Entrevista 1
+
+| Campo                   | Detalle                                                                                                                                                                                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entrevistador           | Jherson Astuyauri Calderón                                                                                                                                                                                                                 |
+| Entrevistado            | \[Nombre del entrevistado]                                                                                                                                                                                                                 |
+| Apellidos               | \[Apellidos del entrevistado]                                                                                                                                                                                                              |
+| Edad                    | \[Edad]                                                                                                                                                                                                                                    |
+| Distrito de residencia  | \[Distrito]                                                                                                                                                                                                                                |
+| Enlace a la entrevista  | \[Ver Video]                                                                                                                                                                                                                               |
+| Hora de inicio          | \[hh\:mm]                                                                                                                                                                                                                                  |
+| Duración                | \[mm\:ss]                                                                                                                                                                                                                                  |
+| Imagen del entrevistado | \[Insertar imagen o indicar si no aplica]                                                                                                                                                                                                  |
+| Resumen                 | \[El entrevistado comentó que lo primero que le llamó la atención fue... También opinó sobre las funcionalidades como el modo oscuro, saludo personalizado, estado del médico, botón de volver al inicio, etc. Finalizó sugiriendo que...] |
+
+---
+
+#### Entrevista 2
+
+| Campo                   | Detalle                                                                                                                                                                                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entrevistador           |                                                                                                                                                                                                                                   |
+| Entrevistado            | \[Nombre del entrevistado]                                                                                                                                                                                                                                    |
+| Apellidos               | \[Apellidos del entrevistado]                                                                                                                                                                                                                                 |
+| Edad                    | \[Edad]                                                                                                                                                                                                                                                       |
+| Distrito de residencia  | \[Distrito]                                                                                                                                                                                                                                                   |
+| Enlace a la entrevista  | \[Ver Video]                                                                                                                                                                                                                                                  |
+| Hora de inicio          | \[hh\:mm]                                                                                                                                                                                                                                                     |
+| Duración                | \[mm\:ss]                                                                                                                                                                                                                                                     |
+| Imagen del entrevistado | \[Insertar imagen o indicar si no aplica]                                                                                                                                                                                                                     |
+| Resumen                 | \[El entrevistado indicó que el diseño fue claro. Mencionó que la función de cambio de idioma y saludo con nombre le pareció útil. Consideró que el botón de cerrar sesión con confirmación evita errores. También sugirió mejoras menores en la navegación.] |
+
+---
+
+#### Entrevista 3
+
+| Campo                   | Detalle                                                                                                                                                                                                                                               |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entrevistador           | Jherson Astuyauri Calderón                                                                                                                                                                                                                            |
+| Entrevistado            | \[Nombre del entrevistado]                                                                                                                                                                                                                            |
+| Apellidos               | \[Apellidos del entrevistado]                                                                                                                                                                                                                         |
+| Edad                    | \[Edad]                                                                                                                                                                                                                                               |
+| Distrito de residencia  | \[Distrito]                                                                                                                                                                                                                                           |
+| Enlace a la entrevista  | \[Ver Video]                                                                                                                                                                                                                                          |
+| Hora de inicio          | \[hh\:mm]                                                                                                                                                                                                                                             |
+| Duración                | \[mm\:ss]                                                                                                                                                                                                                                             |
+| Imagen del entrevistado | \[Insertar imagen o indicar si no aplica]                                                                                                                                                                                                             |
+| Resumen                 | \[El entrevistado comentó que la interfaz era intuitiva y moderna. Le gustó la sección de citas con fecha actual. Dijo que ver si el médico está en línea ayuda a decidir si escribir. También consideró valioso tener un botón flotante de regreso.] |
 
 
-### 8.3.4.1. Diseño de Entrevistas
-Diseño de las sesiones de validación: qué preguntas se realizarán, qué funcionalidades serán probadas y con qué segmentos de usuarios se realizarán.
-
-### 8.3.4.2. Registro de Entrevistas
-Resumen de cada entrevista realizada: nombre, perfil, edad, video, hora de inicio y duración, comentarios clave y apreciaciones del usuario.
-
-
-
-## 8.4. Experiment Aftermath & Analysis
+### 8.4. Experiment Aftermath & Analysis
 Análisis crítico de los resultados obtenidos durante el experimento. Aquí se validan o refutan las hipótesis con base en los datos recopilados.
 
-### 8.4.1. Analysis and Interpretation of Results
+#### 8.4.1. Analysis and Interpretation of Results
 Se interpretan los datos obtenidos (KPIs, métricas, comportamiento de usuarios) y se concluye si las hipótesis fueron validadas o no.
 
 - En el estudio, las preguntas clave se reformularon en base a las funcionalidades propuestas en las experiment cards seleccionadas, con el objetivo de obtener información más precisa y útil sobre la experiencia de los usuarios. Esto permitió identificar percepciones, necesidades y puntos de mejora en la aplicación HormonalCare desde la perspectiva de pacientes, médicos y administradores.

@@ -5774,9 +5774,35 @@ El objetivo es recoger impresiones sobre la claridad, utilidad y facilidad de us
 
 
 ### 8.4. Experiment Aftermath & Analysis
-Análisis crítico de los resultados obtenidos durante el experimento. Aquí se validan o refutan las hipótesis con base en los datos recopilados.
 
 #### 8.4.1. Analysis and Interpretation of Results
+
+Con el fin de validar la utilidad real de las funcionalidades diseñadas en la aplicación HormonalCare, se realizó una encuesta en línea. 
+
+La finalidad de esta actividad fue detectar si las nuevas funcionalidades (modo oscuro, saludo personalizado, idioma, verificación de médicos, botón “volver al inicio”, entre otras) generan valor desde la perspectiva del usuario, además de identificar posibles oportunidades de mejora.
+
+Para lograr esto, se diseñó un formulario digital tipo Google Forms con una escala de valoración del 1 al 5 para la mayoría de preguntas, además de opciones cerradas (Sí/No) para otros casos. Esta combinación de preguntas permitió obtener datos cuantitativos que facilitan el análisis posterior y reflejan cómo los usuarios interpretan e interiorizan las nuevas características.
+
+A continuación, se detallan las preguntas presentadas, junto con los resultados obtenidos y su interpretación.
+
+### Preguntas Formuladas
+
+Las siguientes preguntas fueron presentadas a una muestra de usuarios potenciales de HormonalCare. 
+
+1. ¿Qué es lo primero que te llama la atención al ver esta pantalla de la app?
+2. ¿Te parece clara la función del botón “Modo Oscuro”? ¿Lo activarías tú?
+3. ¿Crees que mostrar la fecha actual en la sección de citas ayuda al médico a orientarse?
+4. ¿El saludo con el nombre del usuario transmite cercanía o personalización?
+5. ¿Notas el ícono de “verificado” junto al médico? ¿Te inspira confianza al verlo?
+6. ¿Qué opinas sobre mostrar si el médico está “en línea”? ¿Lo usarías como guía para comunicarte?
+7. ¿Te parece útil tener un botón flotante para volver al inicio cuando hay mucho contenido?
+8. ¿El mensaje que aparece al intentar cerrar sesión es claro? ¿Evitaría errores, según tú?
+9. ¿Cambiar el idioma desde la configuración parece sencillo y accesible?
+10. ¿Algún botón, ícono o texto te resultó confuso o poco intuitivo al ver la pantalla?
+
+
+----
+
 Se interpretan los datos obtenidos (KPIs, métricas, comportamiento de usuarios) y se concluye si las hipótesis fueron validadas o no.
 
 - En el estudio, las preguntas clave se reformularon en base a las funcionalidades propuestas en las experiment cards seleccionadas, con el objetivo de obtener información más precisa y útil sobre la experiencia de los usuarios. Esto permitió identificar percepciones, necesidades y puntos de mejora en la aplicación HormonalCare desde la perspectiva de pacientes, médicos y administradores.

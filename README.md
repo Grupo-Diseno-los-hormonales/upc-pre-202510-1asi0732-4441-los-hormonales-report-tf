@@ -5736,112 +5736,237 @@ A continuación, se detallan las preguntas presentadas, junto con los resultados
 
 ---
 
-¿Deseas que ahora te agrupe algunas como obligatorias y otras opcionales para el diseño del form, o te doy una versión exportable a Excel/CSV?
-
-----
-
-Se interpretan los datos obtenidos (KPIs, métricas, comportamiento de usuarios) y se concluye si las hipótesis fueron validadas o no.
-
-- En el estudio, las preguntas clave se reformularon en base a las funcionalidades propuestas en las experiment cards seleccionadas, con el objetivo de obtener información más precisa y útil sobre la experiencia de los usuarios. Esto permitió identificar percepciones, necesidades y puntos de mejora en la aplicación HormonalCare desde la perspectiva de pacientes, médicos y administradores.
-
-#### **Preguntas Formuladas**
-
-Se aplicó un breve cuestionario a **23 usuarios reales** del prototipo funcional (entre ellos pacientes y profesionales), quienes respondieron según su experiencia directa con el producto. Las preguntas formuladas fueron:
-
-1. ¿Qué tan útil considera el modo oscuro durante el uso nocturno de la app?
-2. ¿Qué opina sobre la opción de cambiar el idioma de la aplicación?
-3. ¿La guía inicial interactiva le ayudó a comprender mejor cómo usar la aplicación?
-4. ¿Considera que los elementos de gamificación (puntos, medallas, etc.) motivan su cumplimiento de tareas?
-5. ¿La inclusión de un chat médico-paciente mejoró su sensación de acompañamiento?
-
-Estas preguntas se alinean directamente con las funcionalidades priorizadas en el ciclo de experimentación del sistema HormonalCare. A partir de sus respuestas, se analizaron niveles de aceptación, percepción de utilidad y áreas de mejora futura.
-
-### Análisis de datos Demográficos
-
-- **Distribución de edades:**
-
-En el estudio participaron **23 usuarios** de perfiles mixtos (pacientes, doctores y administradores), cuyas edades oscilaron entre los **20 y 70 años**. Se observó que el grupo predominante fue el de **25 a 34 años**, representando un **39.1%** de los participantes. Le siguen los rangos de **20 a 24 años** y **35 a 44 años**, ambos con un **21.7%** cada uno. Los grupos de mayor edad, entre **45 y 70 años**, representaron en conjunto un **17.5%** del total.
-
-Este resultado evidencia que la aplicación HormonalCare está generando mayor atracción entre adultos jóvenes, sin dejar de incluir a perfiles adultos con necesidades clínicas más complejas.
-
-Este hallazgo refuerza la necesidad de ofrecer una interfaz **inclusiva, intuitiva y accesible**, que responda tanto a las expectativas tecnológicas de los más jóvenes como a la claridad funcional que requieren los adultos mayores.
-
-![forms1.jpeg](images/forms1.jpeg)
+### **SECCIÓN 1 – Perfil del Participante**
 
 
-- **Duración de uso de la plataforma:**
+#### **Edad**
 
-Según los resultados del estudio, el **26.1% de los usuarios** indicó usar la app HormonalCare entre **30 minutos y 1 hora al día**, mientras que un **21.7%** lo hace entre **1 y 2 horas**, otro **21.7%** entre **2 y 3 horas**, y un **21.7%** más de **3 horas**. Solo un **8.7%** de los encuestados reportó utilizarla por **menos de 30 minutos diarios**.
+![Formulario](assets/images/formulario1.png)
 
-Este patrón de uso revela un nivel de **interacción constante y sostenida**, especialmente entre aquellos que utilizan la aplicación para el seguimiento de citas, revisión de tratamientos y comunicación directa con profesionales de salud.
+**Conclusión:**
+La mayoría de los participantes tienen entre **30 y 48 años** (75%). Distribución:
 
-![forms2.jpeg](images/forms2.jpeg)
+* 39 - 48 años: 47.5%
+* 30 - 38 años: 27.5%
+* 22 - 29 años: 10%
+* 15 - 21 años: 12.5%
+* 49 - 59 años: 2.5%
+* +60 años: 0%
 
-### Evaluación de Características
+Esto demuestra que la app está captando principalmente adultos jóvenes y adultos medios, lo que es ideal para una solución digital con cierta complejidad funcional.
 
-- **Opción de Modo Oscuro:**
 
-El **56.5% de los participantes** (34.8% *Muy útil* y 21.7% *Útil*) consideró que la función de **modo oscuro** en HormonalCare mejora su experiencia de uso. Además, un **13%** se mantuvo **neutral**, mientras que un **8.7%** opinó que es **poco útil** y un **21.7%** la calificó como **nada útil**.
+#### **Género**
 
-Este resultado **valida parcialmente la hipótesis** de la experiment card correspondiente, la cual anticipaba que al menos el 60% de los usuarios preferirían utilizar la aplicación en modo oscuro. Aunque no se alcanzó exactamente esa cifra, el nivel de aceptación sigue siendo considerablemente alto.
+![Formulario](assets/images/formulario2.png)
 
-El hallazgo sugiere que mantener esta funcionalidad no solo aporta comodidad visual, especialmente en sesiones nocturnas, sino que también tiene un impacto positivo en la percepción general del diseño de la app.
+**Conclusión:**
 
-![forms3.jpeg](images/forms3.jpeg)
+* Femenino: 55%
+* Masculino: 45%
+* Otro / Prefiero no decir: 0%
 
-- **Cambio de Idioma en la Aplicación:**
+Se observa una ligera mayoría de usuarias mujeres. No hay respuestas de género diverso, pero el equilibrio entre hombres y mujeres puede ser útil para evaluar la usabilidad con enfoque de género.
 
-El **43.5%** de los participantes consideró que la posibilidad de cambiar el idioma en HormonalCare es **imprescindible**, mientras que otro **17.4%** lo valoró como **bastante útil**. Estos resultados reflejan que más del **60% de los usuarios** considera esta función clave para la experiencia de uso, especialmente en contextos multilingües.
 
-Además, un **17.4%** indicó que **no sabía que existía la opción**, lo cual sugiere una oportunidad de mejora en la visibilidad y accesibilidad de la función dentro del menú de configuración.
+#### **Nivel de familiaridad con apps móviles**
 
-Estos hallazgos validan directamente la hipótesis planteada en la **experiment card 2**, donde se proyectaba que al menos el 30% de los usuarios modificaría el idioma, mejorando su experiencia. En la práctica, la importancia percibida supera esa expectativa, destacando la necesidad de mantener y potenciar esta funcionalidad para públicos diversos.
+![Formulario](assets/images/formulario3.png)
 
-![forms4.jpeg](images/forms4.jpeg)
+**Conclusión:**
 
-- **Elementos de Gamificación (medallas, rachas, puntajes):**
+* Nivel 3: 35%
+* Nivel 4: 25%
+* Nivel 5: 22.5%
+* Nivel 2: 15%
+* Nivel 1: 2.5%
 
-El **56.5%** de los usuarios señaló que los elementos de gamificación dentro de **HormonalCare** les motivan significativamente a cumplir con sus controles y tareas médicas. Este resultado respalda fuertemente la hipótesis original de la *experiment card*, que proyectaba un aumento del 40% en el cumplimiento gracias a estos estímulos visuales.
+El **82.5%** tiene un nivel medio a alto de familiaridad, lo cual es favorable para probar funcionalidades más avanzadas sin barreras técnicas.
 
-En contraste, un **17.4%** de los participantes indicó que sí los nota, pero no influyen realmente en su comportamiento, mientras que un **26.1%** (sumando los que los consideran irrelevantes, confusos o no los habían notado) representa una porción de usuarios que podría beneficiarse de un rediseño o una mayor visibilidad de estos elementos.
 
-Este análisis sugiere que la gamificación es una estrategia útil y motivadora para una mayoría clara de usuarios, pero que aún puede ser mejorada en términos de usabilidad y presencia dentro de la interfaz.
+#### **¿Has utilizado previamente alguna app de salud o citas médicas?**
 
-![forms5.jpeg](images/forms5.jpeg)
+![Formulario](assets/images/formulario4.png)
 
-- **Guía Inicial (Onboarding):**
+**Conclusión:**
 
-El **56.5%** de los participantes afirmó que la guía inicial les ayudó significativamente a comprender el funcionamiento de la app **HormonalCare** desde el primer uso. Otro **34.8%** indicó que fue útil, aunque presentaba algunas dudas o vacíos de información. Un **8.7%** expresó que no la encontró útil o que no la vio al momento de ingresar.
+* Sí: 65%
+* No: 35%
 
-Este resultado respalda parcialmente la hipótesis de la *experiment card* correspondiente, que proponía un tutorial inicial para reducir la curva de aprendizaje. La mayoría lo encontró beneficioso, lo que sugiere que la funcionalidad cumple con su propósito; sin embargo, aún hay oportunidad de **mejorar la claridad y visibilidad** de la guía para nuevos usuarios.
+La mayoría tiene experiencia previa, lo que puede influir positivamente en su comprensión y evaluación de las funcionalidades.
 
-![forms6.jpeg](images/forms6.jpeg)
 
-- **Funcionalidad de Chat Médico-Paciente:**
+### **SECCIÓN 2 – Funcionalidades Observadas**
 
-El **52.2%** de los encuestados manifestó que la posibilidad de comunicarse con su médico a través de un chat en la app **HormonalCare** les hace sentir **más acompañados y tranquilos**, lo que valida la hipótesis de que esta funcionalidad fortalece el vínculo terapéutico.
 
-Además, un **17.4%** indicó que considera útil esta función, aunque no sustituye una consulta presencial. Un **13%** prefiere medios tradicionales como llamadas o correos, mientras que el **8.7%** expresó que no ha utilizado la función pero le interesaría hacerlo. Solo otro **8.7%** no considera relevante esta opción.
+#### **1. ¿Qué tan útil te parece la función del botón “Modo Oscuro”?**
 
-Estos resultados respaldan la implementación del chat como una herramienta complementaria clave en el tratamiento, especialmente para pacientes que buscan apoyo emocional y seguimiento continuo sin necesidad de desplazarse.
+![Formulario](assets/images/formulario5.png)
 
-![forms7.jpeg](images/forms7.jpeg)
+**Conclusión:**
 
-### Recomendaciones de los Usuarios
+* 5 estrellas: 82.5%
+* 4 estrellas: 10%
+* 3 estrellas: 7.5%
 
-Entre las funcionalidades evaluadas en la encuesta, se identificaron cinco características clave que los usuarios consideraron que **mejoraron significativamente la usabilidad** de la app HormonalCare:
+El **92.5%** valoró esta funcionalidad como altamente útil. Respalda su integración por motivos de comodidad visual y accesibilidad.
 
-- **Chat con el médico** (56.5%)
-- **Opción de cambiar el idioma** (43.5%)
-- **Activación del modo oscuro** (34.8%)
-- **Elementos de gamificación** como medallas, rachas o puntajes (30.4%)
-- **Guía inicial o tutorial (onboarding)** (21.7%)
 
-![forms8.jpeg](images/forms8.jpeg)
+#### **2. ¿Activarías esta función por motivos de comodidad o visualización?**
 
-Estas respuestas reflejan que las funcionalidades centradas en la **comunicación directa**, la **personalización visual** y la **facilitación del aprendizaje** son valoradas positivamente por los usuarios. En particular, el chat médico-paciente se posiciona como la opción con mayor impacto percibido, reforzando la importancia de la atención continua y personalizada.
+![Formulario](assets/images/formulario6.png)
 
-Este análisis valida las hipótesis planteadas en las respectivas *experiment cards*, y demuestra que las decisiones de diseño e implementación abordadas durante el proyecto estuvieron alineadas con las necesidades reales de los usuarios.
+**Conclusión:**
+
+* Sí: 97.5%
+* No: 2.5%
+
+Confirma la preferencia por esta función. Solo 1 persona no la activaría.
+
+
+#### **3. ¿Mostrar la fecha actual en la pantalla de citas te ayuda a ubicarte mejor?**
+
+![Formulario](assets/images/formulario7.png)
+
+**Conclusión:**
+
+* 5 estrellas: 80%
+* 4 estrellas: 12.5%
+* 3 estrellas: 7.5%
+
+El **92.5%** considera que esta función mejora la organización de citas.
+
+
+#### **4. ¿El saludo con tu nombre te transmite cercanía o personalización?**
+
+![Formulario](assets/images/formulario8.png)
+
+**Conclusión:**
+
+* 5 estrellas: 85%
+* 4 estrellas: 12.5%
+* 3 estrellas: 2.5%
+
+Genera una sensación de personalización en la **gran mayoría** de usuarios (97.5%).
+
+
+#### **5. ¿Notaste el ícono de “médico verificado”?**
+
+![Formulario](assets/images/formulario9.png)
+
+**Conclusión:**
+
+* Sí: 92.5%
+* No: 7.5%
+
+La mayoría percibió correctamente el ícono. Está bien posicionado visualmente.
+
+
+#### **6. ¿Ese ícono te generó más confianza para seleccionar un médico?**
+
+![Formulario](assets/images/formulario10.png)
+
+**Conclusión:**
+
+* 5 estrellas: 72.5%
+* 4 estrellas: 20%
+* 3 estrellas: 7.5%
+
+El 92.5% sintió **más confianza**, lo que indica que esta señal visual cumple su objetivo.
+
+
+#### **7. ¿La indicación de que el médico está “en línea” te parece útil?**
+
+![Formulario](assets/images/formulario11.png)
+
+**Conclusión:**
+
+* 5 estrellas: 82.5%
+* 4 estrellas: 12.5%
+* 3 estrellas: 5%
+
+El 95% valora esta función como útil. Favorece la toma de decisiones en tiempo real.
+
+
+#### **8. ¿Crees que lo usarías como guía para comunicarte?**
+
+![Formulario](assets/images/formulario12.png)
+
+**Conclusión:**
+
+* Sí: 97.5%
+* No: 2.5%
+
+Refuerza el valor práctico de mostrar el estado en línea como guía para iniciar contacto.
+
+
+#### **9. ¿Qué tan práctico te parece el botón “Volver al inicio”?**
+
+![Formulario](assets/images/formulario13.png)
+
+**Conclusión:**
+
+* 5 estrellas: 82.5%
+* 4 estrellas: 15%
+* 3 estrellas: 2.5%
+
+El **97.5%** lo considera práctico. Mejora significativamente la navegación en pantallas largas.
+
+
+#### **10. ¿El mensaje al intentar cerrar sesión evita errores?**
+
+![Formulario](assets/images/formulario14.png)
+
+**Conclusión:**
+
+* 5 estrellas: 80%
+* 4 estrellas: 17.5%
+* 3 estrellas: 2.5%
+
+El **97.5%** considera que esta confirmación ayuda a evitar cierres accidentales.
+
+
+#### **11. ¿Cambiar el idioma desde la configuración es sencillo e intuitivo?**
+
+![Formulario](assets/images/formulario15.png)
+
+**Conclusión:**
+
+* 5 estrellas: 70%
+* 4 estrellas: 25%
+* 3 o menos: 5%
+
+El **95%** considera que el cambio de idioma es accesible e intuitivo, lo cual es crucial para entornos multilingües.
+
+
+#### **12. ¿Algún botón, ícono o texto te pareció confuso al ver la app?**
+
+![Formulario](assets/images/formulario16.png)
+
+**Conclusión:**
+
+* No: 62.5%
+* Sí: 37.5%
+
+Aunque la mayoría no tuvo problemas, el 37.5% encontró algo confuso. Esto sugiere que aún hay oportunidad de **mejorar la claridad visual** de algunos elementos.
+
+#### **13. ¿Qué funcionalidad te pareció más útil de todas las vistas?**
+
+![Formulario](assets/images/formulario17.png)
+
+**Conclusión:**
+
+* Modo Oscuro: 55%
+* Cambio de idioma: 52.5%
+* Estado en línea: 50%
+* Verificación del médico: 47.5%
+* Botón volver al inicio: 40%
+* Fecha de citas: 35%
+* Otro: 10%
+
+El **modo oscuro y cambio de idioma** son percibidas como las funciones más valiosas. Este resultado ayuda a priorizar en futuras versiones.
+
+
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 Reevaluación del Question Backlog tras los experimentos. Se ajustan prioridades y puntuaciones en función del impacto real medido.

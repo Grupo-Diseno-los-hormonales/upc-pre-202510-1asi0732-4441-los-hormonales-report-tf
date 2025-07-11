@@ -5470,7 +5470,7 @@ Como parte del enfoque de desarrollo impulsado por experimentos, esta sección p
 
 
 
-### 8.3.3.2. Implemented To-Be Landing Page Evidence
+##### 8.3.3.2. Implemented To-Be Landing Page Evidence
 Evidencia visual y técnica de los cambios aplicados en la Landing Page como parte del experimento. Incluye capturas de pantalla, código fuente, enlaces de despliegue y commits.
 
 #### UA01 - Activar modo oscuro manualmente
@@ -5490,13 +5490,126 @@ Se desarrolló un sistema de cambio dinámico de idioma que permite alternar ent
 
 ![us22.jpeg](images/us22.jpeg)
 
-### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
-Demuestra la implementación en el frontend web durante el experimento. Se debe incluir evidencia funcional de nuevas vistas, interacciones, commits y despliegues.
 
-### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
-Se presenta la evidencia de implementación experimental en la app móvil (Android/iOS). Puede incluir capturas, builds, navegación funcional, commits y videos si aplica.
+#### UA07 - Agregar botón “Volver al inicio” en scroll largo de la landing page
 
-### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+Se añadió un botón flotante que aparece al hacer scroll hacia abajo, permitiendo regresar al inicio de la página con un solo clic. Esto mejora significativamente la navegación en páginas largas, sobre todo en la landing page.
+
+![landing](images/us7landing.png)
+![landing](images/us7landing1.png)
+
+
+##### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+Demuestra la implementación en el frontend web durante el experimento. Incluye evidencia funcional de nuevas vistas, interacciones, commits y despliegues.
+
+#### UA01 - Activar modo oscuro manualmente
+
+Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos. 
+
+![web](images/us1web1.jpeg)
+![web](images/us1web2.jpeg)
+
+
+#### UA02 - Cambiar idioma de la app
+
+Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
+
+![web](images/us2web1.jpeg)
+![web](images/us2web2.jpeg)
+
+#### UA03 - Ver saludo personalizado con nombre
+
+Se muestra un saludo con el nombre del usuario al ingresar al dashboard principal, generando una sensación de reconocimiento y cercanía emocional. Esta mejora es simple pero efectiva para aumentar el vínculo entre el usuario y la app.
+
+![web](images/us3web1.png)
+
+
+#### UA04 - Mostrar fecha actual en la pantalla de citas
+
+Se añadió un encabezado con la fecha actual en la vista de citas médicas, ayudando a los médicos a orientarse mejor en su planificación diaria y a contextualizar rápidamente las consultas agendadas.
+
+![web](images/us4web1.png)
+
+
+#### UA05 - Ver ícono de verificado en médicos confirmados
+
+Los médicos verificados ahora muestran un ícono distintivo junto a su nombre, lo que aumenta la percepción de seguridad y profesionalismo para los pacientes.
+
+![web](images/us5web1.png)
+
+
+#### UA06 - Confirmación antes de cerrar sesión
+
+Se incorporó una ventana emergente que solicita confirmación antes de cerrar sesión, evitando que el usuario salga por error y mejorando el control sobre su experiencia dentro de la app.
+
+![web](images/us6web1.png)
+
+
+
+#### UA08 - Ver estado “en línea” del médico
+
+En la sección de perfil y vistas relacionadas, ahora se muestra un punto verde para indicar que el médico está conectado. Esto permite a los pacientes decidir mejor cuándo iniciar una comunicación o consulta.
+
+![web](images/us8web1.png)
+
+
+##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+Se presenta la evidencia de implementación experimental en la app móvil (Android/iOS). Incluye capturas de pantalla que demuestran el funcionamiento de nuevas vistas, interacciones clave, mejoras en experiencia de usuario, y validaciones visuales durante el experimento.
+
+#### UA01 - Activar modo oscuro manualmente
+
+En la app móvil se habilitó un botón flotante que permite al usuario cambiar entre modo claro y modo oscuro. El ícono alterna entre un sol y una luna según el estado. Esta funcionalidad permite una navegación más cómoda en diferentes condiciones de luz.
+
+![mobile](images/us1mob1.jpeg)
+![mobile](images/us1mob2.jpeg)
+
+#### UA02 - Cambiar idioma de la app
+
+Se integró una función de selección de idioma que permite al usuario cambiar entre español e inglés desde la configuración de la app móvil. El cambio de idioma se refleja instantáneamente en todos los textos relevantes sin necesidad de reiniciar la aplicación.
+
+![mobile](images/us2mob1.jpeg)
+![mobile](images/us2mob2.jpeg)
+
+#### UA03 - Ver saludo personalizado con nombre
+
+Al ingresar a la pantalla de inicio, la app móvil muestra un saludo personalizado con el nombre del usuario, reforzando la conexión emocional con la app y brindando una experiencia más acogedora.
+
+![mobile](images/us3mob1.jpeg)
+![mobile](images/us3mob2.jpeg)
+
+#### UA04 - Mostrar fecha actual en la pantalla de citas
+
+La vista de citas médicas incluye ahora un encabezado con la fecha del día. Esta mejora facilita al médico la organización visual de las consultas según el día correspondiente.
+
+![mobile](images/us4mob1.jpeg)
+![mobile](images/us4mob2.jpeg)
+
+#### UA05 - Ver ícono de verificado en médicos confirmados
+
+En la app móvil, los perfiles de médicos verificados presentan un ícono azul de verificación junto a su nombre. Esto otorga mayor confianza a los usuarios al elegir con quién agendar una cita.
+
+![mobile](images/us5mob1.jpeg)
+![mobile](images/us5mob2.jpeg)
+
+#### UA06 - Confirmación antes de cerrar sesión
+
+Se agregó una alerta de confirmación antes de cerrar sesión, para prevenir salidas accidentales y mejorar el flujo de navegación controlada dentro de la app.
+
+![mobile](images/us6mob1.jpeg)
+![mobile](images/us6mob2.jpeg)
+
+#### UA08 - Ver estado “en línea” del médico
+
+Los usuarios ahora pueden ver un indicador visual (punto verde) en el perfil de los médicos cuando están activos en la plataforma móvil, mejorando la toma de decisiones al momento de contactar.
+
+![mobile](images/us8mob1.jpeg)
+![mobile](images/us8mob2.jpeg)
+
+
+
+##### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 Durante la fase de experimentación, se diseñaron e implementaron nuevas funcionalidades orientadas a mejorar la experiencia del usuario final. Sin embargo, **estas mejoras fueron desarrolladas exclusivamente en el frontend**, sin necesidad de modificar los endpoints existentes ni implementar nueva lógica en el backend.
 

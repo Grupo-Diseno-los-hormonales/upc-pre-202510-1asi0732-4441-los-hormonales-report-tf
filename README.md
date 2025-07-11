@@ -5491,45 +5491,46 @@ Este plan de tracking ha sido concebido como un **mecanismo central dentro del c
 
 Como parte del enfoque de desarrollo impulsado por experimentos, esta sección presenta las historias de usuario y funcionalidades que se plantean implementar tras los hallazgos obtenidos durante las fases de validación y análisis de datos. Estas nuevas propuestas buscan mejorar la experiencia del usuario y optimizar el rendimiento de la plataforma HormonalCare, tanto en su versión web como móvil. Las historias listadas a continuación representan el estado futuro deseado (To-Be), alineadas con las prioridades identificadas en el ciclo de mejora continua del proyecto.
 
+
 #### 8.3.1. To-Be User Stories
 
-| ID   | Título                                            | Descripción                                                                                          | Criterios de Aceptación                                                                                         | Epic |
-|------|---------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|------|
-| UA01 | Activar modo oscuro manualmente                   | Como visitante, paciente, doctor y administrador, quiero activar o desactivar el modo oscuro desde configuración, para cuidar mi vista. | Given que ingreso a Configuración. When activo el botón “Modo Oscuro”. Then la interfaz cambia a modo oscuro.   | EP01 |
-| UA02 | Cambiar idioma de la app                          | Como visitante, paciente, doctor y administrador, quiero cambiar el idioma de la app a inglés, para usarla en el idioma que prefiera. | Given que ingreso a Configuración. When selecciono “Inglés”. Then toda la interfaz cambia a ese idioma.         | EP01 |
-| UA03 | Ver saludo personalizado con nombre               | Como paciente, doctor y administrador, quiero ver un saludo con mi nombre al ingresar, para sentirme reconocido. | Given que inicio sesión. When entro al dashboard. Then aparece “Hola, [nombre]”.                                | EP01 |
-| UA04 | Mostrar etiqueta “Hoy” en citas del día actual    | Como paciente, doctor y administrador, quiero que las citas del día estén marcadas con “Hoy”, para identificarlas fácilmente. | Given que estoy en la lista de citas. When una cita es para hoy. Then se le añade un texto o ícono “Hoy”.       | EP03 |
-| UA05 | Mostrar última fecha de acceso del usuario        | Como paciente, doctor y administrador, quiero ver la última vez que ingresé, para tener control sobre mis accesos. | Given que ingreso al sistema. When llego al dashboard. Then aparece un texto como “Último acceso: [fecha y hora]”. | EP01 |
-| UA06 | Ver ícono de verificado en médicos confirmados    | Como paciente, quiero ver un ícono de “verificado” en médicos aprobados, para tener más confianza.   | Given que veo una lista de médicos. When uno está verificado. Then aparece un ícono junto a su nombre.         | EP10 |
-| UA07 | Confirmación antes de salir de la app             | Como paciente, doctor y administrador, quiero que la app me pregunte si deseo salir, para evitar cerrar por error. | Given que toco “Salir” o uso botón atrás. When aún estoy en sesión. Then aparece una ventana de confirmación.  | EP01 |
-| UA08 | Mostrar pestaña destacada según módulo abierto    | Como paciente, doctor y administrador, quiero que la sección actual aparezca resaltada, para saber en qué parte de la app estoy. | Given que navego por la app. When estoy en una sección. Then el botón correspondiente aparece resaltado.     | EP01 |
-| UA09 | Agregar botón “Volver al inicio” en scroll largo  | Como paciente, doctor y administrador, quiero un botón que me lleve al inicio en pantallas largas, para ahorrar tiempo. | Given que estoy en una vista larga. When scrolleo hasta abajo. Then aparece un botón flotante “↑ Inicio”.       | EP01 |
-| UA10 | Ver estado “en línea” del médico                  | Como paciente, quiero ver si el médico está conectado, para saber si puedo enviarle un mensaje.      | Given que entro a la vista del médico. When está en línea. Then aparece un punto verde o “En línea”.           | EP05 |
+| ID   | Título                                           | Descripción                                                                                                                     | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                       | Epic |
+| ---- | ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- |
+| UA01 | Activar modo oscuro manualmente                  | Como visitante y usuario de "HormonalCare", quiero activar o desactivar el modo oscuro, para cuidar mi vista. | **Escenario 1: Activar modo oscuro**<br>**Given** que ingreso a la app.<br>**When** activo el botón “Modo Oscuro”.<br>**Then** la interfaz cambia a modo oscuro.<br><br>**Escenario 2: Desactivar modo oscuro**<br>**Given** que el modo oscuro está activado.<br>**When** lo desactivo.<br>**Then** la interfaz vuelve al modo claro. | EP01 |
+| UA02 | Cambiar idioma de la app                         | Como visitante y usuario de "HormonalCare", quiero cambiar el idioma de la app a inglés, para usarla en el idioma que prefiera.   | **Escenario 1: Cambiar idioma a inglés**<br>**Given** que ingreso a la app.<br>**When** selecciono “Inglés”.<br>**Then** toda la interfaz cambia a ese idioma.<br><br>**Escenario 2: Cambiar idioma a español**<br>**Given** que ya está en inglés.<br>**When** selecciono “Español”.<br>**Then** la interfaz cambia al español.       | EP01 |
+| UA03 | Ver saludo personalizado con nombre              | Como usuario de "HormonalCare", quiero ver un saludo con mi nombre al ingresar, para sentirme reconocido.                         | **Escenario 1: Mostrar saludo con nombre**<br>**Given** que inicio sesión.<br>**When** entro al dashboard.<br>**Then** aparece “Hola, \[nombre]”.<br><br>**Escenario 2: Cambiar saludo tras nuevo inicio de sesión**<br>**Given** que cerré sesión.<br>**When** otro usuario inicia.<br>**Then** se muestra su nombre, no el anterior.        | EP01 |
+| UA04 | Mostrar fecha actual en la pantalla de citas | Como doctor, quiero ver la fecha actual en la pantalla de citas del día, para orientarme rápidamente y confirmar el día. | **Escenario 1: Mostrar fecha del día actual**<br>**Given** que estoy en la sección principal de citas del médico.<br>**When** la pantalla carga.<br>**Then** se muestra un encabezado o texto con la fecha actual (por ejemplo: “Citas para hoy - Jueves 11 de Julio”).<br><br>**Escenario 2: Ocultar encabezado fuera de contexto**<br>**Given** que accedo a otra sección distinta de la app.<br>**When** ya no estoy en la pantalla de citas.<br>**Then** el encabezado con la fecha no se muestra. | EP03 |
+| UA05 | Ver ícono de verificado en médicos confirmados   | Como usuario de "HormonalCare", quiero ver un ícono de “verificado” en médicos aprobados, para tener más confianza.               | **Escenario 1: Médico verificado visible**<br>**Given** que veo una lista de médicos.<br>**When** uno está verificado.<br>**Then** aparece un ícono junto a su nombre.<br><br>**Escenario 2: Médico no verificado**<br>**Given** que el médico no está verificado.<br>**When** lo veo.<br>**Then** no aparece el ícono.                       | EP10 |
+| UA06 | Confirmación antes de cerrar sesión | Como usuario de "HormonalCare", quiero que la app me pida confirmación antes de cerrar sesión, para evitar hacerlo por error. | **Escenario 1: Solicitar confirmación al cerrar sesión**<br>**Given** que toco el botón "Cerrar sesión".<br>**When** aún estoy autenticado.<br>**Then** se muestra un mensaje de confirmación.<br><br>**Escenario 2: Cancelar cierre de sesión**<br>**Given** que aparece el mensaje.<br>**When** presiono "Cancelar".<br>**Then** permanezco dentro de la app. | EP01 |
+| UA07 | Agregar botón “Volver al inicio” en scroll largo de la landing page | Como visitante de la landing page, quiero un botón que me lleve al inicio, para ahorrar tiempo.                  | **Escenario 1: Mostrar botón de regreso**<br>**Given** que estoy en una vista larga de la landing page<br>**When** scrolleo hasta abajo.<br>**Then** aparece un botón flotante “↑ Inicio”.<br><br>**Escenario 2: Volver al inicio**<br>**Given** que presiono el botón.<br>**When** se ejecuta.<br>**Then** me lleva a la parte superior.                       | EP01 |
+| UA08 | Ver estado “en línea” del médico                 | Como usuario de HormonalCare, quiero ver si el médico está conectado, para saber si puedo enviarle un mensaje.                  | **Escenario 1: Médico en línea**<br>**Given** que entro a la vista del médico.<br>**When** está en línea.<br>**Then** aparece un punto verde o “En línea”.<br><br>**Escenario 2: Médico desconectado**<br>**Given** que el médico está offline.<br>**When** entro al chat.<br>**Then** se muestra “Desconectado” o no se muestra estado.  | EP05 |
 
-#### 8.3.2. To-Be Product Backlog
-| #  | User Story ID | Título                                           | Story Points (1 / 2 / 3 / 5 / 8) |
-|----|----------------|--------------------------------------------------|----------------------------------|
-| 1  | UA01           | Activar modo oscuro manualmente                  | 2                                |
-| 2  | UA02           | Cambiar idioma de la app                         | 5                                |
-| 3  | UA03           | Ver saludo personalizado con nombre              | 1                                |
-| 4  | UA04           | Mostrar etiqueta “Hoy” en citas del día actual   | 2                                |
-| 5  | UA05           | Mostrar última fecha de acceso del usuario       | 2                                |
-| 6  | UA06           | Ver ícono de verificado en médicos confirmados   | 1                                |
-| 7  | UA07           | Confirmación antes de salir de la app            | 2                                |
-| 8  | UA08           | Mostrar pestaña destacada según módulo abierto   | 1                                |
-| 9  | UA09           | Agregar botón “Volver al inicio” en scroll largo | 2                                |
-| 10 | UA10           | Ver estado “en línea” del médico                 | 3                                |
+#### 8.3.2. To-Be Product Backlog 
 
-## 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
-Esta sección contiene la ejecución práctica del experimento usando el pipeline implementado. Se debe mostrar cómo cada componente del sistema (Landing Page, Web, App, Backend) fue adaptado según las hipótesis planteadas y qué resultados se obtuvieron en cada sprint experimental.
+| # | User Story ID | Título                                           | Story Points |
+| - | ------------- | ------------------------------------------------ | ------------ |
+| 1 | UA01          | Activar modo oscuro manualmente                  | 2            |
+| 2 | UA02          | Cambiar idioma de la app                         | 5            |
+| 3 | UA03          | Ver saludo personalizado con nombre              | 1            |
+| 4 | UA04          | Mostrar fecha actual en la pantalla de citas     | 2            |
+| 5 | UA05          | Ver ícono de verificado en médicos confirmados   | 1            |
+| 6 | UA06          | Confirmación antes de cerrar sesión              | 2            |
+| 7 | UA07          | Agregar botón “Volver al inicio” en scroll largo de la landing page | 2            |
+| 8 | UA08          | Ver estado “en línea” del médico                 | 3            |
 
-### 8.3.3.1. To-Be Sprint Backlogs
-Se documentan los Sprint Backlogs específicos usados en la ejecución del experimento, con user stories seleccionadas, tareas por integrante, estimaciones, responsables y estados de avance.
+
+
+#### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+##### 8.3.3.1. To-Be Sprint Backlogs
+
+
+
 
 ### 8.3.3.2. Implemented To-Be Landing Page Evidence
 Evidencia visual y técnica de los cambios aplicados en la Landing Page como parte del experimento. Incluye capturas de pantalla, código fuente, enlaces de despliegue y commits.
 
-#### ✅ UA01 - Activar modo oscuro manualmente
+#### UA01 - Activar modo oscuro manualmente
 
 Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro desde la barra de navegación, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos y se mantiene activa incluso al recargar la página, gracias al almacenamiento del estado en el navegador. Se aplicaron cambios visuales a todos los componentes de la página, como fondos, botones, textos y formularios.
 
@@ -5538,7 +5539,7 @@ Se implementó una funcionalidad que permite al usuario activar y desactivar man
 ![us01.jpeg](images/us01.jpeg)
 
 
-#### ✅ UA02 - Cambiar idioma de la app
+#### UA02 - Cambiar idioma de la app
 
 Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
 

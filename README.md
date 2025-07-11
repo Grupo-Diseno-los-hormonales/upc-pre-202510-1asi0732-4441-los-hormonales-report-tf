@@ -4967,386 +4967,311 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 
 #### 8.1.3. Experiment-Ready Questions
 
-| Pregunta                                                                                      | Confianza | Riesgo | Impacto | Interés | Total |
-| --------------------------------------------------------------------------------------------- | --------- | ------ | ------- | ------- | ----- |
-| ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?          | 8         | 2      | 9       | 9       | 28    |
-| ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?             | 9         | 3      | 8       | 8       | 28    |
-| ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? | 7         | 3      | 9       | 7       | 26    |
-| ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas nativas?  | 7         | 2      | 8       | 8       | 25    |
-| ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?             | 6         | 2      | 9       | 7       | 24    |
-| ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                    | 6         | 4      | 7       | 8       | 25    |
-| ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?         | 8         | 1      | 7       | 6       | 22    |
-| ¿Una interfaz oscura mejoraría la comodidad en el uso nocturno de la app?                     | 7         | 2      | 6       | 6       | 21    |
-| ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  | 7         | 2      | 8       | 7       | 24    |
-| ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?         | 9         | 3      | 9       | 9       | 30    |
+| Pregunta                                                                                                 | Confianza | Riesgo | Impacto | Interés | Total |
+| -------------------------------------------------------------------------------------------------------- | --------- | ------ | ------- | ------- | ----- |
+| ¿La opción de modo oscuro mejora la experiencia visual de los usuarios en entornos con poca luz?         | 8         | 1      | 6       | 7       | 22    |
+| ¿Ver la fecha actual en la pantalla de citas ayuda a médicos a orientarse mejor en su día a día?         | 9         | 1      | 7       | 8       | 25    |
+| ¿Mostrar un saludo personalizado con el nombre del usuario genera una sensación de cercanía?             | 8         | 1      | 6       | 7       | 22    |
+| ¿Ver un ícono de “verificado” junto a los médicos incrementa la confianza en ellos?                      | 8         | 1      | 8       | 9       | 26    |
+| ¿Mostrar el estado “en línea” del médico facilita la comunicación efectiva con el paciente?              | 9         | 2      | 8       | 9       | 28    |
+| ¿Un botón flotante para volver al inicio mejora la navegación en vistas con mucho scroll?                | 8         | 1      | 6       | 7       | 22    |
+| ¿Pedir confirmación antes de cerrar sesión previene errores comunes del usuario?                         | 7         | 1      | 6       | 6       | 20    |
+| ¿El cambio de idioma desde configuración es claro y accesible para usuarios no hispanohablantes?         | 8         | 2      | 7       | 8       | 25    |
+| ¿Alguno de los textos o botones mostrados en pantalla resulta confuso para el usuario promedio?          | 7         | 2      | 7       | 6       | 22    |
+| ¿Mostrar mejoras simples de interfaz visual (íconos, etiquetas, botones) aumenta la percepción de valor? | 8         | 1      | 7       | 8       | 24    |
+
 
 #### 8.1.4. Question Backlog
 
-| Prioridad | Pregunta                                                                                      |
-| --------- | --------------------------------------------------------------------------------------------- |
-| 5         | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?          |
-| 5         | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?             |
-| 5         | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? |
-| 3         | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas nativas?  |
-| 3         | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?             |
-| 3         | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                    |
-| 2         | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?         |
-| 1         | ¿Una interfaz oscura mejoraría la comodidad en el uso nocturno de la app?                     |
-| 3         | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  |
-| 5         | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?         |
+| Prioridad | Pregunta                                                                                                 |
+| --------- | -------------------------------------------------------------------------------------------------------- |
+| 5         | ¿Mostrar el estado “en línea” del médico facilita la comunicación efectiva con el paciente?              |
+| 5         | ¿Ver un ícono de “verificado” junto a los médicos incrementa la confianza en ellos?                      |
+| 4         | ¿Ver la fecha actual en la pantalla de citas ayuda a médicos a orientarse mejor en su día a día?         |
+| 4         | ¿El cambio de idioma desde configuración es claro y accesible para usuarios no hispanohablantes?         |
+| 3         | ¿La opción de modo oscuro mejora la experiencia visual de los usuarios en entornos con poca luz?         |
+| 3         | ¿Mostrar un saludo personalizado con el nombre del usuario genera una sensación de cercanía?             |
+| 3         | ¿Un botón flotante para volver al inicio mejora la navegación en vistas con mucho scroll?                |
+| 2         | ¿Alguno de los textos o botones mostrados en pantalla resulta confuso para el usuario promedio?          |
+| 2         | ¿Mostrar mejoras simples de interfaz visual (íconos, etiquetas, botones) aumenta la percepción de valor? |
+| 1         | ¿Pedir confirmación antes de cerrar sesión previene errores comunes del usuario?                         |
 
 
 #### 8.1.5. Experiment Cards 
 
-| Elemento       | Detalle                                                                                                                            |
-| -------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                                               |
-| **Why**        | Los recordatorios diarios permiten al paciente cumplir mejor con medicaciones y citas, incrementando la adherencia al tratamiento. |
-| **What**       | Desarrollar un sistema de notificaciones push personalizadas y configurables según el perfil del paciente.                         |
-| **Hypothesis** | Se espera que un 70% de los pacientes con recordatorios activos mantengan su tratamiento sin interrupciones durante un mes.        |
+#### Experimento 1: Modo oscuro
+
+| Elemento       | Detalle                                                                                 |
+| -------------- | --------------------------------------------------------------------------------------- |
+| **Question**   | ¿Una interfaz oscura mejora la comodidad en el uso nocturno de la app?                  |
+| **Why**        | Un modo oscuro reduce la fatiga visual en ambientes de poca luz.                        |
+| **What**       | Añadir opción de activar/desactivar modo oscuro desde configuración.                    |
+| **Hypothesis** | Al menos el 70% de los usuarios indicará que el botón de “Modo Oscuro” es claro y útil. |
 
 
-| Elemento       | Detalle                                                                                         |
-| -------------- | ----------------------------------------------------------------------------------------------- |
-| **Question**   | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?               |
-| **Why**        | Una comunicación directa fortalece el vínculo terapéutico y reduce el abandono del tratamiento. |
-| **What**       | Incorporar un chat dentro de la app que permita mensajes asincrónicos entre paciente y médico.  |
-| **Hypothesis** | El 80% de los pacientes que usan el chat reportarán sentirse más acompañados clínicamente.      |
+#### Experimento 2: Fecha visible en pantalla de citas
 
+| Elemento       | Detalle                                                                                                            |
+| -------------- | ------------------------------------------------------------------------------------------------------------------ |
+| **Question**   | ¿Ver la fecha en la sección de citas ayuda a médicos a orientarse mejor?                                           |
+| **Why**        | Mostrar la fecha mejora la organización mental y contextualiza las citas en tiempo real.                           |
+| **What**       | Encabezado con la fecha actual visible en la vista principal de citas médicas.                                     |
+| **Hypothesis** | El 80% de los usuarios médicos dirá que mostrar la fecha en pantalla mejora la orientación en la sección de citas. |
+
+
+#### Experimento 3: Verificación visual de médicos
+
+| Elemento       | Detalle                                                                                                   |
+| -------------- | --------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿El ícono de verificado al lado de los médicos transmite mayor confianza?                                 |
+| **Why**        | Los usuarios asocian símbolos de verificación con profesionalismo y credibilidad.                         |
+| **What**       | Mostrar ícono de verificación al lado del nombre de médicos aprobados.                                    |
+| **Hypothesis** | Al menos el 75% de los usuarios reconocerá el ícono de verificado y afirmará que inspira mayor confianza. |
+
+
+#### Experimento 4: Estado "en línea" del médico
+
+| Elemento       | Detalle                                                                                                        |
+| -------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Mostrar el estado "en línea" del médico mejora la decisión del usuario de iniciar una conversación?           |
+| **Why**        | Saber si el médico está conectado mejora la expectativa de respuesta y comunicación.                           |
+| **What**       | Mostrar indicador visual (verde/en línea) en el perfil o chat de los médicos.                                  |
+| **Hypothesis** | El 70% de los usuarios afirmará que el estado "en línea" les ayuda a decidir cuándo comunicarse con el médico. |
+
+
+#### Experimento 5: Saludo personalizado con nombre
+
+| Elemento       | Detalle                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Un saludo personalizado con el nombre del usuario mejora la experiencia emocional en el inicio de sesión? |
+| **Why**        | La personalización genera cercanía, reconocimiento e identificación con la app.                            |
+| **What**       | Mostrar texto como “Hola, \[Nombre]” al ingresar al dashboard principal.                                   |
+| **Hypothesis** | El 75% de los usuarios dirá que el saludo personalizado les hace sentir bienvenidos o reconocidos.         |
+
+
+#### Experimento 6: Confirmación al cerrar sesión
+
+| Elemento       | Detalle                                                                                             |
+| -------------- | --------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Mostrar una confirmación al cerrar sesión evita errores del usuario y mejora el control de salida? |
+| **Why**        | Prevenir cierres accidentales mejora la experiencia y reduce frustraciones.                         |
+| **What**       | Mensaje emergente al presionar “Cerrar sesión” que pida confirmar la acción.                        |
+| **Hypothesis** | El 70% de los usuarios indicará que el mensaje de confirmación evita que cierren sesión por error.  |
+
+
+#### Experimento 7: Cambio de idioma en configuración
+
+| Elemento       | Detalle                                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Question**   | ¿Cambiar el idioma desde configuración es fácil de identificar y útil para el usuario?                     |
+| **Why**        | Muchos usuarios requieren usar la app en el idioma de su preferencia, especialmente en contextos de salud. |
+| **What**       | Botón de idioma en configuración, con opciones como “Español” e “Inglés”.                                  |
+| **Hypothesis** | Al menos el 80% de los usuarios considerará claro y útil el botón de cambio de idioma.                     |
+
+
+#### Experimento 8: Botón flotante “↑ Inicio”
 
 | Elemento       | Detalle                                                                                                      |
 | -------------- | ------------------------------------------------------------------------------------------------------------ |
-| **Question**   | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?                |
-| **Why**        | Las gráficas permiten detectar patrones anómalos o progresiones que podrían pasar desapercibidas en tablas.  |
-| **What**       | Visualizar históricos hormonales mediante gráficas de líneas, colores de alerta y zoom de periodos críticos. |
-| **Hypothesis** | Un 60% de los médicos reducirá errores en diagnósticos al usar esta funcionalidad en las citas.              |
-
-
-| Elemento       | Detalle                                                                                               |
-| -------------- | ----------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?                  |
-| **Why**        | Sincronizar la app con herramientas diarias ayuda a que el usuario integre HormonalCare en su rutina. |
-| **What**       | Agregar integración con Google Calendar, alarmas del sistema y widgets recordatorios.                 |
-| **Hypothesis** | La retención semanal de usuarios aumentará en un 35% tras implementar esta integración.               |
-
-
-| Elemento       | Detalle                                                                                                     |
-| -------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                           |
-| **Why**        | Un dashboard ajustable permite al médico priorizar información clave según cada paciente.                   |
-| **What**       | Diseñar un panel personalizable por filtros: alertas críticas, citas recientes, cumplimiento de medicación. |
-| **Hypothesis** | El 75% de los médicos considerarán que su toma de decisiones mejoró tras usar dashboards personalizados.    |
-
-
-| Elemento       | Detalle                                                                                               |
-| -------------- | ----------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                            |
-| **Why**        | Recompensar el cumplimiento de citas, registro de síntomas o toma de medicamentos motiva al paciente. |
-| **What**       | Implementar medallas, rachas de logros y puntaje de salud para pacientes que cumplen metas.           |
-| **Hypothesis** | El cumplimiento de metas aumentará en un 40% entre pacientes con gamificación activa.                 |
-
-
-| Elemento       | Detalle                                                                                                  |
-| -------------- | -------------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?                    |
-| **Why**        | Una guía mejora la primera experiencia de uso, disminuye la curva de aprendizaje y el abandono temprano. |
-| **What**       | Crear un tutorial paso a paso que se active en el primer uso de la app.                                  |
-| **Hypothesis** | El 60% de nuevos usuarios completarán exitosamente tareas clave tras usar la guía inicial.               |
-
-
-| Elemento       | Detalle                                                                                           |
-| -------------- | ------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?                          |
-| **Why**        | Los entornos de baja luz requieren interfaces más suaves para la vista, reduciendo fatiga visual. |
-| **What**       | Incluir modo oscuro activable desde configuración, aplicando contraste adecuado.                  |
-| **Hypothesis** | El 50% de los usuarios nocturnos preferirán usar la app con modo oscuro.                          |
-
-
-| Elemento       | Detalle                                                                                       |
-| -------------- | --------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?  |
-| **Why**        | Priorizar pacientes por urgencia hormonal optimiza el tiempo del profesional.                 |
-| **What**       | Filtros por estado crítico, desbalances, falta de seguimiento o incumplimiento de medicación. |
-| **Hypothesis** | El tiempo de respuesta clínica ante casos críticos disminuirá en un 30%.                      |
-
-| Elemento       | Detalle                                                                                                 |
-| -------------- | ------------------------------------------------------------------------------------------------------- |
-| **Question**   | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                   |
-| **Why**        | Detectar a tiempo desbalances permite acción preventiva antes de agravamientos.                         |
-| **What**       | Crear sistema de alertas que se active ante niveles hormonales fuera de rango.                          |
-| **Hypothesis** | El 80% de los casos críticos serán intervenidos antes de complicaciones gracias a alertas inteligentes. |
+| **Question**   | ¿El botón flotante “Volver al inicio” facilita la navegación en pantallas largas de la landing page?         |
+| **Why**        | Desplazarse manualmente puede ser tedioso, especialmente en dispositivos móviles.                            |
+| **What**       | Mostrar botón flotante visible solo al hacer scroll, que lleva a la parte superior de la pantalla.           |
+| **Hypothesis** | El 75% de los usuarios dirá que el botón para volver al inicio les resultó útil para navegar más fácilmente. |
 
 
 ### 8.2. Experiment Design 
 #### 8.2.1. Hypotheses
 
-#### Hypotheses 01
+#### Hypotheses 01 – Modo oscuro
 
-| Elemento            | Detalle                                                                                                            |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| **Question**        | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                               |
-| **Belief**          | Los recordatorios mejoran la adherencia al mantener al paciente informado y constante con sus actividades médicas. |
-| **Hypothesis**      | El 70% de los pacientes con recordatorios activos mantendrán su tratamiento sin interrupciones durante un mes.     |
-| **Null Hypothesis** | No habrá diferencia significativa en la adherencia con o sin recordatorios automáticos.                            |
+| Elemento            | Detalle                                                                                         |
+| ------------------- | ----------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Una interfaz oscura mejora la comodidad en el uso nocturno de la app?                          |
+| **Belief**          | El modo oscuro mejora la experiencia visual en entornos con poca luz y reduce la fatiga ocular. |
+| **Hypothesis**      | Al menos el 70% de los usuarios indicará que el botón de “Modo Oscuro” es claro y útil.         |
+| **Null Hypothesis** | El botón de modo oscuro no será percibido como claro ni útil por la mayoría de los usuarios.    |
 
-#### Hypotheses 02
+#### Hypotheses 02 – Fecha visible en pantalla de citas
 
-| Elemento            | Detalle                                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Question**        | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?                      |
-| **Belief**          | La comunicación directa a través del chat genera mayor sensación de acompañamiento médico y confianza. |
-| **Hypothesis**      | El 80% de los usuarios con acceso al chat reportarán mayor percepción de apoyo clínico.                |
-| **Null Hypothesis** | La implementación del chat no tendrá efecto significativo en la percepción de acompañamiento.          |
+| Elemento            | Detalle                                                                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Ver la fecha en la sección de citas ayuda a médicos a orientarse mejor?                                   |
+| **Belief**          | Mostrar la fecha actual facilita el reconocimiento de la jornada clínica y el orden en la programación.    |
+| **Hypothesis**      | Al menos el 80% de los usuarios médicos considerará útil y clara la visibilidad de la fecha en la sección. |
+| **Null Hypothesis** | La visibilidad de la fecha no tendrá un efecto significativo en la orientación de los usuarios médicos.    |
 
-#### Hypotheses 03
 
-| Elemento            | Detalle                                                                                                |
-| ------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Question**        | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?          |
-| **Belief**          | Las gráficas ayudan a visualizar tendencias y alertas críticas que pueden mejorar el análisis clínico. |
-| **Hypothesis**      | El uso de gráficas reducirá en un 60% los errores clínicos en el análisis de resultados hormonales.    |
-| **Null Hypothesis** | No habrá una reducción significativa de errores médicos al usar gráficas.                              |
+#### Hypotheses 03 – Verificación visual de médicos
 
-#### Hypotheses 04
+| Elemento            | Detalle                                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿El ícono de verificado al lado de los médicos transmite mayor confianza?                                    |
+| **Belief**          | Los símbolos visuales como el ícono verificado generan percepción de profesionalismo y seguridad al usuario. |
+| **Hypothesis**      | Al menos el 75% de los usuarios reconocerá el ícono de verificado y afirmará que inspira mayor confianza.    |
+| **Null Hypothesis** | El ícono de verificación no influirá significativamente en la percepción de confianza de los usuarios.       |
 
-| Elemento            | Detalle                                                                                              |
-| ------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?                 |
-| **Belief**          | La integración con herramientas externas facilita la adherencia tecnológica.                         |
-| **Hypothesis**      | La tasa de retención semanal aumentará un 35% tras la sincronización con Google Calendar y alarmas.  |
-| **Null Hypothesis** | No habrá cambios significativos en el uso continuo tras la sincronización con herramientas externas. |
 
-#### Hypotheses 05
+#### Hypotheses 04 – Estado "en línea" del médico
 
-| Elemento            | Detalle                                                                                             |
-| ------------------- | --------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                   |
-| **Belief**          | Un panel ajustado al contexto del médico permite tomar mejores decisiones con menor esfuerzo.       |
-| **Hypothesis**      | El 75% de los médicos reportará mejoras en su toma de decisiones al usar dashboards personalizados. |
-| **Null Hypothesis** | No habrá mejoras significativas en la toma de decisiones con dashboards personalizados.             |
+| Elemento            | Detalle                                                                                                                  |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿Mostrar el estado "en línea" del médico mejora la decisión del usuario de iniciar una conversación?                     |
+| **Belief**          | La visibilidad del estado de conexión permite al usuario elegir el mejor momento para comunicarse, evitando frustración. |
+| **Hypothesis**      | El 70% de los usuarios afirmará que el estado "en línea" les ayuda a decidir cuándo comunicarse con el médico.           |
+| **Null Hypothesis** | El estado "en línea" no influirá en la decisión del usuario sobre cuándo comunicarse con el médico.                      |
 
-#### Hypotheses 06
 
-| Elemento            | Detalle                                                                                  |
-| ------------------- | ---------------------------------------------------------------------------------------- |
-| **Question**        | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?               |
-| **Belief**          | La gamificación refuerza el comportamiento positivo al brindar recompensas psicológicas. |
-| **Hypothesis**      | Los pacientes con gamificación tendrán un aumento del 40% en cumplimiento de controles.  |
-| **Null Hypothesis** | La gamificación no influye significativamente en el cumplimiento de controles.           |
+#### Hypotheses 05 – Saludo personalizado
 
-#### Hypotheses 07
+| Elemento            | Detalle                                                                                                    |
+| ------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Un saludo personalizado con el nombre del usuario mejora la experiencia emocional en el inicio de sesión? |
+| **Belief**          | El reconocimiento visual por nombre crea una experiencia más cálida y cercana.                             |
+| **Hypothesis**      | El 75% de los usuarios afirmará que el saludo personalizado les hizo sentir bienvenidos o reconocidos.     |
+| **Null Hypothesis** | El saludo personalizado no tendrá un efecto significativo en la percepción emocional al iniciar sesión.    |
 
-| Elemento            | Detalle                                                                                |
-| ------------------- | -------------------------------------------------------------------------------------- |
-| **Question**        | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?  |
-| **Belief**          | Un onboarding claro reduce el abandono y mejora la experiencia inicial del usuario.    |
-| **Hypothesis**      | El 60% de nuevos usuarios realizarán tareas clave exitosamente tras completar la guía. |
-| **Null Hypothesis** | La guía inicial no afectará significativamente la ejecución de tareas clave.           |
 
-#### Hypotheses 08
+#### Hypotheses 06 – Confirmación al cerrar sesión
 
-| Elemento            | Detalle                                                                            |
-| ------------------- | ---------------------------------------------------------------------------------- |
-| **Question**        | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?           |
-| **Belief**          | El modo oscuro mejora la experiencia visual en ambientes de baja luz.              |
-| **Hypothesis**      | El 50% de usuarios nocturnos preferirá el modo oscuro y reportará mayor comodidad. |
-| **Null Hypothesis** | La interfaz oscura no afectará significativamente la comodidad de uso nocturno.    |
+| Elemento            | Detalle                                                                                                        |
+| ------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Mostrar una confirmación al cerrar sesión evita errores del usuario y mejora el control de salida?            |
+| **Belief**          | Un mensaje de confirmación puede prevenir cierres accidentales y aumentar la sensación de control del usuario. |
+| **Hypothesis**      | El 70% de los usuarios indicará que el mensaje de confirmación evita que cierren sesión por error.             |
+| **Null Hypothesis** | La confirmación al cerrar sesión no será percibida como útil para evitar errores de cierre accidental.         |
 
-#### Hypotheses 09
 
-| Elemento            | Detalle                                                                                      |
-| ------------------- | -------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad? |
-| **Belief**          | Filtros inteligentes permiten organizar mejor los casos críticos.                            |
-| **Hypothesis**      | La gestión médica mejorará en un 30% en tiempos de atención a pacientes prioritarios.        |
-| **Null Hypothesis** | La implementación de filtros no influirá significativamente en la gestión médica.            |
+#### Hypotheses 07 – Cambio de idioma en configuración
 
-#### Hypotheses 10
+| Elemento            | Detalle                                                                                                   |
+| ------------------- | --------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Cambiar el idioma desde configuración es fácil de identificar y útil para el usuario?                    |
+| **Belief**          | Tener el idioma visible en configuración permite un acceso rápido a preferencias lingüísticas personales. |
+| **Hypothesis**      | Al menos el 80% de los usuarios considerará claro y útil el botón de cambio de idioma.                    |
+| **Null Hypothesis** | El botón de cambio de idioma no será percibido como claro ni útil por una mayoría de los usuarios.        |
 
-| Elemento            | Detalle                                                                                              |
-| ------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Question**        | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                |
-| **Belief**          | Las alertas proactivas permiten actuar antes de que el caso empeore.                                 |
-| **Hypothesis**      | El 80% de los casos críticos serán intervenidos oportunamente tras activarse una alerta inteligente. |
-| **Null Hypothesis** | Las alertas no tendrán impacto significativo en la oportunidad de intervención clínica.              |
+
+#### Hypotheses 08 – Botón flotante “↑ Inicio”
+
+| Elemento            | Detalle                                                                                                      |
+| ------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿El botón flotante “Volver al inicio” facilita la navegación en pantallas largas de la landing page?         |
+| **Belief**          | Volver rápidamente al inicio ahorra tiempo y evita frustraciones en móviles o pantallas largas.              |
+| **Hypothesis**      | El 75% de los usuarios dirá que el botón para volver al inicio les resultó útil para navegar más fácilmente. |
+| **Null Hypothesis** | El botón flotante no será percibido como útil ni facilitará la navegación en la mayoría de los casos.        |
 
 
 #### 8.2.2. Measures
 
-#### Measure 01
-
-| Elemento     | Detalle                                                                                                       |
-| ------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios?                          |
-| **Measure**  | Medir la continuidad del tratamiento mediante seguimiento de registros semanales y encuestas de cumplimiento. |
-
-#### Measure 02
-
-| Elemento     | Detalle                                                                                  |
-| ------------ | ---------------------------------------------------------------------------------------- |
-| **Question** | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento?        |
-| **Measure**  | Encuestas de percepción de acompañamiento antes y después de la implementación del chat. |
-
-#### Measure 03
-
-| Elemento     | Detalle                                                                                              |
-| ------------ | ---------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas?        |
-| **Measure**  | Comparar reportes de errores clínicos y calidad de diagnósticos antes y después del uso de gráficas. |
-
-#### Measure 04
-
-| Elemento     | Detalle                                                                               |
-| ------------ | ------------------------------------------------------------------------------------- |
-| **Question** | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas?  |
-| **Measure**  | Analizar la tasa de retención semanal de usuarios y frecuencia de apertura de la app. |
-
-#### Measure 05
-
-| Elemento     | Detalle                                                                                                        |
-| ------------ | -------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico?                              |
-| **Measure**  | Encuestas a médicos y análisis del tiempo promedio de revisión de casos antes y después de la personalización. |
-
-#### Measure 06
-
-| Elemento     | Detalle                                                                                                          |
-| ------------ | ---------------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles?                                       |
-| **Measure**  | Comparar la frecuencia de cumplimiento de citas y actividades registradas entre usuarios con y sin gamificación. |
-
-#### Measure 07
-
-| Elemento     | Detalle                                                                                                    |
-| ------------ | ---------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)?                      |
-| **Measure**  | Evaluar la tasa de abandono de usuarios nuevos y encuestas sobre facilidad de uso posterior al onboarding. |
-
-#### Measure 08
-
-| Elemento     | Detalle                                                                                                  |
-| ------------ | -------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app?                                 |
-| **Measure**  | Encuestas sobre comodidad visual y tiempo de uso nocturno antes y después de implementar el modo oscuro. |
-
-#### Measure 09
-
-| Elemento     | Detalle                                                                                          |
-| ------------ | ------------------------------------------------------------------------------------------------ |
-| **Question** | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad?     |
-| **Measure**  | Medir el tiempo medio de respuesta clínica y carga operativa antes y después del uso de filtros. |
-
-#### Measure 10
-
-| Elemento     | Detalle                                                                                                   |
-| ------------ | --------------------------------------------------------------------------------------------------------- |
-| **Question** | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna?                     |
-| **Measure**  | Comparar el tiempo promedio entre la detección del desbalance y la intervención médica con y sin alertas. |
+| **Question**                                                                                               | **Measure**                                                                                                          |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| ¿Una interfaz oscura mejora la comodidad en el uso nocturno de la app?                                     | Porcentaje de usuarios que califican como **útil y claro** el botón de modo oscuro.                                  |
+| ¿Ver la fecha en la sección de citas ayuda a médicos a orientarse mejor?                                   | Porcentaje de usuarios médicos que reportan **mejor orientación** gracias a la visibilidad de la fecha.              |
+| ¿El ícono de verificado al lado de los médicos transmite mayor confianza?                                  | Porcentaje de usuarios que reconocen el ícono y afirman que **les genera confianza**.                                |
+| ¿Mostrar el estado "en línea" del médico mejora la decisión del usuario de iniciar una conversación?       | Porcentaje de usuarios que afirman que el estado “en línea” **les influye positivamente** para iniciar comunicación. |
+| ¿Un saludo personalizado con el nombre del usuario mejora la experiencia emocional en el inicio de sesión? | Porcentaje de usuarios que afirman sentirse **más bienvenidos o reconocidos** con el saludo personalizado.           |
+| ¿Mostrar una confirmación al cerrar sesión evita errores del usuario y mejora el control de salida?        | Porcentaje de usuarios que afirman que la confirmación **evita cierres accidentales**.                               |
+| ¿Cambiar el idioma desde configuración es fácil de identificar y útil para el usuario?                     | Porcentaje de usuarios que consideran **claro y útil** el botón de cambio de idioma.                                 |
+| ¿El botón flotante “Volver al inicio” facilita la navegación en pantallas largas de la landing page?       | Porcentaje de usuarios que afirman que el botón **mejoró su experiencia de navegación**.                             |
 
 
 #### 8.2.3. Conditions
-#### Condition 01
 
-| Elemento                   | Detalle                                                                              |
-| -------------------------- | ------------------------------------------------------------------------------------ |
-| **Question**               | ¿Mejorará la adherencia del paciente al recibir recordatorios automatizados diarios? |
-| **Condición Experimental** | Pacientes con notificaciones automáticas activadas diariamente.                      |
-| **Condición de Control**   | Pacientes sin notificaciones automáticas activadas.                                  |
+#### Condition 01 – Modo Oscuro
 
-#### Condition 02
+| Elemento                   | Detalle                                                                |
+| -------------------------- | ---------------------------------------------------------------------- |
+| **Question**               | ¿Una interfaz oscura mejora la comodidad en el uso nocturno de la app? |
+| **Condición Experimental** | App con botón de activación de modo oscuro visible.                    |
+| **Condición de Control**   | App sin modo oscuro (solo versión clara).                              |
 
-| Elemento                   | Detalle                                                                           |
-| -------------------------- | --------------------------------------------------------------------------------- |
-| **Question**               | ¿La inclusión de un chat médico-paciente mejorará la sensación de acompañamiento? |
-| **Condición Experimental** | Usuarios con acceso al chat activo.                                               |
-| **Condición de Control**   | Usuarios sin acceso al chat.                                                      |
 
-#### Condition 03
-
-| Elemento                   | Detalle                                                                                       |
-| -------------------------- | --------------------------------------------------------------------------------------------- |
-| **Question**               | ¿Reducirá errores médicos la visualización de resultados hormonales en gráficas interactivas? |
-| **Condición Experimental** | Médicos con acceso a gráficas interactivas.                                                   |
-| **Condición de Control**   | Médicos sin acceso a gráficas (solo datos tabulares).                                         |
-
-#### Condition 04
-
-| Elemento                   | Detalle                                                                              |
-| -------------------------- | ------------------------------------------------------------------------------------ |
-| **Question**               | ¿Aumentará el uso continuo de la app si se sincroniza con Google Calendar y alarmas? |
-| **Condición Experimental** | Usuarios con sincronización activa a calendario y alarmas.                           |
-| **Condición de Control**   | Usuarios sin sincronización.                                                         |
-
-#### Condition 05
-
-| Elemento                   | Detalle                                                                           |
-| -------------------------- | --------------------------------------------------------------------------------- |
-| **Question**               | ¿Facilita la toma de decisiones clínicas la personalización del dashboard médico? |
-| **Condición Experimental** | Dashboard personalizado habilitado.                                               |
-| **Condición de Control**   | Dashboard estándar.                                                               |
-
-#### Condition 06
-
-| Elemento                   | Detalle                                                                    |
-| -------------------------- | -------------------------------------------------------------------------- |
-| **Question**               | ¿Incluir elementos de gamificación aumentará el cumplimiento de controles? |
-| **Condición Experimental** | App con elementos de gamificación activos.                                 |
-| **Condición de Control**   | App sin elementos de gamificación.                                         |
-
-#### Condition 07
-
-| Elemento                   | Detalle                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------- |
-| **Question**               | ¿Reducirá la frustración del usuario tener una guía inicial interactiva (onboarding)? |
-| **Condición Experimental** | App con onboarding interactivo inicial.                                               |
-| **Condición de Control**   | App sin onboarding.                                                                   |
-
-#### Condition 08
+#### Condition 02 – Fecha en citas
 
 | Elemento                   | Detalle                                                                  |
 | -------------------------- | ------------------------------------------------------------------------ |
-| **Question**               | ¿Una interfaz oscura mejorará la comodidad en el uso nocturno de la app? |
-| **Condición Experimental** | Modo oscuro disponible.                                                  |
-| **Condición de Control**   | Solo modo claro disponible.                                              |
+| **Question**               | ¿Ver la fecha en la sección de citas ayuda a médicos a orientarse mejor? |
+| **Condición Experimental** | Fecha visible en encabezado de pantalla de citas.                        |
+| **Condición de Control**   | Pantalla de citas sin fecha visible.                                     |
 
-#### Condition 09
 
-| Elemento                   | Detalle                                                                                      |
-| -------------------------- | -------------------------------------------------------------------------------------------- |
-| **Question**               | ¿Mejorará la gestión del médico al integrar filtros para visualizar pacientes por prioridad? |
-| **Condición Experimental** | Panel con filtros por prioridad activado.                                                    |
-| **Condición de Control**   | Panel sin filtros.                                                                           |
+#### Condition 03 – Verificación visual de médicos
 
-#### Condition 10
+| Elemento                   | Detalle                                                                   |
+| -------------------------- | ------------------------------------------------------------------------- |
+| **Question**               | ¿El ícono de verificado al lado de los médicos transmite mayor confianza? |
+| **Condición Experimental** | Perfil de médicos con ícono de verificación azul.                         |
+| **Condición de Control**   | Perfil de médicos sin ícono de verificación.                              |
 
-| Elemento                   | Detalle                                                                               |
-| -------------------------- | ------------------------------------------------------------------------------------- |
-| **Question**               | ¿Una alerta inteligente sobre desbalances hormonales mejora la intervención oportuna? |
+
+#### Condition 04 – Estado "en línea"
+
+| Elemento                   | Detalle                                                                                              |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mostrar el estado "en línea" del médico mejora la decisión del usuario de iniciar una conversación? |
+| **Condición Experimental** | Indicador visual (verde/en línea) activo.                                                            |
+| **Condición de Control**   | Sin indicador de conexión visible.                                                                   |
+
+
+#### Condition 05 – Saludo personalizado
+
+| Elemento                   | Detalle                                                                                                    |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Un saludo personalizado con el nombre del usuario mejora la experiencia emocional en el inicio de sesión? |
+| **Condición Experimental** | Mensaje como “Hola, \[Nombre]” al ingresar.                                                                |
+| **Condición de Control**   | Pantalla de inicio sin personalización de nombre.                                                          |
+
+
+#### Condition 06 – Confirmación de cierre de sesión
+
+| Elemento                   | Detalle                                                                                             |
+| -------------------------- | --------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿Mostrar una confirmación al cerrar sesión evita errores del usuario y mejora el control de salida? |
+| **Condición Experimental** | Mensaje emergente de confirmación al cerrar sesión.                                                 |
+| **Condición de Control**   | Cierre de sesión inmediato sin confirmación.                                                        |
+
+
+#### Condition 07 – Cambio de idioma
+
+| Elemento                   | Detalle                                                                                |
+| -------------------------- | -------------------------------------------------------------------------------------- |
+| **Question**               | ¿Cambiar el idioma desde configuración es fácil de identificar y útil para el usuario? |
+| **Condición Experimental** | Opción visible de cambio de idioma en la configuración.                                |
+| **Condición de Control**   | Opción de idioma no disponible o poco accesible.                                       |
+
+
+#### Condition 08 – Botón flotante “Volver al inicio”
+
+| Elemento                   | Detalle                                                                                              |
+| -------------------------- | ---------------------------------------------------------------------------------------------------- |
+| **Question**               | ¿El botón flotante “Volver al inicio” facilita la navegación en pantallas largas de la landing page? |
+| **Condición Experimental** | Botón flotante activo al hacer scroll en pantallas largas.                                           |
+| **Condición de Control**   | Navegación sin botón de retorno (scroll manual).                                                     |
 
 
 #### 8.2.4. Scale Calculations and Decisions
 
-El análisis de resultados experimentales en HormonalCare se basa en una escala de decisión por hipótesis, con niveles definidos según el cumplimiento métrico de cada hipótesis:
+El análisis de resultados experimentales de HormonalCare se basa en una escala de evaluación por hipótesis observacional, con los siguientes niveles:
 
-* **Desfavorable:** No alcanza el valor mínimo esperado.
-* **Aceptable:** Cumple parcialmente la hipótesis, pero requiere mejora.
-* **Ideal:** Cumple exactamente la métrica objetivo.
-* **Excelente:** Supera en más del 25% la métrica esperada.
+* **Desfavorable:** El porcentaje de usuarios que valida visual o funcionalmente el elemento está por debajo del umbral mínimo.
+* **Aceptable:** Cumple parcialmente con la expectativa (valor medio, pero no ideal).
+* **Ideal:** Cumple exactamente con la métrica esperada (según hipótesis).
+* **Excelente:** Supera en más del 25% el valor esperado.
 
-| Hipótesis                                                                       | Métrica Esperada                    | Desfavorable | Aceptable | Ideal | Excelente (>25%) | Resultado       |
-| ------------------------------------------------------------------------------- | ----------------------------------- | ------------ | --------- | ----- | ---------------- | --------------- |
-| Recordatorios diarios aumentan adherencia en un 70%                             | % de pacientes con adherencia alta  | <50%         | 50%-69%   | 70%   | >87.5%           | 🟩 Ideal        |
-| Chat médico-paciente mejora acompañamiento en un 80%                            | % de pacientes con mayor percepción | <60%         | 60%-79%   | 80%   | >100%            | 🟨 Aceptable    |
-| Gráficas interactivas reducen errores médicos en un 60%                         | Reducción de errores clínicos       | <40%         | 40%-59%   | 60%   | >75%             | 🟥 Desfavorable |
-| Sincronización con Google Calendar aumenta retención en un 35%                  | Incremento de retención semanal     | <20%         | 20%-34%   | 35%   | >43.75%          | 🟩 Ideal        |
-| Dashboards personalizados mejoran decisiones clínicas en un 75%                 | % médicos reportando mejora         | <60%         | 60%-74%   | 75%   | >93.75%          | 🟩 Ideal        |
-| Gamificación incrementa cumplimiento de controles en un 40%                     | % aumento cumplimiento controles    | <25%         | 25%-39%   | 40%   | >50%             | 🟨 Aceptable    |
-| Onboarding interactivo reduce frustración y mejora tareas iniciales en un 60%   | % usuarios completando tareas       | <40%         | 40%-59%   | 60%   | >75%             | 🟩 Ideal        |
-| Modo oscuro mejora comodidad en un 50%                                          | % usuarios que lo prefieren         | <30%         | 30%-49%   | 50%   | >62.5%           | 🟩 Ideal        |
-| Filtros por prioridad reducen tiempo de respuesta clínica en un 30%             | Reducción promedio en minutos       | <15%         | 15%-29%   | 30%   | >37.5%           | 🟥 Desfavorable |
-| Alertas inteligentes permiten intervención oportuna en el 80% de casos críticos | % intervenciones anticipadas        | <60%         | 60%-79%   | 80%   | >100%            | 🟩 Ideal        |
 
-### 8.2.5. Methods Selection
+| Hipótesis                                                         | Métrica Esperada                              | Desfavorable | Aceptable | Ideal | Excelente (>25%) | Resultado    |
+| ----------------------------------------------------------------- | --------------------------------------------- | ------------ | --------- | ----- | ---------------- | ------------ |
+| Modo oscuro mejora comodidad en uso nocturno en un **70%**        | % usuarios que consideran útil y claro        | <50%         | 50%-69%   | 70%   | >87.5%           | 🟨 Aceptable |
+| Fecha visible mejora orientación médica en un **80%**             | % médicos que consideran útil la fecha        | <60%         | 60%-79%   | 80%   | >100%            | 🟩 Ideal     |
+| Verificación visual inspira confianza en un **75%**               | % usuarios que reconocen ícono y confían      | <55%         | 55%-74%   | 75%   | >93.75%          | 🟩 Ideal     |
+| Estado "en línea" motiva contacto en un **70%**                   | % usuarios que lo usan para decidir comunicar | <50%         | 50%-69%   | 70%   | >87.5%           | 🟨 Aceptable |
+| Saludo personalizado mejora recepción emocional en un **75%**     | % usuarios que se sienten más bienvenidos     | <55%         | 55%-74%   | 75%   | >93.75%          | 🟩 Ideal     |
+| Confirmación al cerrar sesión evita errores en un **70%**         | % usuarios que sienten más control al salir   | <50%         | 50%-69%   | 70%   | >87.5%           | 🟩 Ideal     |
+| Cambio de idioma es claro y útil en un **80%**                    | % usuarios que reconocen y valoran el botón   | <60%         | 60%-79%   | 80%   | >100%            | 🟨 Aceptable |
+| Botón flotante “Volver al inicio” mejora navegación en un **75%** | % usuarios que lo consideran útil             | <55%         | 55%-74%   | 75%   | >93.75%          | 🟩 Ideal     |
+
+
+#### 8.2.5. Methods Selection
 
 Para validar las hipótesis planteadas en HormonalCare, se evaluaron distintas herramientas enfocadas en el análisis de rendimiento, accesibilidad, experiencia de usuario y comportamiento dentro de la aplicación. La siguiente tabla muestra una comparación entre las herramientas seleccionadas:
 

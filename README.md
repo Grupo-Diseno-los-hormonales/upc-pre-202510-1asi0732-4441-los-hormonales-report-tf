@@ -4977,8 +4977,6 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 | ¿Un botón flotante para volver al inicio mejora la navegación en vistas con mucho scroll?                | 8         | 1      | 6       | 7       | 22    |
 | ¿Pedir confirmación antes de cerrar sesión previene errores comunes del usuario?                         | 7         | 1      | 6       | 6       | 20    |
 | ¿El cambio de idioma desde configuración es claro y accesible para usuarios no hispanohablantes?         | 8         | 2      | 7       | 8       | 25    |
-| ¿Alguno de los textos o botones mostrados en pantalla resulta confuso para el usuario promedio?          | 7         | 2      | 7       | 6       | 22    |
-| ¿Mostrar mejoras simples de interfaz visual (íconos, etiquetas, botones) aumenta la percepción de valor? | 8         | 1      | 7       | 8       | 24    |
 
 
 #### 8.1.4. Question Backlog
@@ -4992,8 +4990,6 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 | 3         | ¿La opción de modo oscuro mejora la experiencia visual de los usuarios en entornos con poca luz?         |
 | 3         | ¿Mostrar un saludo personalizado con el nombre del usuario genera una sensación de cercanía?             |
 | 3         | ¿Un botón flotante para volver al inicio mejora la navegación en vistas con mucho scroll?                |
-| 2         | ¿Alguno de los textos o botones mostrados en pantalla resulta confuso para el usuario promedio?          |
-| 2         | ¿Mostrar mejoras simples de interfaz visual (íconos, etiquetas, botones) aumenta la percepción de valor? |
 | 1         | ¿Pedir confirmación antes de cerrar sesión previene errores comunes del usuario?                         |
 
 

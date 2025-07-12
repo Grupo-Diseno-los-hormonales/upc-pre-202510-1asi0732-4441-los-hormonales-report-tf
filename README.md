@@ -5735,9 +5735,23 @@ Estas capturas muestran los endpoints consumidos por el frontend de HormonalCare
 
 
 
-### 8.3.3.6. Team Collaboration Insights
-Se evidencia la colaboración del equipo durante la ejecución del experimento. Deben mostrarse commits, PRs, estadísticas de contribución, organización del trabajo, y lecciones aprendidas en equipo.
+##### 8.3.3.6. Team Collaboration Insights
+Se evidencia la colaboración del equipo durante la ejecución del experimento.
 
+#### Landing page
+
+![Insights](assets/images/inlanding1.png)
+![Insights](assets/images/inlanding2.png)
+
+#### Aplicación web
+
+![Insights](assets/images/inweb1.png)
+![Insights](assets/images/inweb2.png)
+
+#### Aplicación móvil
+
+![Insights](assets/images/inmovil1.png)
+![Insights](assets/images/inmovil2.png)
 
 
 

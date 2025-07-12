@@ -2536,7 +2536,7 @@ El título principal que representa a la plataforma será el siguiente:
 ```html
 <title>HormonalCare</title>
 ```
-
+-/**-*
 **Descripción**  
 La descripción de la plataforma será utilizada para mostrar un resumen en los resultados de búsqueda:  
 ```html
@@ -5769,8 +5769,7 @@ Se evidencia la colaboración del equipo durante la ejecución del experimento.
 
 #### Aplicación web
 
-![Insights](assets/images/inweb1.png)
-![Insights](assets/images/inweb2.png)
+![tobe13.png](assets/images/tobe13.png)
 
 #### Aplicación móvil
 

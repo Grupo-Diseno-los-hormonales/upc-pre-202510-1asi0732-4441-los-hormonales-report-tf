@@ -1970,7 +1970,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
     </tbody>
 </table>
 
-
 <table>
         <thead>
             <tr>
@@ -1982,6 +1981,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
             </tr>
         </thead>
         <tbody>
+            <!-- ... Sprint 1 ... -->
             <tr>
                 <td>1</td>
                 <td>EP01/US04</td>
@@ -2099,6 +2099,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                </td>
                <td>3</td>
             </tr>
+            <!-- ... Sprint 2 ... -->
             <tr>
                <td>2</td>
                <td>EP03/US13</td>
@@ -2171,6 +2172,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                </td>
                <td>3</td>
             </tr>
+            <!-- ... Sprint 3 ... -->
             <tr>
                <td>3</td>
                <td>EP09/US25</td>
@@ -2207,6 +2209,7 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                </td>
                <td>3</td>
             </tr>
+            <!-- ... Sprint 4 ... -->
             <tr>
                <td>4</td>
                <td>EP08/US19</td>
@@ -2296,24 +2299,6 @@ Utilizamos la escala de Fibonacci para la estimación de los Story Points
                   <strong>Como</strong> médico, <strong>quiero</strong> acceder a los exámenes médicos subidos por mis pacientes, <strong>para</strong> evaluar su situación clínica y ajustar tratamientos si es necesario.
                </td>
                <td>2</td>
-            </tr>
-            <tr>
-               <td>4</td>
-               <td>US35</td>
-               <td>Pago de cita</td>
-               <td>
-                  <strong>Como</strong> paciente <strong>quiero</strong> poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin <strong>para</strong> poder pagar y agendar mi cita.
-               </td>
-               <td>5</td>
-            </tr>
-            <tr>
-               <td>4</td>
-               <td>EP07/US37</td>
-               <td>Ver recordatorios de hoy</td>
-               <td>
-                  <strong>Como</strong> paciente, qui<strong>quiero</strong>ero ver todos los recordatorios del día actual, <strong>para</strong> no olvidar ningún compromiso relacionado a mi salud.
-               </td>
-               <td>3</td>
             </tr>
         </tbody>
 </table>

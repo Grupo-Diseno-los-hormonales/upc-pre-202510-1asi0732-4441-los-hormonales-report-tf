@@ -5548,7 +5548,7 @@ Se muestra un saludo con el nombre del usuario al ingresar al dashboard principa
 
 Se añadió un encabezado con la fecha actual en la vista de citas médicas, ayudando a los médicos a orientarse mejor en su planificación diaria y a contextualizar rápidamente las consultas agendadas.
 
-![web](images/us4web1.png)
+![tobe7.jpg](assets/images/tobe7.jpg)
 
 
 #### UA05 - Ver ícono de verificado en médicos confirmados

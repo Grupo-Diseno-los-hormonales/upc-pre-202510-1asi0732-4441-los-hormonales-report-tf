@@ -6136,7 +6136,14 @@ Link del formulario: https://forms.gle/3EBZQuYvqUngNjPA8
 Última etapa antes del despliegue final de la solución. Se sintetizan resultados y se elabora contenido introductorio del producto para comunicar su valor al público objetivo.
 
 ### 8.6.1. About-the-Product Intro Video
-Video corto (1 a 3 min) que presenta el modelo de negocio, funcionalidades clave, segmentos beneficiados y testimonios. Se incrusta en la Landing Page.
+
+En esta sección se presenta un video breve (1:09 min) que explica el modelo de negocio de HormonalCare, sus funcionalidades clave, los segmentos beneficiados y testimonios de usuarios. El contenido permite comprender de manera clara el propósito, las ventajas y el valor agregado de la plataforma tanto para pacientes como para profesionales de la salud.
+
+Puedes ver el video aquí:
+
+**Link video en Youtube:** [https://youtu.be/66uURIoCmIE](https://youtu.be/66uURIoCmIE) _(duración: 1:09)_
+
+![About the product](assets/images/abouttheproduct.png)
 
 
 

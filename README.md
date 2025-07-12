@@ -5741,7 +5741,6 @@ Se evidencia la colaboración del equipo durante la ejecución del experimento.
 #### Landing page
 
 ![Insights](assets/images/inlanding1.png)
-![Insights](assets/images/inlanding2.png)
 
 #### Aplicación web
 

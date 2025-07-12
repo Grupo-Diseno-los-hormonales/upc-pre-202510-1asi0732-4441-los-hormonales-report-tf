@@ -6121,8 +6121,18 @@ Las prioridades han sido ajustadas considerando la **evidencia estadística del 
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
-Material generado por el equipo en sesiones de retroalimentación interna. Incluye aprendizajes, reflexiones, mejoras, errores detectados y ajustes al roadmap.
 
+**Prototipo en Figma:** El prototipo interactivo elaborado en Figma representa las interfaces y soluciones planteadas, diseñadas según las necesidades y expectativas de los usuarios. Este recurso evidencia el proceso iterativo del equipo, así como los ajustes realizados a nivel visual y funcional durante el desarrollo del diseño.
+
+Link del figma: https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=lpIDKjQTwbRkeSW9-1
+
+![tobe10.png](assets/images/tobe10.png)
+
+**Encuesta en Google Forms:** Se implementó un formulario en Google Forms con el objetivo de recopilar opiniones de los usuarios y validar las hipótesis planteadas durante el proceso de diseño. Gracias a esta encuesta, fue posible analizar la experiencia del usuario y obtener datos clave para sustentar mejoras en la aplicación.
+
+Link del formulario: https://forms.gle/3EBZQuYvqUngNjPA8
+
+![tobe11.png](assets/images/tobe11.png)
 
 ## 8.6. To-Be Software Platform Pre-launch
 Última etapa antes del despliegue final de la solución. Se sintetizan resultados y se elabora contenido introductorio del producto para comunicar su valor al público objetivo.

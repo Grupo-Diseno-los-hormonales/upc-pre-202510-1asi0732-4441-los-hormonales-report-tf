@@ -5555,22 +5555,25 @@ Se añadió un encabezado con la fecha actual en la vista de citas médicas, ayu
 
 Los médicos verificados ahora muestran un ícono distintivo junto a su nombre, lo que aumenta la percepción de seguridad y profesionalismo para los pacientes.
 
-![web](images/us5web1.png)
+![tobe1.jpg](assets/images/tobe1.jpg)
 
 
 #### UA06 - Confirmación antes de cerrar sesión
 
 Se incorporó una ventana emergente que solicita confirmación antes de cerrar sesión, evitando que el usuario salga por error y mejorando el control sobre su experiencia dentro de la app.
 
-![web](images/us6web1.png)
+![tobe2.jpg](assets/images/tobe2.jpg)
 
+![tobe3.jpg](assets/images/tobe3.jpg)
+
+![tobe4.jpg](assets/images/tobe4.jpg)
 
 
 #### UA08 - Ver estado “en línea” del médico
 
 En la sección de perfil y vistas relacionadas, ahora se muestra un punto verde para indicar que el médico está conectado. Esto permite a los pacientes decidir mejor cuándo iniciar una comunicación o consulta.
 
-![web](images/us8web1.png)
+![tobe5.jpg](assets/images/tobe5.jpg)
 
 
 ##### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence

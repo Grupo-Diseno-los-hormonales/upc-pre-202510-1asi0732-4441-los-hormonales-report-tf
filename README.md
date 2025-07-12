@@ -1792,37 +1792,6 @@ En la siguiente tabla, se presentan las User Stories junto con sus criterios de 
             <td>EP03</td>
         </tr>
         <tr>
-            <td>US35</td>
-            <td>Pago de cita</td>
-            <td>
-               <strong>Como</strong> paciente <strong>quiero</strong> poder seleccionar el método de pago como tarjeta de débito/crédito, Yape o Plin <strong>para</strong> poder pagar y agendar mi cita.
-            </td>
-            <td>
-               <strong>Escenario 1</strong>: Paciente nuevo que escogió el horario disponible en el que tendrá su cita y quiere hacer el pago con tarjeta de débito/crédito. <br>
-               <strong>Given</strong> que soy un paciente recientemente registrado en la aplicación, <br>
-               <strong>And</strong> ya escogí al médico luego de filtrarlo, <br>
-               <strong>And</strong> ya escogí el horario, <br>
-               <strong>And</strong> quiero proceder a hacer el pago, <br>
-               <strong>Given</strong> hago clic sobre el botón sobre el botón “Confirmar horario y hacer pago”, <br>
-               <strong>And</strong> escojo el método de pago tarjeta de débito/crédito, <br>
-               <strong>And</strong> completo los campos como número de la tarjeta, fecha de expiración, CVV, nombre y apellido, eMail y número de cuotas.
-               <strong>Then</strong> el sistema muestra una pantalla de Pago exitoso. <br>
-               <strong>And</strong> se agenda la cita en el calendario del paciente, así como en el calendario del médico. <br>
-               <br><br>
-               <strong>Escenario 2</strong>: Paciente nuevo que escogió el horario disponible en el que tendrá su cita y quiere hacer el pago con Yape o Plin <br>
-               <strong>Given</strong> que soy un paciente recientemente registrado en la aplicación, <br>
-               <strong>And</strong> ya escogí al médico luego de filtrarlo <br>
-               <strong>And</strong> ya escogí el horario <br>
-               <strong>And</strong> quiero proceder a hacer el pago, <br> 
-               <strong>Given</strong> hago clic sobre el botón sobre el botón “Confirmar horario y hacer pago”, <br>
-               <strong>And</strong> escojo el método de pago Yape o Plin <br>
-               <strong>And</strong> escaneo el código QR <br>
-               <strong>Then</strong> el sistema muestra una pantalla de Pago exitoso, <br>
-               <strong>And</strong> se agenda la cita en el calendario del paciente, así como en el calendario del médico.
-            </td>
-            <td>N/A</td>
-        </tr>
-        <tr>
             <td>US36</td>
             <td>Comunicación entre el paciente y el médico especialista</td>
             <td>

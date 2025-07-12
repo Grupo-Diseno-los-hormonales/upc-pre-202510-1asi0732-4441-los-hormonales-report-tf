@@ -4912,58 +4912,81 @@ Gracias a la integración con Sentry, el sistema HormonalCare cuenta con un meca
 
 ### 8.1. Experiment Planning 
 #### 8.1.1. As-Is Summary
+**HormonalCare** es una app web y móvil que busca mejorar la gestión y tratamiento de enfermedades hormonales en Lima. Si bien ya cuenta con funcionalidades clave —como videoconsultas, historial clínico, recordatorios y seguimiento farmacológico—, aún enfrenta retos importantes que afectan su efectividad y experiencia de uso.
 
-**HormonalCare** es una aplicación digital diseñada para facilitar el monitoreo y tratamiento de enfermedades hormonales en Lima. A pesar de haber logrado implementar funcionalidades clave —como videoconsultas, seguimiento farmacológico, historial clínico y recordatorios—, todavía existen puntos críticos que impactan la experiencia del usuario.
+#### Principales problemas identificados:
 
-**Problemas identificados**:
+* **Débil conexión médico-paciente fuera de las citas**, sin canales de comunicación en tiempo real.
+* **Interfaz inconsistente** y navegación poco intuitiva en algunas vistas con mucho contenido.
+* **Falta de personalización en la experiencia del usuario**, tanto en recordatorios como en el idioma y mensajes.
+* **Baja motivación del paciente**, sin elementos visuales o interactivos que fomenten el seguimiento.
+* **Carga manual de resultados**, lo que implica esfuerzo y posibles errores por parte del usuario.
 
-* **Desconexión médico-paciente** entre citas: los pacientes no reciben suficiente seguimiento ni feedback a tiempo real.
-* **Interfaz inconsistente** entre web y móvil: algunas vistas no están optimizadas en ambas versiones.
-* **Falta de personalización** en recordatorios: no se ajustan a las rutinas específicas del paciente.
-* **Limitada motivación del paciente**: la app no incluye recursos motivacionales como recompensas o gamificación.
-* **Carga manual de resultados**: los pacientes deben ingresar muchos datos de forma no estructurada.
+#### Objetivos de mejora validados con preguntas experimentales:
 
-**Objetivos de mejora**:
+* **Facilitar la comunicación continua médico-paciente**
+  → Validado con:
 
-* Mejorar la adherencia al tratamiento con recordatorios inteligentes.
-* Aumentar la conexión continua entre médico y paciente.
-* Diseñar una interfaz homogénea e intuitiva para ambos perfiles.
-* Automatizar la carga e interpretación de exámenes médicos.
-* Potenciar la personalización y motivación del paciente.
+  * ¿El estado “en línea” del médico mejora la comunicación?
+  * ¿El ícono de médico verificado genera más confianza?
 
-#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims. 
+* **Optimizar la navegación y la interfaz en distintos dispositivos**
+  → Validado con:
 
-**Assumptions**:
+  * ¿El botón flotante mejora la navegación?
+  * ¿El modo oscuro mejora la experiencia visual?
 
-* Los pacientes valoran la comunicación directa con su médico a través de apps móviles.
-* Los médicos endocrinólogos necesitan tener acceso remoto a los indicadores clínicos del paciente para decidir tratamientos.
-* Recordatorios automáticos mejorarían la adherencia al tratamiento hormonal.
-* Una interfaz amigable aumentaría el uso sostenido de la aplicación.
-* Las gráficas de evolución hormonal motivarían al paciente a mantener su seguimiento.
+* **Incrementar la personalización y accesibilidad**
+  → Validado con:
 
-**Knowledge Gaps**:
+  * ¿El saludo personalizado mejora la cercanía?
+  * ¿El cambio de idioma es accesible para no hispanohablantes?
 
-* ¿Qué tan efectivas resultan las alertas de recordatorios?
-* ¿Qué secciones son más utilizadas por los usuarios en la app?
-* ¿Qué canales de comunicación prefiere el paciente: chat, videollamada o mensajes asíncronos?
-* ¿Qué elementos visuales generan más comprensión clínica al médico?
-* ¿Qué factores limitan el uso sostenido de la app después del primer mes?
+* **Mejorar la orientación del usuario en su rutina médica**
+  → Validado con:
 
-**Ideas**:
+  * ¿Ver la fecha en citas ayuda al médico a organizarse?
 
-* Incluir chat asincrónico médico-paciente.
-* Agregar gráficas interactivas de evolución hormonal.
-* Integrar recordatorios con Google Calendar y notificaciones móviles.
-* Aplicar un sistema de gamificación por cumplimiento de controles médicos.
-* Proponer horarios flexibles de videoconsulta según disponibilidad del paciente.
+* **Reducir errores del usuario en flujos clave**
+  → Validado con:
 
-**Claims**:
+  * ¿Confirmar antes de cerrar sesión previene errores?
 
-* La automatización del seguimiento mejorará la adherencia al tratamiento hormonal.
-* Una interfaz clara y empática aumentará el uso diario de la app.
-* El contacto médico continuo reduce abandonos terapéuticos.
-* Las gráficas visuales mejoran la toma de decisiones clínicas.
-* Las notificaciones inteligentes disminuyen el riesgo de omisiones en medicación.
+Estas hipótesis experimentales nos permitirán validar si las soluciones propuestas efectivamente mejoran la experiencia y el impacto de HormonalCare.
+
+#### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims (Organizado)
+
+#### Assumptions (Supuestos)
+
+* Los pacientes valoran el contacto constante con su médico vía app.
+* Los médicos necesitan visualizar remotamente los indicadores hormonales.
+* Los recordatorios automáticos aumentan la adherencia terapéutica.
+* Una interfaz clara y amigable facilita el uso constante.
+* Gráficas simples motivan al paciente a seguir su tratamiento.
+
+#### Knowledge Gaps (Vacíos de conocimiento)
+
+* ¿Qué tan efectivas son las notificaciones como recordatorios?
+* ¿Qué vistas son las más y menos usadas por los usuarios?
+* ¿Qué canal de comunicación prefieren los pacientes?
+* ¿Qué tipo de visualización clínica es más útil para los médicos?
+* ¿Qué elementos motivan a los pacientes a seguir usando la app?
+
+#### Ideas (Oportunidades de mejora)
+
+* Incluir un **chat asincrónico** para reforzar la comunicación paciente-médico.
+* Incorporar **gráficas interactivas** para mostrar la evolución hormonal.
+* **Sincronizar recordatorios** con Google Calendar y notificaciones push.
+* **Gamificar el seguimiento médico**, con logros por cumplimiento de rutinas.
+* Flexibilizar los horarios de videoconsultas según la disponibilidad del usuario.
+
+#### Claims (Afirmaciones clave a validar)
+
+* Automatizar el seguimiento mejora la adherencia al tratamiento.
+* Interfaces empáticas aumentan el uso sostenido de la app.
+* El contacto médico continuo reduce el abandono terapéutico.
+* Gráficas visuales mejoran la toma de decisiones clínicas.
+* Notificaciones bien diseñadas previenen olvidos en la medicación.
 
 #### 8.1.3. Experiment-Ready Questions
 

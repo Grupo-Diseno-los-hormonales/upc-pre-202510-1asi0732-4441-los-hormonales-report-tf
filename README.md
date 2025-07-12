@@ -5541,8 +5541,11 @@ Se desarrolló un sistema de cambio dinámico de idioma que permite alternar ent
 
 Se muestra un saludo con el nombre del usuario al ingresar al dashboard principal, generando una sensación de reconocimiento y cercanía emocional. Esta mejora es simple pero efectiva para aumentar el vínculo entre el usuario y la app.
 
-![web](images/us3web1.png)
+![tobe8.jpg](assets/images/tobe8.jpg)
 
+![tobe9.jpg](assets/images/tobe9.jpg)
+
+![tobe10.jpg](assets/images/tobe10.jpg)
 
 #### UA04 - Mostrar fecha actual en la pantalla de citas
 

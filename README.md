@@ -2536,7 +2536,7 @@ El título principal que representa a la plataforma será el siguiente:
 ```html
 <title>HormonalCare</title>
 ```
-
+-/**-*
 **Descripción**  
 La descripción de la plataforma será utilizada para mostrar un resumen en los resultados de búsqueda:  
 ```html
@@ -5526,16 +5526,16 @@ Demuestra la implementación en el frontend web durante el experimento. Incluye 
 
 Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos. 
 
-![web](images/us1web1.png)
-![web](images/us1web2.png)
-
+![tobe16.jpg](assets/images/tobe16.jpg)
 
 #### UA02 - Cambiar idioma de la app
 
 Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
 
-![web](images/us2web1.png)
-![web](images/us2web2.png)
+![tobe14.jpg](assets/images/tobe14.jpg)
+
+![tobe15.jpg](assets/images/tobe15.jpg)
+
 
 #### UA03 - Ver saludo personalizado con nombre
 
@@ -5769,8 +5769,7 @@ Se evidencia la colaboración del equipo durante la ejecución del experimento.
 
 #### Aplicación web
 
-![Insights](assets/images/inweb1.png)
-![Insights](assets/images/inweb2.png)
+![tobe13.png](assets/images/tobe13.png)
 
 #### Aplicación móvil
 
@@ -6121,8 +6120,18 @@ Las prioridades han sido ajustadas considerando la **evidencia estadística del 
 
 ## 8.5. Continuous Learning
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
-Material generado por el equipo en sesiones de retroalimentación interna. Incluye aprendizajes, reflexiones, mejoras, errores detectados y ajustes al roadmap.
 
+**Prototipo en Figma:** El prototipo interactivo elaborado en Figma representa las interfaces y soluciones planteadas, diseñadas según las necesidades y expectativas de los usuarios. Este recurso evidencia el proceso iterativo del equipo, así como los ajustes realizados a nivel visual y funcional durante el desarrollo del diseño.
+
+Link del figma: https://www.figma.com/design/h2g0UFMCaYQHQKFuziVgPw/HormonalCare-UI?node-id=0-1&t=lpIDKjQTwbRkeSW9-1
+
+![tobe10.png](assets/images/tobe10.png)
+
+**Encuesta en Google Forms:** Se implementó un formulario en Google Forms con el objetivo de recopilar opiniones de los usuarios y validar las hipótesis planteadas durante el proceso de diseño. Gracias a esta encuesta, fue posible analizar la experiencia del usuario y obtener datos clave para sustentar mejoras en la aplicación.
+
+Link del formulario: https://forms.gle/3EBZQuYvqUngNjPA8
+
+![tobe11.png](assets/images/tobe11.png)
 
 ## 8.6. To-Be Software Platform Pre-launch
 Última etapa antes del despliegue final de la solución. Se sintetizan resultados y se elabora contenido introductorio del producto para comunicar su valor al público objetivo.

@@ -5526,16 +5526,16 @@ Demuestra la implementación en el frontend web durante el experimento. Incluye 
 
 Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos. 
 
-![web](images/us1web1.png)
-![web](images/us1web2.png)
-
+![tobe16.jpg](assets/images/tobe16.jpg)
 
 #### UA02 - Cambiar idioma de la app
 
 Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
 
-![web](images/us2web1.png)
-![web](images/us2web2.png)
+![tobe14.jpg](assets/images/tobe14.jpg)
+
+![tobe15.jpg](assets/images/tobe15.jpg)
+
 
 #### UA03 - Ver saludo personalizado con nombre
 

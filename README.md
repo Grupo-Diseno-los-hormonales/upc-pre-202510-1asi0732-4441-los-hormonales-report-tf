@@ -5507,16 +5507,16 @@ Demuestra la implementación en el frontend web durante el experimento. Incluye 
 
 Se implementó una funcionalidad que permite al usuario activar y desactivar manualmente el modo oscuro, usando un botón con ícono que alterna entre una luna y un sol. Esta funcionalidad mejora la experiencia visual en entornos nocturnos. 
 
-![web](images/us1web1.jpeg)
-![web](images/us1web2.jpeg)
+![web](images/us1web1.png)
+![web](images/us1web2.png)
 
 
 #### UA02 - Cambiar idioma de la app
 
 Se desarrolló un sistema de cambio dinámico de idioma que permite alternar entre español e inglés mediante un botón visible en la interfaz. Al presionarlo, los textos marcados se traducen automáticamente sin recargar la página, utilizando archivos JSON que contienen las traducciones. Esta funcionalidad mejora la accesibilidad y permite a usuarios no hispanohablantes comprender mejor el contenido de la aplicación.
 
-![web](images/us2web1.jpeg)
-![web](images/us2web2.jpeg)
+![web](images/us2web1.png)
+![web](images/us2web2.png)
 
 #### UA03 - Ver saludo personalizado con nombre
 
@@ -5562,50 +5562,50 @@ Se presenta la evidencia de implementación experimental en la app móvil (Andro
 
 En la app móvil se habilitó un botón flotante que permite al usuario cambiar entre modo claro y modo oscuro. El ícono alterna entre un sol y una luna según el estado. Esta funcionalidad permite una navegación más cómoda en diferentes condiciones de luz.
 
-![mobile](images/us1mob1.jpeg)
-![mobile](images/us1mob2.jpeg)
+![mobile](images/us1mob1.png)
+![mobile](images/us1mob2.png)
 
 #### UA02 - Cambiar idioma de la app
 
 Se integró una función de selección de idioma que permite al usuario cambiar entre español e inglés desde la configuración de la app móvil. El cambio de idioma se refleja instantáneamente en todos los textos relevantes sin necesidad de reiniciar la aplicación.
 
-![mobile](images/us2mob1.jpeg)
-![mobile](images/us2mob2.jpeg)
+![mobile](images/us2mob1.png)
+![mobile](images/us2mob2.png)
 
 #### UA03 - Ver saludo personalizado con nombre
 
 Al ingresar a la pantalla de inicio, la app móvil muestra un saludo personalizado con el nombre del usuario, reforzando la conexión emocional con la app y brindando una experiencia más acogedora.
 
-![mobile](images/us3mob1.jpeg)
-![mobile](images/us3mob2.jpeg)
+![mobile](images/us3mob1.png)
+![mobile](images/us3mob2.png)
 
 #### UA04 - Mostrar fecha actual en la pantalla de citas
 
 La vista de citas médicas incluye ahora un encabezado con la fecha del día. Esta mejora facilita al médico la organización visual de las consultas según el día correspondiente.
 
-![mobile](images/us4mob1.jpeg)
-![mobile](images/us4mob2.jpeg)
+![mobile](images/us4mob1.png)
+
 
 #### UA05 - Ver ícono de verificado en médicos confirmados
 
 En la app móvil, los perfiles de médicos verificados presentan un ícono azul de verificación junto a su nombre. Esto otorga mayor confianza a los usuarios al elegir con quién agendar una cita.
 
-![mobile](images/us5mob1.jpeg)
-![mobile](images/us5mob2.jpeg)
+![mobile](images/us5mob1.png)
+
 
 #### UA06 - Confirmación antes de cerrar sesión
 
 Se agregó una alerta de confirmación antes de cerrar sesión, para prevenir salidas accidentales y mejorar el flujo de navegación controlada dentro de la app.
 
-![mobile](images/us6mob1.jpeg)
-![mobile](images/us6mob2.jpeg)
+![mobile](images/us6mob1.png)
+![mobile](images/us6mob2.png)
 
 #### UA08 - Ver estado “en línea” del médico
 
 Los usuarios ahora pueden ver un indicador visual (punto verde) en el perfil de los médicos cuando están activos en la plataforma móvil, mejorando la toma de decisiones al momento de contactar.
 
-![mobile](images/us8mob1.jpeg)
-![mobile](images/us8mob2.jpeg)
+![mobile](images/us8mob1.png)
+
 
 
 

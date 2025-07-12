@@ -5569,8 +5569,10 @@ En la app móvil se habilitó un botón flotante que permite al usuario cambiar 
 
 Se integró una función de selección de idioma que permite al usuario cambiar entre español e inglés desde la configuración de la app móvil. El cambio de idioma se refleja instantáneamente en todos los textos relevantes sin necesidad de reiniciar la aplicación.
 
-![mobile](assets/images/us2mob1.png)
-![mobile](assets/images/us2mob2.png)
+
+![us2-before.png](assets/images/us2-before.png)
+![us2-implemented.png](assets/images/us2-implemented.png)
+
 
 #### UA03 - Ver saludo personalizado con nombre
 
